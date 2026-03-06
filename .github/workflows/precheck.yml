@@ -9,7 +9,7 @@ on:
 jobs:
   precheck:
     runs-on: [self-hosted, macOS, ARM64]
-    if: github.repository != 'JPE-Reproducibility/JPEtemplate'
+    if: contains(github.event.head_commit.message, '[trigger remote]')
     
     steps:
       - name: Checkout repository

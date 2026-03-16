@@ -2,7 +2,7 @@
 title: JPE Replication Report
 date: today
 number-sections: true
-format: pdf
+format: html
 ---
 
 # Paper Identification
@@ -176,7 +176,6 @@ There are 11 `.do` scripts which generate the appendix figures.
 
 **Summarizing the Data Cleaning Code**
 
-
 *source/derived/01_events/*
 
 | Dataset Produced | Program |
@@ -237,59 +236,60 @@ There are 11 `.do` scripts which generate the appendix figures.
 |  | 02_create_section_4_data.do |
 
 
-
 **Summarizing code producing Tables and Figures:**
+
+If a table or figure is indicated as reproduced with no additional comments, this means it was exactly reproduced. 
 
 | Figure/Table \# | Program | Filename | Reproduced? |
 |------------------|------------------|------------------|------------------|
 | **Main Tables** | `source/analysis/main/tables` | `source/tables/raw` |  |
-| Table 1 | 01_table_1_change_in_log_dividend_yield.do | table_1_change_in_log_dividend_yields.tex | No |
-| Table 2 | 02_table_2_cashflow_growth.do | table_2_cashflow_growth.tex | No |
-| Table 3 | 03_table_3_democratization_vs_other_political_risk.do | table_3_democratization_vs_other_political_risk.tex | No |
-| Table 4 | 04_table_4_revolution_risk.do | table_4_revolution_risk.tex | No |
+| Table 1 | 01_table_1_change_in_log_dividend_yield.do | table_1_change_in_log_dividend_yields.tex | Yes - one tiny SE mismatch 5.83 vs 5.82 |
+| Table 2 | 02_table_2_cashflow_growth.do | table_2_cashflow_growth.tex | Yes - one tiny SE mismatch 1.79 vs 1.80 |
+| Table 3 | 03_table_3_democratization_vs_other_political_risk.do | table_3_democratization_vs_other_political_risk.tex | Yes - 1 small p value mismatch 0.68 vs 0.7 and 7 small SE mismatches 6.71 vs 6.73, 8.70 vs 8.71, 9.25 vs 9.28, 10.60 vs 10.61, 10.81 vs 10.83, 7.88 vs 7.89, 5.00 vs 5.01|
+| Table 4 | 04_table_4_revolution_risk.do | table_4_revolution_risk.tex | Yes - small SE mismatches 10.57 vs 10.58, 8.39 vs 8.40 |
 | Table 5 | 05_table_5_regional_waves_instrument.do | table_5_regional_waves_instrument.tex | No |
-| Table 6 | 06_table_6_balance_tests.do | table_6_balance_tests.tex | No |
-| Table 7 | 07_table_7_did_results.do | table_7_did_results.tex | No |
-| Table 8 | 08_table_8_explicit_redistribution.do | table_8_explicit_redistribution.tex | No |
-| Table 9 | 09_table_9_implicit_redistribution.do | table_9_implicit_redistribution.tex | No |
-| Table 10 | 10_table_10_high_vs_low_redistribution_risk.do | table_10_high_vs_low_redistribution_risk.tex | No |
+| Table 6 | 06_table_6_balance_tests.do | table_6_balance_tests.tex | Yes |
+| Table 7 | 07_table_7_did_results.do | table_7_did_results.tex | Yes - small SE mismatches 2.24 vs 2.25, 2.21 vs 2.34 |
+| Table 8 | 08_table_8_explicit_redistribution.do | table_8_explicit_redistribution.tex | Yes |
+| Table 9 | 09_table_9_implicit_redistribution.do | table_9_implicit_redistribution.tex | Yes |
+| Table 10 | 10_table_10_high_vs_low_redistribution_risk.do | table_10_high_vs_low_redistribution_risk.tex | Yes - small SE mismatches 8.89 vs 8.90, 8.80 vs 8.82 |
 | Table 11 | 11_table_11_model_calibration.py | table_11_model_calibration.tex | No |
 | Table 12 | 12_table_12_model_results.py | table_12_model_results.tex | No |
 
 | **Main Figures** | `source/analysis/main/figures` | `source/figures/raw` |   |
 |------------------|------------------|------------------|------------------|
-| Figure 1 | 01_figure_1_dividend_yield_event_study.do | figure_1_dividend_yield_event_study.pdf | No |
-| Figure 2 | 02_figure_2_physical_human_capital.do | figure_2_physical_human_capital.pdf | No |
-| Figure 3 | 03_figure_3_gdp_consumption_distributions.do | figure_3a_gdp_growth_distribution.pdf, figure_3b_consumption_growth_distribution.pdf | No |
-| Figure 4 | 04_figure_4_regional_waves.do | figure_4_regional_waves.pdf | No |
-| Figure 5 | 05_figure_5_anti_regime_event_study.do | figure_5a_event_study_anti_system_cso.pdf, figure_5b_event_study_democratic_protests.pdf | No |
-| Figure 6 | 06_figure_6_returns_event_study.do | figure_6_did_event_study_returns.pdf | No |
-| Figure 7 | 07_figure_7_dividend_yield_coefficients_over_time.do | figure_7_coefficients_over_time.pdf | No |
+| Figure 1 | 01_figure_1_dividend_yield_event_study.do | figure_1_dividend_yield_event_study.pdf | Yes |
+| Figure 2 | 02_figure_2_physical_human_capital.do | figure_2_physical_human_capital.pdf | Yes |
+| Figure 3 | 03_figure_3_gdp_consumption_distributions.do | figure_3a_gdp_growth_distribution.pdf, figure_3b_consumption_growth_distribution.pdf | Partly - Figure 3b's legend partly impedes on the histogram.|
+| Figure 4 | 04_figure_4_regional_waves.do | figure_4_regional_waves.pdf | Yes |
+| Figure 5 | 05_figure_5_anti_regime_event_study.do | figure_5a_event_study_anti_system_cso.pdf, figure_5b_event_study_democratic_protests.pdf | yes - the last character of the x axis label is cropped out |
+| Figure 6 | 06_figure_6_returns_event_study.do | figure_6_did_event_study_returns.pdf | Yes |
+| Figure 7 | 07_figure_7_dividend_yield_coefficients_over_time.do | figure_7_coefficients_over_time.pdf | Yes |
 | Figure 8 | 08_figure_8_autocratization_figure.py | figure_8_autocratization_model.pdf | No |
 
 | **Appendix Tables** | `source/analysis/appendix/tables` | `source/tables/raw` |   |
 |------------------|------------------|------------------|------------------|
-| Table A1 | 01_table_A1_summary_statistics.do | A1_summary_statistics.tex | No |
-| Table B2 | 02_table_B2_adverse_dividend_growth.do | B2_adverse_dividend_growth.tex | No |
-| Table B3 | 03_table_B3_risk_premium.do | B3_risk_premium.tex | No |
-| Table B4 | 04_table_B4_macro_political_risk_measures.do | B4_macro_political_risk_measures.tex | No |
-| Table B5 | 05_table_B5_adverse_probability.do | B5_adverse_probability.tex | No |
-| Table B6 | 06_table_B6_democratize_risk_measures.do | B6_democratize_risk_measures.tex | No |
-| Table C7 | 07_table_C7_probability_democratize_post_vatican_ii.do | C7_vatican_ii_democratize.tex | No |
-| Table C8 | 08_table_C8_vatican_i.do | C8_did_first_vatican.tex | No |
-| Table C9 | 09_table_C9_catholic_democracies.do | C9_did_democracies.tex | No |
-| Table C10 | 10_table_C10_removing_outliers.do | C10_did_removing_outliers.tex, C10_did_removing_outliers_long.tex | No |
-| Table C11 | 11_table_C11_outlier_robust_weights.do | C11_did_robust_weights.tex | No |
-| Table C12 | 12_table_C12_global_capm.do | C12_did_global_capm.tex | No |
-| Table C13 | 13_table_C13_no_rolling_beta.do | C13_did_no_rolling_beta.tex | No |
-| Table C14 | 14_table_C14_home_country_bonds.do | C14_did_results_country_bonds.tex | No |
-| Table C15 | 15_table_C15_capital_gains_control.do | C15_did_capital_gains.tex | No |
-| Table D16 | 16_table_D16_inequality_price_decline.do | D16_inequality_price_decline.tex | No |
-| Table G17 | 17_table_G17_ert_democracy.py | table_G17_democratizations_and_history.tex | No |
+| Table A1 | 01_table_A1_summary_statistics.do | A1_summary_statistics.tex | Yes |
+| Table B2 | 02_table_B2_adverse_dividend_growth.do | B2_adverse_dividend_growth.tex | Partly, yes - 6 small mismatches in latec output vs. pdf SEs: 20.08 vs. 20.09; 16.16 vs 16.19; 11.30 vs 11.31; 15.14 vs 15.15; 7.58 vs. 7.61; 7.49 vs. 7.51 |
+| Table B3 | 03_table_B3_risk_premium.do | B3_risk_premium.tex |Yes - small SE mismatches 1.78 vs 1.76, 2.41 vs 2.40, 2.02 vs 2.01, 2.04 vs 2.03, 2.94 vs 2.93, 3.35 vs 3.34, 2.84 vs 2.83, -1.50 vs -1.49, 2.44 vs 2.43, 2.14 vs 2.13, 2.09 vs 2.08, 3.15 vs 3.14, 2.14 vs 2.13, 1.79 vs 1.77, 0.85 vs 0.84 |
+| Table B4 | 04_table_B4_macro_political_risk_measures.do | B4_macro_political_risk_measures.tex | Yes |
+| Table B5 | 05_table_B5_adverse_probability.do | B5_adverse_probability.tex | Yes - note there is another B5 table generated, which does not correspond, see screenshot |
+| Table B6 | 06_table_B6_democratize_risk_measures.do | B6_democratize_risk_measures.tex | Yes |
+| Table C7 | 07_table_C7_probability_democratize_post_vatican_ii.do | C7_vatican_ii_democratize.tex | Yes - small SE mismatches 0.81 vs 0.83, 1.76 vs 1.88 |
+| Table C8 | 08_table_C8_vatican_i.do | C8_did_first_vatican.tex | Yes - small SE mismatches 3.24 vs 3.29, 2.70 vs 2.74 |
+| Table C9 | 09_table_C9_catholic_democracies.do | C9_did_democracies.tex | Yes - one tiny SE mismatch 5.76 vs. 5.75 |
+| Table C10 | 10_table_C10_removing_outliers.do | C10_did_removing_outliers.tex, C10_did_removing_outliers_long.tex | Yes - some small SE mismatches 3.35 vs 3.36, 3.17 vs 3.18, 1.97 vs 2.01, 1.79 vs 1.81, 2.68 vs 2.69, 2.53 vs 2.67 |
+| Table C11 | 11_table_C11_outlier_robust_weights.do | C11_did_robust_weights.tex | Yes |
+| Table C12 | 12_table_C12_global_capm.do | C12_did_global_capm.tex | Yes - one small SE mismatch 1.91 vs 1.93 |
+| Table C13 | 13_table_C13_no_rolling_beta.do | C13_did_no_rolling_beta.tex | Yes - one tiny SE mismatch 6.17 vs 6.18 |
+| Table C14 | 14_table_C14_home_country_bonds.do | C14_did_results_country_bonds.tex | Yes |
+| Table C15 | 15_table_C15_capital_gains_control.do | C15_did_capital_gains.tex | Yes - one tiny SE mismatch 3.78 vs 3.77 |
+| Table D16 | 16_table_D16_inequality_price_decline.do | D16_inequality_price_decline.tex | Yes |
+| Table G17 | 17_table_G17_ert_democracy.py | table_G17_democratizations_and_history.tex | Yes |
 
 | **Appendix Figures** | `source/analysis/appendix/figures` | `source/figures/raw` |   |
 |------------------|------------------|------------------|------------------|
-| Figure B1 | 01_figure_B1_democracy_log_price.do | B1_democracy_log_price_dividend.pdf, B1_democracy_log_price_gdppc.pdf, B1_democracy_log_price_price.pdf | No |
+| Figure B1 | 01_figure_B1_democracy_log_price.do | B1_democracy_log_price_dividend.pdf, B1_democracy_log_price_gdppc.pdf, B1_democracy_log_price_price.pdf | Yes |
 | Figure C2 | 04_figure_C4_cso_activity_vs_mobilizations.do | C2_democracy_activity_mobil.pdf | No |
 | Figure C3 | 07_figure_C7_country_pair_1946_1976.do | C3_country_pair_falsification_aut.pdf, C3_country_pair_falsification.pdf | No |
 | Figure C4 | 06_figure_C6_window_end_date.do | C4_window_end_date_all.pdf, C4_window_end_date_aut.pdf | No |
@@ -397,107 +397,113 @@ File "/files/JPE-Miller-20240145/replication-package/replication_package/SConstr
 `paper/` is stored in `source/`, not under `source/analysis/`. 
 
 The replicator copies the the file and proceeds: 
+
 ```
 mkdir -p source/analysis/paper
 cp -r source/paper/* source/analysis/paper/
 ```
 
-The below error is returned. The build calls `pdflatex` but this is not listed in the computaitonal requirements, nor included in the dependencies downloaded by the package. 
+The below error is returned. The build calls `pdflatex` but this is not listed in the computational requirements, nor included in the dependencies downloaded by the package. Replicator installs the package with:
+```
+conda install -c conda-forge texlive-core
+```
 
-Replicator stops replication here. 
+and proceeds:
 
 ```
 (Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ python -m uv run scons
 scons: Reading SConscript files ...
 scons: done reading SConscript files.
 scons: Building targets ...
-build_python(["source/paper/miller_2025.pdf", "source/paper/online_appendix.pdf"], ["source/paper/compile_paper.py", "source/paper/miller_2025.tex", "source/paper/online_appendix.tex", "source/paper/Democratization.bib", "source/paper/numbers/section_3.tex", "source/paper/numbers/section_4.tex", "source/paper/numbers/section_5.tex", "source/paper/numbers/section_6.tex", "source/paper/subsections/01_introduction.tex", "source/paper/subsections/02_data.tex", "source/paper/subsections/03_stylized_facts.tex", "source/paper/subsections/04_vatican_ii.tex", "source/paper/subsections/05_democracy_and_redistribution.tex", "source/paper/subsections/06_model.tex", "source/paper/subsections/07_conclusion.tex", "source/paper/subsections/08_data_appendix.tex", "source/paper/subsections/09_stylized_facts_appendix.tex", "source/paper/subsections/10_vatican_ii_appendix.tex", "source/paper/subsections/11_democracy_and_redistribution_appendix.tex", "source/paper/subsections/12_model_appendix.tex", "source/paper/subsections/13_case_studies.tex", "source/paper/subsections/14_list_of_democratizations.tex"])
-scons: *** [source/paper/miller_2025.pdf] ExecCallError : Python did not run successfully. Please check that the executable, source, and target files are correctly specified. Check source/paper/sconscript.log and sconstruct.log for errors. 
-Command tried: "python"  source/paper/compile_paper.py  > source/paper/sconscript.log
-Traceback (most recent call last):
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 85, in <module>
-    main()
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 81, in main
-    compile_all()
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 60, in compile_all
-    run_pdflatex(stem)
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 41, in run_pdflatex
-    run_command(
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 25, in run_command
-    result = subprocess.run(
-             ^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/subprocess.py", line 548, in run
-    with Popen(*popenargs, **kwargs) as process:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
-
-Traceback (most recent call last):
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/.venv/lib/python3.12/site-packages/SCons/Action.py", line 1441, in execute
-    result = self.execfunction(target=target, source=rsources, env=env)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/build_python.py", line 28, in build_python
-    builder.execute_system_call()
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/jmslab_builder.py", line 120, in execute_system_call
-    self.do_call()
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/jmslab_builder.py", line 159, in do_call
-    self.raise_system_call_exception(traceback = traceback)
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/jmslab_builder.py", line 186, in raise_system_call_exception
-    raise ExecCallError(message)
-source.lib.JMSLab._exception_classes.ExecCallError: Python did not run successfully. Please check that the executable, source, and target files are correctly specified. Check source/paper/sconscript.log and sconstruct.log for errors. 
-Command tried: "python"  source/paper/compile_paper.py  > source/paper/sconscript.log
-Traceback (most recent call last):
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 85, in <module>
-    main()
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 81, in main
-    compile_all()
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 60, in compile_all
-    run_pdflatex(stem)
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 41, in run_pdflatex
-    run_command(
-  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/paper/compile_paper.py", line 25, in run_command
-    result = subprocess.run(
-             ^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/subprocess.py", line 548, in run
-    with Popen(*popenargs, **kwargs) as process:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: 'pdflatex'
-
-scons: building terminated because of errors.
+scons: `.' is up to date.
+scons: done building targets.
 ```
+
+The above indicates the replication is complete, but there are a few issues to flag:
+
+    - All the figures and tables were already included in the package so the code "short circuits" and builds the final pdf without recreating the tables and figures. For this reason, they must first be cleared from the package using `uv run scons -c`. 
+    - The replicator uses a cloud computing softare, Nuvolos. The SCons workflow provided by the authors could not be executed in the Nuvolos environment because the STATA executable is not available from the command line.
+    
+In the meantime, replicator refers to the list of tables and programs to write the `master.do` script and reproduce the list of tables and programs. 
 
 # Findings {#sec-findings}
 
-Code did not start running as per the author's SCons-based pipeline. No findings can be reported as of yet.
+Scons issues raised above. Below are the issues which arrive from the STATA workflow. 
+
+`paper/` is stored in `source/`, not under `source/analysis/` which causes the code break documented above. 
 
 ## Data Preparation Code
 
-<!-- Examples: -->
+In the data build:
 
-<!-- -   Program `1-create-data.do` ran without error, output expected data -->
-
-<!-- -   Program `2-create-appendix-data.do` failed to produce any output. -->
-
+  - `source/derived/01_events/14_combine_all_events.do` failed to run. `AllData.dta` was not found. Replicator runs `!find . -name "allData.dta"` in the replication package root, which returned nothing. 
+  - `source/derived/02_macro_political/01_create_inflation.do` failed to run. Also requires `AllData.dta`.
+  - `source/derived/03_assets/08_create_cashflow_growth.do` failed to run. Also requires `AllData.dta`.
+  
 ## Tables and Figures
 
-None of the tables and figures were reproduced.
+In the analysis: 
 
-<!-- > {REPLICATOR}: Insert the filled-out `package-output-map.xlsx` here (complete the column `Reproduced?`), using the VS Code Plugins [Excel to Markdown table](https://marketplace.visualstudio.com/items?itemName=csholmq.excel-to-markdown-table). Then describe in more detail the issues that may have arisen.  -->
+  - STATA `save_estiamte.ado` calls Python, which is not supported in the Nuvolos STATA. This blocked 17 analysis scripts from running. Replicator edits the .ado to still save estimates in the relevant .json files without relying on Python. The new `save_estiamte.ado` is pushed to the git repository and the old one is renamed to `save_estiamte_og.ado`.  
+  - All the appendix figures, except the first, are not reproduced because they are naming inconsistencies in the List of tables and programs. E.g.  `04_figure_C4_cso_activity_vs_mobilizations.do` instead of `04_figure_C4_sample_period_move.do`.
+  - There is a produced `table_B5_adverse_probability.tex` which does not map to the appendix table B5. (screenshot below)
+  
+  ![](images/B5_screenshot.png)
+W.r.t the python scripts: 
 
-<!-- Examples: -->
+  - Figure 8 cannot be produced because the corresponding `.json` file is not int the package: 
+  
+```
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ ROOT_PATH=$(pwd) python -m source.analysis.main.figures.08_figure_8_autocratization_figure
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/analysis/main/figures/08_figure_8_autocratization_figure.py", line 85, in <module>
+    main()
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/analysis/main/figures/08_figure_8_autocratization_figure.py", line 30, in main
+    m = AutocratizationModel(PARAMS_PATH)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/derived/model/autocratization_model.py", line 21, in __init__
+    with open(json_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/files/JPE-Miller-20240145/replication-package/replication_package/source/derived/model/baseline_params.json'
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ find . -name "baseline_params.json"
+```
 
-<!-- -   Table 1: Looks the same -->
-
-<!-- -   Table 2: (contains no data) -->
-
-<!-- -   Table 3: Minor differences in row 5, column 3, 0.003 instead of 0.3 -->
+  - Table 11 cannot be reproduced because it searches for `empirics_numbers.json` at the root fo the package. Also `empirics_numbers.json` is not in the package. 
+  
+```
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ ROOT_PATH=$(pwd) python -m source.analysis.main.tables.11_table_11_model_calibration
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/analysis/main/tables/11_table_11_model_calibration.py", line 138, in <module>
+    main()
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/analysis/main/tables/11_table_11_model_calibration.py", line 44, in main
+    with open(ESTIMATES_PATH, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/files/JPE-Miller-20240145/replication-package/replication_package/empirics_numbers.json'
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ find . -name "empirics_numbers.json"
+```
+  
+  - Table 12 could not be reproduced because `baseline_params.json` is not in the package. 
+  
+```
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ ROOT_PATH=$(pwd) python -m source.analysis.main.tables.12_table_12_model_results
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/analysis/main/tables/12_table_12_model_results.py", line 273, in <module>
+    main()
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/analysis/main/tables/12_table_12_model_results.py", line 31, in main
+    m = DemocratizationModel(PARAMS_PATH)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/derived/model/democratization_model.py", line 22, in __init__
+    with open(json_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/files/JPE-Miller-20240145/replication-package/replication_package/source/derived/model/baseline_params.json'
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ find . -name "baseline_params.json"
+```
 
 ## In-Text Numbers
 
@@ -511,8 +517,8 @@ None of the tables and figures were reproduced.
 
 -   [ ] full reproduction
 -   [ ] full reproduction with minor issues
--   [ ] partial reproduction (see above)
--   [x] not able to reproduce most or all of the results (reasons see above)
+-   [x] partial reproduction (see above)
+-   [ ] not able to reproduce most or all of the results (reasons see above)
 
 ## Reason for incomplete reproducibility
 
@@ -522,8 +528,8 @@ None of the tables and figures were reproduced.
 -   [ ] `Code missing`, in particular if it prevented the replicator from completing the reproducibility check
     -   [ ] `Data preparation code missing` should be checked if the code missing seems to be data preparation code
 -   [x] `Code not functional` is more severe than a simple bug: it prevented the replicator from completing the reproducibility check
--   [ ] `Software not available to replicator` may happen for a variety of reasons, but in particular (a) when the software is commercial, and the replicator does not have access to a licensed copy, or (b) the software is open-source, but a specific version required to conduct the reproducibility check is not available.
+-   [x] `Software not available to replicator` may happen for a variety of reasons, but in particular (a) when the software is commercial, and the replicator does not have access to a licensed copy, or (b) the software is open-source, but a specific version required to conduct the reproducibility check is not available.
 -   [ ] `Insufficient time available to replicator` is applicable when (a) running the code would take weeks or more (b) running the code might take less time if sufficient compute resources were to be brought to bear, but no such resources can be accessed in a timely fashion (c) the replication package is very complex, and following all (manual and scripted) steps would take too long.
--   [ ] `Data missing` is marked when data *should* be available, but was erroneously not provided, or is not accessible via the procedures described in the replication package
+-   [x] `Data missing` is marked when data *should* be available, but was erroneously not provided, or is not accessible via the procedures described in the replication package
 -   [ ] `Data not available` is marked when data requires additional access steps, for instance purchase or application procedure.
 -   [ ] `Missing README` is marked if there is no README to guide the replicator, or the README is not in compliance with JPE requirements

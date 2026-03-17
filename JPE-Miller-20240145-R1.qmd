@@ -24,6 +24,12 @@ Some useful information up front:
 
 In assessing compliance with our [Data and Code Availability Policy](https://www.journals.uchicago.edu/journals/jpe/datapolicy), our reproducibility team has identified the following issues, which we ask you to address:
 
+1. Please provide a step by step section for replicators. Your scons approach is good, but we hit a bug because of a missing file. You can keep the scons pipeline but you must explain better what requirements there are to run this. Ideally, you could provide an outline of how one could run this package manually - I am sorry about this extra layer, but our experience has shown that this is quite fragile. What's missing:
+   1. pdflatex dependency
+   2. there is a missing file (see below)
+   3. Your setup assumes (via `source/lib/JMSLab/builders/executables.yml`) that the stata executable is `StataMP`. This is not a good assumption, as on our system it's called `stata-mp`. You need to alert the user to those issues as they will create difficult to track failures.
+2. There are missign tick boxes below, please add to reamde.
+
 # General
 
 -   [ ] Data Availability and Provenance Statements

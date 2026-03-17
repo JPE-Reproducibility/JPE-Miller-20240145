@@ -419,23 +419,50 @@ scons: `.' is up to date.
 scons: done building targets.
 ```
 
-The above indicates the replication is complete, but there are a few issues to flag:
-
-    - All the figures and tables were already included in the package so the code "short circuits" and builds the final pdf without recreating the tables and figures. For this reason, they must first be cleared from the package using `uv run scons -c`. 
-    - The replicator uses a cloud computing softare, Nuvolos. The SCons workflow provided by the authors could not be executed in the Nuvolos environment because the STATA executable is not available from the command line.
-    
-In the meantime, replicator refers to the list of tables and programs to write the `master.do` script and reproduce the list of tables and programs. 
+```
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ uv run scons -c
+(Miller) nuvolos@nuvolos:/files/JPE-Miller-20240145/replication-package/replication_package$ uv run scons
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+build_stata(["datastore/derived/events/regime_change.dta"], ["source/derived/01_events/03_create_regime_change.do", "datastore/raw/vdem/orig/version10/V-Dem-CY-Full+Others-v10.dta", "datastore/raw/vdem/data/pre1900_dem.dta", "datastore/raw/regime_change/orig/ERT.csv", "datastore/raw/regime_change/orig/vod_democratizations.csv", "datastore/raw/regime_change/orig/DDCGdata_final.dta", "datastore/raw/crosswalks/valid_iso3_codes.dta"])
+build_stata(["datastore/derived/events/coup_detat.dta"], ["source/derived/01_events/04_create_coup_detat.do", "datastore/raw/vdem/orig/version10/V-Dem-CY-Full+Others-v10.dta"])
+build_stata(["datastore/derived/events/default.dta"], ["source/derived/01_events/06_create_sovereign_default.do", "datastore/raw/other_events/orig/reinhart_rogoff_defaults.dta", "datastore/raw/crosswalks/country_name_to_iso3.csv", "datastore/raw/crosswalks/valid_iso3_codes.dta"])
+build_stata(["datastore/derived/events/head_of_government_deaths.dta"], ["source/derived/01_events/07_create_hog_deaths.do", "datastore/raw/vdem/orig/version10/V-Dem-CY-Full+Others-v10.dta", "datastore/raw/other_events/orig/assassinations_data.dta", "datastore/raw/other_events/orig/country_names_to_iso3.dta", "datastore/raw/other_events/orig/HOG_death.csv", "datastore/raw/crosswalks/valid_iso3_codes.dta"])
+build_stata(["datastore/derived/events/icb_crisis.dta"], ["source/derived/01_events/08_create_international_crises.do", "datastore/raw/icb/orig/icb2v12.csv", "datastore/raw/crosswalks/icb_country_code_to_iso3.csv", "datastore/raw/crosswalks/valid_iso3_codes.dta"])
+scons: *** [datastore/derived/events/icb_crisis.dta] TargetNonexistenceError : The following target files do not exist after build:
+    datastore/derived/events/icb_crisis.dta
+Traceback (most recent call last):
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/.venv/lib/python3.12/site-packages/SCons/Action.py", line 1441, in execute
+    result = self.execfunction(target=target, source=rsources, env=env)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/build_stata.py", line 32, in build_stata
+    builder.execute_system_call()
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/build_stata.py", line 79, in execute_system_call
+    super(StataBuilder, self).execute_system_call()
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/jmslab_builder.py", line 121, in execute_system_call
+    self.check_targets()
+  File "/files/JPE-Miller-20240145/replication-package/replication_package/source/lib/JMSLab/builders/jmslab_builder.py", line 197, in check_targets
+    raise TargetNonexistenceError(message)
+source.lib.JMSLab._exception_classes.TargetNonexistenceError: The following target files do not exist after build:
+    datastore/derived/events/icb_crisis.dta
+scons: building terminated because of errors.
+```
 
 # Findings {#sec-findings}
+  
+*This section, and its subsections, should be actionned by the author.*
 
-Scons issues raised above. Below are the issues which arrive from the STATA workflow. 
-
-`paper/` is stored in `source/`, not under `source/analysis/` which causes the code break documented above. 
+  - The author does not provide a distinct section 'Instructions to Replicators' with step by step instructions on how to reproduce the results. 
+  - the file source/lib/JMSLab/builders/executables.yml had to be edited by the replicator to make sure the name of the executable corresponds to the local installation. It said StataMP when on our system it’s called stata-mp. Author should either write code which fetches and uses the right name from the replicator's system, or include the change as a step in the 'Instructions to Replicators'. 
+  - All the figures and tables were already included in the package so the code "short circuits" and builds the final pdf without recreating the tables and figures. For this reason, they must first be cleared from the package using `uv run scons -c`. Author should either clear the package, or add the clearing command as a step. 
+  - `paper/` is stored in `source/`, not under `source/analysis/` which causes the code break documented above. 
 
 ## Data Preparation Code
 
 In the data build:
 
+  - `datastore/derived/events/icb_crisis.dta` not found - refer to last error message of the Replication section for the error details. 
   - `source/derived/01_events/14_combine_all_events.do` failed to run. `AllData.dta` was not found. Replicator runs `!find . -name "allData.dta"` in the replication package root, which returned nothing. 
   - `source/derived/02_macro_political/01_create_inflation.do` failed to run. Also requires `AllData.dta`.
   - `source/derived/03_assets/08_create_cashflow_growth.do` failed to run. Also requires `AllData.dta`.
@@ -444,7 +471,6 @@ In the data build:
 
 In the analysis: 
 
-  - STATA `save_estiamte.ado` calls Python, which is not supported in the Nuvolos STATA. This blocked 17 analysis scripts from running. Replicator edits the .ado to still save estimates in the relevant .json files without relying on Python. The new `save_estiamte.ado` is pushed to the git repository and the old one is renamed to `save_estiamte_og.ado`.  
   - All the appendix figures, except the first, are not reproduced because they are naming inconsistencies in the List of tables and programs. E.g.  `04_figure_C4_cso_activity_vs_mobilizations.do` instead of `04_figure_C4_sample_period_move.do`.
   - There is a produced `table_B5_adverse_probability.tex` which does not map to the appendix table B5. (screenshot below)
   

@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Regional waves of democratizations and dividend yields} \label{table:regionalWave}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents a reduced form regression of the the five-year change in log dividend yields on the five-year change in the Regional Democracy Index from Equation~(\ref{eq:reg_dem}). It then presents the results of a two-stage least squares procedure instrumenting the 5-year change in the V-Dem Electoral Democracy Index using the five-year change in the Regional Democracy Index. In all regressions a series of event controls are included in addition to 5 leads and lags of log GDP per capita. To account for overlapping variables in both the first and second stage, Driscoll-Kraay standard errors with a five-year bandwidth and clustered at the year are applied and presented in the parentheses. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_5_regional_waves_instrument.tex}
+	}}}}
+\end{table}

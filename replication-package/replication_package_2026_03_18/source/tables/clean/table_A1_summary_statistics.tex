@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Summary statistics} \label{table:summary_stats}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents summary statistics for various variables used in the analysis. All available data are presented, not just data for countries with an active stock market.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_A1_summary_statistics.tex}
+	}}}}
+\end{table}

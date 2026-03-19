@@ -1,0 +1,8 @@
+latex:     pdflatex
+bibtex:    bibtex
+lyx:       lyx
+python:    python
+r:         Rscript
+matlab:    matlab
+stata:     StataMP
+tablefill: ''

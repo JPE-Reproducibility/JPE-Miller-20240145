@@ -1,0 +1,1055 @@
+
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage[unicode=true,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=true]{hyperref}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[comma,authoryear]{natbib}
+\usepackage{mathtools}
+\usepackage{cases} 
+\newcounter{tableeqn}
+\numberwithin{equation}{section}
+\usepackage[paper=portrait,pagesize]{typearea}
+\usepackage{pifont}
+\usepackage{longtable}
+\usepackage{bbm}
+\usepackage{makecell}
+\usepackage{mfirstuc}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+\usepackage{ragged2e}
+\usepackage{setspace}
+
+\usepackage[small,compact]{titlesec}
+\titlespacing{\section}{0pt}{*1}{*1.5}
+\titlespacing{\subsection}{0pt}{*1}{*1.5}
+\titlespacing{\subsubsection}{0pt}{*1}{*1.5}
+%\titlespacing{\paragraph}{0pt}{*1}{*1.5}
+
+\input{section_3.tex}
+\input{section_4.tex}
+\input{section_5.tex}
+\input{section_6.tex}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathbb{V}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\ind}{\perp\!\!\!\perp}
+\newcommand{\QED}{\text{, Q.E.D.}}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}% 
+ 
+\newtheorem{prop}{Proposition}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]\itshape}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+%\DeclareUnicodeCharacter{202F}{FIX ME!!!!}
+
+%\usepackage[american]{babel}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks   = true,
+	citecolor    = blue,
+	urlcolor	 = blue
+}
+
+\usepackage[font=footnotesize, width=.9\textwidth]{caption}
+\usepackage[labelfont=bf]{caption}
+
+%\usepackage{graphicx,kantlipsum,setspace}
+%\usepackage{caption}
+%\captionsetup[table]{font={stretch=1.2}}     
+%\captionsetup[figure]{font={stretch=1.2}}    
+
+\usepackage{float}
+\usepackage{tabu,booktabs}
+\tabulinesep=0.9mm
+\usepackage{tabularx}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{epigraph}
+
+% \epigraphsize{\small}% Default
+%\setlength\epigraphwidth{16cm}
+%\setlength\epigraphrule{0pt}
+
+%\usepackage[font=footnotesize, width=1\textwidth]{caption}
+%\usepackage[labelfont=bf]{caption}
+%\captionsetup[subfigure]{labelformat=simple}
+%\captionsetup[table]{aboveskip=0pt}
+%\captionsetup[table]{belowskip=0pt}
+
+\usepackage{todonotes} % for comments
+\newcommand{\dothis}[1]{\todo[inline,caption={}, color=red!20!white]{\textbf{To do:} #1}}
+
+\usepackage{xr}
+\externaldocument{02_online_appendix}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+\geometry{verbose,tmargin=1.2in,bmargin=1.2in,lmargin=1.2in,rmargin=1.2in}
+
+\usepackage[small,compact]{titlesec}
+\titlespacing{\section}{0pt}{*1}{*0.75}
+\titlespacing{\subsection}{0pt}{*1}{*0.75}
+\titlespacing{\subsubsection}{0pt}{*1}{*0.75}
+
+%opening
+\title{Who values democracy?\thanks{Acknowledgments: I would like to thanks Andrew Atkeson and 4 anonymous referees their comments; they have led to a much improved paper.  I also want to specially thank Jules van Binsbergen, Sylvain Catherine, Joao Gomes, and Jessica Wachter without whose mentorship this paper would not have been possible. I am also thankful for insightful comments from Hengjie Ai, Alexandru Barbu, Aymeric Bellon, Paul Bouscasse, Will Cassidy, Paul D\'{e}caire, Yao Deng,  Itamar Drechsler, Logan Emery, Jes\'{u}s Fern\'{a}ndez-Villaverde,  Beata Gafka, Erik Gilje,  Marco Grotteria, Hongye Guo, Sam Hanson, Tarek Hassan, Igor Makarov, Clara Martinez-Toledano, Thomas Maurer, Karsten M\"{u}ller, Sean Myers, Felix Nockher, James Paron, \v{L}ubo\v{s} P\'{a}stor,  Jacopo Ponticelli, Vincent Rollet, Tom Sargent, Andrei Shleifer, Ren\'{e} Stulz, Adi Sunderam, Nishant Vats, Pietro Veronesi, Lulu Wang, Nicholas Zarra, Anthony Lee Zhang, Irina Zviadadze, and conference and seminar participants from a number of places. Finally, I would like the thank the Rodney White Center for their financial support. The paper was formerly circulated under the title ``Democratization, Inequality, and Risk Premia.''}}
+\author{Max Miller\thanks{Harvard Business School, Email: \href{mailto:mamiller@hbs.edu}{mamiller@hbs.edu}}	
+}
+
+\begin{document}
+\hypersetup{linkcolor=blue}
+\maketitle
+
+\thispagestyle{empty}
+
+	 \vspace{-1cm}
+
+\begin{abstract}
+
+\noindent This paper examines the conventional view that redistribution is central to the democratization process using data from stock markets. Consistent with this view,  democratizations have a large, negative impact on asset valuations driven by a rise in redistribution risk. Across 90 countries over 200 years, risk premia are substantially elevated---similar in magnitude to financial crises---prior to and during democratizations. A shift in Catholic church doctrine in support of democracy provides causal evidence that democratizations increase risk premia. Successful democratizations lead to substantial redistribution: the size of the public sector grows, income inequality falls, and the labor share of income rises.  An extended version of the canonical redistribution-based model of democratization that includes asset prices can quantitatively explain these effects. Reductions in inequality and increased taxes explain approximately half of the results. The rest comes from greater economic competition and equality in government spending. The model also explains the negligible asset pricing response to autocratizations. Neither an increase in macroeconomic risk nor generic political risk can explain the results.
+
+	\vspace{1cm}
+	
+	\noindent \textit{Keywords}: Risk Premia, Democratization, Inequality, Redistribution, Catholic Church
+	
+	\noindent \textit{JEL codes}: G10, G15, G18, N40, P16
+	
+\end{abstract}
+
+\renewcommand{\baselinestretch}{1.3}\normalsize
+\newpage
+\clearpage
+\pagenumbering{arabic}
+
+\newpage
+
+
+\section{Introduction}
+ 
+In the past two centuries, over half of the world's nations have transitioned to democracy.  The predominant view in political economy and political science argues these democratizations stem from intrinsic conflicts among different political or social classes and the owners of the means of production \citep*{Marx1848,Lipset1959,Moore1966, Boix2003,Acemoglu2006,Ansell2010}.  Consensus on this point, however, remains elusive, stemming in part from two broad empirical challenges.  First, there is little evidence on whether, {\it ex ante}, elites consider redistribution to be the central risk they face in democratization. Second, conditional on redistribution risk being central,  there is little understanding of which among the various forms of political and economic redistribution that democracy might entail are most important \citep{Acemoglu2015}.
+
+This paper tests whether redistribution is central to democratizations in a way that addresses both of these issues: examining stock market prices during democratizations. Since asset prices disproportionately reflect the expectations and preferences of mostly wealthy capital holders---especially in autocratic countries---they are an ideal source for understanding the risk the elites perceive from the democratization process in real time. 
+
+How do financial markets respond when democratization becomes more likely? Using a panel of equity data that covers 90 countries over 200 years, I show that stock market valuations fall substantially when transitions to democracy are more likely.  In the data,  I document that this decline is similar in magnitude to what we observe in financial crises, suggesting that these periods are associated with increased systematic risk to investors.
+
+To understand whether the risk of redistribution drives this result, however, two key empirical challenges must be addressed. First,  it is essential to tackle potential endogeneity concerns by ruling out other common factors that could simultaneously affect democratizations and financial markets, and provide evidence that the ancillary effects of democratization---for example, political instability or violence---are not driving the results. Second, it is necessary to show that the primary driver of the asset pricing response is redistribution risk. This requires showing that redistribution indeed follows successful democratizations,  and that it is substantial enough to rationalize the observed market responses.  The remainder of the paper provides evidence of these two central points.
+
+The first part of the paper uses two main strategies to document that democratizations indeed drive the negative stock market response.  First, I directly show that several potential first-order channels are unlikely to be driving the results.  For example, democratizations could coincide with an increase in macroeconomic risk which would tend to drive down stock valuations. However, this is not borne out in the data. GDP or aggregate dividend growth do not fall in the 5 years after a democratization starts, nor do the distributions of GDP or aggregate consumption growth change.  A rise in generic political risk cannot fully explain the results either. Other periods of high political risk like international political crises, autocratizations---transitions from democracy to autocracy---and other regime changes exhibit substantially smaller stock market responses when compared to democratizations.\footnote{A lengthy online appendix provides evidence against several other potential explanations, like increased violence, the increased probability of adverse financial or macroeconomic events, increased revolution risk, large capital outflows, and general uncertainty shocks.}
+
+Second, I show democratizations increase risk premia using two identification strategies.  The first strategy uses exogenous variation in the probability of a successful democratization emanating from a shift in Catholic church doctrine in favor of democracy from 1959 to 1963. This shift particularly impacted majority Catholic autocracies. \cite{Huntington1991} labels the shift as one of the main reasons the third wave of democratization of the 1970s, 1980s, and early 1990s occurred and why it was concentrated in majority Catholic autocracies. Consistent with this narrative,  I show that indices denoting the threat to the governing regime posed by civil society organizations and the size and frequency of democratic protests rose dramatically in majority Catholic autocracies compared to non-Catholic autocracies. This indicates that the doctrinal shift materially changed political realities on the ground in majority Catholic autocracies. 
+
+Using a difference-in-differences approach, this quasi-natural experiment is associated with a \tabSevenLow\ to \tabSevenHigh\ percentage point increase in average excess stock returns for majority Catholic autocracies depending on the specification. The results display no pre-trends and are robust to various sample windows, the exclusion of outliers, and different estimation techniques. They also cement the link between an increase in risk premia and an increase in the probability of a successful democratic transition.
+
+The second identification strategy follows \cite*{Acemoglu2019} and uses regional waves of democratization as exogenous variation in the likelihood of a successful democratization. Democratic progress from regional waves is more likely to be driven by external pressure and is, therefore, exogenous to the local macroeconomic conditions of a particular country.  Democratic movements coming from regional waves also see a substantial increase in dividend yields in both a reduced form and instrumental variables approach.
+
+The second part of the paper investigates whether a rise in redistribution risk can explain the negative stock market reaction to democratizations.  Comparing successful and failed democratizations, I find that democratization redistributes resources in two ways. First, it increases explicit redistribution by raising the size of the public sector and lowering income inequality. On average, government revenue-GDP ratios rise by \tabEightOneCE\ percentage points, Gini coefficients decline by \tabEightThreeCE\ percentage points, and the labor share of GDP rises by \tabEightFourCE\ percentage points in the 20 years after a successful democratization. Second, successful democratizations also increase tacit redistribution. For example,  autocracies allocate a greater share of government spending to elites \citep{Tullock1986}. They also provide more protection to incumbent firms from new entrants \citep{Perotti2006,Bravo2021}. I find that, during successful democratizations, bribery and corruption indices fall while pro-competitive regulation and net entry of new firms rise. Since this also redistributes resources away from autocratic elites, it could also play an important role in the asset pricing results.
+
+To understand whether the redistribution in the data is quantitatively large enough to explain the asset pricing results, I calibrate a model of democratic transitions in the style of \cite{Acemoglu2006} embedded within a standard asset pricing framework. Like in  \citeauthor{Acemoglu2006}, the economy starts in autocracy where the elites have all the political power, and try to avoid redistributing their income to the more numerous poor citizens. The citizens influence the policies of the elites by threatening to revolt. Revolution is costly: all the elites are killed and a fraction of resources are destroyed, making it undesirable for both sides.  This cost the citizens bear from revolution---which determines the revolutionary threat the elites face---varies over time.  If the fraction of resources destroyed is low enough, though, the citizens may prefer the revolution to autocracy.  When this happens, the elites would like to promise future redistribution.  But they cannot credibly commit to future transfers where there is little or no revolutionary threat. Here, only conceding democracy can keep the revolution off the equilibrium path, as democracy acts as a mechanism for the elites to credibly commit to future redistribution. While democracy is a much better state for the elites than the revolution, the redistribution it brings is costly, making it, nonetheless, a deleterious state for them. 
+
+To make the model relevant to study asset prices, I add four main ingredients. First, I allow for incomplete financial markets, meaning that the elites can trade with one another in financial markets but not with the citizens.  Second, to achieve realistic asset pricing dynamics, I allow for preferences in the style of \cite{Epstein1989}. Third, I allow for multiple potential forms of redistribution that align with what we see in the data, namely, reduced inequality, increased taxes, reduced ability for the elites to skim rents from government spending, and increased economic competition. I also allow for the redistribution elites face in democracy to be uncertain.
+
+Fourth, I modify the cost of revolution process to allow for three states: autocracy, democratization, and democracy. The new state, democratization, is one where a permanent transition to democracy becomes more likely. Since the elites price assets, uncertainty over whether a democratization will succeed---ushering in democracy and redistribution---or fail---keeping society in autocracy---increases the risk to the elites' future consumption, causing risk premia to rise. In this way, the consolidation of democracy and the redistribution of income and political power it brings, acts as a ``rare disaster'' for the elites, explaining the increased risk premia observed during democratizations in the data \citep*{Rietz1988, Barro2006a,Gabaix2012,Wachter2013}.  When calibrated to reasonable preference parameters and the redistribution observed in the data, the model explains nearly all the rise in dividend yields observed during democratizations.
+
+The model also allows me to understand which forms of redistribution have the largest effect on asset prices. The predominant effect comes from increased economic competition and displacement risk for incumbent firms post-democratization \citep*{Garleanu2012}. This channel drives \tabTwelveComp\% of the rise in dividend yields, providing support to a theoretical literature that argues increased creative destruction and structural transformation are the primary driving forces behind higher growth after successful democratizations \citep*{Aghion2008,Aghion2014,Acemoglu2015,Bravo2021}. The remaining \tabTwelveNonComp\% of the rise in dividend yields comes from the more traditional channels of higher taxes and reduced inequality and corruption. 
+
+A redistribution-based framework also explains the negligible stock market effect observed in autocratizations. To do this, I modify the model and allow for democracy to be reversible provided the elites are willing to risk a transition. If they succeed, society becomes an autocracy, but if they fail, they face a permanent loss of a fraction of their consumption. The key insight is that while democratization is a risk imposed on the elites, autocratization is a risk they take. Because who decides to transition differs in each case, there is an asymmetric effect on asset prices.
+
+The elites optimally choose when to attempt autocratization, so it always improves the expected present value of their consumption. However, levered claims to this consumption---for example, the dividend claim---can still be adversely affected. In the model, dividend yields still rise because the increased risk in the event of a failed autocratization matters more than the higher payoff upon success to a risk averse investor. This also leads autocratizations with higher potential payoffs to come with larger rises in dividend yields, as the elites accept a higher penalty in the event of failure to achieve autocracy.
+
+Taken together, these results provide powerful support for redistribution-based models of democratization. When modified to incorporate asset prices, the predictions the model generates enjoy resounding support in the data.  This helps to clear a significant hurdle in this literature. While most studies have focused on whether more democratic institutions lead to redistribution, few have substantiated whether this redistribution is large enough to constitute a major friction to democratic transitions \citep{Boix2003,Hinnerich2014,Acemoglu2015}. Better understanding this is important for the many countries still living under autocratic political institutions. It is also relevant for countries with backsliding democratic institutions, the number of which some scholars allege have increased over the last decade \citep{Diamond2015}. Insofar as reductions in democratic norms are accompanied by lower taxes, higher inequality, lower labor bargaining power, and decreased economic competition, this paper provides a model through which future autocratic movements can be interpreted.
+
+\label{par:limitation_acknowledge_beg}
+Of course, the analysis is not without limitations. It is worth highlighting two caveats. First, there is substantial heterogeneity around the average effects I document. For example, some democratizations may come with a reduction in risk premia as securing property rights dominates other channels. Second, the results above are strongest for countries transitioning to democracy with an active stock market.  This means that countries where property rights were not secure enough to foster open financial markets are scoped out of the analysis when examining valuations. One example of this is transitions from left-wing authoritarian states, like the disintegration of the Soviet Union. Since regimes of this style were not fond of capital markets, their data on asset prices do not generally exist. My analysis, therefore, helps us to better understand transitions from relatively more right-wing autocracies, where the threat of redistribution likely played a greater role.
+
+\label{par:low_redist_evidence1}
+The evidence from equity markets, however, has enough coverage to give a sense of the extent of these limitations. To better understand the first caveat, I show results for various cuts of the sample to examine where redistribution risk is the operative channel versus securing property rights. In particular, I split democratizations into high and low redistribution risk categories using information on who the most powerful political group is prior to the episode start. This exercise shows that almost all the rise in dividend yields comes from high redistribution risk democratizations.  Indeed, democratizations with low redistribution risk come with rises in dividend yields quite similar to other regime transition episodes. This is in line with the idea that not all democratizations are necessarily characterized by redistribution risk.
+
+\label{par:low_redist_evidence2}
+Related evidence in favor of this point is that nearly all the rise in dividend yields leading into democratizations is concentrated in the period after World War I, the beginning of the First Wave of Democratization.  This is in line with a narrative in the comparative politics literature about the nature of democratization before and after The Great War \citep{Luebbert1991}. Before the war democratizations were mainly agreements between the aristocracy and the burgeoning middle class, shutting out the then nascent labor movements. As such, they benefited this new capital-owning class by protecting their property rights and the \textit{status quo} between capital and labor. It is also consistent with the literature discussing the case of Britain after the Glorious Revolution documented in both \cite{North1989} and \cite{Acemoglu2006}.\footnote{For example, prior to the reforms of William III after the Glorious Revolution, property rights were not secure enough in England to allow for the formation of stock markets \citep{Brodhurst1897}. From \cite{Brodhurst1897}: ``In the time of James I, the excitements of the Stock Exchange, and the allurements of stock-brokers had not yet begun to trouble the English people. A national debt, the creation of the Venetians, was as yet unknown in England. Loans, indeed, to satisfy the necessities of State had been raised by Henry VIII and many others of the English Sovereigns; but as they never thought of repaying money which they had borrowed, and as those who were forced to lend, probably had not any expectation of seeing their property again, there was little opportunity for speculation. It was left to William III to introduce the principle that it is the duty of a State to keep faith with its creditors, and thereby to open the door to those commercial movements which were ultimately to result in the creation of the Stock Exchange.''} After World War I, however, democratizations became more labor driven, focusing on increasing labor bargaining power and reducing inequalities. Transitioning to democracy thus became more costly for the capital-owning elites, bringing higher risk premia in the transition period.
+
+\label{par:ik_intro_evidence}
+There also is evidence to suggest that the results from stock markets are applicable to most transitions, at least in the sample after World War II. Investment-capital ratios fall substantially in the five years leading into a democratization, suggesting that either risk premia are rising, or expected cashflow growth is falling, for all capital assets, depressing investment even in countries without stock markets. Since data on investment-capital ratios are present for the vast majority of democratizations that occurred after 1960, this provides strong evidence that in the recent sample democratizations do not seem to be viewed favorably by capital investors. This also shows that the results from financial markets are not necessarily limited to public equity markets.
+\label{par:limitation_acknowledge_end}
+
+Finally, while declining stock valuations following democratization might prompt concerns, it should not be interpreted as a shortcoming of democracy. The analysis above suggests the opposite: the vast majority of citizens experience notable welfare gains from democratic transitions. Instead, it hints that for markets to truly reflect the outlook of the broader macroeconomy, economic representation is paramount. The findings instead speak to a rift between Wall Street and Main Street when the goals of the wealthy and middle class come into conflict.
+
+\paragraph{Related Literature}
+
+This paper advances both the political economy literature around democratizations and asset pricing literature focused on rare events and political and policy risk.
+
+My primary contributions to the political economy and democratization literatures are twofold. The first is theoretical: By adding asset prices to the seminal model in \cite*{Acemoglu2006}, this paper shows that falling asset valuations are consistent with increases in the redistribution risk faced by autocratic elites during periods of democratization. This provides a testable prediction for redistribution-based models \citep*{Boix2003,Acemoglu2006}. Moreover, the model can also assess whether the redistribution observed in the data is quantitatively large enough to explain the rise in premia. This helps clear a significant hurdle in this literature: whether the redistribution faced by the wealthy in autocracy is large enough to constitute a substantial friction to democratic transitions. 
+
+The second is empirical. The paper provides the first evidence of the effects of democratizations on equity markets. Prior research examining the asset pricing impact of democratizations has focused on the impact on sovereign debt yields in the pre-World War I sample. Consistent with my results, it has found that suffrage extensions increase sovereign loan yields \citep{Dasgupta2021,Tuncer2022}. \cite*{Delis2019} also study the response of corporate loan spreads to democratic institutions from 1984--2014 and find that more democratic institutions are accompanied by reduced loan spreads for companies. These positive effects after transitions are not inconsistent with increased risk during the transition period, which this paper documents. Prior work has also examined the returns to politically-connected firms during regime changes. \cite{Fisman2001} finds strong negative returns for politically connected firms in Indonesia as a result of the fall of the Suharto regime. Similarly, \cite*{Acemoglu2018} find that more intense protests in Egypt after the fall of the Mubarak regime relate to lower stock market valuations for firms connected to the group currently in power. \cite*{Dube2011} find that US companies that stood to benefit from US-backed coups see high returns after the coup. My paper builds on this body of research by providing the longest time series and widest panel of equity data used to date to study the stock market impact of democratizations.
+
+In addition to new empirical evidence on asset prices, the paper also provides a novel exercise to quantify the amount of redistribution after successful democratizations by comparing them to failed democratizations. As such, the paper compares two groups of countries that underwent a similar period of political change, but where one group experiences a sustained change and the other does not. These results, therefore, add to those reported in \cite*{Rodrik1999}, \cite*{Acemoglu2015}, and \cite*{Drautzburg2022} who measure the impact of democracy on wages, the size of the public sector, and the labor share of income. This also relates to a string of papers that study redistribution, the provision of public goods, and government spending stemming from enfranchisement episodes. These include papers studying the enfranchisement or disenfranchisement of Black Americans \citep{Husted1997,Naidu2012,Cascio2013} and women \citep{Miller2008} and various enfranchisement episodes in Western Europe \citep{Aidt2009,Hinnerich2014} and those stemming from more effective voting technology \citep{Fujiwara2015}. 
+
+The primary contribution to the asset pricing literature is showing that large, redistributive political shocks like democratizations can act similarly to ``rare disasters'' both empirically and theoretically. In disaster models, investors are exposed to large negative shocks that manifest with some small, usually time-varying, probability \citep*{Rietz1988,Barro2006a,Gabaix2012,Wachter2013}. Investors demand compensation for holding assets exposed to these disasters, allowing these models to match key asset pricing moments. My paper adds to this literature by noting that large political risks like democratizations can come with---from the perspective of wealthy market participants---left-skewed distributional shocks which also drive asset prices.
+
+An alternative view is offered by models where aggregate shocks affect investors differently, often through their uninsurable labor income or human capital \citep{Mankiw1986, Constantinides1996,Constantinides2017, Schmidt2016,Paron2021}.  This leads these investors to demand compensation for holding stocks allowing these models to match the level, volatility, and cross-section of asset prices. However, to generate quantitatively important asset pricing effects, these shocks need to most strongly affect the wealthy capital holders \citep*{Catherine2021}. This is the case during democratizations, as the shocks to inequality, tax policy, or political connections they bring mainly affect the wealthy.
+
+This paper also builds on a literature examining the role of political and policy risk in asset pricing by noting that democratizations are accompanied by large increases in risk premia. \cite*{Pastor2012,Pastor2013} propose a model in which government policy uncertainty drives variation in the risk premium.  \cite*{Pastor2016} model the effect of redistributive taxation on inequality jointly with the effect on aggregate productivity and asset prices.  \cite{Pastor2021} examines how rising consumption inequality can influence to move toward populism even in a strong economy in a model in which agents are inequality averse.  Related to these papers is a literature studying the role of fluctuations in factor prices for equity prices and investment. In this context, \cite{Danthine2002} find that empirical fluctuations in the labor share combined with operating leverage can explain the unconditional level of the equity premium. \cite{Santos2005} complement this by showing that variation in the labor income to consumption ratio generated substantial time series predictability.  My paper builds on these papers by studying redistribution shocks explicitly in the context of democratizations and studying their quantitative impact on asset prices.
+
+Empirical research on policy shocks and uncertainty has focused mostly on quantifying the effects of policy shocks in developed democracies. For example,  \cite*{Baker2016} develop an index of economic policy uncertainty and find that increases in this index are associated with greater stock price volatility and reduced investment and employment.  \cite*{Kelly2016} provide empirical support that political uncertainty is priced in the equity options market.  \cite*{Manela2017} show that variation in a text-based measure of macroeconomic and policy uncertainty co-moves with risk premia, lending credence to rare disasters theories.  Their measure of policy uncertainty also predicts future tax changes in the United States.
+My paper differs from these by studying uncertainty over political institutions rather than over particular policy decisions. As such my work complements this body of research, showing that uncertainty over the institutions is also priced in financial markets.
+
+
+
+\section{Data}\label{section:data}
+
+The following analyses use data from multiple databases. This section provides information about the data used in this study and explains how the important variables were created.
+
+\paragraph{Asset market data}
+
+This study uses equity data from four sources: Global Financial Data (GFD), the Jorda-Schularik-Taylor Macrohistory Database (JST) mentioned in \citet*{Jorda2020}, IBES Global, and Factset. GFD offers two main stock return indices for each country. One shows the total return on stock exchanges in the country. The other shows the total return of all companies based in the country but listed on the London Stock Exchange.  
+
+The primary variables of interest are both the dividend yield---defined as aggregate dividends over the calendar year divided by the price of the aggregate stock market index---and the annual excess return on the stock market. Excess returns are constructed assuming that investors have access to the same riskfree investment, in particular,  U.K. government bonds prior to 1914 and U.S. treasury bills after 1914.  This is because the returns on government bonds for the countries in my sample are generally not riskfree, and could be exposed to time-varying risks that equity assets are not exposed to \citep*{Miller2020}. Using home country government bonds may, therefore, erase part of the risk premium or induce measurement error in the dependent variable, reducing the statistical power of the results.
+
+For all equity rate variables---like rates of return, dividend growth, and changes in dividend yields---I fill in missing observations in the GFD home stock market series using the JST data. Then I fill in missing observations using data from IBES Global, Factset, and the GFD data from the London Stock Exchange. Mixing these data sources gives an unbalanced panel data set of ex- and cum-dividend returns, dividend yields, and dividend growth over the longest time series possible for each country. For example, the data on dividend yield changes spans 201 years from 1816--2018 across 90 countries, with an average around \avgDivYldYears\ years of data for each country. However, because each series covers a different range, the number of observations varies throughout the paper. For more on how the asset pricing series are made, see Appendix~\ref{section:equity_app}.
+
+\paragraph{Macroeconomic data}
+
+Data on real GDP come from Maddison Historical Statistics, who use and expand upon data from \cite*{Barro2008} and provide the most comprehensive data available on these variables. Data on real consumption and the labor share of income come from the Penn World Tables.  These data are available from 1945 to the present. Data on income inequality come from the Standardized World Income Inequality Database (SWIID) who provide data on the Gini coefficient for up to 159 countries from 1960--2018. Finally, data on government revenue-GDP ratios come from GFD and data on tax revenue-GDP ratios come from the Relative Political Capacity Dataset. More information on the macroeconomic data used in the paper is provided in Appendix~\ref{section:macro_data}.
+
+\paragraph{Political institutions data}
+
+Data on political institutions come from the Varieties of Democracy (V-Dem) database.\footnote{This paper uses version 10.0 of the data.} V-Dem uses a team of over 3,500 country-specific experts to quantify levels of and trends in historical political institutions for most every country over the last two centuries. This allows them to provide the most detailed dataset possible to analyze changes in political institutions. V-Dem provides measures on both the level of electoral democratic institutions and other political outcomes. These other outcomes include the level and frequency of democratic protests, political violence, political polarization,  civil society activity, corruption, and bribery. More information on the measures used in the paper is provided in Appendix~\ref{section:vdem_ind}.
+
+I also use measures on institutions from other sources where V-Dem does not provide data. These include the fraction of the population that is Catholic and a pro-competitive regulation index. These two measures come from the World Religion Project and the Fraser Institute's Economic Freedom Index. More detail on these series is provided in Appendix~\ref{section:otherpolinst}.
+
+\paragraph{Events data}\label{section:eventsapp}
+Data on events are primarily used as controls in the regressions below. Financial crises come from JST and \cite*{Reinhart2009} and are combined into a single financial crisis variable. Sovereign defaults also come from \cite*{Reinhart2009}. Recessions are taken from the GFD Dates database. Wars dates and locations come from the Correlates of War (CoW) data. International political crises come from the International Crisis Behavior (ICB) database as used in \cite*{Berkman2011}. Head of government and head of state deaths come from \cite*{Jones2009}, V-Dem, and Wikipedia. Data on head of government and head of state attempted assassinations also come from \cite*{Jones2009}. Regime changes are constructed using the regime information from V-Dem. More information on the events used in the paper can be found in Appendix~\ref{section:events_data}.
+
+\subsection{Democratizations}\label{section:democratization_data}
+
+Democratization and autocratization periods come from the Episodes of Regime Transformation (ERT) data.\footnote{This paper uses version 2.2 of the data.} There are two main advantages to using the ERT data. The first is that it is the only dataset to my knowledge that provides the start and end years of both democratization and autocratization episodes. Since asset prices are forward looking, this information is particularly important for this analysis. The second is that the ERT data provide detail on whether a democratization is sustained or reverts back to autocracy. For simplicity, I refer to these two potential outcomes as ``success'' or ``failure.'' By including both these types, I can avoid potential selection issues that come with conditioning on successful democratic transitions.
+
+The ERT achieves this by examining changes in V-Dem's electoral democracy index above a certain threshold. This 0 to 1 index measures countries on the extent they embody the principles of electoral democracy. Countries that score highly generally respect principles of freedom of expression and association, have a high proportion of the population that can vote, and have elections that are competitive, clean, and fair. 
+
+Since the asset pricing data are available prior to 1900, I extend the ERT data to back to 1816. To do this, I use the same procedure V-Dem uses to construct the post-1900 sample. This produces \demEpisodesPre\ additional democratization episodes for which asset pricing data are available. To obtain the latest possible end date for each democratization episode, I use data from \cite{Lindberg2018} to extend democratization episodes to their latest possible year.\footnote{\cite{Lindberg2018} follows a similar procedure to the ERT data, but with less conservative conditions on what constitutes the end of a democratization episode.} This gives \demYears\ democratization years across \demEpisodes\ episodes from 1816--2018 where I have dividend yield data.
+
+Appendix~\ref{section:ERTdescription} provides more information on how the ERT data identifies democratizations and determines if they are successful or failed. Moreover, Appendix~\ref{section:case_studies} provides two case studies: one of the successful democratization in Sweden from 1917--1924 and the other of the failed democratization in France from 1847--1848. These case studies describe the historical background, asset pricing response, and subsequent redistribution (or lack thereof). An event timeline of all democratizations used for the asset pricing results is provided in Appendix Table~\ref{table:fastDem}.
+
+\label{par:democratization_limit}
+It is important to understand that these data---like all data on democratic institutions and democratizations---have their limits. Two particular caveats are worth noting. First, measures of democratization are noisy, which could introduce some degree of classical measurement error. If such measurement error were present, it would lead the results to be understated. Second, some have alleged that measures of democratic institutions come with some degree of left-wing ideological biases. This could lead them to rate more highly countries with greater amounts of redistribution, meaning left-leaning democratizations may be overrepresented in the analysis.  To address this, Appendix~\ref{section:robustness} shows the stock market results are quantitatively similar using 6 different measures of democratization.  This mitigates concerns that either noise or a particular set of ideological biases are driving the results.
+
+
+
+\section{Democratizations and risk premia}\label{section:facts}
+
+This section starts with evidence that the equity risk premium rises substantially during democratizations. It then shows that this is driven by democratization and is not just a symptom of coinciding economic and political risk. 
+
+\subsection{Valuation ratios during democratizations}\label{section:mainfact}
+
+I follow \cite{Muir2017} and use the change in the dividend yield to proxy for the change in the equity risk premium. Like all measures of the risk premium, this is an imperfect proxy.  From the standpoint of theory, the change in the dividend yield corresponds to both changes in the discount rate (risk premium plus the riskfree rate) and expected cashflow growth \citep{Gordon1959,Campbell1988,Fama1988}.  Later in the section, I sort out the role of expected cashflow growth in the results. Using the dividend yield is partially motivated by issues with other potential proxies in this setting---for example, average excess returns.  Rising risk premia coincide with negative contemporaneous returns---and oftentimes increased equity volatility---which makes measurement using average excess returns difficult without a long measurement horizon \citep{Merton1980}.\footnote{That said, Table~\ref{table:robustness} presents the results using average excess returns after the beginning of democratizations and provides evidence that they are indeed elevated. Moreover, the quasi-natural experiment presented in Section~\ref{section:svc} has a longer measurement horizon and average excess returns are used there.}
+
+\label{par:democratization_wars}
+That said, one potential issue with using dividend yields arises when discount rates and expected cashflow growth move in the same direction. For example,  if dividends unexpectedly fall but investors expect them to rebound quickly, then the change in dividend yield would mask an increase in risk premia since cashflow expectations rise.  To ensure this is not a concern, I omit democratizations that start in sovereign defaults or in countries engaged in a war on their own continent.  Democratizations that begin during nearby wars or sovereign defaults are connected with substantial dividend declines that rapidly recover, similar to the ``V-shaped'' rare disasters described in \cite*{Barro2013}. Appendix~\ref{section:defWar} discusses this restriction further and provides evidence that risk premia also increase in these democratizations. 
+
+Figure~\ref{fig:figure1} shows the rise in dividend yields in a 5-year window around the start of a democratization in an event study plot. To allow for the possibility that financial markets react to democratizations before political scientists, dividend yields are benchmarked to their value 3 years before the episode begins. The bulk of the rise in dividend yields is concentrated in the year of the democratization start. The two years prior also show a large rise in dividend yields, cumulatively the same size as the rise in dividend yields seen at the start.  This is not entirely surprising given democratizations are identified by realized changes in democratic political institutions. Financial markets, however, should anticipate these shocks to some degree as they react to changes in the expected innovations to democratic political institutions. To provide a benchmark for the size of this effect, point estimates for an event study around financial crises are also plotted.  The headline result is clear. Democratizations come with large and economically significant increases in dividend yields, similar to financial crises.  Dividend yields also remain elevated as far as 5 years after the democratization begins. Not entirely surprising since the average democratization lasts approximately \avgDemEpisodeLengthInt\ years.
+
+Table~\ref{table:valuationratio} breaks the result down further by showing the average change in log dividend yields in the 5 years leading up to a democratization. Column (1) presents the results of a simple linear regression estimated via ordinary least squares with no controls. Compared to other years in the sample, dividend yields rise by \tabOnecolOnePE\%.  This result is statistically significant at the 1\% level with standard errors clustered by country and year. This accounts for the correlation in changes in dividend yields both across countries within a year and within a country over time.\footnote{The results are nearly identical if Driscoll-Kraay standard errors with a five-year bandwidth are used.}
+
+Democratizations potentially occur alongside other events that also raise dividend yields. To see whether this drives the results, Column (2) adds a series of event controls for financial crises, recessions, wars, deaths and attempted and successful assassinations of heads of state, sovereign defaults, coups d'etat, and the level of military activation. Adding these controls still result in a \tabOnecolTwoPE\% rise in dividend yields.
+
+Democratizations could occur during periods of high global or regional turmoil. They could also occur in countries that are more unstable on average or with a trend of rising dividend yields. To account for this, Columns (3) through (5) explore different fixed effect specifications.  Column (3) adds country and year fixed effects which imply a \tabOnecolThreePE\% rise in dividend yields. Column (4) introduces greater specificity by adding geopolitical region-year fixed effects.\footnote{The region designation is defined as in \cite{Teorell2018}.} This compares the rise in dividend yields in the democratizing country to their regional neighbors in the same year. Similarly, Column (5) adds lagged regime type-continent-year fixed effects. This compares the rise in dividend yields in democratizing countries to continental neighbors with the same lagged regime type in the same year.  I use the previous year regime type because the regime sometimes changes at the start of the democratization. Both specifications yield similar results. Dividend yields rise by \tabOnecolFourPE\% and \tabOnecolFivePE\% with both significant at the 1\% level. Finally, Column (6) adds controls for local macroeconomic and political conditions. These include the level of and five-year change (from $t-5$ to $t$) in GDP per capita and V-Dem's Physical Violence Index and inflation. The results remain unchanged.
+
+\paragraph{Effects on cashflows}
+Can declining expected cashflows explain the rise in dividend yields? One way to measure this is to examine a direct proxy for expected cashflows: average realized cashflows. To this end, Table~\ref{table:cashflow} presents the average GDP per capita and dividend growth in the 5 years after a democratization begins.\footnote{Table~\ref{table:risk_measures} shows the results are similar examining cashflows in the 10 years after a democratization begins. } Columns (1) through (3) show that growth in log GDP per capita is flat in the 5 years after the start of a democratization.\footnote{Prior work has noted that democratizations tend to arrive around periods of low growth.  Table~\ref{table:cashflow} instead shows growth after democratizations have already begun. Table~\ref{table:risk_measures}, Row (1) shows results on growth in the five years before the start of a democratization, which are also not statistically different than zero. They differ from previous studies for two main reasons. First, much of the low growth prior to democratizations comes from countries engaged in a war on their own continent or that have defaulted on their external debt. I exclude these countries here to remain consistent with the results above. Second, Table~\ref{table:risk_measures} only presents results for countries that have financial market data. These countries do not see a statistically significant decline in growth before a democratization.} To compare the economic magnitudes, the same estimates for financial crises are also reported. In general, growth is significantly negative during and after financial crises.
+
+Realized dividend growth in democratizations---shown in Columns (4) through (6)---is similarly unaffected.\footnote{The number of democratization episodes and observations differ from Table~\ref{table:valuationratio}. This is because these results are forward looking (from  $t$ to $t+5$) while the others are backward looking (from  $t-5$ to $t$). This means that some democratizations enter the sample as data become available. Removing these democratizations does not change the result.} It is, however, significantly negative during and after financial crises in all specifications.
+
+\label{par:expected_cashflows_growth}
+These results suggest that the change in the log dividend yield reflects changes in the risk premium rather than expected cashflow growth during democratizations. However, there is one important caveat: average realized cashflow growth might not match expected cashflow growth when using country-level data. This is because country-level data mask changes in the composition of publicly traded firms. For example, if democratization leads to more competition, incumbent firms will lose cashflows to new, high cashflow growth entrants. This would lead realized cashflow growth to understate the decline in expected cashflow growth for the set of \textit{ex ante} incumbent firms. This is not a problem for this analysis, however, if incumbent firms only face this risk after successful democratizations, which I will provide evidence of below. Since only about half of democratizations in the ERT data succeed, the displacement of incumbent firms presents a risk to investors. It also constitutes a form of redistribution---from incumbents to new entrants---that may contribute to the result \citep*{Fisman2001,Garleanu2012}. Data limitations make it difficult to directly assess the importance of this channel. That said, the model in Section~\ref{section:model} finds that a reasonable calibration of this cross-sectional displacement can explain approximately 40\% of the rise in dividend yields. The remaining 60\% is explained by an increase in the risk premium.
+
+\paragraph{Evidence from aggregate capital investment}\label{par:agg_invest_beg}
+While the results above suggest that stock markets react negatively to democratizations, one might question whether they are applicable to transitions in countries without public capital markets. Notably missing are transitions from left-wing authoritarian states. Since regimes of this style were not fond of capital markets, their data on asset prices do not generally exist.
+
+To mitigate concerns around this kind of selection, Figure~\ref{fig:physicalHumanShear} presents the evolution of investment-capital ratios and the human capital index from the Penn World Tables around democratization starts. We see that investment-capital ratios decline by 10\% in the five years leading into democratizations and then slowly rebound. This result is informative for two main reasons. First, theory suggests that declines in investment-capital ratios are driven by either increases in discount rates or declines in expected cashflow growth, suggesting these channels may be present even in countries without active stock markets. Second, investment-capital ratio data are present for \demEpisodesIK\ democratizations, the vast majority of episodes since 1950. This means they cover a larger cross-section of countries than equity markets do in the sample after World War II. Taken together, these results suggest that democratizations do not seem to be viewed favorably by capital investors even in countries without developed financial markets.
+
+These results also hint that risk premia are not higher for everyone in the economy. Indeed, a key piece of evidence showing that majority of the population benefits from democratization is that human capital---the primary asset of the lower and middle classes---rises as the prospect of democracy becomes more likely. The potential for democracy represents a positive shock to the value of human capital for these groups, leading to an increase in their investment in skills. These results also explain why the large decline in investment does not come with a commensurately large decline in GDP per capita. It is offset to some degree by the rise in human capital. The shearing apart of these two series provides evidence that democratizations are risky for capitalists, but not human capitalists.
+
+Finally, it is also important to note that these results do not completely solve the selection problem. The Penn World Tables do not have data on the capital stock or investment for transitions from communist governments---for example, the Warsaw Pact countries are missing prior to 1990. They also rely on imputation, interpolation, and extrapolation \citep{Feenstra2015}. Moreover, changes in investment-capital ratios do not easily allow for the separation of risk premium and cashflow effects in the same way that data from stock markets do. These limitations aside, the broader cross-section means that many more transitions from more left-leaning governments are included. Taken together, these results suggest that the evidence from equity markets may be broadly applicable to the full cross-section of democratizations.
+\label{par:agg_invest_end}
+
+\paragraph{Robustness}
+
+Appendix~\ref{section:addSF} provides three different sets of robustness tests on the rise in risk premia in democratizations. Table~\ref{table:robustness} presents the results.  Panel A shows that dividend yields rise across 6 other measures of democratizations. The first methodology uses the ERT data without any extension to the 1800s. The second and third use the growth rate of and change in the V-Dem electoral democracy index. The fourth uses a binary variable for large democratic jumps---change in the electoral democracy index above the 90th percentile. The fifth uses the \cite{Lindberg2018} measure of democratization. The results are quantitatively similar to the democratization measure above.
+
+The sixth and final measure uses democratic transitions from \cite{Papaioannou2008} and \cite{Acemoglu2019}. This measure combines the Polity IV and Freedom House data with other sources to determine democratic transitions. However, these data only cover the period 1960--2010, leaving out approximately 150 years of stock market data. To extend the data, I use consensus regime transitions between Polity and V-Dem from 1816--1959 following the procedure used in \citeauthor{Acemoglu2019}.  This produces \tabBThreeAceDem\ democratization events for which asset pricing data are available.\footnote{This method shows fewer democratizations because it only counts shifts from autocracy to democracy as a simple binary variable. One advantage of the ERT measure is that it picks up failed democratizations that do not lead to a change in the binary measure, but nonetheless raise the risk of a democratic transition.} Table~\ref{table:robustness}~Row (6) shows the results for these democratizations are also quantitatively similar to the results above.
+
+Panel B of Table~\ref{table:robustness} shows the results are robust to many different ways of constructing the change in dividend yields.  Rows (7) through (10) show the results using the 1- through 4-year changes in log dividend yields. These also point to a large and statistically significant increase in dividend yields. Rows (11) through (13) present results using various ``peak-to-trough'' style measures. Peak-to-trough measures are useful because they let dividend yields peak even after democratizations start. All three measures provide a similar conclusion to the results above.  Finally, Row (14) shows the level of the dividend yield is significantly elevated relative to all country-year observations in the sample.
+
+Panel C of Table~\ref{table:robustness} shows that other proxies for the risk premium also rise. Row (15) presents vector-autoregression decomposed discount rate shocks using methods from \cite{Campbell1991}. Discount rate shocks focus around democratization starts, with a cumulative shock of \tabBThreeDRLow\---\tabBThreeDRHigh\ percentage points. There are also no statistically significant cashflow shocks in any specification. Row (17) shows that log price-earnings ratios also decline during democratizations. This shows two things. First, that the effect remains strong using recent data, since most countries have short histories of price-earnings ratios. Second, that changes in payout policies around democratizations are not driving the results. Row (18) shows that equity volatility is also elevated in the first 5 years of democratizations, rising between \tabBThreeEVolLow\---\tabBThreeEVolHigh\ percentage points. Row (19) finds that corporate bonds yields are also significantly elevated. They rise by \tabBThreeCorpBondLow\---\tabBThreeCorpBondHigh\% in the \tabBThreeCorpBondDem\ democratization episodes where those data exist. Row (20) shows that average excess returns are elevated by \tabBThreeExcRetLow\ to \tabBThreeExcRetHigh\ percentage points in the middle of democratizations.\footnote{The middle of the democratization removes the first 2 years and last 3 years of the democratization to account for (1) negative returns at the start of the democratization and (2) negative returns at the end conditional on the democratization succeeding. Evidence for low returns at the end of successful democratizations is provided in Appendix~\ref{section:demEnd}.}
+
+Finally, Figure~\ref{fig:figure1prices} presents event study plots for equity prices, dividend growth, and GDP per capita. They show three main results. First, increased dividend yields in democratizations are almost entirely driven by price declines. Second, dividend growth is stable during democratizations. Third, GDP per capita declines in the five years leading in to a democratization, but the change is also not statistically different than zero.
+
+\subsection{Ruling out macroeconomic risk and general political risk}\label{section:macropol}
+
+\paragraph{Macroeconomic risk}
+
+One concern is that higher macroeconomic risk could cause higher dividend yields in democratizations. The small effects on GDP growth reported above provide evidence against this. However, changes in other moments of the GDP growth distribution could also affect stock valuations. To address this concern, Figure~\ref{fig:consumption} shows a histogram of log GDP growth during and outside democratization periods. Log GDP and consumption growth either improve or remain the same, with no clear spikes in volatility or skewness.\footnote{Formal tests for the equality of variances cannot reject the null that the variance of log GDP and consumption growth are the same.}
+
+\paragraph{Political risk}
+Another concern is that rising regime transition risk or general political risk explains the rise in dividend yields. To address this, I examine the stock market effects of three other episodes: general regime changes, autocratizations, and international political crises from the ICB data.\footnote{To maintain consistency with the democratization series, general regime changes, autocratizations, and international political crises that begin in wars and sovereign defaults are also removed.} These events have similar political and transition risks to democratizations, but without the same chance of transitioning to democracy. Since the ICB international political crisis data are available from 1918 on, the results below focus on the post-WWI sample. More information on each of these event variables can be found in Appendix~\ref{section:events_data}.
+
+Table~\ref{table:polRisk} presents the results for the 5-year change in log dividend yields at the start of each event.  In nearly all specifications, dividend yields increase in all three events. But democratizations see a larger effect. To see if the estimates for democratizations are statistically larger, Table~\ref{table:polRisk} gives p-values from three F-tests. These tests assess the null hypothesis that the coefficients for democratizations compared to regime changes, autocratizations, and international political crises are the same. After accounting for regional variation in dividend yields, democratizations show a statistically larger increase than both autocratizations and ICB crises events. For general regime changes, it is not possible to reject the null that they have the same effect as democratizations on stock market valuations. That said, the point estimate is nearly 2-3 times as large across all six specifications.\footnote{In Section~\ref{section:redistribution}, I distinguish between high and low redistribution risk democratizations. High redistribution risk democratizations do have a statistically larger rise in dividend yields than other regime changes in specifications (5) and (6).} This suggests democratizations have a unique effect beyond just raising political or regime transition risk. 
+
+\paragraph{Revolution risk}
+\label{par:rev_risk_beg}
+A large literature in political economy and political science thinks about democratizations as, in part,  endogenous responses to prevent some worse outcome. Indeed, Section~\ref{section:model} below models democratic transitions as an endogenous response to rising revolution risk as in \cite{Boix2003} and \cite{Acemoglu2006}.  This raises the potential concern that the possibility of a revolution, not the potential for a democratic transition, is driving increased dividend yields during democratizations. To some extent, the results from Table~\ref{table:polRisk} provide evidence that revolution risk is not the sole driver of the results. If regime transitions, autocratizations, and international political crises come with elevated revolution risk---similar to what it may be in democratizations---then the additional increase in dividend yields left over could be driven by the redistribution risk component. However, since there is no direct way to measure the extent to which revolution risk contributes to the movement in dividend yields in each of these episodes, additional, more direct evidence ruling out revolution risk would be useful.
+
+Ultimately, understanding whether revolution risk is driving the results requires differentiating between two potential models. In the first, countries may always choose to democratize to prevent a revolution regardless of the revolution risk. This concession, however, comes at the cost of increased redistribution, the possibility of which negatively impacts stock markets. This is akin to the model I propose in Section~\ref{section:model} where democratization drives up dividend yields. In the second, rising revolution risk drives both democratization and increased risk premia directly.
+
+To test which model is operative, I examine the response of dividend yields to high and low revolution risk democratizations. This test is informative because these two potential models make different predictions regarding this result. If democratization risk is the main driver, then measures of risk premia should be flat as revolution risk rises.  This is because transitioning to democracy can always effectively prevent a revolution regardless of the underlying revolution risk. Conversely, if revolution risk is the primary driver of increased risk premia, then democratizations with greater revolution risk should see a larger effect.
+
+As proxy for revolutionary risk, I use anti-system activity coming from far-left civil society organizations. This is constructed by multiplying the ordinal anti-system civil society organization activity index by the left-wing anti-regime civil society organization character variable. Both of these come from V-Dem. For comparison, I construct a similar measure for democratic civil society organization activity using the democratic anti-regime civil society organization character variable.\footnote{These are labeled as V-Dem codes  \texttt{v2csantimv\_ord}, \texttt{v2csanmvch\_6}, and \texttt{v2csanmvch\_4}, respectively.} To account for the possibility that far-left and democratic anti-regime activity might peak after the start of the democratization, the maximum value over the first 3 years of the democratization is used.
+
+Table~\ref{table:rev_test} shows that democratizations with high revolutionary risk do not display a different asset pricing effect. Conversely, democratizations with active democratic civil society organizations see a significantly larger rise in dividend yields in most specifications. This provides evidence that revolution risk is not driving the results.
+
+\label{par:rev_risk_hard}
+While these results suggest that revolution risk is not driving the results, it is important to also note their limitations. Two limitations are worth noting. First, the level of communist anti-regime civil society organization activity is an imperfect proxy for the level of revolution risk. Second, it could be that countries with active communist civil society organizations are different from other societies in important ways. Column 6 adds a series of controls that help with this, but this imperfectly addresses this concern. However, for this type of selection to be masking a pattern between communist civil society organization activity and dividend yields, it would need to be the case that countries with high communist civil society organizations face substantially less risk from democratization relative to other countries. And it is unclear under which model this would naturally be the case.  Despite these concerns, the results are consistent with the idea that the possibility of democracy---and the redistribution it brings---is driving asset prices rather than the threat of revolution itself.
+\label{par:rev_risk_end}
+
+\paragraph{Robustness}
+
+Appendix~\ref{section:risk_app} provides various robustness checks for rising macroeconomic and political risk around democratizations. Panel A in Table~\ref{table:risk_measures} shows results for macroeconomic risk in countries with equity data. It suggests GDP growth, dividend growth, and inflation before and after democratizations are similar to other periods. It also presents results for net foreign direct investment (FDI) using data coming from the World Bank from 1970--2018. Net FDI is lower in the five years leading up to a democratization, primarily driven by a reduction in foreign inflows.
+
+A rise in the probability of negative macroeconomic events does not seem to drive the results either. Table~\ref{table:advEvent} presents the probability that a financial crisis, recession, war, sovereign default, or loss of stock market data begins during a democratization episode. These events are no more likely to occur in democratizations than in other times. They are, however, more likely to occur in autocratizations and regime changes. 
+
+Table~\ref{table:risk_measures} also shows how several political risk measures change around democratizations. Physical and political violence are flat before democratizations and fall once they are underway. Only the mass mobilizations measures rise significantly leading into a democratization. Though these series change little, Table~\ref{table:violence_levels} shows their levels are high, particularly so for measures of political violence and mass mobilizations and protests. That said, they are also similarly elevated in autocratizations, ICB political crises, and other regime changes. In sum, democratizations have similar violence and protest levels as other politically risky events. Yet, they see a far larger asset pricing response.
+
+\subsection{Regional waves of democratizations}\label{section:regional_waves}
+
+This section follows \cite{Acemoglu2019} and uses regional waves of democratization as an instrument for local democratic progress. As pointed out by \citet{Huntington1991}, movements towards democracy often occur in regional waves. These waves are largely driven by external factors, making them exogenous to long-run country-specific macroeconomic, political, and cultural conditions. As such, they constitute an exogenous shock to local political institutions.
+
+The instrument used in \cite{Acemoglu2019} is, however, not entirely well suited for this task. This is because \citeauthor{Acemoglu2019} was seeking a valid instrument for the level of political institutions. Instead, I require an instrument for {\it changes} in democratic institutions. To accomplish this, I create a regional democracy measure for each country $c$ in region $j$ in year $t$ as the average V-Dem Electoral Democracy Index excluding $c$, given by
+\begin{equation}
+\text{Regional Democracy Index}^j_{c,t} = \frac{1}{N_j-1}\sum_{c^\prime \neq \;c\in j}  \text{Country Democracy Index}_{c^\prime, t}.
+\label{eq:reg_dem}
+\end{equation}
+I then use changes in this measure from $t-5$ to $t$ as an instrument for changes in the country-specific electoral democracy index over the same period. Figure~\ref{fig:regionalWave} presents the annual regional average of this series across select regions.
+
+Using the V-Dem Electoral Democracy Index instead of the ERT indicator is a departure from the main analysis. The reason for this choice is simple: predicting the start of ERT democratizations using regional waves is challenging. This is particularly true in countries with financial markets where the first stage is especially weak. Regional movements toward democracy, however, do generate small scale movements toward democracy.  These smaller democratic shocks are still valid to test the response of asset markets to democratization. Finally, to account for the possibility that regional waves of democratization may affect macroeconomic conditions through channels other than democratic institutions, all specifications include 5 leads and lags for GDP per capita.\footnote{This is why observation numbers differ between Table~\ref{table:regionalWave} and Table~\ref{table:valuationratio}.}
+
+Table~\ref{table:regionalWave} presents the results. Columns (1) and (2) display the direct relationship between regional waves and dividend yields. Without instrumenting, regional moves towards democracy increase dividend yields in the focal country. Columns (3) and (4) show the results for a two-stage least squares approach. The first stage F-statistic is above 20 in both specifications, suggesting that shifts in the V-Dem Electoral Democracy Index closely relate to changes in the Regional Democracy Index. The democratic progress caused by these regional waves also raises dividend yields substantially. For context, the median democratization results in an index rise of approximately \medianDemIndexChange. This would imply a \tabFiveIVLow\% to \tabFiveIVHigh\% rise in the dividend yield in this case.\footnote{This should be interpreted with caution, however, as the largest first-stage fitted value in the specification with country and year fixed effects is \tabFiveMaxFittedValue.}
+
+These findings provide evidence that rising dividend yields are not driven by local economic or political confounds. They also suggest that selection effects---for example, if countries with the highest or least redistribution risk were more likely to democratize---are not driving the results.\footnote{This may seem at odds with the sections above showing that regional shocks do not drive elevated risk premia in democratizations. There are three explanations for the disconnect. First, most of the change in the Regional Democracy Index comes from countries without asset markets. These countries are not reflected in the fixed effects specifications above. Second, democratic progress within regional waves often spans several years. Region-time fixed effects would not pick up this type of variation. Third, there is not a particularly strong relationship between ERT democratizations and regional waves. This may mean that the democratizations reported in the ERT are kicking off the regional waves.} Indeed, if anything, these results suggest that confounds and selection effects lead the unidentified results from above to underestimate the effect of democratizations on dividend yields. However, one may still worry that regional waves of democratization affect stock markets through channels other than their effect on democratic institutions. For this reason, I present results from a natural experiment in the next section.
+
+
+
+\section{DID Estimates: John XXIII and the Second Vatican Council}\label{section:svc}
+
+The previous section shows that risk premia rise during democratizations. It also suggests that increasing macroeconomic, political, transition, or revolution risk cannot explain the results. Nonetheless, there may still be some outstanding concerns. For instance, increased risk premia and democratizations may be caused by some unobserved confound that the previous analysis does not control for. On top of this, realized democratizations unleash many different forms of uncertainty that are hard to control for.  They are also potentially more likely when the costs to the incumbent autocrats are low and the benefits to the would-be democrats are high. While this would understate the results above, evidence outside of examining realized democratizations would help clarify the relationship.
+
+The results above also focus on changes in dividend yields instead of average excess returns, a more common proxy for the risk premium in the asset pricing literature.  Since democratizations do not last very long, it is hard to get an accurate picture of risk premia using average excess returns. An ideal experiment would increase the probability of a successful democratic transition long enough to accurately measure an effect using this more direct proxy.
+
+This section uses a quasi-natural experiment that addresses these challenges. The shock comes from a shift in Catholic church doctrine in favor of democracy in the early 1960s, which increased the probability that majority Catholic autocracies democratize. I then study average excess returns before and after the doctrinal shift using a difference-in-differences approach.
+
+\subsection{John XXIII and Vatican II}
+\label{par:historical_context_beg}
+For much of its history, the Catholic church was widely considered an impediment to democracy. For example, \cite{Hook1940} writes of the Catholic church, ``Catholicism is the oldest and greatest totalitarian movement in history.'' Similarly, \cite{Blanshard1949} writes ``You cannot find in the entire literature of Catholicism a single unequivocal endorsement by any Pope of democracy as a superior form of government.'' Indeed, as late as 1955, leading proponents of liberalism and democracy within the Church like Jesuit priest John Courtney Murray were being ordered to ``cease writing on church-state issues'' \citep{Philpott2004}.\footnote{During Vatican II, Father Murray would play a key role in persuading the Church to adopt the ``ground-breaking'' Declaration on Religious Liberty, \textit{Dignitatis humanae}.}
+
+This arrangement began to change on October 9th, 1958 with the death of Pope Pius XII at the age of 82. The College of Cardinals expected a long conclave to follow as there were no clear \textit{ex ante} favorites. It was not until the fifth ballot that Angelo Giuseppe Roncalli emerged as the leading contender; he would be elected to the papacy on the 11th ballot. In many ways, the election of Cardinal Roncalli was a compromise choice; he was nearing 77 years old when he was elected, so the College expected from him a short papacy. On top of this, he had a ``reputation for being broad-minded and conciliatory'' \citep{Hofmann1958}.
+	
+Taking the name John XXIII, he shocked the world when he called for a major review of Catholic church doctrine on January 25th, 1959, less than 90 days into his papacy \citep{Alberigo2005}.  It is hard to overstate how shocking a decision this was.  Interviews with Cardinals at the time suggest they were unaware Vatican II would be called \citep{Alberigo2005}. The Cardinals' surprise also suggests that electing John XXIII was unlikely driven by a desire for liberalization within the College.  This review became the Second Vatican Council (Vatican II), which began in 1962 and lasted into 1965.\footnote{Vatican II was a fitting follow-up to the First Vatican Council in which the Catholic church condemned liberal democracy.}
+	
+After the 1959 announcement, the shift in Church doctrine was underway. Evidence of this comes from Pope John XXIII's writings, which took a notably different character than his predecessors. For example, his 1961 text, \textit{Mater et Magistra}, highlighted economic and political inequality on a number of occasions.\footnote{In particular ``Among citizens of the same political community there is often a marked degree of economic and social inequality. {[}...{]} Where this situation obtains, justice and equity demand that public authority try to eliminate or reduce such imbalances. It should ensure that the less developed areas receive such essential public services as their circumstances require, in order to bring the standard of living in these areas into line with the national average. Furthermore, a suitable economic and social policy must be devised which will take into account the supply of labor, the drift of population, wages, taxes, credit, and the investing of money, especially in expanding industries. In short, it should be a policy designed to promote useful employment, enterprising initiative, and the exploitation of local resources.''} By 1963, in \emph{Pacem in Terris}, he became the first pope to explicitly endorse democracy.\footnote{In particular, \textit{Pacem in Terris} says ``[...] the dignity of the human person involves the right to take an active part in public affairs and to contribute one's part to the common good of the citizens. [...] The human person is also entitled to the juridical protection of his rights.'' This support is followed up with support for democracy explicitly in Point 52: ``The fact that authority comes from God does not mean that men have no power to choose those who are to rule the State, or to decide upon the type of government they want, and determine the procedure and limitations of rulers in the exercise of their authority. Hence the above teaching is consonant with any genuinely democratic form of government.''} John XXIII died of stomach cancer shortly after this in 1963, but future popes Paul VI and John Paul II continued the process he began.
+\label{par:historical_context_end}
+
+\subsection{Identifying assumptions and evidence}\label{section:identify_ass}
+
+\paragraph{Channels through which Vatican II operated}
+
+\label{par:model_link_beg}
+Which economic parameters changed as a result of Vatican II and the shift in Catholic church doctrine? Within the context of models of democratization, Vatican II made citizens in Catholic autocracies better able to solve problems around collective action, allowing them to effectively agitate for regime change. In the model that I present below, this would be interpreted as a shock to the $\mu$ process, in particular, an increase in the probability of entering the democratization state and the probability of success conditional upon entering that state. While---as I will discuss below---$\mu$ in the model is the damage done to the Lucas tree in the event of a revolution, prior work tends to think of this process as a reduced form stand-in for a more complicated collective action problem that the citizens must solve to pose a threat to the existing regime \citep{Boix2003,Acemoglu2006}. This threat then incentivizes political change.
+
+When viewed in this context, changes in religious doctrine can be particularly important for solving collective action problems of this type.  There are two main avenues through which Vatican II achieved this. First, Vatican II delegitimized autocratic regimes in majority Catholic countries by moving into active opposition of authoritarianism.  This made it harder for these regimes to suppress advocates for democracy, in addition to providing a signal upon which collective action could be coordinated. Second, the more permissive attitude of the Church post-Vatican II allowed for the clergy to actively agitate for political and social change. This meant emboldening voices that were advocating for more democratic institutions explicitly, in addition to more radical voices---particularly leftist priests in Latin America. Both of these forces matter for potential democratic change by instigating for democratic change explicitly and by making democracy an attractive alternative to a potential revolutionary state.
+\label{par:model_link_end}
+
+\label{par:legit_beg}
+Regarding the first avenue, the loss of legitimacy suffered by authoritarian regimes as a result of Vatican II made a transition to democracy more likely. \cite{Huntington1991} makes the point that Vatican II helped accelerate this process as it moved Church disposition toward authoritarian regimes from one of acceptance to one of active opposition. Given that religion is an important source of legitimacy in authoritarian regimes \citep{Weber1921,Billings1994}, this made it harder to effectively halt civic activity devoted to regime change. Moreover, reductions in legitimacy can make regime change more likely by providing coordinating signals that reduce the cost of collective action.
+
+An important example of this is the role Vatican II played in delegitimizing Franco's regime in Spain. Evidence for this comes from \cite{Payne1984}'s history of Spanish Catholicism. Quoting from the manuscript on page 194, ``Franco's most informed biographer observed that of all the reverses suffered by Franco during his long career, by far the most serious was not inflicted by domestic foes or hostile foreign powers but by the Roman Catholic Church through the reforms of Vatican II.'' He follows this on page 195, ``no Catholic country did the dramatic new doctrines of Vatican II have such a marked effect as in Spain.'' Famed sociologist and political scientist Juan Linz also agreed with this notion, noting that the Church was initiating this conflict and not the state, writing on page 169 of \cite{Linz1991}, ``In Europe conflicts between the Church and the state generally have been a result of policies of the state, liberal or left anticlericalism, efforts of secularization, and `state paganism.' In the late Franco regime, there was no change in the position of the state initiating conflict but a profound change within the church.'' While this is, of course, just one case, other work suggests this was a broader channel operating in many Catholic autocracies \citep{Andersen2019}.
+\label{par:legit_end}
+
+\label{par:liberation_theology}
+Regarding the second avenue, the more permissive attitude in the Church after Vatican II made democratization more likely by emboldening revolutionary voices within the clergy and among the laity \citep*{Guiso2003, Guiso2006}. One particularly poignant example of this is the increased participation of priests in leftist movements after 1959, which culminated in the formation of Liberation Theology in the mid-1960s \citep{Buschges2021}. This movement was particularly important in Argentina, Bolivia, Brazil, Chile, and Colombia \citep{Berryman1973}.\footnote{As something of an aside, the 2019 movie \textit{The Two Popes}, depicts a young Pope Francis witnessing the political killing of Father Carlos Mugica in the violent autocratic backlash to the failed Argentinian democratization from 1972--1974.} Indeed, \cite{Moore1995} lists the Liberation Theology movement as an example of how religious institutions can present a solution to collective action style problems. Given the revolutionary nature of the movement, Liberation Theology played an important role in making democracy look like a more attractive alternative. While this is an extreme example, it is not hard to imagine shifts in religious doctrine as playing a role in establishing the networks necessary for both democratic and revolutionary collective action.
+
+%\label{par:change_culture}
+% there is a literature that highlights the causal effects of Vatican II on a number of cultural outcomes that may have made a potential collective action problem easier to solve. For example,  find that the generations raised after Vatican II are different along a number of dimensions. Particularly relevant in this context, the authors find that Catholics born after Vatican II are less pro-market, believe less in private property, and are more willing to believe that people are poor because of some injustice in society. Such changes could explain the popularity of ideologies like Liberation Theology in Catholic autocracies after Vatican II and why these generations were more willing to push for political and social change. Further, \cite{Andersen2019} posits that cohorts raised after Vatican II may have been more individualistic, which has been shown to relate to democratic institutions \citep{Gorodnichenko2020}.
+
+\paragraph{Effect of Vatican II on democratic institutions}
+
+\label{par:pol_cond_eff_beg}
+Both qualitative and quantitative evidence suggests Vatican II had a major effect on political institutions in majority Catholic autocracies. Indeed, these effects are well known in political science and theology. \cite{Sigmund1987} marks \emph{Pacem in Terris} as the beginning of the decisive shift in Church policy in support of liberal democracy. \cite{Huntington1991} also cites the publication of \textit{Pacem in Terris}, and Vatican II which succeeded it, as one of the main reasons the third wave of democracy from the mid-1970s to the early 1990s occurred. \citeauthor{Huntington1991} also surmises this is why the third wave began in majority Catholic autocracies. After 1963, the Catholic church played an active role advocating for democracy, opposing authoritarian regimes in Argentina, Brazil, Chile, the Philippines, Poland, Spain, and many Central American countries \citep{Huntington1991,Fukuyama1992,Andersen2019}.
+
+Quantitative evidence also suggests Vatican II played a key role in the third wave of democratization. Just examining aggregates, the majority of democratizing countries from 1964 to 1983 were majority Catholic. In 1963, \pctAutMajCatholic\% of autocracies were majority Catholic, yet they made up \pctMajCatholicSucc\% of all successful democratizations over the next 20 years. This is in-line with the results from \cite{Andersen2019} who finds that Vatican II had an explicit impact on democratic institutions, as well, albeit with a delay of around 1 decade. Appendix Table~\ref{table:dem_after_svc} echoes these findings. In particular, a linear probability model suggests that majority Catholic autocracies were \tabCSevenSuccLow\ to \tabCSevenSuccHigh\ percentage points more likely to successfully democratize annually after the shift in Church doctrine relative to non-Catholic autocracies.
+
+However, while democratic institutions seemed to change with a lag, Vatican II had a near immediate impact on important predictors of future democratizations. Figure~\ref{fig:treatmentEffect} shows this by comparing two key predictors of future democratizations in majority Catholic and non-Catholic autocracies---anti-regime activity from civil society organizations and democratic mobilizations and protests. Panel A shows that from 1959 to 1963, there was a major increase in the threat to autocratic regimes posed by civil society organizations (CSOs) in majority Catholic countries.  This is important since increases in anti-regime CSO activity are a strong predictor of future democratizations, as discussed in Appendix~\ref{section:antiCSO}. Civil society organizations are also an important coordination mechanism for regime change in that they help solve the collective action problem discussed above, a point especially true in democratizations after Vatican II \citep{Arato1981a,Arato1981b,Stepan1985,Stepan1988,Linz1996}. Panel B shows that small and large scale protests in favor of democracy rose after 1959,  becoming more commonplace by 1985. This evidence suggests the shift in Church doctrine loosed the tight grip of autocracy in majority Catholic countries. While many of these social changes may have been long-brewing, it is clear that Vatican II was consequential in instigating and accelerating this process.
+\label{par:pol_cond_eff_end}
+
+\paragraph{Identifying assumptions}
+
+Political institutions and religion are not randomly assigned; they are the result of myriad historical, economic, social, and cultural processes that mold society over centuries. The identifying assumption underlying this exercise, therefore, does \textit{not} rely on random assignment of religious demographics or political institutions. Instead, it relies on the assumption that absent the doctrinal shift, majority Catholic autocracies and other countries would have experienced similar returns, conditional on the relevant controls and fixed effects. In essence, the parallel trends assumption must hold. Evidence in favor of parallel trends is provided below in the discussion of the results.
+
+One potential concern with this assumption is that majority Catholic countries differ from other countries along some dimensions important for stock returns. Table~\ref{table:balance} presents the extent these countries differ on select observable characteristics from 1946--1958. Majority Catholic autocracies tend to be poorer, have higher inflation, higher resource inequality, and lower debt-to-GDP ratios than the average country in the sample. However, they are more closely aligned with non-Catholic autocracies, where the only significant differences lie in GDP per capita and average growth in GDP per capita.
+
+Despite the balance of characteristics, a few points are worth mentioning. First, one assumption underlying this exercise is that the Church's decision to change its doctrine in favor of democracy was not driven by stock returns or macroeconomic outcomes. This implicitly assumes away any reverse causality---in essence, identification by God. While sources in the theology literature do not point to economic or political reasons as the basis for the decision,  they do make clear that John XXIII was aware of the geopolitical environment in which he was operating. In particular, rising tensions emanating from the Cold War were front and center in the Vatican in 1959 \citep{Alberigo2005}.  As noted above, however, the timing of the shift does seem random, driven mostly by the surprise election of John XXIII to the papacy \citep{Alberigo2005,Andersen2019}. The timing of the calling of Vatican II also seems to be unrelated to the country-specific confounds in majority Catholic autocracies that this identification strategy is meant to deal with. 
+
+\label{par:acknowledge_west_europe}
+Related to this, another popular view in this vein is that Vatican II was in part driven by the success of democracies in Western Europe after World War II---particularly Germany, France, and Italy. Some evidence for this view comes from the influence that Italian Prime Minister Alcide De Gasperi had on John XXIII's predecessor, Pope Pius XII. While other work highlights that Pope Pius XII was also quite distrustful of De Gasperi's Christian Democrats, this connection cannot be ignored.
+
+However, even if these political changes in Germany, France, and Italy drove the reforms of Vatican II, it is still a valid instrument. This is because the past political developments of the Western European democracies are unlikely to have affected majority Catholic autocracies through any other channel than through Vatican II. If they did, we would expect this to show up as a violation of parallel trends. The evidence from Figures~\ref{fig:treatmentEffect} suggests this is not the case. On top of this, the past political and economic developments of Western Europe are still orthogonal to unobserved, country-specific confounds in majority Catholic autocracies that this source of variation is intended to deal with. The key, then, is not that Vatican II emerged out of the ether, but rather that it had a consequential impact on culture and politics in the treated majority Catholic autocracies. The evidence provided above makes this condition clear. As such, even if one were to take this view, the logic of the natural experiment still goes through.
+
+\label{par:acknowledge_other_country}
+Another identifying assumption is that non-Catholic autocracies were not treated by Vatican II. Baked into this is the assumption that potential spillovers from the increased probability of democratization in Catholic autocracies to non-Catholic autocracies were not large. Below, we will see that specifying the control as either non-Catholic autocracies only or as all other countries does not change the results much. Moreover, the literature around Vatican II has not emphasized large spillovers to other countries. Both of these points provide support for this assumption.
+
+\label{par:acknowledge_counter_history}
+Finally, one may still question whether Vatican II was undertaken to prevent some worse outcome---for example, the spread of communism to Catholic countries. However, even if this were the case the identification strategy may still be valid. To understand why, consider a model where Vatican II made democratic transitions easier, thereby preventing communist revolutions in majority Catholic autocracies. This sort of model---where democratization is an endogenous response to prevent a revolution---is precisely the mechanism I spell out in Section~\ref{section:model}. Under this view, autocratic elites are still trading-off the risk of redistribution in democracy with preventing a potential revolution. And while in this setting the ability to democratize reduces risk premia relative to the potential revolutionary counterfactual, it still raises risk premia relative to the counterfactual history under which the shock that made revolution more likely did not occur. As such, under this view, identification would come from the shock that made Vatican II happen, and not Vatican II itself.  The counterfactual, then, would be the history under which such a shock did not occur.
+
+\subsection{Specification}
+
+\paragraph{Treatment window} 
+Treatment is taken to occur in a five-year window from 1959 to 1963. This covers the unexpected announcement of Vatican II to the publication of \textit{Pacem in Terris}. There are two main reasons for choosing a range of years in this design. First, as highlighted above, several events signaled the doctrinal shift before the publication of \textit{Pacem in Terris}.\footnote{For example, a \textit{Harper's} article from June 20th, 1959 suggests the doctrinal shift was expected once Vatican II was announced. It notes John XXIII's support for party competition in Italy, implying a more tolerant attitude toward left-wing parties. It also discusses the immediate change in culture toward one of more free and fair expression \citep{Neville1959}.}
+ Since financial markets are forward looking, this information was likely incorporated into asset prices prior to 1963. Under the theory that a higher likelihood of democratization leads to increased discount rates, treatment should come with negative returns. Starting the window too late would, therefore, bias the estimated treatment effects upward. Similarly, starting it too early would bias treatment effects downward. Using a range of years alleviates this potential concern.
+
+Second, the data reveals a marked rise in anti-regime CSO activity and democratic protests starting from 1959 to 1963. A structural break test indicates a change in trend in either 1959 or 1962 in the majority Catholic autocracies.\footnote{The structural break test is performed on the annual average across majority Catholic autocracies less the annual average across non-Catholic autocracies for both series. Two tests are run on each series from 1940--1989, a supremum Wald test and a supremum likelihood-ratio test. Each test indicates the same break date on each series: \figFiveBreakCSO\ for anti-regime CSO activity and \figFiveBreakMob\ for democratic mobilizations. The test statistics represent a high degree of statistical significance ($p<0.001$).} This suggests that the political reality on the ground began to change before 1963.
+
+\paragraph{Estimated specification and samples}
+
+I employ a difference-in-differences design of the form
+\begin{multline}
+\textrm{Excess Returns}_{c,t} = \alpha_{c}+\alpha_{t} +\beta\mathbbm{1}_{c,t}\{\textrm{Post}\times\textrm{Catholic}\times\textrm{Autocracy}\}  +\mathbf{\omega} \textrm{Controls}_{c,t}+\epsilon_{c,t} \label{eq:singleDiff}
+\end{multline}
+where $c$ represents each country, $t$ each year, and $\beta$ represents the treatment effect of interest.  This specification is estimated on two different samples: all countries or autocracies only.  Both samples are informative of the effects of the doctrinal shift. The all countries subsample describes the average treatment effect on majority Catholic autocracies compared to all other countries. Given its larger sample size, this sample should have greater precision in estimation.  On the other hand, non-Catholic autocracies are much better matched on observable characteristics. But this limits the number of countries in the sample. For this reason, I provide both sets of results. I also perform the estimation over two symmetric sample windows: one from 1946--1976 and the other from 1939--1983. The first estimation window begins in 1946 so that the Second World War is outside the sample. The second provides a symmetric 20-year window.  To be included in the analysis, countries must have at least 20 excess returns observations from 1946--1983.\footnote{There are two exceptions to this: South Korea and Paraguay. Both have more than 20 observations over this period but are excluded because South Korea has no total returns observations prior to 1963 and Paraguay has no total returns observations after 1965.}
+
+\paragraph{Controls and risk-adjustment}
+Each regression includes several dummy variables for macroeconomic and political events and continuous controls. This allows me to better identify variation in risk premia from average realized returns. Binary event controls include head of government deaths, financial crises, ICB political crises, wars, sovereign defaults,  recessions, and coups d'etat.  Controls for the macroeconomic environment include log-GDP growth and the level of log-GDP per capita. Because of large differences in average returns across regime types, an indicator variable for each of the 4 V-Dem regime types is also included.\footnote{Even after the risk adjustment procedure outlined below, electoral autocracies and electoral democracies have 3 p.p. higher returns than closed autocracies and liberal democracies. }
+
+I also adjust excess returns for time-varying global and region-specific systematic risk. This removes risk unrelated to the increased probability of democratization.  In particular, I use a two-factor model, similar to \cite*{Bekaert2009}, by estimating, for each country,
+\begin{equation}
+R^e_{c,t} = \alpha_{c,t} + \beta^{glo}_{c,t}R^{e,glo}_t + \beta^{reg}_{c,t}R^{e,reg}_{j,t} + \varepsilon_{c,t}\label{eq:twoFactor}
+\end{equation}
+where $R^{e,glo}_t$ denotes the excess return on a GDP-weighted global market portfolio, $R^{e,reg}_t$ denotes the excess return on a GDP-weighted region-specific market portfolio, and $c$ denotes the country, $j$ denotes the region, and $t$ denotes the year.\footnote{The regions used include: 1) South and Central America, 2) North America plus Europe, 3) Asia and Oceania (less the Middle East), 4) Africa and the Middle East.} The regional factors are important in this case for two main reasons. First, the empirical asset pricing literature highlights that half of the global market return variation generally attributed to country-specific effects is actually due to region effects \citep{Brooks2005}.  Second, global integration over this sample is likely incomplete and increasing \citep{Bekaert1995,Baele2005,Bekaert2009}. To account for this, $\beta$'s are estimated on a rolling basis over 10-years.\footnote{I require at least 5-years of data to perform the estimation. The 5-year minimum requirement drops 12 observations.} The two-factor model accounts for a fair amount of the return variation across countries. The average (median) coefficient of determination, or $R^2$, is \twoFactorRTwoMean\ (\twoFactorRTwoMedian), and unexpected returns for all groups of countries (i.e. non-Catholic autocracy, Catholic democracy, etc.) from 1946--1958 are insignificantly different than zero when standard errors are clustered at the country and year level.\footnote{This two-step procedure is not essential to the results. In Appendix~\ref{section:globalCAPM}, I run the difference-in-differences specification with just country-specific interactions with the global and continental portfolios that vary in the pre- and post- periods. This single step procedure produces similar results.} The resulting global- and regional-risk adjusted returns are winsorized at 1\% and 99\% to prevent extreme outliers from driving the results.
+
+\subsection{Results}
+
+Table~\ref{table:svc} shows the results for the difference-in-differences specifications.\footnote{As pointed out in \cite*{GoldsmithPinkham2022}, the recent critiques around negative weights in two-way fixed effects specifications do not apply in difference-in-differences settings where treatment is not staggered. Since treatment occurs for all countries from 1959--1963, the $\beta$ in Equation (\ref{eq:singleDiff}) can be thought of as a convex combination of potentially heterogeneous treatment effects on risk premia for an increase in the probability that a successful democratizations occurs in majority Catholic autocracies.} Columns (1) and (2) show the results using all countries that are not majority Catholic autocracies as the control group. They indicate an increase in average excess returns of \tabSevencolTwoPE\ to \tabSevencolOnePE\ percentage points with all estimates significant at the 1\% level.  Columns (3) and (4) provide the estimates using all autocracies as the control group, finding a \tabSevencolFourPE\ to \tabSevencolThreePE\ percentage point treatment effect.
+
+To understand how this evolved over the sample, Figure~\ref{fig:rawParallelTrends} presents an event study on the autocratic subsample of a five-year moving average of global and continental risk-adjusted returns.  Before the doctrinal shift, returns in majority Catholic autocracies correspond closely with the returns in other autocracies. From 1959 to 1963, however, majority Catholic autocracies experienced sharply negative returns. These lower returns are consistent with a positive discount rate shock during the treatment period. Moreover, since the negative returns are focused in the treatment years---which are excluded from Table~\ref{table:svc}---the results are not biased by low realized returns pre- or post-treatment. The rest of the sample reverses this trend. Majority Catholic autocracies earn higher returns than other autocracies after the doctrinal shift.
+
+As pointed out by \cite{Merton1980}, one needs a long time horizon to estimate expected returns from realized returns.  Estimating over a 20-year sample window mitigates this issue. Two other methodological choices also aid in this. First, there is a large cross-section of 44 countries in the sample, 9 of which are majority Catholic autocracies. Averaging across a large group of countries in this way should lead to a more precise estimate of the increase in the risk premium. Second, the two-factor model I employ removes global and continental risk that make the detection of a country-specific increase in expected returns more difficult. This is because they effectively represent a form of measurement error in the dependent variable. Removing these risk factors thus allows for greater statistical power. These methods, therefore, still pick up differences in risk premia despite the somewhat short time series.
+
+\paragraph{Robustness} 
+
+Appendix~\ref{section:natExpApp} provides various robustness checks. It starts by providing two falsification tests. The first falsification test estimates a difference-in-differences specification using the First Vatican Council (Vatican-I) from 1864--1870 as treatment. Appendix~\ref{section:fvc} presents the results. Vatican-I provides an interesting test since it centered around the rejection of liberalism and democratic principals. This means it likely strengthened the power of autocrats in majority Catholic countries. Consistent with the results above, I find \tabCEightLow\ to \tabCEightHigh\ percentage point lower average excess returns for majority Catholic autocracies in the 15 and 20 years after 1870. The results, however,  are statistically insignificant. This is likely due to there being only 20 countries with data available before 1860. The second falsification test, provided in Appendix~\ref{section:shiftWindow}, shifts the window of treatment forward and backward. It shows that the results only hold in a narrow window around the years of the doctrinal shift.
+
+Another potential concern is that Vatican II changed many different aspects of Church doctrine, any of which could be driving increased risk premia in majority Catholic autocracies. To address this, Appendix~\ref{section:maj_cath_dem} presents a series of difference-in-differences results for majority Catholic democracies. The control groups are either all countries or other democracies. Across all specifications, the change in average excess returns is not significantly different than 0. This provides evidence that majority Catholic autocracies were the only subgroup treated by the change in Catholic church doctrine in favor of democracy.
+
+Appendix~\ref{section:estimationEnd} shows the results using different end years for the estimation window.  Including all countries, the results are large and significant for all end years from 1970--1983. In the autocracies subsample, the point estimates are identical across end years, but only become statistically significant in 1976. Before this, there are too few observations to precisely pin down the treatment effect.
+
+Appendix~\ref{section:excludingCountries} shows that no particular pair of countries is driving the results. In particular, I estimate the difference-in-differences specification excluding every pair of countries. This is done for both sample groups in the 1946--1976 estimation window. The results are statistically significant in nearly all specifications excluding any pair of countries.
+
+The results above point to a larger treatment effect than the estimates presented in Section~\ref{section:facts}. There are two potential explanations for this. First, the treatment effect of democratizations on risk premia is better identified using the shift in Church doctrine. This suggests that the true effect from Section~\ref{section:facts} would be larger if it were better identified. Second, the estimates from the difference-in-differences exercise may be less representative than the estimates from Section~\ref{section:facts}. The smaller time series and cross-section also mean that outliers could be affecting the results. In this case, the true, externally valid increase in risk premia may be smaller than the point estimates above suggest. To better understand this, Appendix~\ref{section:outliers} presents three different strategies for dealing with outliers: (1) winsorizing at the 5\% and 10\% levels, (2) excluding the high return years from 1967--1969, and (3) using outlier robust regression weights via \cite{Li2006}. In each specification the results are statistically significant and suggest a smaller treatment effect of 4--7 percentage points. This is in line with the results from Section~\ref{section:facts}.\footnote{A 4--7 percentage point treatment effect is also broadly consistent with the negative 30-40\% returns observed in the treatment period. For example, a 4 percentage point increase in the risk premium would lead to a 40\% decline in stock prices if equity duration were approximately 10, not unreasonable for an autocratic country in early 1960s.}
+
+The factor model used to adjust average excess returns for time-varying global and continental risk could also be absorbing some of the variation driven by the doctrinal shift. To assure this is not an issue, Appendix~\ref{section:globalCAPM} presents the results adjusting average excess returns for global risk only. Adjusting for only global risk yields similar results. Appendix~\ref{section:globalCAPM} also presents a specification that estimates the treatment effect of the doctrinal shift and the loadings on global and continental risk factors jointly. This allows me to forego the two-step procedure implemented above. This also yields similar results.  
+
+One could also be worried that increasing inflation risk in the post-period could be driving the results. One way to mitigate this concern is to subtract home country bond returns instead of using the global safe asset. Appendix~\ref{section:did_inflation_risk} presents these results and finds they are quantitatively similar to those presented above.
+
+Finally, this section uses average excess returns as the main outcome variable, whereas the previous section uses the change in log dividend yields. The reason for this is that---while the time series examined is shorter---the effective measurement period is longer. This is because there are 15--20 years between the change in Catholic church doctrine and when the democratizations begin in earnest in majority Catholic autocracies. That said, one may still be interested in how dividend yields look in this exercise. This evidence is presented in Appendix~\ref{section:did_div_yld}. We can see that dividend yields begin to rise during the treatment period and remain elevated into the late 1960s before starting to come down.\footnote{The fact that the dividend yield falls after 1967 could suggest that the results are in part driven by an initial discount rate shock that then subsides over time. To understand how important this is to the results, Appendix~\ref{section:did_div_yld} presents the average excess returns results controlling for capital gains. The point estimates are reduced relative to the baseline specification and remain significant.} This provides evidence that multiple proxies for the risk premium are elevated as a result of the change in Catholic church doctrine.
+
+
+\section{Democracy and redistribution}\label{section:redistribution}
+
+This section proposes a plausible mechanism why democratizations increase risk premia: fear over future redistribution. A popular and varied group of political science and political economy theories highlight the role that inequality, class struggles, and redistribution play in democratizations.  Moreover, these theories enjoy support in the data. The existing literature finds democracies tend to have larger public sectors, be more equal, have lower barriers to entry, and be less corrupt \citep{Fisman2001,Boix2003,Kolstad2016,Acemoglu2015,Rock2016}. It is also supported by studies that suggest extending the vote to poorer citizens, racial minorities, or women leads to increased redistribution and the more equal provision of public goods \citep{Husted1997,Miller2008,Naidu2012,Cascio2013,Fujiwara2015}. Here, I assess the extent to which these results hold in my setting.
+
+\subsection{Redistribution after successful democratizations}\label{section:redistribution_emp}
+
+I compare successful and failed democratizations in ERT data to understand how much transitions to democracy increase redistribution. This strategy relies on the idea that failed democratizations provide an appropriate counterfactual for successful democratizations after adding the relevant controls and fixed effects. To do this, I estimate the following specification:
+\begin{multline}
+y_{c,t} = \alpha_{t} + \alpha_{c} + \beta_{1} \textrm{Democratization}_{c,t} + \\ \beta_{2} \textrm{Successful Democratization}_{c,t}  +  \beta_{3} \textrm{Post-Democratization}_{c,t} +  \\ \beta_{4} \textrm{Post-Successful Democratization}_{c,t} +  \mathbf{\omega}^\prime \textrm{Controls}_{c,t} + \varepsilon_{c,t} \label{eq:reg_redistribute}
+\end{multline}
+where $y_{c,t}$ is the outcome of interest. The post-democratization variables are indicator variables equal to 1 if the year is within twenty years of the end of a democratization or successful democratization. 
+
+I assess the effect of successful democratizations on both \textit{explicit redistribution}---increases in the size of the public sector, reductions in inequality, and/or increases in the labor share---and \textit{tacit redistribution}---changes in corruption or bribery and increased entrepreneurship, new business formation, and competitiveness.  Both forms of redistribution will be used to calibrate the redistribution-based model presented in Section~\ref{section:model}. 
+
+One important caveat is that these variables do not necessarily cover the same sample of democratizations presented in the asset pricing results above. This is because, when possible, I use all available data to estimate the effect sizes. The primary reason behind this is that data on redistribution cover a shorter time series than the asset pricing data. Including all countries, therefore, allows for more precision in estimation.
+
+\paragraph{Explicit redistribution}
+The size of the public sector grows after successful democratizations. Table~\ref{table:explicitRedist} reports that government revenue-GDP ratios and tax revenue-GDP ratios rise by \tabEightcolOnePE\ and \tabEightcolTwoPE\ percentage points annually in the 20 years after a successful democratization. This points to a cumulative effect of \tabEightOneCE\ and \tabEightTwoCE\ percentage points. These estimates are quite similar to those reported in prior work. For example, \cite{Acemoglu2015} finds that government revenue-GDP ratios rise by 1.9 to 4.8 percentage points  and tax revenue-GDP ratios by 2.4 to 4.1 percentage points after countries transition to democracy.\footnote{These numbers are the minimum and maximum long-run effect estimates multiplied by the sample average government revenue-GDP and tax revenue-GDP ratios for autocracies.}
+
+In addition, income inequality falls and the labor share rises after successful democratizations.  Table~\ref{table:explicitRedist} shows that the Gini coefficient falls by \tabEightcolThreePE\ percentage points annually in the 20 years after a successful democratization. This points to a cumulative decline of \tabEightThreeCE\ percentage points.  Similarly, the labor share of income for employees increases by \tabEightcolFourPE\ percentage points annually, a cumulative increase of \tabEightFourCE\ percentage points. Much of this effect comes from the large decline in the labor share observed after failed democratizations. These estimates are also in-line with prior studies. \cite{Acemoglu2015} finds similar declines in long-run income inequality, albeit without statistical significance. \cite*{Drautzburg2022}  finds a 2.3 percentage point increase in the labor share in the 3 years after a democratic transition. This is also in line with \cite{Rodrik1999} who suggests that after controlling for macroeconomic factors, more democratic institutions coincide with substantially higher wages.
+
+\paragraph{Tacit redistribution}
+Successful democratizations do not just come with outright redistribution from rich to poor; they also may bring tacit redistribution---the loss of privileges for the autocratic elite \citep{Tullock1986}. For example, autocratic elites may lose their ability to influence the government via corruption and bribery. Autocracies may also allow for the easy formation of monopolistic and oligopolistic industrial organizations \citep{Li2003,Perotti2006,Karolyi2017} and increase the importance of political connections for new entrants \citep*{Li2008}. These arrangements disproportionately benefit elites. After democratic transitions, established industrialists might face not only the loss of these connections but also heightened competition from talented entrepreneurs.
+
+To test these effects, I examine the public sector corruption and bribery indices provided by V-Dem. These indices measure the level of corruption and bribery within the federal government. Table~\ref{table:implicitRedist} reports the results. Both series fall substantially during successful democratizations relative to failed ones. Given both series are transformed to take values from 0-100 and that a democratization lasts on average around 9 years, this represents a \tabNineOneCE\ percentage point reduction in corruption indices and a \tabNineTwoCE\ percentage point reduction in bribery indices. The ability to seek rents seems to be reduced after successful democratic transitions. 
+
+Competitive pressure also increases during successful democratizations. Regulation favoring competition---as measured by the Economic Freedom Index from the Fraser Institute---rises by approximately \tabNineThreeCE\ percentage points. The net entry of new public firms also increases by nearly \tabNineFourCE\%. The evidence suggests incumbent firms face pressure from new entrants during successful transitions to democracy.
+
+\subsection{Asset prices and redistribution risk}\label{section:asset_prices_redist}
+
+\paragraph{High redistribution-risk democratizations}
+\label{par:red_risk_beg}
+Democratizations with the largest redistribution risk also have the largest rise in dividend yields. To show this, I use data from V-Dem that denotes the most important support group in every country in each year. I then group all democratizations into whether the most important support group at the start or either of the two years prior are the elites or some other group.\footnote{I combine the aristocracy, business elites, political elites, and local elites into one group called ``the elites.'' The remaining groups---the middle class, lower class, military, ethnic or racial groups, and foreign powers---are the ``non-elites.'' The most common non-elite important support group is the military (9 cases), followed by the urban middle classes (7 cases) and an ethnic or racial group (4 cases).} 
+
+Democratizations where the elites are the most important political group to the existing regime are called ``high redistribution risk democratizations.'' This is because the elites have the most to lose from a potential transition to democracy in these regimes. Similarly, I call the remaining episodes ``low redistribution risk democratizations.'' Approximately \pctHighRedistRisk\% of the sample of democratizations for which dividend yield data exist are high redistribution risk.
+
+Table~\ref{table:valuationratioElite} presents the results. High redistribution risk democratizations see a 2-3 times larger rise in dividend yields than low redistribution risk democratizations across specifications. In Columns (5) and (6), this difference is statistically significant according to an F-test. This is consistent with redistribution risk driving the results.
+
+The results from low redistribution risk democratizations are also interesting. Recalling the results from Table~\ref{table:polRisk}, normal regime change episodes see a rise in dividend yields of, on average, \tabThreeRegChLow\---\tabThreeRegChHigh\ percent. This is quite similar to the \tabTenLowRiskLow\---\tabTenLowRiskHigh\ percent increase in dividend yields observed in low redistribution risk democratizations. This potentially indicates that the positive effects of democratization---like more secure property rights and higher long-run economic growth---cancel out the effects of higher redistribution in these episodes. What remains would then be the general uncertainty stemming from regime change.
+
+\label{par:rule_out_expro_beg}
+This result also helps to rule out stories that suggest democratization occurs to prevent some negative policy outcome---like expropriation---and the possibility of that negative policy outcome, not redistribution, drives the negative stock market effect. In this case, the risk is that democratization fails, not that it succeeds and brings about redistribution. Should democratization have nothing to do with redistribution and be solely about preventing potential policy risks, there is no reason for elite political power to act as a mediator of the effect. Indeed, one might expect the results from Table~\ref{table:valuationratioElite} to go in the other direction, as the elites may face worse potential policy outcomes in the previous autocratic system when they have less political power, making the potential failure of a democratization more costly to them.
+
+Another result in support of this is presented in Appendix~\ref{section:demEnd}. Prices decline upon the realization of a successful democratization, as shown in Figure~\ref{fig:priceDeclineSucc}. Prices also rise if the democratization is reversed or co-opted. This suggests the risk investors care about is that democratization may succeed, not that it may fail.
+\label{par:rule_out_expro_end}
+
+\paragraph{Stock market effect over time}
+
+Evidence in favor of the redistribution-based theories also comes from the stability of the rise in risk premia in democratizations over time. The idea is that the rise in risk premia can be thought of as a proxy for cost of democratization borne by investors. This is because, as we will see, it reflects the potential loss of consumption for the capital-owning elite. 
+
+Figure~\ref{fig:rollingEstimation} shows estimates of the rise in dividend yields leading into democratizations over time. It does this by plotting the coefficient of a regression of the 5-year change in log dividend yields on an indicator variable denoting a democratization start in rolling 60-year windows. This is the same specification shown in Table~\ref{table:valuationratio}, but presented over rolling time windows.
+
+The estimates rise until the 1890-1950 window and then plateau at approximately 20\%. Interestingly, they  jump dramatically  in 1919, the beginning of the First Wave of Democratization. This is in line with the narrative of \cite{Luebbert1991}. Before World War I, democratizations were mainly agreements between the aristocracy and the middle class, shutting out the then nascent labor movements. As such, they were more about securing the property rights of capital holders and the \textit{status quo} between capital and labor. This accords with prior work highlighting the case of Britain after the Glorious Revolution \citep{North1989,Acemoglu2006}. Consistent with this, dividend yields slightly decline, on average, in the democratization that took place from 1850--1914. After the war, however, democratizations became more labor driven, focusing on increasing labor bargaining power and reducing inequalities. Transitioning to democracy thus became more costly for the capital-owning elites, bringing higher risk premia in the transition period. Consistent with this, we see the effect on dividend yields begin to rise after 1914.
+
+The stability of the effect on dividend yields challenges one of the main predictions of modernization theory: economic development reduces the ``cost'' of democracy.  These theories---originally due to \cite{Lipset1959} in the sociological tradition of \cite{Weber1946}---highlight that as the world becomes richer, the cost of democratization should fall. This would explain why democracies have become more prevalent over the last century. Figure~\ref{fig:rollingEstimation} shows, however, that there is little evidence this cost has declined over the last 150 years.
+
+\paragraph{Robustness and additional results}
+
+Appendix~\ref{section:redistributeRobustness} presents robustness checks on these results. Appendix~\ref{section:eventStudyRedist} presents event study plots for changes in the government revenue-GDP ratio and Gini coefficient. It shows that these series change right after the end of successful democratizations.
+
+Finally, Appendix~\ref{section:assRedistribution} presents additional evidence that links the rise in risk premia to redistribution risk. It does this by showing that democratizations with larger price declines also see larger declines in inequality 5 and 10 years later.
+
+
+\section{Model}\label{section:model}
+Can the redistribution following successful democratizations explain the rise in risk premia? Because asset prices and redistribution might not have a straightforward link, this task requires a model.
+
+This section presents a consumption-based asset pricing model with democratic transitions. Democratizations are modeled similarly to \cite{Acemoglu2006}.  A consortium of political elites in an autocracy attempts to maintain control of the state from a larger group of citizens. When democracy comes, the citizens redistribute the elites' rents toward themselves. This increased redistribution leads to a large reduction in elite consumption. During democratizations, the probability this will happen rises, leading to an increase in the risk premium.
+
+\paragraph{Macroeconomic environment}
+A mass of $\delta<\frac{1}{2}$ identical Elites and $1-\delta$ identical Citizens live in a closed economy.  Time is discrete and infinite.  Output ($Y$) is produced by a Lucas tree with an exogenous growth rate following the process
+\begin{equation}
+\log \frac{Y_{t}}{Y_{t-1}}=\bar{y}+\sigma_y \varepsilon_{t}.\label{eq:endowment}
+\end{equation}
+where $\bar{y}$ is the average growth rate, $\sigma_y$ is the standard deviation, and $\varepsilon \sim \mathcal{N}(0,1)$ is an independent and identically distributed, lognormal shock.  The Elites receive a proportion $\theta^\mathcal{I}>\delta$ of the endowment, so per capita income (scaled by aggregate income) is given by
+\begin{align}
+\bar{y}_{t}^{r}(\theta^{\mathcal{I}}) \equiv \frac{\bar{Y}_{t}^{r}(\theta^{\mathcal{I}})}{Y_t}= & \bigg(\frac{\theta^\mathcal{I}}{\delta}\bigg) \\
+\bar{y}_{t}^{p}(\theta^{\mathcal{I}}) \equiv \frac{\bar{Y}_{t}^{p}(\theta^{\mathcal{I}})}{Y_t}= & \bigg(\frac{1-\theta^\mathcal{I}}{1-\delta}\bigg).
+\end{align}
+Throughout the section, lowercase values represent quantities scaled by aggregate income. The superscript $r$ denotes the (rich) Elites and $p$ the (poor) Citizens. The parameter $\theta$ gives the level of pretax income inequality in the economy: The higher is $\theta$, the more unequal is the economy.  The superscript $\mathcal{I} \in \{A,D\}$ denotes the political regime that the economy operates in,  either autocracy or democracy.  This allows for the possibility that democracy reduces inequality.
+
+The endowment can be used to purchase a single consumption good which agents have \cite{Epstein1989} preferences over. Markets are incomplete in that the Citizens and Elites cannot trade with one another. Since only the Elites can access financial markets, they are the marginal investors in this economy.
+
+\paragraph{Taxes and transfers}
+The government decides policy over a single fiscal instrument: a linear tax on individual income paid back as a transfer to all agents. The average post-tax income for each group, scaled by aggregate income, is given by
+\begin{align}
+\hat{y}_{t}^{r} (\tau_{t},\theta^{\mathcal{I}},\nu^{\mathcal{I}}) = & (1-\tau_{t})\bar{y}_{t}^{r}(\theta^{\mathcal{I}})+\left(\left(\frac{\nu^{\mathcal{I}}}{\delta}\right)\tau_{t}-\frac{1}{2}\omega\tau_t^2\right) \\
+\hat{y}_{t}^{p} (\tau_{t},\theta^{\mathcal{I}},\nu^{\mathcal{I}}) = & (1-\tau_{t})\bar{y}_{t}^{p}(\theta^{\mathcal{I}})+\left(\left(\frac{1-\nu^{\mathcal{I}}}{1-\delta}\right)\tau_{t}-\frac{1}{2}\omega\tau_t^2\right)
+\end{align}
+where $\frac{1}{2}\omega\tau_t^2$ is the cost of taxation and $\nu^{\mathcal{I}}<\theta^{\mathcal{I}}$ is the degree of inequality in government spending. The cost, $\omega$, is a reduced form way of introducing a Laffer curve into the economy. Similarly, inequality in government spending is a reduced form way of modeling corruption. When corruption is high, the Elites can divert government spending for their own consumption.
+
+The optimal tax rate for the Elites is $\tau^{r*} = 0$ since the transfer is less than their pre-tax income, $\bar{Y}^{r}>Y$. Since transfers are greater than their pre-tax income, the optimal tax rate for the Citizens is the revenue maximizing tax rate
+\begin{equation}
+\tau^{p*}_\mathcal{I}=\frac{\theta^{\mathcal{I}}-\nu^{\mathcal{I}}}{\omega(1-\delta)}.
+\end{equation}
+
+\paragraph{Autocracy, revolution, and democracy}
+Tax policy maximizes the post-tax and transfer income of the group holding political power. Who holds political power depends on the set of institutions in place. There are three types of political institutions: autocracy, revolution, and democracy. 
+
+The model starts in autocracy,  where only the Elites can vote.  The government then holds elections and enacts whatever policy the Elites choose.  Absent any counteracting force the Elites would set taxes to zero in each period. 
+
+However, the Citizens have \textit{de facto} political power through their ability to revolt. If the Citizens revolt, they are successful by assumption and kill all the Elites. They then take control of the economy for the rest of history. But, this victory comes at a cost; a fraction $\mu$ of the Lucas tree is permanently destroyed. The expected present value of their utility after the revolution, scaled by the average income at time $t$, is
+\begin{equation}
+v^{p}(R,\mu_{t})=\bigg(\frac{1-\beta}{1-\beta^{\star}}\bigg)^{\frac{1}{1-1/\psi}}\bigg(\frac{1-\mu_t}{1-\delta}\bigg)\label{eq:revolution}
+\end{equation}
+where  $\beta^{\star} \equiv \beta e^{(1-1/\psi)\bar{y}+\frac{1}{2}(1-\gamma)(1-1/\psi)\sigma_{y}^{2}}$, $\beta$ the rate of time discounting, $\gamma$ the coefficient of relative risk aversion, and $\psi$ the  elasticity of intertemporal substitution (EIS). This expression for the value function is derived in Appendix~\ref{section:bellman_app}.
+
+Variation in $\mu$ ultimately drives the dynamics in the model.\footnote{As discussed in Section~\ref{section:svc}, variation in the cost of revolution $\mu$ is a reduced form way of modeling a complex collective action problem that the Citizens must solve to mount a successful revolution. A revolution cannot be successful if just one Citizen wakes up one morning and decides to revolt. She needs others to pose a true threat. Variation in $\mu$, therefore, represents that solving this problem is ``hit-or-miss.'' Explicitly modeling the collective action problem that the Citizens face is beyond the scope of this paper.  Potential mechanisms that might allow the Citizens to solve this problem are discussed in Section~\ref{section:model_limitations}.} When $\mu$ is high, the Citizens cannot credibly threaten revolution, as the destruction wrought makes them better off under autocracy. When $\mu$ is low, conversely, the Citizens can credibly threaten revolution, constraining the Elites from setting their preferred tax policy. Instead, the Elites must move toward the preferred policy of the Citizens.
+
+The Elites die if a revolution occurs, so they are always willing to make transfers to avoid it. This imposes a \textit{revolution constraint} in the autocracy state. The tax rate the Elites choose  must make autocracy more attractive to the Citizens than revolution. Formally, this implies\footnote{I am suppressing the dependence of $v^p$ on $\tau_t$, $\theta^\mathcal{I}$, and $\nu^\mathcal{I}$.}
+\begin{align}
+v^{p}(A, \mu_{t}) & \geq v^p(R,\mu_{t}).\label{eq:constraint}
+\end{align}
+For all values of $\mu$ such that $v^p(R,\mu_{t}) \in [0,v^{p}(A, \tau^{p*})]$ the revolution can be prevented with one-period taxes and transfers.
+
+When $\mu$ is sufficiently low, however, temporary transfers cannot prevent a revolution. The Elites would like to offer the Citizens future taxes and transfers in this situation, but these promises are not credible.\footnote{How credible these promises are depends on the persistence of $\mu$. Only permanent jumps in $\mu$, however, allow for fully credible promises of redistribution.} If $\mu$ returns to a high value, the Elites would no longer find it optimal to follow through on their promises in a Markovian equilibrium.\footnote{Path dependent equilibria do exist and could make future promises of redistribution credible for lower values of $\mu$. I do not examine them in this paper. \citet{Acemoglu2006} analyze these equilibria and find that they do not change the overall conclusions of the model.} In this case, the Elites' only option is to extend voting rights to the Citizens, ushering in democracy. Democracy acts as a commitment device. It makes promises of future redistribution credible by making the more numerous Citizens the median voter. This effectively grants them power over all future tax policy decisions, since once the economy becomes a democracy, it remains that way forever. As such, the present value of the Citizens' utility (once again, scaled by the average income at time $t$) is\footnote{By assumption, $v^{p}(D)$ does not depend on $\mu_t$. This is akin to saying that democratization prevents all future revolutions.}
+\begin{equation}
+v^{p}(D)=\bigg(\frac{1-\beta}{1-\beta^{\star}}\bigg)^{\frac{1}{1-1/\psi}}\hat{y}^{p} (\tau^{p*},\theta^{D},\nu^D)\label{eq:democracy}
+\end{equation}
+which is the expected present value of receiving the maximum transfer income in each period under \citeauthor{Epstein1989} utility. The ability to concede democracy prevents the revolution for all values of $\mu$ such that $v^p(R,\mu_{t}) \in (v^{p}(A,\tau^{p*}),v^{p}(D)]$. The lowest value of $\mu$ where the revolution can be prevented by conceding democracy is
+\begin{equation}
+\mu^{D} =1-(1-\delta)\hat{y}^{p} (\tau^{p*},\theta^{D},\nu^D).\label{eq:mudoublestar}
+\end{equation}
+
+Finally, if $v^p(R,\mu_{t}) > v^{p}(D)$, the Elites can do nothing to prevent a revolution because the Citizens are better off revolting than accepting democracy. When calibrating the model, however, I restrict the cost of revolution such that $\mu \in [\mu^{D},1]$. This means that the revolution never occurs. The action regions and their associated thresholds are shown in Appendix Figure~\ref{fig:mu_graph}.
+
+\label{par:hell_bent}
+In this model, the Elites concede democracy to prevent a worse outcome: death by revolution. As such, democratization is a strategic tool that allows the Elites to protect their livelihood at the expense of greater redistribution. One might question whether there is something unique about revolution risk for explaining the stock market response to democratization. The answer is that this particular choice is not important for this paper. Instead, it was made to remain faithful to the prior work that inspired this model \citep{Boix2003,Acemoglu2006}. It is important, however, the Elites are trading-off removing the risk of some worse outcome with the potential redistribution coming from allowing more democratic institutions. For example, if the Elites were to democratize to reign in a dictator hell-bent on expropriating their property, but the extension of property rights could only be achieved by making democratic concessions---which redistributes their resources to the Citizens---the results would be identical. Providing the exact mechanism under which various democratizations occur is an important question for future work, but is beyond the scope of the current analysis.
+
+\paragraph{Political environment as a game}
+The political environment can be modeled formally as a game. The order of the decisions is as follows (with mathematical notation in parentheses):
+\begin{enumerate}
+	\item Nature reveals the cost of revolution ($\mu_t$) to both the Elites and the Citizens.
+	\item The Elites choose to either concede democracy ($\phi_t = 1$) or keep autocracy ($\phi_t = 0$).
+	\item Both the Elites and Citizens choose the tax rate ($\tau_t^{i}$) they want to implement. If the society is an autocracy, then the tax rate chosen by the Elites is implemented. If the society is a democracy then the tax rate chosen by the Citizens is implemented.
+	\item The Citizens, after observing the tax rate, choose to revolt ($\rho_t = 1$) or not revolt ($\rho_t = 0$).
+\end{enumerate}
+
+The choice set of the Elites in time $t$ is given by $\{\tau_t^r (\mu_t), \phi_t (\mu_t)\}$ where their chosen tax rate and the choice of whether to concede democracy are functions of the cost of a revolution. Further, if $\phi_t = 1$ then $\phi_{t+s} = 1$ for $s>0$, meaning that once democracy is conceded, it is conceded forever. 
+
+The choice set of the Citizens in time $t$ is given by $\{\tau_t (\phi_t) ,\rho_t (\mu_t, \phi_t)\}$ where their chosen tax rate and the choice to revolt are functions of the political institutions in place and the cost of a revolution. Further, if $\rho_t = 1$ then $\rho_{t+s} = 1$ for $s>0$, meaning if the revolution occurs, its effects are permanent.
+
+\paragraph{Stochastic process for $\boldsymbol \mu$}
+
+The cost of revolution $\mu$ evolves according to a three-state, Markov process with the transition matrix 
+\begin{equation}
+\mathbf{P}=\left(\begin{array}{lll}
+p_{11} & p_{12} & p_{13}\\
+p_{21} & p_{22} & p_{23}\\
+p_{31} & p_{32} & p_{33}
+\end{array}\right)=\left(\begin{array}{lll}
+0.990 & 0.010 & 0.000\\
+\transPTwoOne & \transPTwoTwo & \transPTwoThree \\
+0.000 & 0.000 & 1.000
+\end{array}\right),
+\label{eq:transmat}
+\end{equation}
+where $\mu^{1}=\mu^{2}=\mu^A$ and $\mu^{3}=\mu^{D}$. The calibrated probabilities of transition are shown after the second equality. These probabilities are calibrated to match (1) the probability of starting a democratization in any given year of 1\%, (2) a 50\% success rate of democratizations, and (3) an average democratization length of \demEpisodeLength\ years.  
+
+In the first state, the \textit{autocracy state},  the Elites do not face an immediate revolutionary threat. This is because there is no chance of moving to the third state when in the first state.
+
+In the second state, the \textit{democratization state},  the Elites could now face a major revolutionary threat in the next period, with $\mu$ having a \transPTwoThreePct\% chance of being equal to $\mu^{D}$ in $t+1$. If this comes to pass, then all the Elites can do to prevent a revolution is to concede democracy. That said, there is also an equal probability that the democratization will fail, returning the economy to autocracy.  This is the key reason why democratizations affect the risk premia: it is uncertain whether they will succeed or fail.
+
+This uncertainty over the success or failure is present in the data.  Around \pctDemFail\% of democratizations fail, meaning society does not become a democracy after the initial rise in democratic institutions.
+
+In the third state, the revolutionary threat realizes and the Elites concede democracy. Note that while there is no chance of returning back to the democratization state, this probability is immaterial.\footnote{While this probability is not material because transitions are permanent, setting it to 1 does help in some ways. Below, I add uncertainty over the level of redistribution. If this probability were not equal to 1, then the Citizens may prefer the option of waiting for the ``high redistribution'' state. That said, there are values of $p_{33}$ lower than 1 that prevent this. In particular, this is the case if the Citizens have a positive discount rate and the low redistribution state offers more redistribution than autocracy, both of which are true in my calibration. \par Also, it is important to note that having $p_{33}=1$ does not imply the Citizens are indifferent between autocracy and democracy. This is because of the other forms of redistribution that democracy brings.} When democracy is conceded, it is an absorbing state, so the state variable $\mu$ becomes irrelevant. The model is parameterized to produce a democratic transition in the final state, but more general calibrations which lead to either an autocratic equilibrium or revolution are possible. These generalizations are discussed in Appendix~\ref{section:generalCase}.
+
+\label{par:correct_counterfactual}
+Finally, it is worth discussing whether the risk faced by the Elites is truly elevated in the democratization state. In particular, while the risk of future redistribution is undoubtedly higher in the democratization state, the potential for the Elites to democratize reduces risk relative to a counterfactual model in which the option to transition to democracy does not exist. However, if we take this calibration of the model literally, the revolutionary state never manifests precisely because democratization is effective at preventing it. As such, there is something of an ambiguity over the correct counterfactual: democratization raises Elite risk relative to the state in which the shock to $\mu$ never manifested, but lowers it relative to the revolutionary state conceding democracy prevents. This paper takes the stance that the latter is the appropriate counterfactual, but it is worth noting that democratizations do lower risk---and, therefore, risk premia---with respect to the worst-case scenario they are undertaken to prevent.
+
+\paragraph{Equilibrium}
+I consider Markov perfect equilibria, meaning that all strategies must be a best response and can only depend on the current state, not the history of past states. A Markov perfect equilibrium consists of a choice set for the Elites and the Citizens for each combination of state variables (namely, the current value of $\mu$ and political institutions from the previous period). But, all of the consequential choices take place in autocracy. If the revolution occurs, taxes are always zero, since everyone is equal and taxation is costly.  In democracy, the Citizens' preferred tax rate is always chosen. Based on the assumed process for $\mu$, the only equilibrium to the political game is for the economy to be an autocracy in states 1 and 2 and transition to democracy in state 3. In this case, taxes will be equal to $\tau_t \in [0,\tau^{p*}]$ in the first two states and equal to $\tau^{p*}$ in the last state. A revolution never occurs in equilibrium under this calibration.
+
+\subsection{Asset pricing implications}
+
+Since the Elites are worse off in democracy, an increase in its likelihood increases the risk premium. The rise in the risk premium relates to three things, conditional upon a success: (1) the fall in Elite consumption, (2) the drop in the cashflow of the dividend claim, and (3) how much uncertainty there is about these two quantities. 
+
+\paragraph{Elite consumption process}
+The transition from autocracy to democracy acts like a ``rare disaster'' for the Elite investors. This can be seen by examining the  consumption process for the Elites:
+\begin{equation}\label{eq:elite_consumption}
+\bigg(\frac{C_{t+1}^r}{C_{t}^r}\bigg) = \bigg(\frac{Y_{t+1}}{Y_{t}}\bigg) \chi_{t+1}
+\end{equation}
+where
+\begin{equation}\label{eq:dem_disaster}
+\chi_{t+1} \equiv \begin{cases} 
+\frac{\hat{y}_{t+1}^{r}(\tau^{p*}(\theta^{D}))}{\hat{y}_{t}^{r}(\tau_{t})} < 1 & \textrm{if }\phi_{t}=1;\phi_{t-1}=0 \\
+1 & \textrm{otherwise}
+\end{cases}.
+\end{equation}
+Movement along the Markov chain for $\mu$  mimics variation in the disaster probability, similar to \cite{Gabaix2012} and \cite{Wachter2013}.  This means that as a permanent transition to democracy becomes more likely, risk premia and dividend yields rise.  Qualitatively, this allows the model to match the increase in dividend yields observed in the data. 
+
+\paragraph{The dividend claim}
+I model the dividend claim as the set of incumbent firms in autocracy.  These firms receive all profits in the autocratic economy. When democracy comes, barriers to entry fall and these firms lose a fraction $\xi$ of their profits to new entrants.  The growth rate of dividends is given by, 
+\begin{equation}
+\frac{D_{t+1}}{D_{t}} \equiv \bigg(\frac{Y_{t+1}}{Y_{t}}\bigg)^{\Upsilon}\chi^D_{t+1}
+\end{equation}
+with $\chi^D_{t+1}$ representing the ``disaster term'' for the dividend claim
+\begin{equation}
+\chi^D_{t+1}\equiv \begin{cases} 
+\bigg(\frac{1-\tau^D_{Div}}{1-\tau^A_{Div}}\bigg)\xi < 1 & \textrm{if }\phi_{t}=1;\phi_{t-1}=0 \\
+1 & \textrm{otherwise}
+\end{cases}
+\end{equation}
+where $\tau^\mathcal{I}_{Div}$ is the exogenously determined dividend tax rate in either autocracy or democracy.
+
+There are two benefits to modeling the dividend claim in this way. First, it enjoys support in the data. Section~\ref{section:redistribution} provides evidence that economic competition increases during successful democratizations. Pro-competitive regulation rises as does net entry of publicly-traded firms.  
+
+Second,  the data do not suggest there is a large decline in aggregate dividends after successful democratizations. Since dividends are merely redistributed to new entrants and not destroyed, the aggregate level of dividends need not decline. In essence, this is a reduced form way of modeling the displacement risk described in \cite*{Garleanu2012}.
+
+\paragraph{Uncertain redistribution}
+The amount of redistribution that occurs post-democratization is also uncertain. Some democratizations are captured by elites while others cater more to the general citizenry. This is sometimes true within a democratization, as pointed out by \cite{Hinnerich2014} in the case of Sweden. To model this, I allow for each component of redistribution to have a ``high'' and ``low'' state. This is represented by two sets of parameters $\{\mu^{DH},\theta^{DH},\nu^{DH}, \xi^{H},\omega^H\}$ and $\{\mu^{DH},\theta^{DL},\nu^{DL}, \xi^{L},\omega^L\}$ that realize with probability $q$ and $1-q$.\footnote{Changes in $\omega$ allow the tax rate to vary without having to model the potential for Elite capture in democracy.}
+
+The two sets of parameters are constructed by taking a mean preserving spread over the average change in each parameter going from autocracy to democracy. For example, for the inequality parameter $\theta$, this implies that
+\begin{align*}
+\theta^{DH} & = \theta^A - \bigg(\frac{\aleph}{q}\bigg)(\theta^A-\theta^D) \\
+\theta^{DL} & = \theta^A - \bigg(\frac{1-\aleph}{1-q}\bigg)(\theta^A-\theta^D) 
+\end{align*}
+where $\theta^D \equiv q \theta^{DH} + (1-q)\theta^{DL}$ is the average change in inequality when moving from autocracy to democracy and $\aleph$ is the fraction of the effect attributed to the high redistribution state. If $\aleph > q$, then there is uncertainty in the amount of redistribution. 
+
+For the two values of $\mu$, however, this rule does not apply. These are given by equating Equations (\ref{eq:revolution}) and (\ref{eq:democracy}) under both sets of parameters.
+
+\subsection{Calibration}
+
+I calibrate the model using a combination of data moments from various data sources, the reduced form estimates from above, and prior work in asset pricing and political economy. The parameter values and their sources are outlined in Table~\ref{table:calibration}.
+
+The growth and volatility of income are set to match the growth process for GDP per capita in autocracies. The autocracy designation comes from V-Dem. 
+
+Inequality in autocracy $\theta^A$ matches the average pretax Gini coefficient at the start of a successful democratization. When there are two income groups, the pretax Gini coefficient is equal to $\theta^A-\delta$ or the income share less the number of agents in that group.  To calibrate this, I assume that the elites constitute 7\% of the population. This matches, for example, estimates of the portion of Chinese citizens that are members of the Chinese Communist Party \citep{Tian2021}. Inequality in democracy $\theta^D$ is set to match the estimates from Section~\ref{section:redistribution}. However, both the decline in the Gini coefficient and the rise in the labor share map to the reduction in $\theta$. This is because  $\theta$ would also be equal to the capital share in an economy with Cobb-Douglass production. Therefore, $\theta^D$ is calibrated to match the average of the change in these two series. 
+
+The rent diversion parameter in autocracy $\nu^A$ matches the average V-Dem corruption index for countries that start a successful democratization which is quoted on a scale of 0 to 1.\footnote{This is done in lieu of estimates of the portion of government spending that goes to the elites, a reliable source for which does not exist to my knowledge.} Rent diversion in democracy matches the reduction in the corruption index from Section~\ref{section:redistribution}. The tax rate in autocracy is equivalent to the tax revenue-GDP ratio for countries that start a successful democratization, equal to \autocracyTax\%. This is achieved by setting the parameter $\mu^A$. The cost of raising tax revenue $\omega$ matches the average \tabEightOneCE\ percentage point increase in government revenue-GDP ratios from Section~\ref{section:redistribution}.
+
+The leverage of the dividend claim $\Upsilon$ is from \cite{Wachter2013}. The increase in dividend taxes is set to the difference in corporate taxes between autocracies and large democracies reported in \cite*{Genschel2016}, approximately 10\%. The loss of market share for incumbent firms $\xi$ matches evidence from \cite{Fisman2001}, who find a 24\% reduction in connected firm value after the fall of the Suharto regime in Indonesia.
+
+The uncertainty parameters match the results from Appendix~\ref{section:demEnd}. This section reports that realized transitions into liberal democracies have a nearly 8 times larger decline in prices than other successful transitions. The $\aleph$ parameter is set such that the capital losses from entering the high and low redistribution states match this. The $q$ parameter is set to  \pctLibDem\%, the portion of liberal democratizations in total successful democratizations.
+
+Finally, relative risk aversion and the EIS are taken from \cite{Catherine2021} and \cite*{Bansal2010}. The subjective rate of discount $\beta$ matches the average dividend yield in autocracies, \tabTwelveDivYldAutData.
+
+\subsection{Model results}
+\label{section:model_results}
+Table~\ref{table:modelResults} presents the results of the model and calibration exercise. Panel A shows that the Elites face an \tabTwelveEliteConsDrop\% decline in consumption as a result of democratization. This is mainly driven by a decrease in inequality, since this is a pure reduction in Elite consumption. The other two hits to Elite consumption are the increase in taxes and the reduction in the Elites' ability to skim additional income from the government.
+
+Panel B shows that after accounting for all of these channels---and combining them with reduced cashflows coming from increased competition and higher dividend taxes---the democratization state generates a \tabTwelveDYChangeModel\% increase in dividend yields. This is slightly smaller than the data results with country and year fixed effects. This means that risk over future redistribution can explain nearly all of the rise in dividend yields seen in democratizations. 
+
+Panel C breaks down the relative importance of rising risk premia and declining expected cashflows and riskfree rates for the results. To do this, I take the log change in each component from the autocracy state to the democratization state and divide it by the sum of the log changes. The model suggests that rising risk premia drive the bulk of the rise in dividend yields. Relative to changing expected cashflows, rising risk premia explain just over 60\% of the rise in dividend yields.\footnote{Since riskfree rates decline, the combination of declining expected cashflows and rising risk premia account for more than 100\% of the rise in dividend yields. Among these two components that raise dividend yields, rising risk premia account for over 60\% of the result. This is computed as $\frac{\tabTwelveRiskPrem}{\tabTwelveRiskPrem + \tabTwelveCashflow} \approx \tabTwelveRiskPremPos\%$.} That said, the cashflow effects are large, highlighting an important and under-explored channel in democratizations: reductions in barriers to entry.\footnote{Note also that riskfree rates fall which {\it ceteris paribus} lowers the dividend yield. This is mostly driven by the expected reduction in elite consumption coming from reduced inequality, rising taxes, and reduced corruption.}\label{footnote:clarify_effect}
+
+Finally, Panel D depicts the relative impact of the various redistribution mechanisms in the model. This is done by sequentially incorporating each source of redistribution, beginning with intensified competition and concluding with reduced corruption. It is crucial, however, that the relationship among these channels is complex. They interact non-linearly, making it challenging to isolate the exact effect of each type of redistribution.
+
+The predominant channel is increased economic competition, accounting for \tabTwelveComp\% of the rise in dividend yields and the majority of the decline in expected cashflow growth. This finding is significant, as increased creative destruction and structural transformation may elucidate why long-run macroeconomic growth is on average higher following democratizations \citep*{Aghion2008,Aghion2014,Acemoglu2015,Bravo2021}.\footnote{These findings may seem at odds with the results I highlight above that show democratization has no significant effect on macroeconomic growth. However, there is no disagreement with these results and prior work. For example, \cite{Acemoglu2019} find little effect on macroeconomic growth in the 10-years after the start of a democratization. They do find large long-run effects that begin after approximately 10-years. Even with these long-run results, there is no conflict.  I obtain similar results to \citeauthor{Acemoglu2019} using the same estimation strategy as in Section~\ref{section:redistribution_emp} on GDP growth from the Maddison Historical Statistics. I find successful democratizations lead to a 51 basis point higher growth rate, on average, in the 20-years after they end.} The model demonstrates that greater economic competition is an essential quantitative element in explaining the rise in dividend yields, while maintaining stable aggregate dividend growth.
+
+The remaining \tabTwelveNonComp\% of the rise in dividend yields is driven by the other standard channels of redistribution: increased taxes, lower inequality, and reduced corruption. Increased taxes come with both discount rate and cashflow effects because they affect both Elites' income and the dividend claim. Lower inequality and reduced corruption, conversely, solely affect dividend yields through discount rates. This is also true of increased uncertainty.
+
+\subsection{Model limitations}\label{section:model_limitations}
+There are many amplifying and mitigating channels that are not included in the baseline version of the model, mainly because I do not have data that would allow me to quantify them. In this section, I discuss these channels and present extensions that help give a sense of what their overall impact on the results might be.
+
+\paragraph{Financial liberalization}
+\label{par:finanace_lib_beg}
+Perhaps the main limitation of the model is that it assumes that only the Elites participate in financial markets both before and after democratizations take place. This is, of course, extreme as democratization could be accompanied by a broadening of ownership in financial markets. Should, for example, all Citizens join in financial markets in democratization, they could buy securities from the Elites. Unlike the Elites, the Citizens experience consumption growth if democratization is successful and would, therefore, be willing to pay a higher price for the claim to incumbent firms. This is because, while the cashflow effect for the two groups is identical, the discount rate they assign to this claim is different.
+
+However, this potential offsetting channel is mitigated by two factors. First, the Elites have a large share of the wealth in the economy. Absent a market for contingent claims, the Citizens would need sufficient disposable income or borrowing capacity to purchase a sufficient quantity of securities from the Elites to offset the risk premium component of the results. Second, even if the Citizens join financial markets after a successful democratization, the Elites may not expect this \textit{ex ante}. This would mean that there would still be a large increase in the risk premium at the start of the democratization.
+
+A simple exercise can be informative of how increased participation may affect the results. Here, I assume that the Citizens join financial markets during the democratization period with liquid wealth $X$ relative to the capitalization of the stock market. For example, $X=1$ implies that the Citizens can purchase all shares in incumbent firms from the Elites. The Citizens are willing to purchase the dividend claim at a price $S^p \geq S^r$, determined by their Euler equation. Obtaining this price is analogous to solving for the Elite price-dividend ratio, but where $\chi$ is replaced by $\chi^p$, given by:
+\begin{equation}\label{eq:citizen_disaster}
+\chi^p_{t+1} \equiv \begin{cases} 
+\frac{\hat{y}_{t}^{p}(\tau^{p*}(\theta^{D}))}{\hat{y}_{t}^{p}(\tau_{t})} > 1 & \textrm{if }\phi_{t}=1;\phi_{t-1}=0 \\
+1 & \textrm{otherwise}
+\end{cases}.
+\end{equation}
+Randomly, a fraction $X$ of the Elites' securities are sold at that price, with the remaining securities sold at $S^r$, the price the Elites would pay absent the Citizens entering the market.
+
+Solving for the Citizens' price under the baseline calibration implies the dividend yield would only rise by approximately 7\% should they be able to purchase the entire market. The price they are willing to pay is actually higher than the price where $\chi=1$, which corresponds to the case where there is only a cashflow effect. This is because the claim to incumbent firms hedge the citizens against the possibility that democratization fails because it offers high cashflows in a relatively high marginal utility state.
+
+Under this setup, the Elites would be willing to purchase a claim to incumbent firms at the price $S = (1-X) S^r + XS^p$ for $X \in [0,1]$. Since the dividend yield rises by \modelCitizenDY\% under the price the Citizens are willing to pay, the channel could offset a maximum of approximately two-thirds of the result.  
+
+The question, then, is how to calibrate $X$. This is, of course, quite difficult absent detailed microdata from autocratic countries. However, we can get a sense of a reasonable value for $X$ by examining data from developed, democratic countries. For example, in Survey of Consumer Finances sponsored by the United States Federal Reserve, we can examine the equity share of the top 7\% of the population---corresponding to my calibration of the portion of the Elites in the populace. In these data, this is approximately 77\% from 1989--2019. A somewhat reasonable starting point for $X$ then, would be $X = 0.23$. At this value, the model with increased participation would suggest dividend yields increase by \modelLimitedPartDY\% offsetting the baseline estimates by approximately one-quarter.
+
+Of course, calibrating to data based on the United States is a stretch when thinking of the experience of democratizing countries. Indeed, the impact of increased participation could be either weaker or stronger than this calibration would imply. For instance, democratizing countries are generally not as wealthy or educated as the United States, which would tend to cause $X$ to be overestimated at 23\%. However, their stock markets are generally not as large either, meaning less liquid wealth need be available to purchase securities from the Elites. This would tend to cause $X$ to be underestimated. As such, this calibration is meant to give a sense of what the results would look like under a reasonable calibration for $X$, but these results are not definitive.
+\label{par:finanace_lib_end}
+
+\paragraph{Elite consumption and higher growth}
+\label{par:higher_growth_beg}
+Another potential offsetting channel is that democracies tend to grow at faster rates \citep{Acemoglu2019}. This would, {\it ceteris paribus}, lower dividend yields since such growth would presumably be enjoyed by the Elites in addition to the Citizens.
+
+However, it is conceptually at odds to consider the effects of higher aggregate growth without also accounting for the reduction in Elite consumption arising from reduced incumbent firm cashflows due to increased economic competition. This is because the higher growth in democracy may be bought at the expense of incumbent firm market power. Note that this is not captured by the rise in the labor share, since this is about how the capital share and profit share will be split between new and old firms. Because there is no clear way to calibrate this channel, I did not include increased macroeconomic growth in the baseline version of the model.
+
+However, we can understand how reasonable this line of argument is by seeing how large the reduction in Elite consumption would need to be to offset the rise in macroeconomic growth. To do this, I do the same thing I do for the various forms of redistribution and model the positive growth shock as an instantaneous 12\% increase in Elite consumption. This number comes from using the estimation strategy in Section~\ref{section:redistribution_emp} with the log rate of GDP growth as the outcome variable. It suggests that GDP growth is 60 basis points higher in the 20-years after a successful democratization.
+
+I then calibrate the portion of Elite consumption coming from incumbent firms that would be necessary to offset this effect, finding it is approximately \modelHigherGrowthAdj\%. This is not out-of-line with the data available from developed, democratic countries. For example, in the Survey of Consumer Finances in the United States from 1989--2019, approximately 36\% of all income comes from interest, dividends, and private businesses for the top 7\% of the wealth distribution. This would suggest ignoring these channels is conservative.
+\label{par:higher_growth_end}
+
+\paragraph{Gradual redistribution}
+\label{par:gradual_redist}
+In the baseline model, redistribution happens all at once when transitioning to democracy. One might instead wish to formulate the model such that redistribution happens more gradually. To this end, Appendix~\ref{section:gradual_redist} presents a model where long-run Elite expected consumption growth falls instead of redistribution happening instantly upon transition. This model requires a 95 basis point decline in Elite consumption growth to generate the same rise in dividend yields in the democratization state as in the baseline model.
+
+\paragraph{Rising economic and social mobility}
+Other important missing channels, like increased economic and social mobility, would instead enhance the results. Indeed this would be the case for two main reasons. First, as \cite{Acemoglu2015} points out, increased mobility makes it difficult to measure the true decline in Elite consumption, since wealthy Elites are replaced by wealthy Citizens in democracy. This means that the aggregate decline in Elite consumption is actually larger than what the Gini coefficient would indicate. Second, increased social mobility comes with a cross-sectional component in that different Elites may be affected differently. I have ruled out this possibility here, as markets are complete among the Elites. But allowing for some degree of market incompleteness among the Elites would allow these types of cross-sectional shocks to play a role.
+
+\paragraph{Greater tax progressivity}
+Potential changes in tax progressivity are also not included in the baseline version of the model. Currently, the model is calibrated to match increases in tax revenue under the assumption that this is borne equally across the two groups. However, if taxes are progressive, it would enhance the results as a greater burden of increasing government revenue would be placed on the Elites. This implies that the decline in Elite consumption may be greater than in the baseline version of the model, leading the model to understate the rise in dividend yields.
+
+\paragraph{Partial democratizations}
+\label{par:partial_dem}
+It is worth noting that the democratizations in the model are fairly stylized and divorced from the data to some degree. This is because most transition episodes are gradual and transitions to democracy can take place over several democratization episodes. That said, the quantitative exercise in the paper is less affected by this than one might think. This is because---while in the model the democratizations are stylized---the data it is calibrated to are not.  Said another way, the model is calibrated to match moments estimated from the partial democratizations that we see in the data. As such, the main quantitative results are robust to this critique.
+
+\paragraph{Learning as a microfoundation for $\boldsymbol \mu$}
+\label{par:learning_about_dem}
+Finally, one might also wonder whether learning could be a microfoundation for the $\mu$ process.  In such a model, learning about the fundamental parameters could help the Citizens solve the collective action problem they face, allowing them to successfully agitate for a democratic transition. Investors would also learn in such a model, potentially allowing the model to match additional stock market moments in the data.
+
+The question, then, is which parameters the Citizens and investors might be learning about. There are two potential avenues to explore. The first would be learning about macroeconomic growth and risk, similar to the exercise in \cite{Buera2011}. The second would be learning about expected redistribution. This could occur either through learning about the probability of or the amount of redistribution conditional upon a successful democratization.
+
+Learning about the macroeconomic effects of democratization would have difficulty matching the results. In the simplest version of this model, rational investors would believe that the macroeconomic effects of democratization are, if anything, positive.  This is because---as the results from Tables~\ref{table:cashflow} and \ref{table:risk_measures} and Figure~\ref{fig:consumption} suggest---there are negligible effects on risk and growth before and immediately after the start of democratizations and positive effects on growth in the long run conditional upon success \citep{Acemoglu2019}.  These positive growth effects would suggest that dividend yields should fall at the start of democratizations and not rise. 
+
+If investors instead started with a very pessimistic prior of the macroeconomic effects of democracy, then such a model could match the baseline results. However, this too would not align with the data. In particular, this model would predict the stock market response to become less negative over time as investors revise their posteriors to accord with the data. Instead, the average stock market response is increasingly negative from 1914 until 1945 and then stabilizes (Figure~\ref{fig:rollingEstimation}). This is consistent with markets revising their posteriors of risk in democratizations upward over time.
+
+The avenue most consistent with the data would be if the Elites and Citizens were learning about the expected redistribution in democracy.  This mechanism could help to explain facts that the baseline model is not designed to match like: (1) regional waves of democratization, (2) the increasingly negative stock market reaction to democratization over time, and (3) increased stock market volatility in democratizations. For example, if the Citizens learn that they have a higher chance of obtaining a successful democratic transition from nearby democratizations, one could obtain regional waves. Learning could also explain the increasingly negative stock market effect over time, as the Elites learn that democratization is increasingly likely to be successful and has become more focused on redistribution over time. Moreover, such a model could generate the 5-7\% increase in stock market volatility I document in row 18 of Appendix Table~\ref{table:robustness} through a similar mechanism as the ``slow moving disasters'' in \cite*{Ghaderi2022}. This would happen as investors slowly learn about the true redistribution they face in the new democratic regime.
+
+However, in the baseline model learning about redistribution would do little since the Citizens do not directly agitate for democracy. This means that there is no link between the probability of entering the democratization state and the expected redistribution the Citizens can receive.  It would be possible to introduce a mechanism like this, however, if the Citizens' problem were modeled in a similar way to the Elites' problem in the autocratization model below in Section~\ref{section:auto_reverse}. Learning about expected redistribution could, then, be thought of as a potential microfoundation for the variation in the $\mu$ process needed to generate these additional results.
+
+The baseline model would, instead, rely upon a mechanism like common shocks, spillovers, and slow moving changes in expected redistribution in a full information setting.  This would likely produce results that are similar to the learning model, since the risk posed to investors would be the same in both models. Ultimately,  I have no evidence that would allow me to distinguish between a learning mechanism and these other reasonable mechanisms.
+
+Linking this to the Vatican II natural experiment above, while learning from the outcomes of other countries could serve as a key amplification mechanism, it is unlikely that it could explain the observed patterns on its own. This is because of the large increase in key predictors of democratization and large negative realized returns starting in 1959 across most all majority Catholic autocracies is more consistent with a common shock than learning. So while there may have been some learning about the outcomes of democratizations in other Catholic autocracies, this is secondary to the initial common shock.  However, the timing of democratizations in the ``Catholic wave''---as \cite{Philpott2004} describes it---and how they were spread out geographically could potentially be explained by a learning mechanism.
+
+\subsection{Autocratic reversals}\label{section:auto_reverse}
+
+Section~\ref{section:facts} notes a puzzling finding: dividend yields stay constant during autocratizations.  Given our theoretical scaffold, one might wonder why they do not decline. This subsection aims to shed light on that.
+
+Consider the idea that democracy is reversible. Should it be worthwhile, the Elites may attempt to overthrow the government and return to autocracy.  If they initiate an autocratization, in each period they are successful with probability $q$, fail with probability $q$, and the autocratization continues with probability $1-2q$.
+
+But such a move is fraught with risk. If they fail, they lose a portion of their consumption $Z$ and society remains a democracy forever. The cost $Z$ is known to them at the time of initiating the autocratization. If they succeed, they can undo the redistribution brought on by democracy and society becomes an autocracy forever.  This departs from the model above where democratization was a risk \textit{imposed} on the Elites by a revolutionary citizenry. Here, autocratization is a risk \textit{taken} by the Elites to increase future consumption.
+
+The value function of the Elites from undertaking an autocratization is given by ($T$ represents the uncertain ``autocratic transition'' state)
+\begin{multline}
+v^r(T,Z_t)^{1-\frac{1}{\psi}} = (1-\beta)(\hat{y}_t(D))^{1-\frac{1}{\psi}} + \beta^\star \mathbb{E}_t\bigg[q \Big(v^r(D)(1-Z_t)\Big)^{1-\gamma} \\ + (1-2q)v^r(T,Z_t)^{1-\gamma} + q v^{r}(A,\mu^A)^{1-\gamma}\bigg]^{\frac{1-\frac{1}{\psi}}{1-\gamma}}.\label{eq:autocratization}
+\end{multline}
+The indifference point for the Elites, $Z^*$, is the point at which Equation (\ref{eq:democracy}) is equal to Equation (\ref{eq:autocratization}). For autocratizations that occur near this indifference point, there is little effect on the consumption-wealth ratio, as the potential for growth is offset by the increase in risk.  
+
+The relationship between the Elites' potential consumption growth and $Z^*$ is plotted in Figure~\ref{fig:auto_model_res}. Predictably, the risk they are endogenously willing to take grows with the benefits they receive if they succeed.
+
+How do dividend yields respond? Figure~\ref{fig:auto_model_res} also plots the change in dividend yields for an autocratization taken at the indifference point. Because the dividend claim is a levered claim to consumption, the increase in risk dominates the higher cashflow growth.\footnote{Here, the dividend yield is modeled purely as a levered claim to consumption. I do not attempt to calibrate the potential anti-competitive effects of a transition to autocracy.} This leads to a small increase in dividend yields, approximately \autoDivYldChange\%. This is because increased risk has a larger effect than higher growth on the levered dividend claim. The rise in dividend yields produced in autocratizations is also quite similar to the data. As such, the redistributive model matches both directions of political transitions well.
+
+The model also provides another counter-intuitive result: the larger the benefits to instituting autocracy, the larger the increase in dividend yields for autocratizations attempted near the threshold. This is because of the endogenous response of the Elites to take greater risk in autocratizations. As Figure~\ref{fig:auto_model_res} shows, the larger the potential gain, the larger the increase in dividend yields.
+
+
+\section{Conclusion}\label{section:conc}
+
+Evidence from equity markets provides resounding support for redistribution-based models of democratization. Democratizations lower stock valuations and raise risk premia substantially across several proxies in data covering 90 countries over 200 years. These results cannot be explained by increased macroeconomic risk nor do other periods of high political or regime transition risk have the same effect. Exogenous variation coming from a change in Catholic church doctrine confirms that risk premia rise with the probability of a successful democratization. 
+
+Redistribution risk can explain these results. In the data, redistribution follows successful democratizations: the size of the public sector and measures of economic competition rise, and income inequality and measures of corruption fall.  Moreover, democratizations with higher redistribution risk see a substantially larger rise in risk premia than other democratizations. A redistribution-based model of democratic transitions with asset prices and incomplete markets can fully explain the results. It can also explain the lack of an asset pricing effect observed in autocratizations.
+
+\label{par:redistribution_highlight}
+The analysis highlights several potential channels of redistribution that generate the asset pricing results. That said, in standard macroeconomic models, more redistribution would generally lower growth. This is at odds with empirical evidence that suggests democracy causes higher growth \citep{Acemoglu2019}. Reconciling this disparity would be a natural path for future research. 
+
+The paper also highlights a potential resolution to this apparent contradiction. While much work has focused on declines in inequality or increasing taxation, this paper shows that increased competition and a loss of government consumption for the elites can also play a role in transitions. Indeed, while taxes and inequality are certainly important, they may not play a central role in all democratizations, in particular transitions from left-wing autocracies that are not captured when examining stock market data. My results highlight that approximately half of all redistribution risk impounded in asset prices comes from these other channels. Exploring these channels could help the field to better understand not just periods of democratization, but how policy and political risk affect individual, firm, and government decision making more broadly. It would also illuminate how reduction in barriers to entry relate to economic growth.
+
+Finally, this paper shows that any financial history of the last 200 years that excludes democratizations is incomplete.  In doing this, it provides new avenues of study in consumption-based models by focusing on political institutions and how they interact with the distribution of resources. In a model with incomplete markets, redistribution shocks can have large consequences on asset prices. This means that neither an increase in the probability of a large drop in aggregate consumption nor an increase in the volatility of aggregate consumption is necessary for an increase in risk premia. The consumption risk faced by relatively wealthy investors need only be affected. This paves the road for the risk of redistribution to be a primary historical driver of asset prices.
+
+
+\newpage
+
+\renewcommand{\baselinestretch}{1}\normalsize
+\footnotesize
+\setlength{\bibsep}{1pt}
+\bibliography{Democratization}
+\bibliographystyle{aer}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Democratizations and changes in log dividend yields} \label{table:valuationratio}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the 5-year change in log dividend yields on indicator variables representing the start of a democratization. The specification estimated is $$dp_{c,t}-dp_{c,t-5}=\alpha+\beta \mathbbm{1}_{c,t}\{\textrm{Democratization Start Year}\}+\epsilon_{c,t}$$ where $dp$ is the log dividend yield and $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors are clustered by country and year. All coefficients have been multiplied by 100 for presentation, and standard errors are in parentheses.  In~Columns~(4)-(6) some observations are lost due to there only being one observation in a region-year or in a continent-regime-year and from missing control observations. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_1_change_in_log_dividend_yields.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Democratizations, growth, and cash flows} \label{table:cashflow}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the five-year change in log GDP per capita and dividend growth on indicator variables denoting the start year of a democratization. The regressions estimated take the form $$\frac{y_{c,t+5}-y_{c,t}}{5}=\alpha+\beta \mathbbm{1}\{\textrm{Democratization Start}_{c,t}\}+\epsilon_{c,t}$$ where $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100 for presentation. The same results for financial crises are included for purpose of comparison.  In~Columns~(3)~and~(6) some observations are lost due to there only being one observation in a region-year.  \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_2_cashflow_growth.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{General political risk and dividend yields} \label{table:polRisk}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the 5-year change in log dividend yields on indicator variables representing the start of a democratization, regime change, autocratization, and international political crisis. Data are reported from 1918 on. The specification estimated is $$dp_{c,t}-dp_{c,t-5}=\alpha+\beta \mathbbm{1}_{c,t}\{\textrm{Event Start Year}\}+\epsilon_{c,t}$$ where $dp$ is the log dividend yield and $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100 for presentation.  In~Columns~(4)--(6) some observations are lost due to there only being one observation in a region-year or in a continent-regime-year.  The bottom of table presents the p-value of three F-tests testing the null hypothesis that the change in dividend yields in democratizations is the same as in the other three events. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_3_democratization_vs_other_political_risk.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Democratizations and revolutionary risk} \label{table:rev_test}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the 5-year change in log dividend yields on indicator variables representing the start of a democratization interacted with an index denoting the level of left wing or democratic civil society organization (CSO) activity.  The main effects for the level of left wing or democratic civil society organization activity are included in the regression, but are not displayed. Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100 for presentation.  In~Columns~(4)-(6) some observations are lost due to there only being one observation in a region-year or in a continent-regime-year and from missing control observations. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_4_revolution_risk.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Regional waves of democratizations and dividend yields} \label{table:regionalWave}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents a reduced form regression of the the five-year change in log dividend yields on the five-year change in the Regional Democracy Index from Equation~(\ref{eq:reg_dem}). It then presents the results of a two-stage least squares procedure instrumenting the 5-year change in the V-Dem Electoral Democracy Index using the five-year change in the Regional Democracy Index. In all regressions a series of event controls are included in addition to 5 leads and lags of log GDP per capita. To account for overlapping variables in both the first and second stage, Driscoll-Kraay standard errors with a five-year bandwidth and clustered at the year are applied and presented in the parentheses. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_5_regional_waves_instrument.tex}
+	}}}}
+\end{table}
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Balance of characteristics, 1946--1958} \label{table:balance}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows various characteristics of each of the different types countries used in the difference-in-differences framework. In the first 3 columns, the group means are reported. Columns (4) and (5) reports the point estimates on the regression $$\textrm{Outcome}_{c,t}= \alpha + \beta \mathbbm{1}_{c,t}\{\textrm{Majority Catholic Autocracy}\}+\epsilon_{c,t}$$ on either all countries or the subsample of autocracies, with standard errors clustered by country in parentheses.  The coefficients on rate variables have been multiplied by 100. The risk adjustment procedure for returns uses a two-factor model as described below in Equation (\ref{eq:twoFactor}). \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_6_balance_tests.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Difference-in-differences results} \label{table:svc}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows the regression coefficients for the difference-in-differences specification in Equation (\ref{eq:singleDiff}) on two sample windows, one from 1946--1976 and the other from 1939--1983, and for two different samples, one for all countries and the other on autocracies only. In each regression, 1959 to 1963 are the years of treatment and are excluded. Excess returns are adjusted for global and continental risk using the two-factor risk model described by Equation (\ref{eq:twoFactor}). Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100. The controls used are a series of ``event controls'' meaning indicator variables for whether the country is experiencing a head of government death, financial crisis, international political crisis, war, first five years of a sovereign default, recession, or coup d'etat. In addition to the event controls, I also control for the level of log GDP per capita, log GDP per capita growth, and add regime-type fixed-effects. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_7_did_results.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Successful democratizations and explicit redistribution} \label{table:explicitRedist}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the year-over-year change in the government revenue-GDP ratio, tax revenue-GDP ratio, Gini coefficient, and labor share of income from employee compensation on indicators denoting if a year is between 1 and 20 years after a democratization or successful democratization end. Regressions are specified as in Equation (\ref{eq:reg_redistribute}). Event controls for a financial crisis, war, sovereign default, recession, head of government death, the level of military activation, a coup d'etat, and international political crisis are added. The regressions also control for log GDP per capita and the lag of log GDP per capita.  Country and year fixed effects are included in all regressions. Standard errors are clustered by country and reported in parentheses. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+	\input{table_8_explicit_redistribution.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Successful democratizations and tacit redistribution} \label{table:implicitRedist}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the year-over-year change in the V-Dem corruption index, V-Dem bribery index, the Fraser Institute's Pro-Competitive Regulation Score, and the net entry of public firms on indicators denoting if a year is in a democratization or successful democratization.  Regressions are specified as in Equation (\ref{eq:reg_redistribute}). Country and year fixed effects are included in all regressions. Event controls for a financial crisis, war, sovereign default, recession, head of government death, the level of military activation, a coup d'etat, and international political crisis are added.  Standard errors are clustered by country and reported in parentheses.  \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_9_implicit_redistribution.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Elite democratizations and changes in log dividend yields} \label{table:valuationratioElite}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+		{\footnotesize \justify This table presents regressions of the 5-year change in log dividend yields on indicator variables representing the start of an elite democratization or non-elite democratization. An elite democratization is a democratization in which the aristocracy, business elites, political elites, or local elites were the most important regime support group in the year of the democratization or either of the two years prior according to the V-Dem regime data. The specification estimated is $$dp_{c,t}-dp_{c,t-5}=\alpha+\beta_1 \mathbbm{1}_{c,t}\{\textrm{HRR Democratization Start}\}+\beta_2 \mathbbm{1}_{c,t}\{\textrm{LRR Democratization Start}\}+\epsilon_{c,t}$$ where $dp$ is the log dividend yield and $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100 for presentation.  In~Columns~(4)-(6) some observations are lost due to there only being one observation in a region-year or in a continent-regime-year and from missing control observations. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_10_high_vs_low_redistribution_risk.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Model calibration} \label{table:calibration}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows the calibration of the parameters in the model.  A description of the moment matched and the source of the data or parameter value are provided alongside the calibrated value.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_11_model_calibration.tex}
+	}}}}
+\end{table}
+
+\newpage
+
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Model results} \label{table:modelResults}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows the different forms of redistribution, results for the change in the log dividend yield in the model and data, the relative importance of risk premium, cashflow, and riskfree rate effects for rising dividend yields, and the importance of different channels of redistribution for the asset pricing results. The relative importance of the risk premium, expected cashflow growth, and riskfree rates (Panel C) is computed as the log change in each component from State 1 to State 2 divided by the sum of the log changes in all components. The relative importance of each redistribution channel (Panel D) is computed by solving the model adding each form of redistribution sequentially. The change in the dividend yield from adding the component is its percent contribution. I start by adding increased competition, followed by increased taxes and dividend taxes, decreased inequality, and decreased corruption. Uncertain redistribution (i.e. $\aleph > q$) is present in each model solution.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{table_12_model_results.tex}
+	}}}}
+\end{table}
+
+
+\end{document}

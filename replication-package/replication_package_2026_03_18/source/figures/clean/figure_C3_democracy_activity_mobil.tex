@@ -1,0 +1,19 @@
+\begin{figure}[t!]
+    \captionsetup{width=1\linewidth}
+	\caption{\textbf{Predicting democratizations with anti-regime CSO activity vs. democratic mobilizations}}
+	\scriptsize
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}
+	\caption*{This figure presents the coefficients from a linear probability model of the form
+\begin{multline}
+\mathbbm{1}\{\textrm{Democratization}\}_{c,t} = \gamma_t + \eta_c + \beta_1 \textrm{Anti-regime CSO}_{c,t-h}+ \\ \beta_2 \textrm{Democratic Mobilization}_{c,t-h} + \varepsilon_{c,t}
+\end{multline}
+estimated on the post-1960 sample.  Each coefficient is scaled by the unconditional probability of being in a democratization year. Standard errors are clustered by country and year.
+ }
+	\label{fig:predictingDemo}
+	\footnotesize
+	\vspace{-.5cm}
+    \begin{center}
+		\includegraphics[width=.9\textwidth]{../figures/raw/figure_C3_democracy_activity_mobil.pdf}
+	\end{center}
+\end{figure}

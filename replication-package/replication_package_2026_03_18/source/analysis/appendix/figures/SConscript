@@ -1,0 +1,191 @@
+Import('*')
+
+# Path definitions
+FIGURES_CODE = '#source/analysis/appendix/figures'
+FIGURES_OUTPUT = '#source/figures'
+FIGURES_JSON = '#source/figures/json'
+ANALYSIS_DERIVED = '#datastore/derived/analysis'
+ASSETS_DERIVED = '#datastore/derived/assets'
+MACRO_POLITICAL_DERIVED = '#datastore/derived/macro_political'
+EVENTS_DERIVED = '#datastore/derived/events'
+
+# Figure B1 - Democracy log price (price, dividend growth, GDPpc; baseline and LP)
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_B1a_log_price_event_study.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B1a_log_price_event_study_lp.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B1b_log_dividend_growth_event_study.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B1c_log_gdp_per_capita_event_study.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_B1a_log_price_event_study.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1a_log_price_event_study_fc.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1b_log_dividend_growth_event_study.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1b_log_dividend_growth_event_study_fc.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1c_log_gdp_per_capita_event_study.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1c_log_gdp_per_capita_event_study_fc.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1a_log_price_event_study_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1a_log_price_event_study_fc_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1b_log_dividend_growth_event_study_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1b_log_dividend_growth_event_study_fc_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1c_log_gdp_per_capita_event_study_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B1c_log_gdp_per_capita_event_study_fc_lp.dta',
+]
+source = [
+    f'{FIGURES_CODE}/01_figure_B1_democracy_log_price.do',
+    f'{ANALYSIS_DERIVED}/section_3_data.dta',
+]
+env.Stata(target, source)
+
+# Figure B2 - Dividend yield event study across specs (baseline and LP)
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_1.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_2.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_3.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_4.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_1_lp.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_2_lp.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_3_lp.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_B2_dividend_yield_event_study_4_lp.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_1.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_2.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_3.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_4.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_1.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_2.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_3.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_4.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_1_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_2_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_3_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_democratization_event_study_4_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_1_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_2_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_3_lp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_B2_financial_crisis_event_study_4_lp.dta',
+]
+source = [
+    f'{FIGURES_CODE}/02_figure_B2_democracy_dividend_yield_specs.do',
+    f'{ANALYSIS_DERIVED}/section_3_data.dta',
+]
+env.Stata(target, source)
+
+
+# Figure C3 - Anti-regime CSO activity vs democratic mobilizations
+target = [f'{FIGURES_OUTPUT}/raw/figure_C3_democracy_activity_mobil.pdf']
+source = [
+    f'{FIGURES_CODE}/03_figure_C3_cso_activity_vs_mobilizations.do',
+    f'{MACRO_POLITICAL_DERIVED}/anti_system_cso_activity_and_mobilizations.dta',
+    f'{EVENTS_DERIVED}/all_events.dta',
+]
+env.Stata(target, source)
+
+# Figure C4 - Sample period move (falsification, short sample)
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_C4a_country_pair_falsification.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C4b_country_pair_falsification_aut.pdf',
+]
+source = [
+    f'{FIGURES_CODE}/04_figure_C4_sample_period_move.do',
+    f'{ANALYSIS_DERIVED}/section_4_data.dta',
+]
+env.Stata(target, source)
+
+# Figure C5 - Different estimation window end dates
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_C5a_window_end_date_all.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C5b_window_end_date_aut.pdf',
+]
+source = [
+    f'{FIGURES_CODE}/05_figure_C5_window_end_date.do',
+    f'{ANALYSIS_DERIVED}/section_4_data.dta',
+]
+env.Stata(target, source)
+
+# Figure C6 - Dropping every country pair, 1946–1976 (short sample)
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_C6a_country_pair_PE_short.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C6a_country_pair_T_short.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C6b_country_pair_PE_short_aut.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C6b_country_pair_T_short_aut.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_C6a_country_pair_short.dta',
+    f'{FIGURES_OUTPUT}/data/figure_C6b_country_pair_short_aut.dta',
+]
+source = [
+    f'{FIGURES_CODE}/06_figure_C6_country_pair_1946_1976.do',
+    f'{ANALYSIS_DERIVED}/section_4_data.dta',
+]
+env.Stata(target, source)
+
+# Figure C7 - Dropping every country pair, 1939–1983 (long sample)
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_C7a_country_pair_PE_long.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C7a_country_pair_T_long.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C7b_country_pair_PE_long_aut.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_C7b_country_pair_T_long_aut.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_C7a_country_pair_long.dta',
+    f'{FIGURES_OUTPUT}/data/figure_C7b_country_pair_long_aut.dta',
+]
+source = [
+    f'{FIGURES_CODE}/07_figure_C7_country_pair_1939_1983.do',
+    f'{ANALYSIS_DERIVED}/section_4_data.dta',
+]
+env.Stata(target, source)
+
+# Figure C8 - Dividend yield event study (autocracies sample)
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_C8_dividend_yield_event_study.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_C8_dividend_yield_event_study.dta',
+]
+source = [
+    f'{FIGURES_CODE}/08_figure_C8_dividend_yield_event_study.do',
+    f'{ASSETS_DERIVED}/all_excess_and_abnormal_returns.dta',
+    f'{ASSETS_DERIVED}/all_equity_returns.dta',
+    f'{ASSETS_DERIVED}/all_div_yld.dta',
+    f'{MACRO_POLITICAL_DERIVED}/all_inflation.dta',
+    f'{MACRO_POLITICAL_DERIVED}/physical_and_political_violence.dta',
+    f'{ANALYSIS_DERIVED}/section_4_data.dta',
+]
+env.Stata(target, source)
+
+# Figure D9 - Explicit redistribution event studies
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.dta',
+    f'{FIGURES_OUTPUT}/data/figure_D9b_explicit_redistribute_event_study_swiid.dta',
+]
+source = [
+    f'{FIGURES_CODE}/09_figure_D9_explicit_redistribute_event_study.do',
+    f'{ANALYSIS_DERIVED}/section_3_data.dta',
+]
+env.Stata(target, source)
+
+# Figure D10 - Price response to successful vs. failed democratizations
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_D10a_democratize_price_response_succ.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_D10b_democratize_price_response_ld.pdf',
+    '#source/numbers/figureD10.json',
+]
+source = [
+    f'{FIGURES_CODE}/10_figure_D10_democratization_end_price_response.do',
+    f'{ANALYSIS_DERIVED}/section_3_data.dta',
+]
+env.Stata(target, source)
+
+# Figure F12 - Sweden case study
+target = [f'{FIGURES_OUTPUT}/raw/figure_F12_sweden_case_study.pdf']
+source = [
+    f'{FIGURES_CODE}/11_figure_F12_sweden_case_study.do',
+    f'{ASSETS_DERIVED}/all_div_yld.dta',
+    f'{MACRO_POLITICAL_DERIVED}/democracy_index_and_regime_info.dta',
+]
+env.Stata(target, source)
+
+# Figure F13 - France case study
+target = [f'{FIGURES_OUTPUT}/raw/figure_F13_france_case_study.pdf']
+source = [
+    f'{FIGURES_CODE}/12_figure_F13_france_case_study.do',
+    f'{ASSETS_DERIVED}/all_div_yld.dta',
+    f'{MACRO_POLITICAL_DERIVED}/democracy_index_and_regime_info.dta',
+]
+env.Stata(target, source)

@@ -1,0 +1,282 @@
+\section{Model}\label{section:model}
+Can the redistribution following successful democratizations explain the rise in risk premia? Because asset prices and redistribution might not have a straightforward link, this task requires a model.
+
+This section presents a consumption-based asset pricing model with democratic transitions. Democratizations are modeled similarly to \cite{Acemoglu2006}.  A consortium of political elites in an autocracy attempts to maintain control of the state from a larger group of citizens. When democracy comes, the citizens redistribute the elites' rents toward themselves. This increased redistribution leads to a large reduction in elite consumption. During democratizations, the probability this will happen rises, leading to an increase in the risk premium.
+
+\paragraph{Macroeconomic environment}
+A mass of $\delta<\frac{1}{2}$ identical Elites and $1-\delta$ identical Citizens live in a closed economy.  Time is discrete and infinite.  Output ($Y$) is produced by a Lucas tree with an exogenous growth rate following the process
+\begin{equation}
+\log \frac{Y_{t}}{Y_{t-1}}=\bar{y}+\sigma_y \varepsilon_{t}.\label{eq:endowment}
+\end{equation}
+where $\bar{y}$ is the average growth rate, $\sigma_y$ is the standard deviation, and $\varepsilon \sim \mathcal{N}(0,1)$ is an independent and identically distributed, lognormal shock.  The Elites receive a proportion $\theta^\mathcal{I}>\delta$ of the endowment, so per capita income (scaled by aggregate income) is given by
+\begin{align}
+\bar{y}_{t}^{r}(\theta^{\mathcal{I}}) \equiv \frac{\bar{Y}_{t}^{r}(\theta^{\mathcal{I}})}{Y_t}= & \bigg(\frac{\theta^\mathcal{I}}{\delta}\bigg) \\
+\bar{y}_{t}^{p}(\theta^{\mathcal{I}}) \equiv \frac{\bar{Y}_{t}^{p}(\theta^{\mathcal{I}})}{Y_t}= & \bigg(\frac{1-\theta^\mathcal{I}}{1-\delta}\bigg).
+\end{align}
+Throughout the section, lowercase values represent quantities scaled by aggregate income. The superscript $r$ denotes the (rich) Elites and $p$ the (poor) Citizens. The parameter $\theta$ gives the level of pretax income inequality in the economy: The higher is $\theta$, the more unequal is the economy.  The superscript $\mathcal{I} \in \{A,D\}$ denotes the political regime that the economy operates in,  either autocracy or democracy.  This allows for the possibility that democracy reduces inequality.
+
+The endowment can be used to purchase a single consumption good which agents have \cite{Epstein1989} preferences over. Markets are incomplete in that the Citizens and Elites cannot trade with one another. Since only the Elites can access financial markets, they are the marginal investors in this economy.
+
+\paragraph{Taxes and transfers}
+The government decides policy over a single fiscal instrument: a linear tax on individual income paid back as a transfer to all agents. The average post-tax income for each group, scaled by aggregate income, is given by
+\begin{align}
+\hat{y}_{t}^{r} (\tau_{t},\theta^{\mathcal{I}},\nu^{\mathcal{I}}) = & (1-\tau_{t})\bar{y}_{t}^{r}(\theta^{\mathcal{I}})+\left(\left(\frac{\nu^{\mathcal{I}}}{\delta}\right)\tau_{t}-\frac{1}{2}\omega\tau_t^2\right) \\
+\hat{y}_{t}^{p} (\tau_{t},\theta^{\mathcal{I}},\nu^{\mathcal{I}}) = & (1-\tau_{t})\bar{y}_{t}^{p}(\theta^{\mathcal{I}})+\left(\left(\frac{1-\nu^{\mathcal{I}}}{1-\delta}\right)\tau_{t}-\frac{1}{2}\omega\tau_t^2\right)
+\end{align}
+where $\frac{1}{2}\omega\tau_t^2$ is the cost of taxation and $\nu^{\mathcal{I}}<\theta^{\mathcal{I}}$ is the degree of inequality in government spending. The cost, $\omega$, is a reduced form way of introducing a Laffer curve into the economy. Similarly, inequality in government spending is a reduced form way of modeling corruption. When corruption is high, the Elites can divert government spending for their own consumption.
+
+The optimal tax rate for the Elites is $\tau^{r*} = 0$ since the transfer is less than their pre-tax income, $\bar{Y}^{r}>Y$. Since transfers are greater than their pre-tax income, the optimal tax rate for the Citizens is the revenue maximizing tax rate
+\begin{equation}
+\tau^{p*}_\mathcal{I}=\frac{\theta^{\mathcal{I}}-\nu^{\mathcal{I}}}{\omega(1-\delta)}.
+\end{equation}
+
+\paragraph{Autocracy, revolution, and democracy}
+Tax policy maximizes the post-tax and transfer income of the group holding political power. Who holds political power depends on the set of institutions in place. There are three types of political institutions: autocracy, revolution, and democracy. 
+
+The model starts in autocracy,  where only the Elites can vote.  The government then holds elections and enacts whatever policy the Elites choose.  Absent any counteracting force the Elites would set taxes to zero in each period. 
+
+However, the Citizens have \textit{de facto} political power through their ability to revolt. If the Citizens revolt, they are successful by assumption and kill all the Elites. They then take control of the economy for the rest of history. But, this victory comes at a cost; a fraction $\mu$ of the Lucas tree is permanently destroyed. The expected present value of their utility after the revolution, scaled by the average income at time $t$, is
+\begin{equation}
+v^{p}(R,\mu_{t})=\bigg(\frac{1-\beta}{1-\beta^{\star}}\bigg)^{\frac{1}{1-1/\psi}}\bigg(\frac{1-\mu_t}{1-\delta}\bigg)\label{eq:revolution}
+\end{equation}
+where  $\beta^{\star} \equiv \beta e^{(1-1/\psi)\bar{y}+\frac{1}{2}(1-\gamma)(1-1/\psi)\sigma_{y}^{2}}$, $\beta$ the rate of time discounting, $\gamma$ the coefficient of relative risk aversion, and $\psi$ the  elasticity of intertemporal substitution (EIS). This expression for the value function is derived in Appendix~\ref{section:bellman_app}.
+
+Variation in $\mu$ ultimately drives the dynamics in the model.\footnote{As discussed in Section~\ref{section:svc}, variation in the cost of revolution $\mu$ is a reduced form way of modeling a complex collective action problem that the Citizens must solve to mount a successful revolution. A revolution cannot be successful if just one Citizen wakes up one morning and decides to revolt. She needs others to pose a true threat. Variation in $\mu$, therefore, represents that solving this problem is ``hit-or-miss.'' Explicitly modeling the collective action problem that the Citizens face is beyond the scope of this paper.  Potential mechanisms that might allow the Citizens to solve this problem are discussed in Section~\ref{section:model_limitations}.} When $\mu$ is high, the Citizens cannot credibly threaten revolution, as the destruction wrought makes them better off under autocracy. When $\mu$ is low, conversely, the Citizens can credibly threaten revolution, constraining the Elites from setting their preferred tax policy. Instead, the Elites must move toward the preferred policy of the Citizens.
+
+The Elites die if a revolution occurs, so they are always willing to make transfers to avoid it. This imposes a \textit{revolution constraint} in the autocracy state. The tax rate the Elites choose  must make autocracy more attractive to the Citizens than revolution. Formally, this implies\footnote{I am suppressing the dependence of $v^p$ on $\tau_t$, $\theta^\mathcal{I}$, and $\nu^\mathcal{I}$.}
+\begin{align}
+v^{p}(A, \mu_{t}) & \geq v^p(R,\mu_{t}).\label{eq:constraint}
+\end{align}
+For all values of $\mu$ such that $v^p(R,\mu_{t}) \in [0,v^{p}(A, \tau^{p*})]$ the revolution can be prevented with one-period taxes and transfers.
+
+When $\mu$ is sufficiently low, however, temporary transfers cannot prevent a revolution. The Elites would like to offer the Citizens future taxes and transfers in this situation, but these promises are not credible.\footnote{How credible these promises are depends on the persistence of $\mu$. Only permanent jumps in $\mu$, however, allow for fully credible promises of redistribution.} If $\mu$ returns to a high value, the Elites would no longer find it optimal to follow through on their promises in a Markovian equilibrium.\footnote{Path dependent equilibria do exist and could make future promises of redistribution credible for lower values of $\mu$. I do not examine them in this paper. \citet{Acemoglu2006} analyze these equilibria and find that they do not change the overall conclusions of the model.} In this case, the Elites' only option is to extend voting rights to the Citizens, ushering in democracy. Democracy acts as a commitment device. It makes promises of future redistribution credible by making the more numerous Citizens the median voter. This effectively grants them power over all future tax policy decisions, since once the economy becomes a democracy, it remains that way forever. As such, the present value of the Citizens' utility (once again, scaled by the average income at time $t$) is\footnote{By assumption, $v^{p}(D)$ does not depend on $\mu_t$. This is akin to saying that democratization prevents all future revolutions.}
+\begin{equation}
+v^{p}(D)=\bigg(\frac{1-\beta}{1-\beta^{\star}}\bigg)^{\frac{1}{1-1/\psi}}\hat{y}^{p} (\tau^{p*},\theta^{D},\nu^D)\label{eq:democracy}
+\end{equation}
+which is the expected present value of receiving the maximum transfer income in each period under \citeauthor{Epstein1989} utility. The ability to concede democracy prevents the revolution for all values of $\mu$ such that $v^p(R,\mu_{t}) \in (v^{p}(A,\tau^{p*}),v^{p}(D)]$. The lowest value of $\mu$ where the revolution can be prevented by conceding democracy is
+\begin{equation}
+\mu^{D} =1-(1-\delta)\hat{y}^{p} (\tau^{p*},\theta^{D},\nu^D).\label{eq:mudoublestar}
+\end{equation}
+
+Finally, if $v^p(R,\mu_{t}) > v^{p}(D)$, the Elites can do nothing to prevent a revolution because the Citizens are better off revolting than accepting democracy. When calibrating the model, however, I restrict the cost of revolution such that $\mu \in [\mu^{D},1]$. This means that the revolution never occurs. The action regions and their associated thresholds are shown in Appendix Figure~\ref{fig:mu_graph}.
+
+\label{par:hell_bent}
+In this model, the Elites concede democracy to prevent a worse outcome: death by revolution. As such, democratization is a strategic tool that allows the Elites to protect their livelihood at the expense of greater redistribution. One might question whether there is something unique about revolution risk for explaining the stock market response to democratization. The answer is that this particular choice is not important for this paper. Instead, it was made to remain faithful to the prior work that inspired this model \citep{Boix2003,Acemoglu2006}. It is important, however, the Elites are trading-off removing the risk of some worse outcome with the potential redistribution coming from allowing more democratic institutions. For example, if the Elites were to democratize to reign in a dictator hell-bent on expropriating their property, but the extension of property rights could only be achieved by making democratic concessions---which redistributes their resources to the Citizens---the results would be identical. Providing the exact mechanism under which various democratizations occur is an important question for future work, but is beyond the scope of the current analysis.
+
+\paragraph{Political environment as a game}
+The political environment can be modeled formally as a game. The order of the decisions is as follows (with mathematical notation in parentheses):
+\begin{enumerate}
+	\item Nature reveals the cost of revolution ($\mu_t$) to both the Elites and the Citizens.
+	\item The Elites choose to either concede democracy ($\phi_t = 1$) or keep autocracy ($\phi_t = 0$).
+	\item Both the Elites and Citizens choose the tax rate ($\tau_t^{i}$) they want to implement. If the society is an autocracy, then the tax rate chosen by the Elites is implemented. If the society is a democracy then the tax rate chosen by the Citizens is implemented.
+	\item The Citizens, after observing the tax rate, choose to revolt ($\rho_t = 1$) or not revolt ($\rho_t = 0$).
+\end{enumerate}
+
+The choice set of the Elites in time $t$ is given by $\{\tau_t^r (\mu_t), \phi_t (\mu_t)\}$ where their chosen tax rate and the choice of whether to concede democracy are functions of the cost of a revolution. Further, if $\phi_t = 1$ then $\phi_{t+s} = 1$ for $s>0$, meaning that once democracy is conceded, it is conceded forever. 
+
+The choice set of the Citizens in time $t$ is given by $\{\tau_t (\phi_t) ,\rho_t (\mu_t, \phi_t)\}$ where their chosen tax rate and the choice to revolt are functions of the political institutions in place and the cost of a revolution. Further, if $\rho_t = 1$ then $\rho_{t+s} = 1$ for $s>0$, meaning if the revolution occurs, its effects are permanent.
+
+\paragraph{Stochastic process for $\boldsymbol \mu$}
+
+The cost of revolution $\mu$ evolves according to a three-state, Markov process with the transition matrix 
+\begin{equation}
+\mathbf{P}=\left(\begin{array}{lll}
+p_{11} & p_{12} & p_{13}\\
+p_{21} & p_{22} & p_{23}\\
+p_{31} & p_{32} & p_{33}
+\end{array}\right)=\left(\begin{array}{lll}
+0.990 & 0.010 & 0.000\\
+\transPTwoOne & \transPTwoTwo & \transPTwoThree \\
+0.000 & 0.000 & 1.000
+\end{array}\right),
+\label{eq:transmat}
+\end{equation}
+where $\mu^{1}=\mu^{2}=\mu^A$ and $\mu^{3}=\mu^{D}$. The calibrated probabilities of transition are shown after the second equality. These probabilities are calibrated to match (1) the probability of starting a democratization in any given year of 1\%, (2) a 50\% success rate of democratizations, and (3) an average democratization length of \demEpisodeLength\ years.  
+
+In the first state, the \textit{autocracy state},  the Elites do not face an immediate revolutionary threat. This is because there is no chance of moving to the third state when in the first state.
+
+In the second state, the \textit{democratization state},  the Elites could now face a major revolutionary threat in the next period, with $\mu$ having a \transPTwoThreePct\% chance of being equal to $\mu^{D}$ in $t+1$. If this comes to pass, then all the Elites can do to prevent a revolution is to concede democracy. That said, there is also an equal probability that the democratization will fail, returning the economy to autocracy.  This is the key reason why democratizations affect the risk premia: it is uncertain whether they will succeed or fail.
+
+This uncertainty over the success or failure is present in the data.  Around \pctDemFail\% of democratizations fail, meaning society does not become a democracy after the initial rise in democratic institutions.
+
+In the third state, the revolutionary threat realizes and the Elites concede democracy. Note that while there is no chance of returning back to the democratization state, this probability is immaterial.\footnote{While this probability is not material because transitions are permanent, setting it to 1 does help in some ways. Below, I add uncertainty over the level of redistribution. If this probability were not equal to 1, then the Citizens may prefer the option of waiting for the ``high redistribution'' state. That said, there are values of $p_{33}$ lower than 1 that prevent this. In particular, this is the case if the Citizens have a positive discount rate and the low redistribution state offers more redistribution than autocracy, both of which are true in my calibration. \par Also, it is important to note that having $p_{33}=1$ does not imply the Citizens are indifferent between autocracy and democracy. This is because of the other forms of redistribution that democracy brings.} When democracy is conceded, it is an absorbing state, so the state variable $\mu$ becomes irrelevant. The model is parameterized to produce a democratic transition in the final state, but more general calibrations which lead to either an autocratic equilibrium or revolution are possible. These generalizations are discussed in Appendix~\ref{section:generalCase}.
+
+\label{par:correct_counterfactual}
+Finally, it is worth discussing whether the risk faced by the Elites is truly elevated in the democratization state. In particular, while the risk of future redistribution is undoubtedly higher in the democratization state, the potential for the Elites to democratize reduces risk relative to a counterfactual model in which the option to transition to democracy does not exist. However, if we take this calibration of the model literally, the revolutionary state never manifests precisely because democratization is effective at preventing it. As such, there is something of an ambiguity over the correct counterfactual: democratization raises Elite risk relative to the state in which the shock to $\mu$ never manifested, but lowers it relative to the revolutionary state conceding democracy prevents. This paper takes the stance that the latter is the appropriate counterfactual, but it is worth noting that democratizations do lower risk---and, therefore, risk premia---with respect to the worst-case scenario they are undertaken to prevent.
+
+\paragraph{Equilibrium}
+I consider Markov perfect equilibria, meaning that all strategies must be a best response and can only depend on the current state, not the history of past states. A Markov perfect equilibrium consists of a choice set for the Elites and the Citizens for each combination of state variables (namely, the current value of $\mu$ and political institutions from the previous period). But, all of the consequential choices take place in autocracy. If the revolution occurs, taxes are always zero, since everyone is equal and taxation is costly.  In democracy, the Citizens' preferred tax rate is always chosen. Based on the assumed process for $\mu$, the only equilibrium to the political game is for the economy to be an autocracy in states 1 and 2 and transition to democracy in state 3. In this case, taxes will be equal to $\tau_t \in [0,\tau^{p*}]$ in the first two states and equal to $\tau^{p*}$ in the last state. A revolution never occurs in equilibrium under this calibration.
+
+\subsection{Asset pricing implications}
+
+Since the Elites are worse off in democracy, an increase in its likelihood increases the risk premium. The rise in the risk premium relates to three things, conditional upon a success: (1) the fall in Elite consumption, (2) the drop in the cashflow of the dividend claim, and (3) how much uncertainty there is about these two quantities. 
+
+\paragraph{Elite consumption process}
+The transition from autocracy to democracy acts like a ``rare disaster'' for the Elite investors. This can be seen by examining the  consumption process for the Elites:
+\begin{equation}\label{eq:elite_consumption}
+\bigg(\frac{C_{t+1}^r}{C_{t}^r}\bigg) = \bigg(\frac{Y_{t+1}}{Y_{t}}\bigg) \chi_{t+1}
+\end{equation}
+where
+\begin{equation}\label{eq:dem_disaster}
+\chi_{t+1} \equiv \begin{cases} 
+\frac{\hat{y}_{t+1}^{r}(\tau^{p*}(\theta^{D}))}{\hat{y}_{t}^{r}(\tau_{t})} < 1 & \textrm{if }\phi_{t}=1;\phi_{t-1}=0 \\
+1 & \textrm{otherwise}
+\end{cases}.
+\end{equation}
+Movement along the Markov chain for $\mu$  mimics variation in the disaster probability, similar to \cite{Gabaix2012} and \cite{Wachter2013}.  This means that as a permanent transition to democracy becomes more likely, risk premia and dividend yields rise.  Qualitatively, this allows the model to match the increase in dividend yields observed in the data. 
+
+\paragraph{The dividend claim}
+I model the dividend claim as the set of incumbent firms in autocracy.  These firms receive all profits in the autocratic economy. When democracy comes, barriers to entry fall and these firms lose a fraction $\xi$ of their profits to new entrants.  The growth rate of dividends is given by, 
+\begin{equation}
+\frac{D_{t+1}}{D_{t}} \equiv \bigg(\frac{Y_{t+1}}{Y_{t}}\bigg)^{\Upsilon}\chi^D_{t+1}
+\end{equation}
+with $\chi^D_{t+1}$ representing the ``disaster term'' for the dividend claim
+\begin{equation}
+\chi^D_{t+1}\equiv \begin{cases} 
+\bigg(\frac{1-\tau^D_{Div}}{1-\tau^A_{Div}}\bigg)\xi < 1 & \textrm{if }\phi_{t}=1;\phi_{t-1}=0 \\
+1 & \textrm{otherwise}
+\end{cases}
+\end{equation}
+where $\tau^\mathcal{I}_{Div}$ is the exogenously determined dividend tax rate in either autocracy or democracy.
+
+There are two benefits to modeling the dividend claim in this way. First, it enjoys support in the data. Section~\ref{section:redistribution} provides evidence that economic competition increases during successful democratizations. Pro-competitive regulation rises as does net entry of publicly-traded firms.  
+
+Second,  the data do not suggest there is a large decline in aggregate dividends after successful democratizations. Since dividends are merely redistributed to new entrants and not destroyed, the aggregate level of dividends need not decline. In essence, this is a reduced form way of modeling the displacement risk described in \cite*{Garleanu2012}.
+
+\paragraph{Uncertain redistribution}
+The amount of redistribution that occurs post-democratization is also uncertain. Some democratizations are captured by elites while others cater more to the general citizenry. This is sometimes true within a democratization, as pointed out by \cite{Hinnerich2014} in the case of Sweden. To model this, I allow for each component of redistribution to have a ``high'' and ``low'' state. This is represented by two sets of parameters $\{\mu^{DH},\theta^{DH},\nu^{DH}, \xi^{H},\omega^H\}$ and $\{\mu^{DH},\theta^{DL},\nu^{DL}, \xi^{L},\omega^L\}$ that realize with probability $q$ and $1-q$.\footnote{Changes in $\omega$ allow the tax rate to vary without having to model the potential for Elite capture in democracy.}
+
+The two sets of parameters are constructed by taking a mean preserving spread over the average change in each parameter going from autocracy to democracy. For example, for the inequality parameter $\theta$, this implies that
+\begin{align*}
+\theta^{DH} & = \theta^A - \bigg(\frac{\aleph}{q}\bigg)(\theta^A-\theta^D) \\
+\theta^{DL} & = \theta^A - \bigg(\frac{1-\aleph}{1-q}\bigg)(\theta^A-\theta^D) 
+\end{align*}
+where $\theta^D \equiv q \theta^{DH} + (1-q)\theta^{DL}$ is the average change in inequality when moving from autocracy to democracy and $\aleph$ is the fraction of the effect attributed to the high redistribution state. If $\aleph > q$, then there is uncertainty in the amount of redistribution. 
+
+For the two values of $\mu$, however, this rule does not apply. These are given by equating Equations (\ref{eq:revolution}) and (\ref{eq:democracy}) under both sets of parameters.
+
+\subsection{Calibration}
+
+\input{../tables/clean/table_11_model_calibration.tex}
+
+I calibrate the model using a combination of data moments from various data sources, the reduced form estimates from above, and prior work in asset pricing and political economy. The parameter values and their sources are outlined in Table~\ref{table:calibration}.
+
+The growth and volatility of income are set to match the growth process for GDP per capita in autocracies. The autocracy designation comes from V-Dem. 
+
+Inequality in autocracy $\theta^A$ matches the average pretax Gini coefficient at the start of a successful democratization. When there are two income groups, the pretax Gini coefficient is equal to $\theta^A-\delta$ or the income share less the number of agents in that group.  To calibrate this, I assume that the elites constitute 7\% of the population. This matches, for example, estimates of the portion of Chinese citizens that are members of the Chinese Communist Party \citep{Tian2021}. Inequality in democracy $\theta^D$ is set to match the estimates from Section~\ref{section:redistribution}. However, both the decline in the Gini coefficient and the rise in the labor share map to the reduction in $\theta$. This is because  $\theta$ would also be equal to the capital share in an economy with Cobb-Douglass production. Therefore, $\theta^D$ is calibrated to match the average of the change in these two series. 
+
+The rent diversion parameter in autocracy $\nu^A$ matches the average V-Dem corruption index for countries that start a successful democratization which is quoted on a scale of 0 to 1.\footnote{This is done in lieu of estimates of the portion of government spending that goes to the elites, a reliable source for which does not exist to my knowledge.} Rent diversion in democracy matches the reduction in the corruption index from Section~\ref{section:redistribution}. The tax rate in autocracy is equivalent to the tax revenue-GDP ratio for countries that start a successful democratization, equal to \autocracyTax\%. This is achieved by setting the parameter $\mu^A$. The cost of raising tax revenue $\omega$ matches the average \tabEightOneCE\ percentage point increase in government revenue-GDP ratios from Section~\ref{section:redistribution}.
+
+The leverage of the dividend claim $\Upsilon$ is from \cite{Wachter2013}. The increase in dividend taxes is set to the difference in corporate taxes between autocracies and large democracies reported in \cite*{Genschel2016}, approximately 10\%. The loss of market share for incumbent firms $\xi$ matches evidence from \cite{Fisman2001}, who find a 24\% reduction in connected firm value after the fall of the Suharto regime in Indonesia.
+
+The uncertainty parameters match the results from Appendix~\ref{section:demEnd}. This section reports that realized transitions into liberal democracies have a nearly 8 times larger decline in prices than other successful transitions. The $\aleph$ parameter is set such that the capital losses from entering the high and low redistribution states match this. The $q$ parameter is set to  \pctLibDem\%, the portion of liberal democratizations in total successful democratizations.
+
+Finally, relative risk aversion and the EIS are taken from \cite{Catherine2021} and \cite*{Bansal2010}. The subjective rate of discount $\beta$ matches the average dividend yield in autocracies, \tabTwelveDivYldAutData.
+
+\subsection{Model results}
+\label{section:model_results}
+Table~\ref{table:modelResults} presents the results of the model and calibration exercise. Panel A shows that the Elites face an \tabTwelveEliteConsDrop\% decline in consumption as a result of democratization. This is mainly driven by a decrease in inequality, since this is a pure reduction in Elite consumption. The other two hits to Elite consumption are the increase in taxes and the reduction in the Elites' ability to skim additional income from the government.
+
+Panel B shows that after accounting for all of these channels---and combining them with reduced cashflows coming from increased competition and higher dividend taxes---the democratization state generates a \tabTwelveDYChangeModel\% increase in dividend yields. This is slightly smaller than the data results with country and year fixed effects. This means that risk over future redistribution can explain nearly all of the rise in dividend yields seen in democratizations. 
+
+\input{../tables/clean/table_12_model_results.tex}
+
+Panel C breaks down the relative importance of rising risk premia and declining expected cashflows and riskfree rates for the results. To do this, I take the log change in each component from the autocracy state to the democratization state and divide it by the sum of the log changes. The model suggests that rising risk premia drive the bulk of the rise in dividend yields. Relative to changing expected cashflows, rising risk premia explain just over 60\% of the rise in dividend yields.\footnote{Since riskfree rates decline, the combination of declining expected cashflows and rising risk premia account for more than 100\% of the rise in dividend yields. Among these two components that raise dividend yields, rising risk premia account for over 60\% of the result. This is computed as $\frac{\tabTwelveRiskPrem}{\tabTwelveRiskPrem + \tabTwelveCashflow} \approx \tabTwelveRiskPremPos\%$.} That said, the cashflow effects are large, highlighting an important and under-explored channel in democratizations: reductions in barriers to entry.\footnote{Note also that riskfree rates fall which {\it ceteris paribus} lowers the dividend yield. This is mostly driven by the expected reduction in elite consumption coming from reduced inequality, rising taxes, and reduced corruption.}\label{footnote:clarify_effect}
+
+Finally, Panel D depicts the relative impact of the various redistribution mechanisms in the model. This is done by sequentially incorporating each source of redistribution, beginning with intensified competition and concluding with reduced corruption. It is crucial, however, that the relationship among these channels is complex. They interact non-linearly, making it challenging to isolate the exact effect of each type of redistribution.
+
+The predominant channel is increased economic competition, accounting for \tabTwelveComp\% of the rise in dividend yields and the majority of the decline in expected cashflow growth. This finding is significant, as increased creative destruction and structural transformation may elucidate why long-run macroeconomic growth is on average higher following democratizations \citep*{Aghion2008,Aghion2014,Acemoglu2015,Bravo2021}.\footnote{These findings may seem at odds with the results I highlight above that show democratization has no significant effect on macroeconomic growth. However, there is no disagreement with these results and prior work. For example, \cite{Acemoglu2019} find little effect on macroeconomic growth in the 10-years after the start of a democratization. They do find large long-run effects that begin after approximately 10-years. Even with these long-run results, there is no conflict.  I obtain similar results to \citeauthor{Acemoglu2019} using the same estimation strategy as in Section~\ref{section:redistribution_emp} on GDP growth from the Maddison Historical Statistics. I find successful democratizations lead to a 51 basis point higher growth rate, on average, in the 20-years after they end.} The model demonstrates that greater economic competition is an essential quantitative element in explaining the rise in dividend yields, while maintaining stable aggregate dividend growth.
+
+The remaining \tabTwelveNonComp\% of the rise in dividend yields is driven by the other standard channels of redistribution: increased taxes, lower inequality, and reduced corruption. Increased taxes come with both discount rate and cashflow effects because they affect both Elites' income and the dividend claim. Lower inequality and reduced corruption, conversely, solely affect dividend yields through discount rates. This is also true of increased uncertainty.
+
+\subsection{Model limitations}\label{section:model_limitations}
+There are many amplifying and mitigating channels that are not included in the baseline version of the model, mainly because I do not have data that would allow me to quantify them. In this section, I discuss these channels and present extensions that help give a sense of what their overall impact on the results might be.
+
+\paragraph{Financial liberalization}
+\label{par:finanace_lib_beg}
+Perhaps the main limitation of the model is that it assumes that only the Elites participate in financial markets both before and after democratizations take place. This is, of course, extreme as democratization could be accompanied by a broadening of ownership in financial markets. Should, for example, all Citizens join in financial markets in democratization, they could buy securities from the Elites. Unlike the Elites, the Citizens experience consumption growth if democratization is successful and would, therefore, be willing to pay a higher price for the claim to incumbent firms. This is because, while the cashflow effect for the two groups is identical, the discount rate they assign to this claim is different.
+
+However, this potential offsetting channel is mitigated by two factors. First, the Elites have a large share of the wealth in the economy. Absent a market for contingent claims, the Citizens would need sufficient disposable income or borrowing capacity to purchase a sufficient quantity of securities from the Elites to offset the risk premium component of the results. Second, even if the Citizens join financial markets after a successful democratization, the Elites may not expect this \textit{ex ante}. This would mean that there would still be a large increase in the risk premium at the start of the democratization.
+
+A simple exercise can be informative of how increased participation may affect the results. Here, I assume that the Citizens join financial markets during the democratization period with liquid wealth $X$ relative to the capitalization of the stock market. For example, $X=1$ implies that the Citizens can purchase all shares in incumbent firms from the Elites. The Citizens are willing to purchase the dividend claim at a price $S^p \geq S^r$, determined by their Euler equation. Obtaining this price is analogous to solving for the Elite price-dividend ratio, but where $\chi$ is replaced by $\chi^p$, given by:
+\begin{equation}\label{eq:citizen_disaster}
+\chi^p_{t+1} \equiv \begin{cases} 
+\frac{\hat{y}_{t}^{p}(\tau^{p*}(\theta^{D}))}{\hat{y}_{t}^{p}(\tau_{t})} > 1 & \textrm{if }\phi_{t}=1;\phi_{t-1}=0 \\
+1 & \textrm{otherwise}
+\end{cases}.
+\end{equation}
+Randomly, a fraction $X$ of the Elites' securities are sold at that price, with the remaining securities sold at $S^r$, the price the Elites would pay absent the Citizens entering the market.
+
+Solving for the Citizens' price under the baseline calibration implies the dividend yield would only rise by approximately 7\% should they be able to purchase the entire market. The price they are willing to pay is actually higher than the price where $\chi=1$, which corresponds to the case where there is only a cashflow effect. This is because the claim to incumbent firms hedge the citizens against the possibility that democratization fails because it offers high cashflows in a relatively high marginal utility state.
+
+Under this setup, the Elites would be willing to purchase a claim to incumbent firms at the price $S = (1-X) S^r + XS^p$ for $X \in [0,1]$. Since the dividend yield rises by \modelCitizenDY\% under the price the Citizens are willing to pay, the channel could offset a maximum of approximately two-thirds of the result.  
+
+The question, then, is how to calibrate $X$. This is, of course, quite difficult absent detailed microdata from autocratic countries. However, we can get a sense of a reasonable value for $X$ by examining data from developed, democratic countries. For example, in Survey of Consumer Finances sponsored by the United States Federal Reserve, we can examine the equity share of the top 7\% of the population---corresponding to my calibration of the portion of the Elites in the populace. In these data, this is approximately 77\% from 1989--2019. A somewhat reasonable starting point for $X$ then, would be $X = 0.23$. At this value, the model with increased participation would suggest dividend yields increase by \modelLimitedPartDY\% offsetting the baseline estimates by approximately one-quarter.
+
+Of course, calibrating to data based on the United States is a stretch when thinking of the experience of democratizing countries. Indeed, the impact of increased participation could be either weaker or stronger than this calibration would imply. For instance, democratizing countries are generally not as wealthy or educated as the United States, which would tend to cause $X$ to be overestimated at 23\%. However, their stock markets are generally not as large either, meaning less liquid wealth need be available to purchase securities from the Elites. This would tend to cause $X$ to be underestimated. As such, this calibration is meant to give a sense of what the results would look like under a reasonable calibration for $X$, but these results are not definitive.
+\label{par:finanace_lib_end}
+
+\paragraph{Elite consumption and higher growth}
+\label{par:higher_growth_beg}
+Another potential offsetting channel is that democracies tend to grow at faster rates \citep{Acemoglu2019}. This would, {\it ceteris paribus}, lower dividend yields since such growth would presumably be enjoyed by the Elites in addition to the Citizens.
+
+However, it is conceptually at odds to consider the effects of higher aggregate growth without also accounting for the reduction in Elite consumption arising from reduced incumbent firm cashflows due to increased economic competition. This is because the higher growth in democracy may be bought at the expense of incumbent firm market power. Note that this is not captured by the rise in the labor share, since this is about how the capital share and profit share will be split between new and old firms. Because there is no clear way to calibrate this channel, I did not include increased macroeconomic growth in the baseline version of the model.
+
+However, we can understand how reasonable this line of argument is by seeing how large the reduction in Elite consumption would need to be to offset the rise in macroeconomic growth. To do this, I do the same thing I do for the various forms of redistribution and model the positive growth shock as an instantaneous 12\% increase in Elite consumption. This number comes from using the estimation strategy in Section~\ref{section:redistribution_emp} with the log rate of GDP growth as the outcome variable. It suggests that GDP growth is 60 basis points higher in the 20-years after a successful democratization.
+
+I then calibrate the portion of Elite consumption coming from incumbent firms that would be necessary to offset this effect, finding it is approximately \modelHigherGrowthAdj\%. This is not out-of-line with the data available from developed, democratic countries. For example, in the Survey of Consumer Finances in the United States from 1989--2019, approximately 36\% of all income comes from interest, dividends, and private businesses for the top 7\% of the wealth distribution. This would suggest ignoring these channels is conservative.
+\label{par:higher_growth_end}
+
+\paragraph{Gradual redistribution}
+\label{par:gradual_redist}
+In the baseline model, redistribution happens all at once when transitioning to democracy. One might instead wish to formulate the model such that redistribution happens more gradually. To this end, Appendix~\ref{section:gradual_redist} presents a model where long-run Elite expected consumption growth falls instead of redistribution happening instantly upon transition. This model requires a 95 basis point decline in Elite consumption growth to generate the same rise in dividend yields in the democratization state as in the baseline model.
+
+\paragraph{Rising economic and social mobility}
+Other important missing channels, like increased economic and social mobility, would instead enhance the results. Indeed this would be the case for two main reasons. First, as \cite{Acemoglu2015} points out, increased mobility makes it difficult to measure the true decline in Elite consumption, since wealthy Elites are replaced by wealthy Citizens in democracy. This means that the aggregate decline in Elite consumption is actually larger than what the Gini coefficient would indicate. Second, increased social mobility comes with a cross-sectional component in that different Elites may be affected differently. I have ruled out this possibility here, as markets are complete among the Elites. But allowing for some degree of market incompleteness among the Elites would allow these types of cross-sectional shocks to play a role.
+
+\paragraph{Greater tax progressivity}
+Potential changes in tax progressivity are also not included in the baseline version of the model. Currently, the model is calibrated to match increases in tax revenue under the assumption that this is borne equally across the two groups. However, if taxes are progressive, it would enhance the results as a greater burden of increasing government revenue would be placed on the Elites. This implies that the decline in Elite consumption may be greater than in the baseline version of the model, leading the model to understate the rise in dividend yields.
+
+\paragraph{Partial democratizations}
+\label{par:partial_dem}
+It is worth noting that the democratizations in the model are fairly stylized and divorced from the data to some degree. This is because most transition episodes are gradual and transitions to democracy can take place over several democratization episodes. That said, the quantitative exercise in the paper is less affected by this than one might think. This is because---while in the model the democratizations are stylized---the data it is calibrated to are not.  Said another way, the model is calibrated to match moments estimated from the partial democratizations that we see in the data. As such, the main quantitative results are robust to this critique.
+
+\paragraph{Learning as a microfoundation for $\boldsymbol \mu$}
+\label{par:learning_about_dem}
+Finally, one might also wonder whether learning could be a microfoundation for the $\mu$ process.  In such a model, learning about the fundamental parameters could help the Citizens solve the collective action problem they face, allowing them to successfully agitate for a democratic transition. Investors would also learn in such a model, potentially allowing the model to match additional stock market moments in the data.
+
+The question, then, is which parameters the Citizens and investors might be learning about. There are two potential avenues to explore. The first would be learning about macroeconomic growth and risk, similar to the exercise in \cite{Buera2011}. The second would be learning about expected redistribution. This could occur either through learning about the probability of or the amount of redistribution conditional upon a successful democratization.
+
+Learning about the macroeconomic effects of democratization would have difficulty matching the results. In the simplest version of this model, rational investors would believe that the macroeconomic effects of democratization are, if anything, positive.  This is because---as the results from Tables~\ref{table:cashflow} and \ref{table:risk_measures} and Figure~\ref{fig:consumption} suggest---there are negligible effects on risk and growth before and immediately after the start of democratizations and positive effects on growth in the long run conditional upon success \citep{Acemoglu2019}.  These positive growth effects would suggest that dividend yields should fall at the start of democratizations and not rise. 
+
+If investors instead started with a very pessimistic prior of the macroeconomic effects of democracy, then such a model could match the baseline results. However, this too would not align with the data. In particular, this model would predict the stock market response to become less negative over time as investors revise their posteriors to accord with the data. Instead, the average stock market response is increasingly negative from 1914 until 1945 and then stabilizes (Figure~\ref{fig:rollingEstimation}). This is consistent with markets revising their posteriors of risk in democratizations upward over time.
+
+The avenue most consistent with the data would be if the Elites and Citizens were learning about the expected redistribution in democracy.  This mechanism could help to explain facts that the baseline model is not designed to match like: (1) regional waves of democratization, (2) the increasingly negative stock market reaction to democratization over time, and (3) increased stock market volatility in democratizations. For example, if the Citizens learn that they have a higher chance of obtaining a successful democratic transition from nearby democratizations, one could obtain regional waves. Learning could also explain the increasingly negative stock market effect over time, as the Elites learn that democratization is increasingly likely to be successful and has become more focused on redistribution over time. Moreover, such a model could generate the 5-7\% increase in stock market volatility I document in row 18 of Appendix Table~\ref{table:robustness} through a similar mechanism as the ``slow moving disasters'' in \cite*{Ghaderi2022}. This would happen as investors slowly learn about the true redistribution they face in the new democratic regime.
+
+However, in the baseline model learning about redistribution would do little since the Citizens do not directly agitate for democracy. This means that there is no link between the probability of entering the democratization state and the expected redistribution the Citizens can receive.  It would be possible to introduce a mechanism like this, however, if the Citizens' problem were modeled in a similar way to the Elites' problem in the autocratization model below in Section~\ref{section:auto_reverse}. Learning about expected redistribution could, then, be thought of as a potential microfoundation for the variation in the $\mu$ process needed to generate these additional results.
+
+The baseline model would, instead, rely upon a mechanism like common shocks, spillovers, and slow moving changes in expected redistribution in a full information setting.  This would likely produce results that are similar to the learning model, since the risk posed to investors would be the same in both models. Ultimately,  I have no evidence that would allow me to distinguish between a learning mechanism and these other reasonable mechanisms.
+
+Linking this to the Vatican II natural experiment above, while learning from the outcomes of other countries could serve as a key amplification mechanism, it is unlikely that it could explain the observed patterns on its own. This is because of the large increase in key predictors of democratization and large negative realized returns starting in 1959 across most all majority Catholic autocracies is more consistent with a common shock than learning. So while there may have been some learning about the outcomes of democratizations in other Catholic autocracies, this is secondary to the initial common shock.  However, the timing of democratizations in the ``Catholic wave''---as \cite{Philpott2004} describes it---and how they were spread out geographically could potentially be explained by a learning mechanism.
+
+\subsection{Autocratic reversals}\label{section:auto_reverse}
+
+Section~\ref{section:facts} notes a puzzling finding: dividend yields stay constant during autocratizations.  Given our theoretical scaffold, one might wonder why they do not decline. This subsection aims to shed light on that.
+
+Consider the idea that democracy is reversible. Should it be worthwhile, the Elites may attempt to overthrow the government and return to autocracy.  If they initiate an autocratization, in each period they are successful with probability $q$, fail with probability $q$, and the autocratization continues with probability $1-2q$.
+
+But such a move is fraught with risk. If they fail, they lose a portion of their consumption $Z$ and society remains a democracy forever. The cost $Z$ is known to them at the time of initiating the autocratization. If they succeed, they can undo the redistribution brought on by democracy and society becomes an autocracy forever.  This departs from the model above where democratization was a risk \textit{imposed} on the Elites by a revolutionary citizenry. Here, autocratization is a risk \textit{taken} by the Elites to increase future consumption.
+
+The value function of the Elites from undertaking an autocratization is given by ($T$ represents the uncertain ``autocratic transition'' state)
+\begin{multline}
+v^r(T,Z_t)^{1-\frac{1}{\psi}} = (1-\beta)(\hat{y}_t(D))^{1-\frac{1}{\psi}} + \beta^\star \mathbb{E}_t\bigg[q \Big(v^r(D)(1-Z_t)\Big)^{1-\gamma} \\ + (1-2q)v^r(T,Z_t)^{1-\gamma} + q v^{r}(A,\mu^A)^{1-\gamma}\bigg]^{\frac{1-\frac{1}{\psi}}{1-\gamma}}.\label{eq:autocratization}
+\end{multline}
+The indifference point for the Elites, $Z^*$, is the point at which Equation (\ref{eq:democracy}) is equal to Equation (\ref{eq:autocratization}). For autocratizations that occur near this indifference point, there is little effect on the consumption-wealth ratio, as the potential for growth is offset by the increase in risk.  
+
+The relationship between the Elites' potential consumption growth and $Z^*$ is plotted in Figure~\ref{fig:auto_model_res}. Predictably, the risk they are endogenously willing to take grows with the benefits they receive if they succeed.
+
+\input{../figures/clean/figure_8_autocratization_model.tex}
+
+How do dividend yields respond? Figure~\ref{fig:auto_model_res} also plots the change in dividend yields for an autocratization taken at the indifference point. Because the dividend claim is a levered claim to consumption, the increase in risk dominates the higher cashflow growth.\footnote{Here, the dividend yield is modeled purely as a levered claim to consumption. I do not attempt to calibrate the potential anti-competitive effects of a transition to autocracy.} This leads to a small increase in dividend yields, approximately \autoDivYldChange\%. This is because increased risk has a larger effect than higher growth on the levered dividend claim. The rise in dividend yields produced in autocratizations is also quite similar to the data. As such, the redistributive model matches both directions of political transitions well.
+
+The model also provides another counter-intuitive result: the larger the benefits to instituting autocracy, the larger the increase in dividend yields for autocratizations attempted near the threshold. This is because of the endogenous response of the Elites to take greater risk in autocratizations. As Figure~\ref{fig:auto_model_res} shows, the larger the potential gain, the larger the increase in dividend yields.

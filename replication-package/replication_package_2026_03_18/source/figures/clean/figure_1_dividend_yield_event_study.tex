@@ -1,0 +1,15 @@
+\begin{figure}[t!]
+	\caption{\textbf{Event study of log dividend yields in democratizations}}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}
+    \captionsetup{width=1\linewidth}
+	\caption*{This figure presents an event study of log dividend yields around democratization event start years. The equation estimated is
+$$dp_{c,t} = \alpha_c + \alpha_t + \sum_{k=-5}^{-4} \beta_k \mathbf{1}\{\text{Democratization}_{k,c,t}\} + \sum_{k=-2}^{5} \beta_k \mathbf{1}\{\text{Democratization}_{k,c,t}\} + \varepsilon_{c,t}$$
+where $\mathbf{1}\{\text{Democratization}_{k,c,t}\}$ is an indicator variable equal to 1 if the observation is $k$ years before or after the democratization begins. Estimates are relative to the value three years prior to the event start. Endpoints (not shown) are binned. The sample from Table~\ref{table:valuationratio} is used to assure sufficient observations in the pre-period. The red bars on the democratization line represent a 90\% confidence interval of the point estimates with standard errors clustered by country and year.}
+	\label{fig:figure1}
+	\footnotesize 
+	\vspace{-.5cm}
+    \begin{center}
+		\includegraphics[width=1\textwidth]{../figures/raw/figure_1_dividend_yield_event_study.pdf}
+	\end{center}
+\end{figure}

@@ -1,0 +1,93 @@
+Import('*')
+
+# Path definitions
+TABLES_CODE = '#source/analysis/main/tables'
+TABLES_OUTPUT = '#source/tables/raw'
+ANALYSIS_DERIVED = '#datastore/derived/analysis'
+MODEL_DERIVED = '#source/derived/model'
+
+# Table 01 - Change in log dividend yield
+target = [f'{TABLES_OUTPUT}/table_1_change_in_log_dividend_yields.tex',
+          '#source/numbers/table1.json']
+source = [f'{TABLES_CODE}/01_table_1_change_in_log_dividend_yield.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 02 - Cashflow growth
+target = [f'{TABLES_OUTPUT}/table_2_cashflow_growth.tex',
+          '#source/numbers/table2.json']
+source = [f'{TABLES_CODE}/02_table_2_cashflow_growth.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 03 - Democratization vs other political risk
+target = [f'{TABLES_OUTPUT}/table_3_democratization_vs_other_political_risk.tex',
+          '#source/numbers/table3.json']
+source = [f'{TABLES_CODE}/03_table_3_democratization_vs_other_political_risk.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 04 - Revolution risk
+target = [f'{TABLES_OUTPUT}/table_4_revolution_risk.tex',
+          '#source/numbers/table4.json']
+source = [f'{TABLES_CODE}/04_table_4_revolution_risk.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 05 - Regional waves instrument
+target = [f'{TABLES_OUTPUT}/table_5_regional_waves_instrument.tex',
+          '#source/numbers/table5.json']
+source = [f'{TABLES_CODE}/05_table_5_regional_waves_instrument.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 06 - Balance tests
+target = [f'{TABLES_OUTPUT}/table_6_balance_tests.tex']
+source = [f'{TABLES_CODE}/06_table_6_balance_tests.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table 07 - DID results
+target = [f'{TABLES_OUTPUT}/table_7_did_results.tex',
+          '#source/numbers/table7.json']
+source = [f'{TABLES_CODE}/07_table_7_did_results.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table 08 - Explicit redistribution
+target = [f'{TABLES_OUTPUT}/table_8_explicit_redistribution.tex',
+          '#source/numbers/table8.json']
+source = [f'{TABLES_CODE}/08_table_8_explicit_redistribution.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 09 - Implicit redistribution
+target = [f'{TABLES_OUTPUT}/table_9_implicit_redistribution.tex',
+          '#source/numbers/table9.json']
+source = [f'{TABLES_CODE}/09_table_9_implicit_redistribution.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 10 - High vs low redistribution risk
+target = [f'{TABLES_OUTPUT}/table_10_high_vs_low_redistribution_risk.tex',
+          '#source/numbers/table10.json']
+source = [f'{TABLES_CODE}/10_table_10_high_vs_low_redistribution_risk.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table 11 - Model calibration
+target = [f'{TABLES_OUTPUT}/table_11_model_calibration.tex',
+          f'{MODEL_DERIVED}/baseline_params.json']
+source = [f'{TABLES_CODE}/11_table_11_model_calibration.py',
+          '#empirics_numbers.json',
+          f'{MODEL_DERIVED}/democratization_model.py']
+env.Python(target, source)
+
+# Table 12 - Model results
+target = [f'{TABLES_OUTPUT}/table_12_model_results.tex',
+          '#model_numbers.json']
+source = [f'{TABLES_CODE}/12_table_12_model_results.py',
+          f'{MODEL_DERIVED}/baseline_params.json',
+          f'{MODEL_DERIVED}/democratization_model.py',
+          '#empirics_numbers.json']
+env.Python(target, source)

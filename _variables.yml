@@ -1,6 +1,12 @@
-title: "Stand-in title"
-author: "Dr Prof James 'JayJay' Author"
-paper_id: 12345678
-round: 1
-repo: "https://www.github.com/standin"
-dropbox_rel_path: "JPE/Author-12345678/1"
+title: "Who values democracy?"
+author: "Miller"
+round: 2
+repo: "https://github.com/JPE-Reproducibility/JPE-Miller-20240145"
+paper_id: 20240145
+journal: "JPE"
+paper_slug: "Miller-20240145"
+dropbox_download_url: "https://www.dropbox.com/scl/fo/besoy3beu0gc1g6tup4uz/ACYMziusM7HusF4_Z0oyLpA?rlkey=vr4cxq5ysmdawp6hceypa9otg&dl=1"
+dropbox_rel_path: "JPE/Miller-20240145/2"
+package_size_gb: 2.4
+package_max_file_size_gb: 2
+package_max_pkg_size_gb: 10

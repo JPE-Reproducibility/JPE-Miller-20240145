@@ -1,0 +1,37 @@
+Import('*')
+
+# Path definitions
+NUMBERS_CODE = '#source/analysis/numbers'
+NUMBERS_OUTPUT = '#source/paper/numbers'
+TABLES_JSON = '#source/tables/json'
+
+# Build the combined empirics JSON used by sections 3–5
+# Combines all JSON files in source/numbers into empirics_numbers.json at repo root
+empirics_target = ['#empirics_numbers.json']
+empirics_source = [f'{NUMBERS_CODE}/01_combine_numbers.py'] + Glob('#source/numbers/*.json')
+env.Python(empirics_target, empirics_source)
+
+# Section 3 numbers
+target = [f'{NUMBERS_OUTPUT}/section_3.tex']
+source = [f'{NUMBERS_CODE}/02_section_3_numbers.py',
+          '#empirics_numbers.json']
+env.Python(target, source)
+
+# Section 4 numbers
+target = [f'{NUMBERS_OUTPUT}/section_4.tex']
+source = [f'{NUMBERS_CODE}/03_section_4_numbers.py',
+          '#empirics_numbers.json']
+env.Python(target, source)
+
+# Section 5 numbers
+target = [f'{NUMBERS_OUTPUT}/section_5.tex']
+source = [f'{NUMBERS_CODE}/04_section_5_numbers.py',
+          '#empirics_numbers.json']
+env.Python(target, source)
+
+# Section 6 numbers (model outputs)
+# Uses model_numbers.json created by the model results script
+target = [f'{NUMBERS_OUTPUT}/section_6.tex']
+source = [f'{NUMBERS_CODE}/05_section_6_numbers.py',
+          '#model_numbers.json']
+env.Python(target, source)

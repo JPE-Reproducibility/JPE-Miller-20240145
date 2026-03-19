@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Balance of characteristics, 1946--1958} \label{table:balance}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows various characteristics of each of the different types countries used in the difference-in-differences framework. In the first 3 columns, the group means are reported. Columns (4) and (5) reports the point estimates on the regression $$\textrm{Outcome}_{c,t}= \alpha + \beta \mathbbm{1}_{c,t}\{\textrm{Majority Catholic Autocracy}\}+\epsilon_{c,t}$$ on either all countries or the subsample of autocracies, with standard errors clustered by country in parentheses.  The coefficients on rate variables have been multiplied by 100. The risk adjustment procedure for returns uses a two-factor model as described below in Equation (\ref{eq:twoFactor}). \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_6_balance_tests.tex}
+	}}}}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Future inequality and price declines} \label{table:priceInequality}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents the relationship between price declines in democratizations and future declines in inequality.  The specification estimated is 
+\begin{multline*}	
+	\text{Gini}_{c,t+h}-\text{Gini}_{c,t+1}=\alpha+\beta_1 \mathbbm{1}_{c,t}\{\textrm{Democratization}\} \\ +\beta_2(p_{c,t}-p_{c,t-3}) + \beta_3 \mathbbm{1}_{c,t}\{\textrm{Democratization}\}\times(p_{c,t}-p_{c,t-3})+\epsilon_{c,t}
+\end{multline*}
+where $h$ is either 5 or 10, $p$ is the log price of the aggregate stock market index, and $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors (in parentheses) are clustered by country and year.  \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\footnotesize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_D16_inequality_price_decline.tex}
+	}}}}
+\end{table}

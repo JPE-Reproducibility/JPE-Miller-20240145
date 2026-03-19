@@ -1,0 +1,16 @@
+\begin{landscape}
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Robustness on risk premium results} \label{table:robustness}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents 20 robustness checks on the results from Section~\ref{section:mainfact}. Panel A reports regressions of the 5-year change in log dividend yields on indicator variables representing the start of a democratization for 6 different potential measures of democratization. Panel B presents results for different representations of the change in log dividend yields in the sample analyzed in Table~\ref{table:valuationratio}. Panel C reports results for different proxies for the change in the risk premium. The specification estimated is $$\text{Outcome}_{t} =\alpha+\beta \mathbbm{1}_{c,t}\{\textrm{Democratization Start Year}\}+\epsilon_{c,t}$$ where $\alpha$ represents either the coefficient on a vector of ones or various fixed effects. The exceptions are row (14) where the independent variable is an indicator for the first 3 years of a democratization and row (20) where the independent variable represents the middle of the democratization. Standard errors are clustered by country and year.  The resulting $t$-statistics are reported in the parentheses. All coefficients have been multiplied by 100 for presentation.  \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_B3_risk_premium.tex}
+	}}}}
+\end{table}
+\end{landscape}

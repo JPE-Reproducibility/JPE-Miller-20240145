@@ -1,0 +1,256 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage{geometry}
+\usepackage[unicode=true,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=true]{hyperref}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[comma,authoryear]{natbib}
+\usepackage{mathtools}
+\usepackage{cases} 
+\newcounter{tableeqn}
+\numberwithin{equation}{section}
+\usepackage[paper=portrait,pagesize]{typearea}
+\usepackage{pifont}
+\usepackage{longtable}
+\usepackage{bbm}
+\usepackage{makecell}
+\usepackage{mfirstuc}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+\usepackage{ragged2e}
+\usepackage{setspace}
+
+\usepackage[small,compact]{titlesec}
+\titlespacing{\section}{0pt}{*1}{*1.5}
+\titlespacing{\subsection}{0pt}{*1}{*1.5}
+\titlespacing{\subsubsection}{0pt}{*1}{*1.5}
+%\titlespacing{\paragraph}{0pt}{*1}{*1.5}
+
+\input{section_3.tex}
+\input{section_4.tex}
+\input{section_5.tex}
+\input{section_6.tex}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathbb{V}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\ind}{\perp\!\!\!\perp}
+\newcommand{\QED}{\text{, Q.E.D.}}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}% 
+ 
+\newtheorem{prop}{Proposition}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]\itshape}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+%\DeclareUnicodeCharacter{202F}{FIX ME!!!!}
+
+%\usepackage[american]{babel}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks   = true,
+	citecolor    = blue,
+	urlcolor	 = blue
+}
+
+\usepackage[font=footnotesize, width=.9\textwidth]{caption}
+\usepackage[labelfont=bf]{caption}
+
+%\usepackage{graphicx,kantlipsum,setspace}
+%\usepackage{caption}
+%\captionsetup[table]{font={stretch=1.2}}     
+%\captionsetup[figure]{font={stretch=1.2}}    
+
+\usepackage{float}
+\usepackage{tabu,booktabs}
+\tabulinesep=0.9mm
+\usepackage{tabularx}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{epigraph}
+
+% \epigraphsize{\small}% Default
+%\setlength\epigraphwidth{16cm}
+%\setlength\epigraphrule{0pt}
+
+%\usepackage[font=footnotesize, width=1\textwidth]{caption}
+%\usepackage[labelfont=bf]{caption}
+%\captionsetup[subfigure]{labelformat=simple}
+%\captionsetup[table]{aboveskip=0pt}
+%\captionsetup[table]{belowskip=0pt}
+
+\usepackage{todonotes} % for comments
+\newcommand{\dothis}[1]{\todo[inline,caption={}, color=red!20!white]{\textbf{To do:} #1}}
+
+\usepackage{xr}
+\externaldocument{01_main_body}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+\geometry{verbose,tmargin=1.2in,bmargin=1.2in,lmargin=1.2in,rmargin=1.2in}
+
+\usepackage[small,compact]{titlesec}
+\titlespacing{\section}{0pt}{*1}{*0.75}
+\titlespacing{\subsection}{0pt}{*1}{*0.75}
+\titlespacing{\subsubsection}{0pt}{*1}{*0.75}
+
+\begin{document}
+
+Figures
+
+\begin{figure}[t!]
+	\caption{\textbf{Event study of log dividend yields in democratizations}}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}
+    \captionsetup{width=1\linewidth}
+	\caption*{This figure presents an event study of log dividend yields around democratization event start years. The equation estimated is
+$$dp_{c,t} = \alpha_c + \alpha_t + \sum_{k=-5}^{-4} \beta_k \mathbf{1}\{\text{Democratization}_{k,c,t}\} + \sum_{k=-2}^{5} \beta_k \mathbf{1}\{\text{Democratization}_{k,c,t}\} + \varepsilon_{c,t}$$
+where $\mathbf{1}\{\text{Democratization}_{k,c,t}\}$ is an indicator variable equal to 1 if the observation is $k$ years before or after the democratization begins. Estimates are relative to the value three years prior to the event start. Endpoints (not shown) are binned. The sample from Table~\ref{table:valuationratio} is used to assure sufficient observations in the pre-period. The red bars on the democratization line represent a 90\% confidence interval of the point estimates with standard errors clustered by country and year.}
+	\label{fig:figure1}
+	\footnotesize 
+	\vspace{-.5cm}
+    \begin{center}
+		\includegraphics[width=1\textwidth]{figure_1_dividend_yield_event_study.pdf}
+	\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[t!]
+	\caption{\textbf{Physical and human capital in democratizations}}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{width=1\linewidth}
+	\caption*{This figure shows an event study plot of investment-capital ratios and the human capital index around democratization starts. Country and year fixed effects are included. Estimates are relative to the value three years prior to the democratization start. Endpoints (not shown) are binned. The bars represents a 90\% confidence interval of the point estimates with standard errors clustered by country and year.}
+	\label{fig:physicalHumanShear}
+	\footnotesize 
+    \begin{center}
+			\includegraphics[width=1\textwidth]{figure_2_physical_human_capital.pdf}
+	\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[t!]
+	\caption{\textbf{Distribution of GDP and consumption in democratizations}}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{width=1\linewidth}
+	\caption*{Log GDP and consumption growth are winsorized at the 0.25\% and 99.75\% level. GDP data come from the Maddison Historical Statistics database. Consumption data come from the Penn World Tables and represent the period from 1950 to 2018. The democratization histogram reports all observations occurring during a democratization according to the ERT data.}
+	\label{fig:consumption}
+	\footnotesize 
+    \begin{center}
+        \begin{tabular}{cc}
+			\textbf{Panel~A: Log GDP Growth} & \textbf{Panel~B: Log Consumption Growth} \\
+			\includegraphics[width=.47\textwidth]{figure_3a_gdp_growth_distribution.pdf}& \includegraphics[width=.47\textwidth]{figure_3b_consumption_growth_distribution.pdf}
+		\end{tabular}
+	\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[t!]
+	\caption{\textbf{Regional waves of democratization}}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{width=1\linewidth}
+	\caption*{This figure plots the 5-year change in the regional average V-Dem Electoral Democracy Index for 4 selected regions.}
+	\label{fig:regionalWave}
+	\vspace*{-.75cm}
+	\footnotesize 
+    \begin{center}
+			\includegraphics[width=1\textwidth]{figure_4_regional_waves.pdf}
+	\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[t!]
+	\caption{\textbf{Anti-regime civil society organization activity and democratic mobilizations}}
+	\footnotesize
+	\vspace{-.25cm}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}
+    \captionsetup{width=1\linewidth}
+	\caption*{This figure presents an event study comparing majority Catholic autocracies to non-Catholic autocracies in their anti-regime civil society organization (CSO) activity and frequency of democratic mobilizations and protests as determined by indices from the V-Dem database.  The reference year is set to 1959, the first year of the doctrinal shift. Endpoints are binned and are not shown. The anti-regime CSO activity index ranks the threat posed by anti-regime civil society organizations on a scale of 0 to 4, where 0 is no anti-regime civil society organization activity, and 4 is a major present threat to the governing regime from anti-regime civil society organizations. The democratic mobilization index assesses the number of small- and large-scale demonstrations in favor of democracy in a given year with a maximum value of 4. The autocracy designation is also constructed from V-Dem data, and includes all closed or electoral autocracies from their ``regimes of the world'' variable. Data on the percentage of the population that is Catholic comes from the World Religion Project. These data are extended backward using the first year of data. The vertical grey bars show the treatment window from 1959--1963. Country and year fixed effects are included. The red bars represent a 90\% confidence interval with standard errors clustered by country.}
+	\label{fig:treatmentEffect}
+	\footnotesize
+	\vspace{-.5cm}
+    \begin{center}
+	\begin{tabular}{cc}
+	\textbf{Panel~A: Anti-regime CSO activity} & \textbf{Panel~B: Democratic mobilizations}  \\
+	\includegraphics[width=.45\textwidth]{figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{figure_5b_event_study_democratic_protests.pdf}
+	\end{tabular}
+	\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[t!]
+	\caption{\textbf{Event study plot of global and continental risk-adjusted returns}}
+	\footnotesize
+	\vspace{-.25cm}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}	
+    \captionsetup{width=1\linewidth}
+    \caption*{This figure presents an event study plot of a five-year moving average of global and continental risk-adjusted returns estimated from the factor model given by Equation (\ref{eq:twoFactor}). The shaded bars represent the treatment period, 1959--1963. Controls are the same as in Table~\ref{table:svc}. The red bars represent a 90\% confidence interval with standard errors clustered by country and year.}
+	\vspace{-.5cm}
+	\label{fig:rawParallelTrends}
+	\footnotesize 
+	\begin{center}
+		\includegraphics[width=.95\textwidth]{figure_6_did_event_study_returns.pdf}
+	\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[t!]
+	\caption{\textbf{Rise in dividend yields around democratization starts, Rolling estimation}}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}
+    \captionsetup{width=1\linewidth}
+	\caption*{This figure presents coefficient estimates on 5-year change in log-dividend yields estimated on rolling 60-year windows. Horizontal axis represents the estimation window.  The specification estimated is $$dp_{c,t}-dp_{c,t-5}=\alpha_c + \alpha_t +\beta \mathbbm{1}_{c,t}\{\textrm{Democratization Start Year}\}+\epsilon_{c,t}$$ where $dp$ is the log dividend yield. Standard errors are clustered by country and year.  }
+	\label{fig:rollingEstimation}
+	\footnotesize 
+	\vspace{-.5cm}
+    \begin{center}
+		\includegraphics[width=1\textwidth]{figure_7_coefficients_over_time.pdf} \\
+	\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[t!]
+	\caption{\textbf{Failure penalty and dividend yields in autocratization}}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}
+    \captionsetup{width=1\linewidth}
+	\caption*{This figure presents the threshold penalty that makes elites indifferent between attempting an autocratization and accepting democracy as a function of the potential consumption growth they can achieve.  Also plotted is the change in the dividend yield moving from democracy to autocratization. The results for the parameters implied by the calibration in Table~\ref{table:calibration} are shown with the dotted line. Consumption growth at this point is approximately \autoCG\% for the Elites.}
+	\label{fig:auto_model_res}
+	\footnotesize 
+	\vspace{-.5cm}
+    \begin{center}
+		\includegraphics[width=1\textwidth]{figure_8_autocratization_model.pdf}
+	\end{center}
+\end{figure}
+
+\end{document}

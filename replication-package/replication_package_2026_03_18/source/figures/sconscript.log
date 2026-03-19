@@ -1,0 +1,180 @@
+*** Builder log created: {2025-12-11 12:32:42}
+*** Builder log completed: {2025-12-11 12:33:24}
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      Stata 19.0
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2025 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-782-8272        https://www.stata.com
+                                   979-696-4600        service@stata.com
+
+Stata license: Single-user 16-core  perpetual
+Serial number: 501906221762
+  Licensed to: Maxwell Miller
+               Harvard University
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000 but can be increased; see help set_maxvar.
+
+. do "source/analysis/appendix/figures/09_figure_D9_explicit_redistribute_event_study.do" 
+
+. /*
+> Purpose: Generate Figure D9 - Explicit redistribution event study
+> Author: Max Miller
+> Date: 12-10-2025
+> */
+. 
+. * ===========================================================================
+. * Housekeeping
+. * ===========================================================================
+. 
+. clear all
+
+. set scheme s2color
+
+. 
+. * ===========================================================================
+. * Set globals
+. * ===========================================================================
+. 
+. global ANALYSIS_DERIVED         "datastore/derived/analysis"
+
+. global FIGURES                                  "source/figures"
+
+. 
+. ** Controls
+. global CC log_ggdc_gdppc_i
+
+. global EC financial_crisis at_war default recession govt_head_death assas_succ assas_attempt md_high_action coup_detat icb_crisis
+
+. 
+. * ===========================================================================
+. * Main execution logic
+. * ===========================================================================
+. 
+. program define main
+  1. 
+.     use "${ANALYSIS_DERIVED}/section_3_data.dta", clear
+  2. 
+.     gen govt_rev_gdp_5yr = (govt_rev_gdp - L5.govt_rev_gdp)/5
+  3.     gen d_swiid_gini_mkt_5yr = (swiid_gini_mkt - L5.swiid_gini_mkt)/5
+  4. 
+.     esplot govt_rev_gdp_5yr , event(combo_dem_end_succ) compare(combo_dem_end_fail) ///
+>      w(-5 20, bin) estimate_reference vce(cluster country_id) ///
+>         controls($EC $CC combo_dem combo_dem_succ) absorb(country_id year)    ///
+>         savedata(${FIGURES}/explicit_redistribution_govt_rev_gdp, replace)
+  5. 
+.     esplot d_swiid_gini_mkt_5yr , event(combo_dem_end_succ) compare(combo_dem_end_fail) ///
+>         w(-5 20, bin) estimate_reference vce(cluster country_id) ///
+>         controls($EC $CC combo_dem combo_dem_succ) absorb(country_id year)    ///
+>         savedata(${FIGURES}/explicit_redistribution_swiid, replace)
+  6. 
+.     * Create the plot
+.     create_govt_rev_gdp_plot
+  7.     create_swiid_plot
+  8. 
+. end
+
+. 
+. * ===========================================================================
+. * Create event study plot
+. * ===========================================================================
+. 
+. program define create_govt_rev_gdp_plot
+  1.     
+.     use "${FIGURES}/explicit_redistribution_govt_rev_gdp.dta", clear
+  2. 
+.     rename lo_01 dem_lb
+  3.     rename hi_01 dem_ub
+  4.     rename b_01  dem_pe
+  5.     rename se_01 dem_se
+  6. 
+.     gen store_mat_line = 0
+  7. 
+.     replace dem_lb = 0 if dem_lb == .
+  8.     replace dem_ub = 0 if dem_ub == .
+  9. 
+.     replace dem_lb = dem_pe - 1.645*dem_se
+ 10.     replace dem_ub = dem_pe + 1.645*dem_se
+ 11. 
+.     label values t tplus
+ 12. 
+.     local labSize = "large"
+ 13.     two (rcap dem_lb dem_ub t, color(red%70)) ///
+>         (connected dem_pe t, color(red) msymbol(s) lw(.6)) ///
+>         (line store_mat_line t, color(black) lp(dash) lw(.33)), ///
+>         xlabel(, labsize(`labSize')) graphregion(color(white)) ylabel(, nogrid labsize(`labSize')) ///
+>         xtitle("Years to/from start of democratization", size(`labSize') margin(medsmall)) bgcolor(white) subtitle(" ") ///
+>         ytitle("Change in govt. revenue-GDP ratio (p.p.)", size(`labSize') margin(medsmall)) ///
+>         legend(off) ysize(3.5)
+ 14.     graph export "${FIGURES}/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf", replace
+ 15. 
+. end
+
+. 
+. 
+. program define create_swiid_plot
+  1. 
+.     use "${FIGURES}/explicit_redistribution_swiid.dta", clear
+  2. 
+.     rename lo_01 dem_lb
+  3.     rename hi_01 dem_ub
+  4.     rename b_01  dem_pe
+  5.     rename se_01 dem_se
+  6. 
+.     gen store_mat_line = 0
+  7. 
+.     replace dem_lb = 0 if dem_lb == .
+  8.     replace dem_ub = 0 if dem_ub == .
+  9. 
+.     replace dem_lb = dem_pe - 1.645*dem_se
+ 10.     replace dem_ub = dem_pe + 1.645*dem_se
+ 11.     
+.     label values t tplus
+ 12. 
+.     local labSize = "large"
+ 13.     two (rcap dem_lb dem_ub t, color(red%70)) ///
+>         (connected dem_pe t, color(red) msymbol(s) lw(.6)) ///
+>         (line store_mat_line t, color(black) lp(dash) lw(.33)), ///
+>         xlabel(, labsize(`labSize')) graphregion(color(white)) ylabel(, nogrid labsize(`labSize')) ///
+>         xtitle("Years to/from start of democratization", size(`labSize') margin(medsmall)) bgcolor(white) subtitle(" ") ///
+>         ytitle("Change in Gini coefficient (p.p.)", size(`labSize') margin(medsmall)) ///
+>         legend(off) ysize(3.5)
+ 14.     graph export "${FIGURES}/figure_D9b_explicit_redistribute_event_study_swiid.pdf", replace
+ 15. end
+
+. 
+. 
+. * ===========================================================================
+. * Run script
+. * ===========================================================================
+. 
+. main
+(31,649 missing values generated)
+(32,577 missing values generated)
+(36,919 missing values generated)
+(36,919 observations deleted)
+file source/figures/explicit_redistribution_govt_rev_gdp.dta saved
+(36,919 missing values generated)
+(36,919 observations deleted)
+file source/figures/explicit_redistribution_swiid.dta saved
+(1 real change made)
+(1 real change made)
+(25 real changes made)
+(25 real changes made)
+file /Users/mjmill611/Documents/GitHub/democracy/source/figures/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf saved as PDF format
+(1 real change made)
+(1 real change made)
+(25 real changes made)
+(25 real changes made)
+file /Users/mjmill611/Documents/GitHub/democracy/source/figures/figure_D9b_explicit_redistribute_event_study_swiid.pdf saved as PDF format
+
+. 
+end of do-file

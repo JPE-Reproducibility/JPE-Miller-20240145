@@ -1,0 +1,27 @@
+{
+  "panel_a": {
+    "inequality_reduction": 0.04132464688194801,
+    "tax_increase": 0.04164574834366801,
+    "corruption_reduction": 0.055497289606823416,
+    "elite_consumption_reduction_pct": 10.440871247704264
+  },
+  "panel_b": {
+    "div_yield_autocracy_model": 0.050689113581609935,
+    "div_yield_autocracy_data": 0.0505044238734969,
+    "div_yield_democratization_model": 0.06108819325401514,
+    "div_yield_democratization_data": 0.061069164386573054,
+    "change_div_yield_pct_model": 18.66074457883551,
+    "change_div_yield_pct_data": 18.9946130362412
+  },
+  "panel_c": {
+    "risk_premium_pct": 77.98427230447656,
+    "cashflow_growth_pct": 51.05657654954794,
+    "riskfree_rate_pct": -29.040848854024503
+  },
+  "panel_d": {
+    "competition_pct": 41.476994085500294,
+    "taxes_pct": 23.65463001611852,
+    "inequality_pct": 23.299255154465204,
+    "corruption_pct": 11.56912074391598
+  }
+}

@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Democratizations and changes in log dividend yields} \label{table:valuationratio}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the 5-year change in log dividend yields on indicator variables representing the start of a democratization. The specification estimated is $$dp_{c,t}-dp_{c,t-5}=\alpha+\beta \mathbbm{1}_{c,t}\{\textrm{Democratization Start Year}\}+\epsilon_{c,t}$$ where $dp$ is the log dividend yield and $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors are clustered by country and year. All coefficients have been multiplied by 100 for presentation, and standard errors are in parentheses.  In~Columns~(4)-(6) some observations are lost due to there only being one observation in a region-year or in a continent-regime-year and from missing control observations. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_1_change_in_log_dividend_yields.tex}
+	}}}}
+\end{table}

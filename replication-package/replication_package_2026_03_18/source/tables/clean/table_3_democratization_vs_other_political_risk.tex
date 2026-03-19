@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{General political risk and dividend yields} \label{table:polRisk}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the 5-year change in log dividend yields on indicator variables representing the start of a democratization, regime change, autocratization, and international political crisis. Data are reported from 1918 on. The specification estimated is $$dp_{c,t}-dp_{c,t-5}=\alpha+\beta \mathbbm{1}_{c,t}\{\textrm{Event Start Year}\}+\epsilon_{c,t}$$ where $dp$ is the log dividend yield and $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100 for presentation.  In~Columns~(4)--(6) some observations are lost due to there only being one observation in a region-year or in a continent-regime-year.  The bottom of table presents the p-value of three F-tests testing the null hypothesis that the change in dividend yields in democratizations is the same as in the other three events. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_3_democratization_vs_other_political_risk.tex}
+	}}}}
+\end{table}

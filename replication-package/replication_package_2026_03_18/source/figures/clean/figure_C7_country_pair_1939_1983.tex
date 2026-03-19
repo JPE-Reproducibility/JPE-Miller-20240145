@@ -1,0 +1,24 @@
+\begin{figure}[t!]
+    \captionsetup{width=1\linewidth}
+	\caption{\textbf{Dropping every country pair, 1939--1983}}
+	\footnotesize
+	\vspace{-.25cm}
+	\renewcommand{\baselinestretch}{1}
+    \captionsetup{singlelinecheck=off}
+	\caption*{This figure estimates the specification from Equations (\ref{eq:singleDiff}) excluding each possible country pair. The sample period is from 1939--1983 and estimates for two different samples, one for all countries (Panel A) and the other on autocracies only (Panel B), are reported. In each regression, 1959 to 1963 are the years of treatment and are excluded. Excess returns are adjusted for global and continental risk using the two-factor risk model described by Equation (\ref{eq:twoFactor}). Standard errors are clustered by country and year. All coefficients have been multiplied by 100. The controls used are a series of ``event controls'' meaning indicator variables for whether the country is experiencing a head of government death, financial crisis, international political crisis, war, first five years of a sovereign default, recession, or coup d'etat. In addition to the event controls, I also control for the level of log GDP per capita, log GDP per capita growth, and add regime-type fixed-effects. }
+	\label{fig:droppingPairsLong}
+	\footnotesize
+	\vspace{-.5cm}
+    \begin{center}
+    	\textbf{Panel~A: All countries}
+	\begin{tabular}{cc}
+	\textbf{Point Estimates} & \textbf{t-Statistics} \\
+	\includegraphics[width=.45\textwidth]{../figures/raw/figure_C7a_country_pair_PE_long.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7a_country_pair_T_long.pdf} \\
+	\end{tabular}
+	\textbf{Panel~B: Autocracy only}
+	\begin{tabular}{cc}
+	\textbf{Point Estimates} & \textbf{t-Statistics} \\
+	\includegraphics[width=.45\textwidth]{../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7b_country_pair_T_long_aut.pdf} \\
+	\end{tabular}
+	\end{center}
+\end{figure}

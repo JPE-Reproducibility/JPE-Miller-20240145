@@ -1,0 +1,122 @@
+Import('*')
+
+# Code paths
+MACRO_CODE = '#source/derived/02_macro_political'
+PROGRAMS = '#source/derived/programs'
+
+# Derived data paths
+MACRO_DERIVED = '#datastore/derived/macro_political'
+GGDC_DERIVED = '#datastore/derived/ggdc'
+INEQUALITY_DERIVED = '#datastore/derived/inequality'
+
+# Raw data paths
+CROSSWALKS = '#datastore/raw/crosswalks'
+JST_ORIG = '#datastore/raw/jst/orig'
+VDEM_ORIG = '#datastore/raw/vdem/orig'
+GFD_ORIG = '#datastore/raw/gfd/orig'
+PWT_ORIG = '#datastore/raw/pwt/orig'
+GGDC_ORIG = '#datastore/raw/ggdc/orig'
+COW_RELIGION_ORIG = '#datastore/raw/cow/religion/orig'
+WIID_ORIG = '#datastore/raw/wiid/orig'
+SWIID_ORIG = '#datastore/raw/swiid/orig'
+IDENTIFIERS_DATA = '#datastore/raw/identifiers/data'
+ARPC_ORIG = '#datastore/raw/arpc/orig'
+EFI_ORIG = '#datastore/raw/economic_freedom/orig'
+FDI_ORIG = '#datastore/raw/fdi/orig'
+FDI_DATA = '#datastore/raw/fdi/data'
+
+# Script 01: Create Inflation
+target = [f'{MACRO_DERIVED}/all_inflation.dta']
+source = [f'{MACRO_CODE}/01_create_inflation.do',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{JST_ORIG}/JSTdatasetR5.dta',
+          f'{VDEM_ORIG}/version10/V-Dem-CY-Full+Others-v10.dta',
+          f'{PROGRAMS}/create_gfd_data.do',
+          f'{GFD_ORIG}/gfd_data_series_list.xlsx',
+          Glob(f'{GFD_ORIG}/country_series/*/*.csv')]
+env.Stata(target, source)
+
+# Script 02: Create PWT Data (Investment Capital Ratio)
+target = [f'{MACRO_DERIVED}/investment_capital_ratio.dta']
+source = [f'{MACRO_CODE}/02_create_pwt_data.do',
+          f'{PWT_ORIG}/pwt100.dta',
+          f'{PWT_ORIG}/pwt100-labor-detail.dta',
+          f'{PWT_ORIG}/pwt100-capital-detail.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 03: Create GDP
+target = [f'{MACRO_DERIVED}/real_gdp.dta']
+source = [f'{MACRO_CODE}/03_create_gdp.do',
+          f'{GGDC_ORIG}/mpd2020.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 04: Create V-Dem Datasets
+target = [f'{MACRO_DERIVED}/regions.dta',
+          f'{MACRO_DERIVED}/anti_system_cso_activity_and_mobilizations.dta',
+          f'{MACRO_DERIVED}/physical_and_political_violence.dta',
+          f'{MACRO_DERIVED}/resource_inequality.dta',
+          f'{MACRO_DERIVED}/property_rights_protection.dta',
+          f'{MACRO_DERIVED}/corruption_and_bribery.dta',
+          f'{MACRO_DERIVED}/democracy_index_and_regime_info.dta']
+source = [f'{MACRO_CODE}/04_create_vdem_datasets.do',
+          f'{CROSSWALKS}/region_map.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{VDEM_ORIG}/version10/V-Dem-CY-Full+Others-v10.dta']
+env.Stata(target, source)
+
+# Script 05: Create Portion Catholic
+target = [f'{MACRO_DERIVED}/catholic_pct_1816_2018.dta',
+          f'{MACRO_DERIVED}/catholic_pct_1939_1983.dta']
+source = [f'{MACRO_CODE}/05_create_portion_catholic.do',
+          f'{COW_RELIGION_ORIG}/WRP_national.csv',
+          f'{CROSSWALKS}/cow_country_codes_to_iso3.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 06: Create Gini
+target = [f'{MACRO_DERIVED}/gini_coefficients.dta']
+source = [f'{MACRO_CODE}/06_create_gini.do',
+          f'{WIID_ORIG}/wiidcountry.dta',
+          f'{SWIID_ORIG}/swiid9_0_summary.csv',
+          f'{CROSSWALKS}/country_name_to_iso3.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 07: Create Tax Rates
+target = [f'{MACRO_DERIVED}/tax_rates.dta']
+source = [f'{MACRO_CODE}/07_create_tax_rates.do',
+          f'{ARPC_ORIG}/arpc_2020_comp.dta',
+          f'{GFD_ORIG}/govt_rev_gdp.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 08: Create Government Revenue
+target = [f'{MACRO_DERIVED}/gov_rev.dta']
+source = [f'{MACRO_CODE}/08_create_gov_rev.do',
+          f'{VDEM_ORIG}/version8/V-Dem-CY+Others-v8.dta',
+          f'{JST_ORIG}/JSTdatasetR5.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{PROGRAMS}/create_gfd_data.do',
+          f'{GFD_ORIG}/gfd_data_series_list.xlsx',
+          Glob(f'{GFD_ORIG}/country_series/*/*.csv')]
+env.Stata(target, source)
+
+# Script 09: Create Economic Competition
+target = [f'{MACRO_DERIVED}/economic_competition.dta']
+source = [f'{MACRO_CODE}/09_create_economic_competition.do',
+          f'{EFI_ORIG}/efi_data.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{PROGRAMS}/create_gfd_data.do',
+          f'{GFD_ORIG}/gfd_data_series_list.xlsx',
+          Glob(f'{GFD_ORIG}/country_series/*/*.csv')]
+env.Stata(target, source)
+
+# Script 10: Create FDI
+target = [f'{MACRO_DERIVED}/fdi_clean.dta']
+source = [f'{MACRO_CODE}/10_create_fdi.do',
+          f'{FDI_ORIG}/fdi_inflows_raw.csv',
+          f'{FDI_ORIG}/fdi_outflows_raw.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)

@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Model results} \label{table:modelResults}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows the different forms of redistribution, results for the change in the log dividend yield in the model and data, the relative importance of risk premium, cashflow, and riskfree rate effects for rising dividend yields, and the importance of different channels of redistribution for the asset pricing results. The relative importance of the risk premium, expected cashflow growth, and riskfree rates (Panel C) is computed as the log change in each component from State 1 to State 2 divided by the sum of the log changes in all components. The relative importance of each redistribution channel (Panel D) is computed by solving the model adding each form of redistribution sequentially. The change in the dividend yield from adding the component is its percent contribution. I start by adding increased competition, followed by increased taxes and dividend taxes, decreased inequality, and decreased corruption. Uncertain redistribution (i.e. $\aleph > q$) is present in each model solution.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_12_model_results.tex}
+	}}}}
+\end{table}

@@ -1,0 +1,42 @@
+Import('*')
+
+# Path definitions
+PAPER_CODE = '#source/paper'
+PAPER_OUTPUT = '#source/paper'
+TABLES_OUTPUT = '#source/tables'
+FIGURES_OUTPUT = '#source/figures'
+
+# Compile miller_2025.pdf and online_appendix.pdf via compile_paper.py
+# Note: the two documents cross-reference each other (xr/\\externaldocument),
+# so the builder keeps intermediate outputs for both.
+target = [
+    f'{PAPER_OUTPUT}/miller_2025.pdf',
+    f'{PAPER_OUTPUT}/online_appendix.pdf',
+]
+source = [
+    f'{PAPER_CODE}/compile_paper.py',
+    f'{PAPER_CODE}/miller_2025.tex',
+    f'{PAPER_CODE}/online_appendix.tex',
+    f'{PAPER_CODE}/Democratization.bib',
+    # Cross-reference numbering inputs
+    f'{PAPER_CODE}/numbers/section_3.tex',
+    f'{PAPER_CODE}/numbers/section_4.tex',
+    f'{PAPER_CODE}/numbers/section_5.tex',
+    f'{PAPER_CODE}/numbers/section_6.tex',
+    # Subsection tex files
+    f'{PAPER_CODE}/subsections/01_introduction.tex',
+    f'{PAPER_CODE}/subsections/02_data.tex',
+    f'{PAPER_CODE}/subsections/03_stylized_facts.tex',
+    f'{PAPER_CODE}/subsections/04_vatican_ii.tex',
+    f'{PAPER_CODE}/subsections/05_democracy_and_redistribution.tex',
+    f'{PAPER_CODE}/subsections/06_model.tex',
+    f'{PAPER_CODE}/subsections/07_conclusion.tex',
+    f'{PAPER_CODE}/subsections/08_data_appendix.tex',
+    f'{PAPER_CODE}/subsections/09_stylized_facts_appendix.tex',
+    f'{PAPER_CODE}/subsections/10_vatican_ii_appendix.tex',
+    f'{PAPER_CODE}/subsections/11_democracy_and_redistribution_appendix.tex',
+    f'{PAPER_CODE}/subsections/12_model_appendix.tex',
+    f'{PAPER_CODE}/subsections/13_case_studies.tex',
+    f'{PAPER_CODE}/subsections/14_list_of_democratizations.tex',
+]
+env.Python(target, source)

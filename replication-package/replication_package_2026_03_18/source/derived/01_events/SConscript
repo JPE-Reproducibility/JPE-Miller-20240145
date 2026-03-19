@@ -1,0 +1,135 @@
+Import('*')
+
+# Code paths
+EVENTS_CODE = '#source/derived/01_events'
+PROGRAMS = '#source/derived/programs'
+
+# Derived data paths
+EVENTS_DERIVED = '#datastore/derived/events'
+VDEM_DATA = '#datastore/raw/vdem/data'
+
+# Raw data paths
+VDEM_ORIG = '#datastore/raw/vdem/orig'
+REGIME_CHANGE_ORIG = '#datastore/raw/regime_change/orig'
+OTHER_EVENTS_ORIG = '#datastore/raw/other_events/orig'
+JST_ORIG = '#datastore/raw/jst/orig'
+ICB_ORIG = '#datastore/raw/icb/orig'
+GFD_ORIG = '#datastore/raw/gfd/orig'
+COW_ORIG = '#datastore/raw/cow'
+CROSSWALKS = '#datastore/raw/crosswalks'
+
+# Script 01: Valid ISO3 Codes
+target = [f'{CROSSWALKS}/valid_iso3_codes.dta']
+source = [f'{EVENTS_CODE}/01_create_valid_iso3_codes.do',
+          f'{VDEM_ORIG}/version10/V-Dem-CY-Full+Others-v10.dta']
+env.Stata(target, source)
+
+# Script 02: Pre-1900 Democratization Episodes
+target = [f'{VDEM_DATA}/pre1900_dem.dta']
+source = [f'{EVENTS_CODE}/02_create_pre1900_dem.do',
+          f'{VDEM_ORIG}/version10/V-Dem-CY-Full+Others-v10.dta']
+env.Stata(target, source)
+
+# Script 03: Regime Change
+target = [f'{EVENTS_DERIVED}/regime_change.dta']
+source = [f'{EVENTS_CODE}/03_create_regime_change.do',
+          f'{VDEM_ORIG}/version10/V-Dem-CY-Full+Others-v10.dta',
+          f'{VDEM_DATA}/pre1900_dem.dta',
+          f'{REGIME_CHANGE_ORIG}/ERT.csv',
+          f'{REGIME_CHANGE_ORIG}/vod_democratizations.csv',
+          f'{REGIME_CHANGE_ORIG}/DDCGdata_final.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 04: Coup d'etat
+target = [f'{EVENTS_DERIVED}/coup_detat.dta']
+source = [f'{EVENTS_CODE}/04_create_coup_detat.do',
+          f'{VDEM_ORIG}/version10/V-Dem-CY-Full+Others-v10.dta']
+env.Stata(target, source)
+
+# Script 05: Financial Crises
+target = [f'{EVENTS_DERIVED}/financial_crisis.dta']
+source = [f'{EVENTS_CODE}/05_create_financial_crises.do',
+          f'{JST_ORIG}/JSTdatasetR5.dta',
+          f'{OTHER_EVENTS_ORIG}/reinhart_rogoff_financial_crisis.csv']
+env.Stata(target, source)
+
+# Script 06: Sovereign Default
+target = [f'{EVENTS_DERIVED}/default.dta']
+source = [f'{EVENTS_CODE}/06_create_sovereign_default.do',
+          f'{OTHER_EVENTS_ORIG}/reinhart_rogoff_defaults.dta',
+          f'{CROSSWALKS}/country_name_to_iso3.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 07: Head of Government Deaths
+target = [f'{EVENTS_DERIVED}/head_of_government_deaths.dta']
+source = [f'{EVENTS_CODE}/07_create_hog_deaths.do',
+          f'{VDEM_ORIG}/version10/V-Dem-CY-Full+Others-v10.dta',
+          f'{OTHER_EVENTS_ORIG}/assassinations_data.dta',
+          f'{OTHER_EVENTS_ORIG}/country_names_to_iso3.dta',
+          f'{OTHER_EVENTS_ORIG}/HOG_death.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 08: International Crises
+target = [f'{EVENTS_DERIVED}/icb_crisis.dta']
+source = [f'{EVENTS_CODE}/08_create_international_crises.do',
+          f'{ICB_ORIG}/icb2v12.csv',
+          f'{CROSSWALKS}/icb_country_code_to_iso3.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 09: Recession
+target = [f'{EVENTS_DERIVED}/recession.dta']
+source = [f'{EVENTS_CODE}/09_create_recession.do',
+          f'{GFD_ORIG}/gfd_recessions.csv']
+env.Stata(target, source)
+
+# Script 10: Interstate Wars
+target = [f'{EVENTS_DERIVED}/interstate_wars.dta']
+source = [f'{EVENTS_CODE}/10_create_interstate_wars.do',
+          f'{CROSSWALKS}/cow_country_codes_to_iso3.csv',
+          f'{COW_ORIG}/wars/orig/Inter-StateWarData_v4.0.dta',
+          f'{PROGRAMS}/war_dummies.do']
+env.Stata(target, source)
+
+# Script 11: Intrastate Wars
+target = [f'{EVENTS_DERIVED}/intrastate_wars.dta']
+source = [f'{EVENTS_CODE}/11_create_intrastate_wars.do',
+          f'{CROSSWALKS}/cow_country_codes_to_iso3.csv',
+          f'{COW_ORIG}/wars/orig/Intra-StateWarData_v4.1.dta',
+          f'{PROGRAMS}/war_dummies.do']
+env.Stata(target, source)
+
+# Script 12: Extrastate Wars
+target = [f'{EVENTS_DERIVED}/extrastate_wars.dta']
+source = [f'{EVENTS_CODE}/12_create_extrastate_wars.do',
+          f'{CROSSWALKS}/cow_country_codes_to_iso3.csv',
+          f'{COW_ORIG}/wars/orig/Extra-StateWarData_v4.0.dta',
+          f'{PROGRAMS}/war_dummies.do']
+env.Stata(target, source)
+
+# Script 13: Militarized Interstate Disputes
+target = [f'{EVENTS_DERIVED}/militarized_interstate_disputes.dta']
+source = [f'{EVENTS_CODE}/13_create_militarized_disputes.do',
+          f'{CROSSWALKS}/cow_country_codes_to_iso3.csv',
+          f'{COW_ORIG}/militarized_interstate_disputes/orig/MID-level/MIDB_4.2.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 14: Combine All Events
+target = [f'{EVENTS_DERIVED}/all_events.dta']
+source = [f'{EVENTS_CODE}/14_combine_all_events.do',
+          f'{EVENTS_DERIVED}/regime_change.dta',
+          f'{EVENTS_DERIVED}/coup_detat.dta',
+          f'{EVENTS_DERIVED}/financial_crisis.dta',
+          f'{EVENTS_DERIVED}/default.dta',
+          f'{EVENTS_DERIVED}/head_of_government_deaths.dta',
+          f'{EVENTS_DERIVED}/icb_crisis.dta',
+          f'{EVENTS_DERIVED}/recession.dta',
+          f'{EVENTS_DERIVED}/interstate_wars.dta',
+          f'{EVENTS_DERIVED}/intrastate_wars.dta',
+          f'{EVENTS_DERIVED}/extrastate_wars.dta',
+          f'{EVENTS_DERIVED}/militarized_interstate_disputes.dta']
+env.Stata(target, source)

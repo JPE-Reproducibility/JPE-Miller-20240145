@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Difference-in-Differences --- First Vatican Council} \label{table:fvc}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows the regression coefficients of a difference-in-differences regression given by Equation (\ref{eq:singleDiff}). In each regression, 1864--1870 are the years of treatment and are excluded. Standard errors (in parentheses) are clustered by country and year. Included countries must have at least 20 observations from 1844--1890 and have at least one pre-period observation. All coefficients have been multiplied by 100. The controls used are a series of ``event controls'' meaning indicator variables for whether the country is experiencing a head of government death, financial crisis, war, first five years of a sovereign default, recession, or coup d'etat.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\footnotesize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_C8_did_first_vatican.tex}
+	}}}}
+\end{table}

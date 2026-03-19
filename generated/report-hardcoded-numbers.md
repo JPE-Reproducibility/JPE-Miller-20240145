@@ -1,0 +1,1381 @@
+## Potentially Hardcoded Numeric Constants
+
+
+We found the following set of hard coded numbers. This may be completely legitimate (parameter input, thresholds for computations, etc), and is hence only for information.
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/04_vatican_ii.tex**
+
+- Line 82, : Second, the data reveals a marked rise in anti-regime CSO activity and democratic protests starting from 1959 to 1963. A structural break test indicates a change in trend in either 1959 or 1962 in the majority Catholic autocracies.\footnote{The structural break test is performed on the annual average across majority Catholic autocracies less the annual average across non-Catholic autocracies for both series. Two tests are run on each series from 1940--1989, a supremum Wald test and a supremum likelihood-ratio test. Each test indicates the same break date on each series: \figFiveBreakCSO\ for anti-regime CSO activity and \figFiveBreakMob\ for democratic mobilizations. The test statistics represent a high degree of statistical significance ($p<0.001$).} This suggests that the political reality on the ground began to change before 1963.
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/gcollapse.ado**
+
+- Line 1645, : return local st_time = max(`total_time', 0.001) * scalar(__gtools_gc_k_extra) * `factor'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/tables/03_table_B3_risk_premium.do**
+
+- Line 337, : if abs(`tstat') >= 2.576       local stars "\sym{***}"
+- Line 339, : else if abs(`tstat') >= 1.645  local stars "\sym{*}"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/03_online_appendix.tex**
+
+- Line 415, : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
+- Line 417, : Row (4) presents the results using an indicator variable equal to one for changes in the raw V-Dem Electoral Democracy Index above the 90th percentile,\footnote{A 90th percentile rise in the Electoral Democracy Index is 0.019.} which see a large increase in dividend yields, between \tabBThreeLargeJumpLow\---\tabBThreeLargeJumpHigh\%. Row (5) presents the results for the democratization start year in the \cite{Lindberg2018} data, which display large point estimates, indicating a \tabBThreeLindbergLow\---\tabBThreeLindbergHigh\% rise in the dividend yield.
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/06_model.tex**
+
+- Line 88, : 0.990 & 0.010 & 0.000\\
+- Line 90, : 0.000 & 0.000 & 1.000
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/07_figure_7_dividend_yield_coefficients_over_time.do**
+
+- Line 52, : mat dem_coef[`j',3] = _b[`dem_var'] - 1.645*_se[`dem_var']
+- Line 53, : mat dem_coef[`j',4] = _b[`dem_var'] + 1.645*_se[`dem_var']
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/03_figure_C3_cso_activity_vs_mobilizations.do**
+
+- Line 58, : mat coefs[`i',4] = 100*(temp[1,2] + 1.645*temp[2,2])/mean_dem
+- Line 59, : mat coefs[`i',5] = 100*(temp[1,2] - 1.645*temp[2,2])/mean_dem
+- Line 60, : mat coefs[`i',6] = 100*(temp[1,1] + 1.645*temp[2,1])/mean_dem
+- Line 61, : mat coefs[`i',7] = 100*(temp[1,1] - 1.645*temp[2,1])/mean_dem
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/02_figure_2_physical_human_capital.do**
+
+- Line 48, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 49, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 62, : replace dem2_lb = dem2_pe - 1.645*dem2_se
+- Line 63, : replace dem2_ub = dem2_pe + 1.645*dem2_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/05_table_5_regional_waves_instrument.do**
+
+- Line 69, : if abs(`t') < 1.96 & abs(`t') >= 1.645 {
+- Line 72, : else if abs(`t') >= 1.96 & abs(`t') < 2.576 {
+- Line 75, : else if abs(`t') > 2.576 {
+- Line 91, : if abs(`t') < 1.96 & abs(`t') >= 1.645 {
+- Line 94, : else if abs(`t') >= 1.96 & abs(`t') < 2.576 {
+- Line 97, : else if abs(`t') > 2.576 {
+- Line 113, : if abs(`t') < 1.96 & abs(`t') >= 1.645 {
+- Line 116, : else if abs(`t') >= 1.96 & abs(`t') < 2.576 {
+- Line 119, : else if abs(`t') > 2.576 {
+- Line 136, : if abs(`t') < 1.96 & abs(`t') >= 1.645 {
+- Line 139, : else if abs(`t') >= 1.96 & abs(`t') < 2.576 {
+- Line 142, : else if abs(`t') > 2.576 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/table_12_model_results.tex**
+
+- Line 6, : Inequality reduction $\theta^A - \theta^D$   &  & 0.041   \\
+- Line 8, : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
+- Line 10, : Corruption reduction $\nu^D- \nu^A$  & & 0.055   \\
+- Line 16, : Dividend yield autocracy  &  0.051  & 0.051  \\
+- Line 18, : Dividend yield democratization  &  0.061  & 0.061  \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/01_figure_B1_democracy_log_price.do**
+
+- Line 165, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 166, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 235, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 236, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 304, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 305, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/02_figure_B2_democracy_dividend_yield_specs.do**
+
+- Line 76, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 77, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 178, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 179, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/numbers/section_6.tex**
+
+- Line 1, : \newcommand{\tabTwelveDeltaTheta}{0.041}
+- Line 2, : \newcommand{\tabTwelveDeltaTau}{0.042}
+- Line 3, : \newcommand{\tabTwelveDeltaNu}{0.055}
+- Line 5, : \newcommand{\tabTwelveDivYldAutModel}{0.051}
+- Line 6, : \newcommand{\tabTwelveDivYldAutData}{0.051}
+- Line 7, : \newcommand{\tabTwelveDivYldDemModel}{0.061}
+- Line 8, : \newcommand{\tabTwelveDivYldDemData}{0.061}
+- Line 30, : \newcommand{\transPTwoOne}{0.054}
+- Line 31, : \newcommand{\transPTwoTwo}{0.892}
+- Line 32, : \newcommand{\transPTwoThree}{0.054}
+- Line 35, : \newcommand{\autoZ}{0.070}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/raw/table_12_model_results.tex**
+
+- Line 6, : Inequality reduction $\theta^A - \theta^D$   &  & 0.041   \\
+- Line 8, : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
+- Line 10, : Corruption reduction $\nu^D- \nu^A$  & & 0.055   \\
+- Line 16, : Dividend yield autocracy  &  0.051  & 0.051  \\
+- Line 18, : Dividend yield democratization  &  0.061  & 0.061  \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/table_11_model_calibration.tex**
+
+- Line 8, : $\qquad \qquad \bar{y}$     & 0.017 & Income growth & Maddison Historical Statistics \\
+- Line 9, : $\qquad \qquad \sigma_y$      & 0.073 & Income standard deviation & Maddison Historical Statistics \\
+- Line 13, : $\qquad \qquad \theta^A$ & 0.527 & Inequality in autocracy & SWIID \\
+- Line 14, : $\qquad \qquad \theta^D$ & 0.486 & Avg. Inequality in democracy & Author estimation \\
+- Line 15, : $\qquad \qquad \nu^A$ & 0.370 & Rent diversion in autocracy & V-Dem \\
+- Line 16, : $\qquad \qquad \nu^D$ & 0.315 & Avg. rent diversion in democracy & Author estimation \\
+- Line 18, : $\qquad \qquad \tau^A$ & 0.175 & Tax rate in autocracy & Autocracy Gov. Rev.-GDP ratio \\
+- Line 33, : $\qquad \qquad \beta$ & 0.9608 & Subjective discount rate & Match PD ratio in autocracy \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg210.ado**
+
+- Line 5245, : //		cgamma = 1.4117
+- Line 5246, : cgamma = 1.1447
+- Line 5250, : cgamma = 2.6614
+- Line 5256, : cgamma = 1.3221
+- Line 6823, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/tables/04_table_B4_macro_political_risk_measures.do**
+
+- Line 215, : if abs(`tstat') >= 2.576       local stars "\sym{***}"
+- Line 217, : else if abs(`tstat') >= 1.645  local stars "\sym{*}"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tablefill_info.py**
+
+- Line 98, : 23.2389e+23
+- Line 100, : -0.922e+3
+- Line 140, : 2309.2093 + ### = 2309.2093
+- Line 141, : 2309.2093 + #4# = 2309.2093
+- Line 142, : 2309.2093 + #5# = 2309.20930
+- Line 143, : 2309.2093 + #20# = 2309.20930000000000000000
+- Line 144, : 2309.2093 + #3# = 2309.209
+- Line 145, : 2309.2093 + #2# = 2309.21
+- Line 146, : 2309.2093 + #0# = 2309
+- Line 147, : 2309.2093 + #0,# = 2,309
+- Line 151, : -2.23e-2  + #2# = -0.0223 + #2# = -0.02
+- Line 152, : -2.23e-2  + #7# = -0.0223 + #7# = -0.0223000
+- Line 153, : -2.23e+10  + #7,# = -22300000000 + #7,# = -22,300,000,000.000000
+- Line 163, : 2309.2093 + (#2#) = (2309.21)
+- Line 164, : 2309.2093 + #2#** = 2309.21**
+- Line 165, : 2309.2093 + ab#2#cd = ab2309.21cd
+- Line 218, : 2e-5    1   3.023
+- Line 228, : 0.000   1   3.0
+- Line 243, : 2e-5    .   3.023
+- Line 253, : abc 0.00    3.023
+- Line 258, : 2e-5    3.023
+- Line 284, : 1   1.00    3.000
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/01_main_body.tex**
+
+- Line 442, : Second, the data reveals a marked rise in anti-regime CSO activity and democratic protests starting from 1959 to 1963. A structural break test indicates a change in trend in either 1959 or 1962 in the majority Catholic autocracies.\footnote{The structural break test is performed on the annual average across majority Catholic autocracies less the annual average across non-Catholic autocracies for both series. Two tests are run on each series from 1940--1989, a supremum Wald test and a supremum likelihood-ratio test. Each test indicates the same break date on each series: \figFiveBreakCSO\ for anti-regime CSO activity and \figFiveBreakMob\ for democratic mobilizations. The test statistics represent a high degree of statistical significance ($p<0.001$).} This suggests that the political reality on the ground began to change before 1963.
+- Line 638, : 0.990 & 0.010 & 0.000\\
+- Line 640, : 0.000 & 0.000 & 1.000
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg28.ado**
+
+- Line 805, : * so require it to be >= 0.9999999999.
+- Line 810, : if (`lambda' > `Eval'[1,`i']) & (`Eval'[1,`i'] >=0.9999999999) {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/06_figure_6_returns_event_study.do**
+
+- Line 73, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 74, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg29.ado**
+
+- Line 5862, : //		cgamma = 1.4117
+- Line 5863, : cgamma = 1.1447
+- Line 5867, : cgamma = 2.6614
+- Line 5872, : cgamma = 1.3221
+- Line 7487, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/estout.ado**
+
+- Line 442, : local starlevels "* 0.05 ** 0.01 *** 0.001"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/01_events/02_create_pre1900_dem.do**
+
+- Line 29, : global FLOAT_TOL = 0.0001
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/01_figure_1_dividend_yield_event_study.do**
+
+- Line 61, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 62, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/05_figure_5_anti_regime_event_study.do**
+
+- Line 89, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 90, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/raw/table_11_model_calibration.tex**
+
+- Line 8, : $\qquad \qquad \bar{y}$     & 0.017 & Income growth & Maddison Historical Statistics \\
+- Line 9, : $\qquad \qquad \sigma_y$      & 0.073 & Income standard deviation & Maddison Historical Statistics \\
+- Line 13, : $\qquad \qquad \theta^A$ & 0.527 & Inequality in autocracy & SWIID \\
+- Line 14, : $\qquad \qquad \theta^D$ & 0.486 & Avg. Inequality in democracy & Author estimation \\
+- Line 15, : $\qquad \qquad \nu^A$ & 0.370 & Rent diversion in autocracy & V-Dem \\
+- Line 16, : $\qquad \qquad \nu^D$ & 0.315 & Avg. rent diversion in democracy & Author estimation \\
+- Line 18, : $\qquad \qquad \tau^A$ & 0.175 & Tax rate in autocracy & Autocracy Gov. Rev.-GDP ratio \\
+- Line 33, : $\qquad \qquad \beta$ & 0.9608 & Subjective discount rate & Match PD ratio in autocracy \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreghdfe.ado**
+
+- Line 3806, : local tdelta	= `_dta[_TSdelta]'				//  be stored as e.g. +1.0000000000000X+000
+- Line 4904, : //	cgamma = 1.4117
+- Line 4905, : cgamma = 1.1447
+- Line 4909, : cgamma = 2.6614
+- Line 4915, : cgamma = 1.3221
+- Line 6742, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/additional/03_figure_B3_democracy_IK_specs.do**
+
+- Line 76, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 77, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 90, : replace dem2_lb = dem2_pe - 1.645*dem2_se
+- Line 91, : replace dem2_ub = dem2_pe + 1.645*dem2_se
+- Line 201, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 202, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 215, : replace dem2_lb = dem2_pe - 1.645*dem2_se
+- Line 216, : replace dem2_ub = dem2_pe + 1.645*dem2_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/10_figure_D10_democratization_end_price_response.do**
+
+- Line 32, : global CONF_INT = 1.645
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/model/.ipynb_checkpoints/model_final-checkpoint.ipynb**
+
+- Line 9, : "end_time": "2024-01-04T20:29:36.931586Z",
+- Line 10, : "start_time": "2024-01-04T20:29:36.927374Z"
+- Line 35, : "end_time": "2024-01-04T23:09:27.506339Z",
+- Line 36, : "start_time": "2024-01-04T23:09:27.497236Z"
+- Line 51, : "p.β  = 0.9675                                       # subjective time discounting\n",
+- Line 62, : "p.Δθ  = 0.045\n",
+- Line 64, : "p.Δτ  = 0.048\n",
+- Line 65, : "p.Δν  = 0.058\n",
+- Line 69, : "p.θA  = 0.456 + p.δ                                # inequality parameter\n",
+- Line 72, : "p.yA  = 0.014                                      # drift of income in autocracy\n",
+- Line 73, : "p.ΔyD = 0.000                                      # change in income growth in democracy\n",
+- Line 75, : "p.σy  = 0.073                                      # volatility of income\n",
+- Line 76, : "p.νA  = 0.354                                      # Portion of consumption from public goods\n",
+- Line 81, : "p.τA   = 0.175\n",
+- Line 90, : "p.Pμ = np.array([[0.99,0.01,0.000],    # transition matrix for mu\n",
+- Line 92, : "                [0.000,0.000,1.000]])\n",
+- Line 106, : "end_time": "2024-01-04T23:09:27.740210Z",
+- Line 107, : "start_time": "2024-01-04T23:09:27.731138Z"
+- Line 176, : "end_time": "2024-01-04T23:09:28.221512Z",
+- Line 177, : "start_time": "2024-01-04T23:09:28.213784Z"
+- Line 235, : "end_time": "2024-01-04T23:09:28.674007Z",
+- Line 236, : "start_time": "2024-01-04T23:09:28.655020Z"
+- Line 245, : "         Current function value: 0.000000\n",
+- Line 248, : "[30.77467122 30.19459159 30.9775068 ]\n"
+- Line 254, : "0.01902916652540343"
+- Line 266, : "         ftol   = 0.00000001,\n",
+- Line 281, : "end_time": "2024-01-04T23:09:29.215330Z",
+- Line 282, : "start_time": "2024-01-04T23:09:29.197615Z"
+- Line 291, : "         Current function value: 0.000000\n",
+- Line 294, : "[20.15199986 16.64837212 21.13716363]\n",
+- Line 295, : "0.19099109138015313\n",
+- Line 296, : "0.01044306619828371\n",
+- Line 297, : "[0.04962287 0.06006593 0.04731004]\n"
+- Line 322, : "end_time": "2024-01-04T23:09:29.562334Z",
+- Line 323, : "start_time": "2024-01-04T23:09:29.550377Z"
+- Line 331, : "0.017470140767614148 0.004775103600616592 0.01750461938788378\n",
+- Line 332, : "0.10118516662394653 0.11965617346037376\n"
+- Line 338, : "5.726984126984126"
+- Line 380, : "end_time": "2024-01-04T23:09:30.179266Z",
+- Line 381, : "start_time": "2024-01-04T23:09:30.175049Z"
+- Line 389, : "0.6166150485272579\n"
+- Line 408, : "end_time": "2024-01-04T23:09:44.759325Z",
+- Line 409, : "start_time": "2024-01-04T23:09:44.755450Z"
+- Line 416, : "-0.33541519197006525"
+- Line 434, : "end_time": "2024-01-04T23:13:41.770714Z",
+- Line 435, : "start_time": "2024-01-04T23:13:41.761571Z"
+- Line 447, : "Inequality reduction $\\theta^A - \\theta^D$   &  & 0.045   \\\\\n",
+- Line 449, : "Tax increase $\\tau^D-\\tau^A$  & & 0.048   \\\\\n",
+- Line 451, : "Corruption reduction $\\nu^D- \\nu^A$  & & 0.058   \\\\\n",
+- Line 542, : "    \"inequality_reduction\": round(0.045, 3),\n",
+- Line 543, : "    \"tax_increase\": round(0.048, 3),\n",
+- Line 544, : "    \"corruption_reduction\": round(0.058, 3),\n",
+- Line 547, : "    \"dividend_yield_autocracy_data\": round(0.050, 3),\n",
+- Line 549, : "    \"dividend_yield_democratization_data\": round(0.060, 3),\n",
+- Line 557, : "    \"decrease_ineq\": round(100*((.169-0.126)/(Δdp)), 1),\n",
+- Line 558, : "    \"decrease_gov\": round(100*((.191-0.169)/(Δdp)), 1),\n",
+- Line 586, : "end_time": "2023-10-21T18:52:10.235321Z",
+- Line 587, : "start_time": "2023-10-21T18:52:10.224625Z"
+- Line 658, : "end_time": "2023-10-21T18:52:11.000941Z",
+- Line 659, : "start_time": "2023-10-21T18:52:10.929029Z"
+- Line 668, : "         Current function value: 0.000000\n",
+- Line 672, : "         Current function value: 0.000000\n",
+- Line 692, : "         ftol   = 0.00000001,\n",
+- Line 714, : "end_time": "2023-10-21T19:29:32.219345Z",
+- Line 715, : "start_time": "2023-10-21T19:29:32.215525Z"
+- Line 722, : "1.144377367077463"
+- Line 740, : "end_time": "2023-10-21T18:52:34.702111Z",
+- Line 741, : "start_time": "2023-10-21T18:52:14.628079Z"
+- Line 750, : "         Current function value: 0.000000\n",
+- Line 754, : "         Current function value: 0.000000\n",
+- Line 758, : "         Current function value: 0.000000\n",
+- Line 762, : "         Current function value: 0.000000\n",
+- Line 766, : "         Current function value: 0.000000\n",
+- Line 770, : "         Current function value: 0.000000\n",
+- Line 774, : "         Current function value: 0.000000\n",
+- Line 778, : "         Current function value: 0.000000\n",
+- Line 782, : "         Current function value: 0.000000\n",
+- Line 786, : "         Current function value: 0.000000\n",
+- Line 790, : "         Current function value: 0.000000\n",
+- Line 794, : "         Current function value: 0.000000\n",
+- Line 798, : "         Current function value: 0.000000\n",
+- Line 802, : "         Current function value: 0.000000\n",
+- Line 806, : "         Current function value: 0.000000\n",
+- Line 810, : "         Current function value: 0.000000\n",
+- Line 814, : "         Current function value: 0.000000\n",
+- Line 818, : "         Current function value: 0.000000\n",
+- Line 822, : "         Current function value: 0.000000\n",
+- Line 826, : "         Current function value: 0.000000\n",
+- Line 830, : "         Current function value: 0.000000\n",
+- Line 834, : "         Current function value: 0.000000\n",
+- Line 838, : "         Current function value: 0.000000\n",
+- Line 842, : "         Current function value: 0.000000\n",
+- Line 846, : "         Current function value: 0.000000\n",
+- Line 850, : "         Current function value: 0.000000\n",
+- Line 854, : "         Current function value: 0.000000\n",
+- Line 858, : "         Current function value: 0.000000\n",
+- Line 862, : "         Current function value: 0.000000\n",
+- Line 866, : "         Current function value: 0.000000\n",
+- Line 870, : "         Current function value: 0.000000\n",
+- Line 874, : "         Current function value: 0.000000\n",
+- Line 878, : "         Current function value: 0.000000\n",
+- Line 882, : "         Current function value: 0.000000\n",
+- Line 886, : "         Current function value: 0.000000\n",
+- Line 890, : "         Current function value: 0.000000\n",
+- Line 894, : "         Current function value: 0.000000\n",
+- Line 898, : "         Current function value: 0.000000\n",
+- Line 902, : "         Current function value: 0.000000\n",
+- Line 906, : "         Current function value: 0.000000\n",
+- Line 910, : "         Current function value: 0.000000\n",
+- Line 914, : "         Current function value: 0.000000\n",
+- Line 918, : "         Current function value: 0.000000\n",
+- Line 922, : "         Current function value: 0.000000\n",
+- Line 926, : "         Current function value: 0.000000\n",
+- Line 930, : "         Current function value: 0.000000\n",
+- Line 934, : "         Current function value: 0.000000\n",
+- Line 938, : "         Current function value: 0.000000\n",
+- Line 942, : "         Current function value: 0.000000\n",
+- Line 946, : "         Current function value: 0.000000\n",
+- Line 950, : "         Current function value: 0.000000\n",
+- Line 954, : "         Current function value: 0.000000\n",
+- Line 958, : "         Current function value: 0.000000\n",
+- Line 962, : "         Current function value: 0.000000\n",
+- Line 966, : "         Current function value: 0.000000\n",
+- Line 970, : "         Current function value: 0.000000\n",
+- Line 974, : "         Current function value: 0.000000\n",
+- Line 978, : "         Current function value: 0.000000\n",
+- Line 982, : "         Current function value: 0.000000\n",
+- Line 986, : "         Current function value: 0.000000\n",
+- Line 990, : "         Current function value: 0.000000\n",
+- Line 994, : "         Current function value: 0.000000\n",
+- Line 1004, : "         Current function value: 0.000000\n",
+- Line 1008, : "         Current function value: 0.000000\n",
+- Line 1012, : "         Current function value: 0.000000\n",
+- Line 1016, : "         Current function value: 0.000000\n",
+- Line 1020, : "         Current function value: 0.000000\n",
+- Line 1024, : "         Current function value: 0.000000\n",
+- Line 1028, : "         Current function value: 0.000000\n",
+- Line 1032, : "         Current function value: 0.000000\n",
+- Line 1036, : "         Current function value: 0.000000\n",
+- Line 1040, : "         Current function value: 0.000000\n",
+- Line 1044, : "         Current function value: 0.000000\n",
+- Line 1048, : "         Current function value: 0.000000\n",
+- Line 1052, : "         Current function value: 0.000000\n",
+- Line 1056, : "         Current function value: 0.000000\n",
+- Line 1060, : "         Current function value: 0.000000\n",
+- Line 1064, : "         Current function value: 0.000000\n",
+- Line 1068, : "         Current function value: 0.000000\n",
+- Line 1072, : "         Current function value: 0.000000\n",
+- Line 1076, : "         Current function value: 0.000000\n",
+- Line 1080, : "         Current function value: 0.000000\n",
+- Line 1084, : "         Current function value: 0.000000\n",
+- Line 1088, : "         Current function value: 0.000000\n",
+- Line 1092, : "         Current function value: 0.000000\n",
+- Line 1096, : "         Current function value: 0.000000\n",
+- Line 1100, : "         Current function value: 0.000000\n",
+- Line 1104, : "         Current function value: 0.000000\n",
+- Line 1108, : "         Current function value: 0.000000\n",
+- Line 1112, : "         Current function value: 0.000000\n",
+- Line 1116, : "         Current function value: 0.000000\n",
+- Line 1120, : "         Current function value: 0.000000\n",
+- Line 1124, : "         Current function value: 0.000000\n",
+- Line 1128, : "         Current function value: 0.000000\n",
+- Line 1132, : "         Current function value: 0.000000\n",
+- Line 1136, : "         Current function value: 0.000000\n",
+- Line 1140, : "         Current function value: 0.000000\n",
+- Line 1144, : "         Current function value: 0.000000\n",
+- Line 1148, : "         Current function value: 0.000000\n",
+- Line 1152, : "         Current function value: 0.000000\n",
+- Line 1156, : "         Current function value: 0.000000\n",
+- Line 1160, : "         Current function value: 0.000000\n",
+- Line 1164, : "         Current function value: 0.000000\n",
+- Line 1168, : "         Current function value: 0.000000\n",
+- Line 1172, : "         Current function value: 0.000000\n",
+- Line 1176, : "         Current function value: 0.000000\n",
+- Line 1180, : "         Current function value: 0.000000\n",
+- Line 1184, : "         Current function value: 0.000000\n",
+- Line 1188, : "         Current function value: 0.000000\n",
+- Line 1192, : "         Current function value: 0.000000\n",
+- Line 1196, : "         Current function value: 0.000000\n",
+- Line 1200, : "         Current function value: 0.000000\n",
+- Line 1204, : "         Current function value: 0.000000\n",
+- Line 1208, : "         Current function value: 0.000000\n",
+- Line 1212, : "         Current function value: 0.000000\n",
+- Line 1216, : "         Current function value: 0.000000\n",
+- Line 1220, : "         Current function value: 0.000000\n",
+- Line 1224, : "         Current function value: 0.000000\n",
+- Line 1228, : "         Current function value: 0.000000\n",
+- Line 1232, : "         Current function value: 0.000000\n",
+- Line 1236, : "         Current function value: 0.000000\n",
+- Line 1240, : "         Current function value: 0.000000\n",
+- Line 1244, : "         Current function value: 0.000000\n",
+- Line 1248, : "         Current function value: 0.000000\n",
+- Line 1252, : "         Current function value: 0.000000\n",
+- Line 1256, : "         Current function value: 0.000000\n",
+- Line 1260, : "         Current function value: 0.000000\n",
+- Line 1264, : "         Current function value: 0.000000\n",
+- Line 1268, : "         Current function value: 0.000000\n",
+- Line 1272, : "         Current function value: 0.000000\n",
+- Line 1282, : "         Current function value: 0.000000\n",
+- Line 1286, : "         Current function value: 0.000000\n",
+- Line 1290, : "         Current function value: 0.000000\n",
+- Line 1294, : "         Current function value: 0.000000\n",
+- Line 1298, : "         Current function value: 0.000000\n",
+- Line 1302, : "         Current function value: 0.000000\n",
+- Line 1306, : "         Current function value: 0.000000\n",
+- Line 1310, : "         Current function value: 0.000000\n",
+- Line 1314, : "         Current function value: 0.000000\n",
+- Line 1318, : "         Current function value: 0.000000\n",
+- Line 1322, : "         Current function value: 0.000000\n",
+- Line 1326, : "         Current function value: 0.000000\n",
+- Line 1330, : "         Current function value: 0.000000\n",
+- Line 1334, : "         Current function value: 0.000000\n",
+- Line 1338, : "         Current function value: 0.000000\n",
+- Line 1342, : "         Current function value: 0.000000\n",
+- Line 1346, : "         Current function value: 0.000000\n",
+- Line 1350, : "         Current function value: 0.000000\n",
+- Line 1354, : "         Current function value: 0.000000\n",
+- Line 1358, : "         Current function value: 0.000000\n",
+- Line 1362, : "         Current function value: 0.000000\n",
+- Line 1366, : "         Current function value: 0.000000\n",
+- Line 1370, : "         Current function value: 0.000000\n",
+- Line 1374, : "         Current function value: 0.000000\n",
+- Line 1378, : "         Current function value: 0.000000\n",
+- Line 1382, : "         Current function value: 0.000000\n",
+- Line 1386, : "         Current function value: 0.000000\n",
+- Line 1390, : "         Current function value: 0.000000\n",
+- Line 1394, : "         Current function value: 0.000000\n",
+- Line 1398, : "         Current function value: 0.000000\n",
+- Line 1402, : "         Current function value: 0.000000\n",
+- Line 1406, : "         Current function value: 0.000000\n",
+- Line 1410, : "         Current function value: 0.000000\n",
+- Line 1414, : "         Current function value: 0.000000\n",
+- Line 1418, : "         Current function value: 0.000000\n",
+- Line 1422, : "         Current function value: 0.000000\n",
+- Line 1426, : "         Current function value: 0.000000\n",
+- Line 1430, : "         Current function value: 0.000000\n",
+- Line 1434, : "         Current function value: 0.000000\n",
+- Line 1438, : "         Current function value: 0.000000\n",
+- Line 1442, : "         Current function value: 0.000000\n",
+- Line 1446, : "         Current function value: 0.000000\n",
+- Line 1450, : "         Current function value: 0.000000\n",
+- Line 1454, : "         Current function value: 0.000000\n",
+- Line 1458, : "         Current function value: 0.000000\n",
+- Line 1462, : "         Current function value: 0.000000\n",
+- Line 1466, : "         Current function value: 0.000000\n",
+- Line 1470, : "         Current function value: 0.000000\n",
+- Line 1474, : "         Current function value: 0.000000\n",
+- Line 1478, : "         Current function value: 0.000000\n",
+- Line 1482, : "         Current function value: 0.000000\n",
+- Line 1486, : "         Current function value: 0.000000\n",
+- Line 1490, : "         Current function value: 0.000000\n",
+- Line 1494, : "         Current function value: 0.000000\n",
+- Line 1498, : "         Current function value: 0.000000\n",
+- Line 1502, : "         Current function value: 0.000000\n",
+- Line 1506, : "         Current function value: 0.000000\n",
+- Line 1510, : "         Current function value: 0.000000\n",
+- Line 1514, : "         Current function value: 0.000000\n",
+- Line 1518, : "         Current function value: 0.000000\n",
+- Line 1522, : "         Current function value: 0.000000\n",
+- Line 1526, : "         Current function value: 0.000000\n",
+- Line 1530, : "         Current function value: 0.000000\n",
+- Line 1534, : "         Current function value: 0.000000\n",
+- Line 1544, : "         Current function value: 0.000000\n",
+- Line 1548, : "         Current function value: 0.000000\n",
+- Line 1552, : "         Current function value: 0.000000\n",
+- Line 1556, : "         Current function value: 0.000000\n",
+- Line 1560, : "         Current function value: 0.000000\n",
+- Line 1564, : "         Current function value: 0.000000\n",
+- Line 1568, : "         Current function value: 0.000000\n",
+- Line 1572, : "         Current function value: 0.000000\n",
+- Line 1576, : "         Current function value: 0.000000\n",
+- Line 1580, : "         Current function value: 0.000000\n",
+- Line 1584, : "         Current function value: 0.000000\n",
+- Line 1588, : "         Current function value: 0.000000\n",
+- Line 1592, : "         Current function value: 0.000000\n",
+- Line 1596, : "         Current function value: 0.000000\n",
+- Line 1600, : "         Current function value: 0.000000\n",
+- Line 1604, : "         Current function value: 0.000000\n",
+- Line 1608, : "         Current function value: 0.000000\n",
+- Line 1612, : "         Current function value: 0.000000\n",
+- Line 1616, : "         Current function value: 0.000000\n",
+- Line 1620, : "         Current function value: 0.000000\n",
+- Line 1624, : "         Current function value: 0.000000\n",
+- Line 1628, : "         Current function value: 0.000000\n",
+- Line 1632, : "         Current function value: 0.000000\n",
+- Line 1636, : "         Current function value: 0.000000\n",
+- Line 1640, : "         Current function value: 0.000000\n",
+- Line 1644, : "         Current function value: 0.000000\n",
+- Line 1648, : "         Current function value: 0.000000\n",
+- Line 1652, : "         Current function value: 0.000000\n",
+- Line 1656, : "         Current function value: 0.000000\n",
+- Line 1660, : "         Current function value: 0.000000\n",
+- Line 1664, : "         Current function value: 0.000000\n",
+- Line 1668, : "         Current function value: 0.000000\n",
+- Line 1672, : "         Current function value: 0.000000\n",
+- Line 1676, : "         Current function value: 0.000000\n",
+- Line 1680, : "         Current function value: 0.000000\n",
+- Line 1684, : "         Current function value: 0.000000\n",
+- Line 1688, : "         Current function value: 0.000000\n",
+- Line 1692, : "         Current function value: 0.000000\n",
+- Line 1696, : "         Current function value: 0.000000\n",
+- Line 1700, : "         Current function value: 0.000000\n",
+- Line 1704, : "         Current function value: 0.000000\n",
+- Line 1708, : "         Current function value: 0.000000\n",
+- Line 1712, : "         Current function value: 0.000000\n",
+- Line 1716, : "         Current function value: 0.000000\n",
+- Line 1720, : "         Current function value: 0.000000\n",
+- Line 1724, : "         Current function value: 0.000000\n",
+- Line 1728, : "         Current function value: 0.000000\n",
+- Line 1732, : "         Current function value: 0.000000\n",
+- Line 1736, : "         Current function value: 0.000000\n",
+- Line 1740, : "         Current function value: 0.000000\n",
+- Line 1744, : "         Current function value: 0.000000\n",
+- Line 1748, : "         Current function value: 0.000000\n",
+- Line 1752, : "         Current function value: 0.000000\n",
+- Line 1756, : "         Current function value: 0.000000\n",
+- Line 1760, : "         Current function value: 0.000000\n",
+- Line 1764, : "         Current function value: 0.000000\n",
+- Line 1768, : "         Current function value: 0.000000\n",
+- Line 1772, : "         Current function value: 0.000000\n",
+- Line 1776, : "         Current function value: 0.000000\n",
+- Line 1780, : "         Current function value: 0.000000\n",
+- Line 1790, : "         Current function value: 0.000000\n",
+- Line 1794, : "         Current function value: 0.000000\n",
+- Line 1798, : "         Current function value: 0.000000\n",
+- Line 1802, : "         Current function value: 0.000000\n",
+- Line 1806, : "         Current function value: 0.000000\n",
+- Line 1810, : "         Current function value: 0.000000\n",
+- Line 1814, : "         Current function value: 0.000000\n",
+- Line 1818, : "         Current function value: 0.000000\n",
+- Line 1822, : "         Current function value: 0.000000\n",
+- Line 1826, : "         Current function value: 0.000000\n",
+- Line 1830, : "         Current function value: 0.000000\n",
+- Line 1834, : "         Current function value: 0.000000\n",
+- Line 1838, : "         Current function value: 0.000000\n",
+- Line 1842, : "         Current function value: 0.000000\n",
+- Line 1846, : "         Current function value: 0.000000\n",
+- Line 1850, : "         Current function value: 0.000000\n",
+- Line 1854, : "         Current function value: 0.000000\n",
+- Line 1858, : "         Current function value: 0.000000\n",
+- Line 1862, : "         Current function value: 0.000000\n",
+- Line 1866, : "         Current function value: 0.000000\n",
+- Line 1870, : "         Current function value: 0.000000\n",
+- Line 1874, : "         Current function value: 0.000000\n",
+- Line 1878, : "         Current function value: 0.000000\n",
+- Line 1882, : "         Current function value: 0.000000\n",
+- Line 1886, : "         Current function value: 0.000000\n",
+- Line 1890, : "         Current function value: 0.000000\n",
+- Line 1894, : "         Current function value: 0.000000\n",
+- Line 1898, : "         Current function value: 0.000000\n",
+- Line 1902, : "         Current function value: 0.000000\n",
+- Line 1906, : "         Current function value: 0.000000\n",
+- Line 1910, : "         Current function value: 0.000000\n",
+- Line 1914, : "         Current function value: 0.000000\n",
+- Line 1918, : "         Current function value: 0.000000\n",
+- Line 1922, : "         Current function value: 0.000000\n",
+- Line 1926, : "         Current function value: 0.000000\n",
+- Line 1930, : "         Current function value: 0.000000\n",
+- Line 1934, : "         Current function value: 0.000000\n",
+- Line 1938, : "         Current function value: 0.000000\n",
+- Line 1942, : "         Current function value: 0.000000\n",
+- Line 1946, : "         Current function value: 0.000000\n",
+- Line 1950, : "         Current function value: 0.000000\n",
+- Line 1954, : "         Current function value: 0.000000\n",
+- Line 1958, : "         Current function value: 0.000000\n",
+- Line 1962, : "         Current function value: 0.000000\n",
+- Line 1966, : "         Current function value: 0.000000\n",
+- Line 1970, : "         Current function value: 0.000000\n",
+- Line 1974, : "         Current function value: 0.000000\n",
+- Line 1978, : "         Current function value: 0.000000\n",
+- Line 1982, : "         Current function value: 0.000000\n",
+- Line 1986, : "         Current function value: 0.000000\n",
+- Line 1990, : "         Current function value: 0.000000\n",
+- Line 1994, : "         Current function value: 0.000000\n",
+- Line 1998, : "         Current function value: 0.000000\n",
+- Line 2002, : "         Current function value: 0.000000\n",
+- Line 2006, : "         Current function value: 0.000000\n",
+- Line 2010, : "         Current function value: 0.000000\n",
+- Line 2014, : "         Current function value: 0.000000\n",
+- Line 2018, : "         Current function value: 0.000000\n",
+- Line 2022, : "         Current function value: 0.000000\n",
+- Line 2026, : "         Current function value: 0.000000\n",
+- Line 2030, : "         Current function value: 0.000000\n",
+- Line 2034, : "         Current function value: 0.000000\n",
+- Line 2038, : "         Current function value: 0.000000\n",
+- Line 2042, : "         Current function value: 0.000000\n",
+- Line 2046, : "         Current function value: 0.000000\n",
+- Line 2050, : "         Current function value: 0.000000\n",
+- Line 2054, : "         Current function value: 0.000000\n",
+- Line 2058, : "         Current function value: 0.000000\n",
+- Line 2062, : "         Current function value: 0.000000\n",
+- Line 2066, : "         Current function value: 0.000000\n",
+- Line 2076, : "         Current function value: 0.000000\n",
+- Line 2080, : "         Current function value: 0.000000\n",
+- Line 2084, : "         Current function value: 0.000000\n",
+- Line 2088, : "         Current function value: 0.000000\n",
+- Line 2092, : "         Current function value: 0.000000\n",
+- Line 2096, : "         Current function value: 0.000000\n",
+- Line 2100, : "         Current function value: 0.000000\n",
+- Line 2104, : "         Current function value: 0.000000\n",
+- Line 2108, : "         Current function value: 0.000000\n",
+- Line 2112, : "         Current function value: 0.000000\n",
+- Line 2116, : "         Current function value: 0.000000\n",
+- Line 2120, : "         Current function value: 0.000000\n",
+- Line 2124, : "         Current function value: 0.000000\n",
+- Line 2128, : "         Current function value: 0.000000\n",
+- Line 2132, : "         Current function value: 0.000000\n",
+- Line 2136, : "         Current function value: 0.000000\n",
+- Line 2140, : "         Current function value: 0.000000\n",
+- Line 2144, : "         Current function value: 0.000000\n",
+- Line 2148, : "         Current function value: 0.000000\n",
+- Line 2152, : "         Current function value: 0.000000\n",
+- Line 2156, : "         Current function value: 0.000000\n",
+- Line 2160, : "         Current function value: 0.000000\n",
+- Line 2164, : "         Current function value: 0.000000\n",
+- Line 2168, : "         Current function value: 0.000000\n",
+- Line 2172, : "         Current function value: 0.000000\n",
+- Line 2176, : "         Current function value: 0.000000\n",
+- Line 2180, : "         Current function value: 0.000000\n",
+- Line 2184, : "         Current function value: 0.000000\n",
+- Line 2188, : "         Current function value: 0.000000\n",
+- Line 2192, : "         Current function value: 0.000000\n",
+- Line 2196, : "         Current function value: 0.000000\n",
+- Line 2200, : "         Current function value: 0.000000\n",
+- Line 2204, : "         Current function value: 0.000000\n",
+- Line 2208, : "         Current function value: 0.000000\n",
+- Line 2212, : "         Current function value: 0.000000\n",
+- Line 2216, : "         Current function value: 0.000000\n",
+- Line 2220, : "         Current function value: 0.000000\n",
+- Line 2224, : "         Current function value: 0.000000\n",
+- Line 2228, : "         Current function value: 0.000000\n",
+- Line 2232, : "         Current function value: 0.000000\n",
+- Line 2236, : "         Current function value: 0.000000\n",
+- Line 2240, : "         Current function value: 0.000000\n",
+- Line 2244, : "         Current function value: 0.000000\n",
+- Line 2248, : "         Current function value: 0.000000\n",
+- Line 2252, : "         Current function value: 0.000000\n",
+- Line 2256, : "         Current function value: 0.000000\n",
+- Line 2260, : "         Current function value: 0.000000\n",
+- Line 2264, : "         Current function value: 0.000000\n",
+- Line 2268, : "         Current function value: 0.000000\n",
+- Line 2272, : "         Current function value: 0.000000\n",
+- Line 2276, : "         Current function value: 0.000000\n",
+- Line 2280, : "         Current function value: 0.000000\n",
+- Line 2284, : "         Current function value: 0.000000\n",
+- Line 2288, : "         Current function value: 0.000000\n",
+- Line 2292, : "         Current function value: 0.000000\n",
+- Line 2296, : "         Current function value: 0.000000\n",
+- Line 2300, : "         Current function value: 0.000000\n",
+- Line 2304, : "         Current function value: 0.000000\n",
+- Line 2308, : "         Current function value: 0.000000\n",
+- Line 2312, : "         Current function value: 0.000000\n",
+- Line 2316, : "         Current function value: 0.000000\n",
+- Line 2320, : "         Current function value: 0.000000\n",
+- Line 2324, : "         Current function value: 0.000000\n",
+- Line 2328, : "         Current function value: 0.000000\n",
+- Line 2332, : "         Current function value: 0.000000\n",
+- Line 2336, : "         Current function value: 0.000000\n",
+- Line 2340, : "         Current function value: 0.000000\n",
+- Line 2344, : "         Current function value: 0.000000\n",
+- Line 2348, : "         Current function value: 0.000000\n",
+- Line 2352, : "         Current function value: 0.000000\n",
+- Line 2362, : "         Current function value: 0.000000\n",
+- Line 2366, : "         Current function value: 0.000000\n",
+- Line 2370, : "         Current function value: 0.000000\n",
+- Line 2374, : "         Current function value: 0.000000\n",
+- Line 2378, : "         Current function value: 0.000000\n",
+- Line 2382, : "         Current function value: 0.000000\n",
+- Line 2386, : "         Current function value: 0.000000\n",
+- Line 2390, : "         Current function value: 0.000000\n",
+- Line 2394, : "         Current function value: 0.000000\n",
+- Line 2398, : "         Current function value: 0.000000\n",
+- Line 2402, : "         Current function value: 0.000000\n",
+- Line 2406, : "         Current function value: 0.000000\n",
+- Line 2410, : "         Current function value: 0.000000\n",
+- Line 2414, : "         Current function value: 0.000000\n",
+- Line 2418, : "         Current function value: 0.000000\n",
+- Line 2422, : "         Current function value: 0.000000\n",
+- Line 2426, : "         Current function value: 0.000000\n",
+- Line 2430, : "         Current function value: 0.000000\n",
+- Line 2434, : "         Current function value: 0.000000\n",
+- Line 2438, : "         Current function value: 0.000000\n",
+- Line 2442, : "         Current function value: 0.000000\n",
+- Line 2446, : "         Current function value: 0.000000\n",
+- Line 2450, : "         Current function value: 0.000000\n",
+- Line 2454, : "         Current function value: 0.000000\n",
+- Line 2458, : "         Current function value: 0.000000\n",
+- Line 2462, : "         Current function value: 0.000000\n",
+- Line 2466, : "         Current function value: 0.000000\n",
+- Line 2470, : "         Current function value: 0.000000\n",
+- Line 2474, : "         Current function value: 0.000000\n",
+- Line 2478, : "         Current function value: 0.000000\n",
+- Line 2482, : "         Current function value: 0.000000\n",
+- Line 2486, : "         Current function value: 0.000000\n",
+- Line 2490, : "         Current function value: 0.000000\n",
+- Line 2494, : "         Current function value: 0.000000\n",
+- Line 2498, : "         Current function value: 0.000000\n",
+- Line 2502, : "         Current function value: 0.000000\n",
+- Line 2506, : "         Current function value: 0.000000\n",
+- Line 2510, : "         Current function value: 0.000000\n",
+- Line 2514, : "         Current function value: 0.000000\n",
+- Line 2518, : "         Current function value: 0.000000\n",
+- Line 2522, : "         Current function value: 0.000000\n",
+- Line 2526, : "         Current function value: 0.000000\n",
+- Line 2530, : "         Current function value: 0.000000\n",
+- Line 2534, : "         Current function value: 0.000000\n",
+- Line 2538, : "         Current function value: 0.000000\n",
+- Line 2542, : "         Current function value: 0.000000\n",
+- Line 2546, : "         Current function value: 0.000000\n",
+- Line 2550, : "         Current function value: 0.000000\n",
+- Line 2554, : "         Current function value: 0.000000\n",
+- Line 2558, : "         Current function value: 0.000000\n",
+- Line 2562, : "         Current function value: 0.000000\n",
+- Line 2566, : "         Current function value: 0.000000\n",
+- Line 2570, : "         Current function value: 0.000000\n",
+- Line 2574, : "         Current function value: 0.000000\n",
+- Line 2578, : "         Current function value: 0.000000\n",
+- Line 2582, : "         Current function value: 0.000000\n",
+- Line 2586, : "         Current function value: 0.000000\n",
+- Line 2590, : "         Current function value: 0.000000\n",
+- Line 2594, : "         Current function value: 0.000000\n",
+- Line 2598, : "         Current function value: 0.000000\n",
+- Line 2608, : "         Current function value: 0.000000\n",
+- Line 2612, : "         Current function value: 0.000000\n",
+- Line 2616, : "         Current function value: 0.000000\n",
+- Line 2620, : "         Current function value: 0.000000\n",
+- Line 2624, : "         Current function value: 0.000000\n",
+- Line 2628, : "         Current function value: 0.000000\n",
+- Line 2632, : "         Current function value: 0.000000\n",
+- Line 2636, : "         Current function value: 0.000000\n",
+- Line 2640, : "         Current function value: 0.000000\n",
+- Line 2644, : "         Current function value: 0.000000\n",
+- Line 2648, : "         Current function value: 0.000000\n",
+- Line 2652, : "         Current function value: 0.000000\n",
+- Line 2656, : "         Current function value: 0.000000\n",
+- Line 2660, : "         Current function value: 0.000000\n",
+- Line 2664, : "         Current function value: 0.000000\n",
+- Line 2668, : "         Current function value: 0.000000\n",
+- Line 2672, : "         Current function value: 0.000000\n",
+- Line 2676, : "         Current function value: 0.000000\n",
+- Line 2680, : "         Current function value: 0.000000\n",
+- Line 2684, : "         Current function value: 0.000000\n",
+- Line 2688, : "         Current function value: 0.000000\n",
+- Line 2692, : "         Current function value: 0.000000\n",
+- Line 2696, : "         Current function value: 0.000000\n",
+- Line 2700, : "         Current function value: 0.000000\n",
+- Line 2704, : "         Current function value: 0.000000\n",
+- Line 2708, : "         Current function value: 0.000000\n",
+- Line 2712, : "         Current function value: 0.000000\n",
+- Line 2716, : "         Current function value: 0.000000\n",
+- Line 2720, : "         Current function value: 0.000000\n",
+- Line 2724, : "         Current function value: 0.000000\n",
+- Line 2728, : "         Current function value: 0.000000\n",
+- Line 2732, : "         Current function value: 0.000000\n",
+- Line 2736, : "         Current function value: 0.000000\n",
+- Line 2740, : "         Current function value: 0.000000\n",
+- Line 2744, : "         Current function value: 0.000000\n",
+- Line 2748, : "         Current function value: 0.000000\n",
+- Line 2752, : "         Current function value: 0.000000\n",
+- Line 2756, : "         Current function value: 0.000000\n",
+- Line 2760, : "         Current function value: 0.000000\n",
+- Line 2764, : "         Current function value: 0.000000\n",
+- Line 2768, : "         Current function value: 0.000000\n",
+- Line 2772, : "         Current function value: 0.000000\n",
+- Line 2776, : "         Current function value: 0.000000\n",
+- Line 2780, : "         Current function value: 0.000000\n",
+- Line 2784, : "         Current function value: 0.000000\n",
+- Line 2788, : "         Current function value: 0.000000\n",
+- Line 2792, : "         Current function value: 0.000000\n",
+- Line 2796, : "         Current function value: 0.000000\n",
+- Line 2800, : "         Current function value: 0.000000\n",
+- Line 2804, : "         Current function value: 0.000000\n",
+- Line 2808, : "         Current function value: 0.000000\n",
+- Line 2812, : "         Current function value: 0.000000\n",
+- Line 2816, : "         Current function value: 0.000000\n",
+- Line 2820, : "         Current function value: 0.000000\n",
+- Line 2824, : "         Current function value: 0.000000\n",
+- Line 2828, : "         Current function value: 0.000000\n",
+- Line 2832, : "         Current function value: 0.000000\n",
+- Line 2836, : "         Current function value: 0.000000\n",
+- Line 2840, : "         Current function value: 0.000000\n",
+- Line 2844, : "         Current function value: 0.000000\n",
+- Line 2854, : "         Current function value: 0.000000\n",
+- Line 2858, : "         Current function value: 0.000000\n",
+- Line 2862, : "         Current function value: 0.000000\n",
+- Line 2866, : "         Current function value: 0.000000\n",
+- Line 2870, : "         Current function value: 0.000000\n",
+- Line 2874, : "         Current function value: 0.000000\n",
+- Line 2878, : "         Current function value: 0.000000\n",
+- Line 2882, : "         Current function value: 0.000000\n",
+- Line 2886, : "         Current function value: 0.000000\n",
+- Line 2890, : "         Current function value: 0.000000\n",
+- Line 2894, : "         Current function value: 0.000000\n",
+- Line 2898, : "         Current function value: 0.000000\n",
+- Line 2902, : "         Current function value: 0.000000\n",
+- Line 2906, : "         Current function value: 0.000000\n",
+- Line 2910, : "         Current function value: 0.000000\n",
+- Line 2914, : "         Current function value: 0.000000\n",
+- Line 2918, : "         Current function value: 0.000000\n",
+- Line 2922, : "         Current function value: 0.000000\n",
+- Line 2926, : "         Current function value: 0.000000\n",
+- Line 2930, : "         Current function value: 0.000000\n",
+- Line 2934, : "         Current function value: 0.000000\n",
+- Line 2938, : "         Current function value: 0.000000\n",
+- Line 2942, : "         Current function value: 0.000000\n",
+- Line 2946, : "         Current function value: 0.000000\n",
+- Line 2950, : "         Current function value: 0.000000\n",
+- Line 2954, : "         Current function value: 0.000000\n",
+- Line 2958, : "         Current function value: 0.000000\n",
+- Line 2962, : "         Current function value: 0.000000\n",
+- Line 2966, : "         Current function value: 0.000000\n",
+- Line 2970, : "         Current function value: 0.000000\n",
+- Line 2974, : "         Current function value: 0.000000\n",
+- Line 2978, : "         Current function value: 0.000000\n",
+- Line 2982, : "         Current function value: 0.000000\n",
+- Line 2986, : "         Current function value: 0.000000\n",
+- Line 2990, : "         Current function value: 0.000000\n",
+- Line 2994, : "         Current function value: 0.000000\n",
+- Line 2998, : "         Current function value: 0.000000\n",
+- Line 3002, : "         Current function value: 0.000000\n",
+- Line 3006, : "         Current function value: 0.000000\n",
+- Line 3010, : "         Current function value: 0.000000\n",
+- Line 3014, : "         Current function value: 0.000000\n",
+- Line 3018, : "         Current function value: 0.000000\n",
+- Line 3022, : "         Current function value: 0.000000\n",
+- Line 3026, : "         Current function value: 0.000000\n",
+- Line 3030, : "         Current function value: 0.000000\n",
+- Line 3034, : "         Current function value: 0.000000\n",
+- Line 3038, : "         Current function value: 0.000000\n",
+- Line 3042, : "         Current function value: 0.000000\n",
+- Line 3046, : "         Current function value: 0.000000\n",
+- Line 3050, : "         Current function value: 0.000000\n",
+- Line 3054, : "         Current function value: 0.000000\n",
+- Line 3058, : "         Current function value: 0.000000\n",
+- Line 3062, : "         Current function value: 0.000000\n",
+- Line 3066, : "         Current function value: 0.000000\n",
+- Line 3070, : "         Current function value: 0.000000\n",
+- Line 3074, : "         Current function value: 0.000000\n",
+- Line 3078, : "         Current function value: 0.000000\n",
+- Line 3082, : "         Current function value: 0.000000\n",
+- Line 3086, : "         Current function value: 0.000000\n",
+- Line 3090, : "         Current function value: 0.000000\n",
+- Line 3100, : "         Current function value: 0.000000\n",
+- Line 3104, : "         Current function value: 0.000000\n",
+- Line 3108, : "         Current function value: 0.000000\n",
+- Line 3112, : "         Current function value: 0.000000\n",
+- Line 3116, : "         Current function value: 0.000000\n",
+- Line 3120, : "         Current function value: 0.000000\n",
+- Line 3124, : "         Current function value: 0.000000\n",
+- Line 3128, : "         Current function value: 0.000000\n",
+- Line 3132, : "         Current function value: 0.000000\n",
+- Line 3136, : "         Current function value: 0.000000\n",
+- Line 3140, : "         Current function value: 0.000000\n",
+- Line 3144, : "         Current function value: 0.000000\n",
+- Line 3148, : "         Current function value: 0.000000\n",
+- Line 3152, : "         Current function value: 0.000000\n",
+- Line 3156, : "         Current function value: 0.000000\n",
+- Line 3160, : "         Current function value: 0.000000\n",
+- Line 3164, : "         Current function value: 0.000000\n",
+- Line 3168, : "         Current function value: 0.000000\n",
+- Line 3172, : "         Current function value: 0.000000\n",
+- Line 3176, : "         Current function value: 0.000000\n",
+- Line 3180, : "         Current function value: 0.000000\n",
+- Line 3184, : "         Current function value: 0.000000\n",
+- Line 3188, : "         Current function value: 0.000000\n",
+- Line 3192, : "         Current function value: 0.000000\n",
+- Line 3196, : "         Current function value: 0.000000\n",
+- Line 3200, : "         Current function value: 0.000000\n",
+- Line 3204, : "         Current function value: 0.000000\n",
+- Line 3208, : "         Current function value: 0.000000\n",
+- Line 3212, : "         Current function value: 0.000000\n",
+- Line 3216, : "         Current function value: 0.000000\n",
+- Line 3220, : "         Current function value: 0.000000\n",
+- Line 3224, : "         Current function value: 0.000000\n",
+- Line 3228, : "         Current function value: 0.000000\n",
+- Line 3232, : "         Current function value: 0.000000\n",
+- Line 3236, : "         Current function value: 0.000000\n",
+- Line 3240, : "         Current function value: 0.000000\n",
+- Line 3244, : "         Current function value: 0.000000\n",
+- Line 3248, : "         Current function value: 0.000000\n",
+- Line 3252, : "         Current function value: 0.000000\n",
+- Line 3256, : "         Current function value: 0.000000\n",
+- Line 3260, : "         Current function value: 0.000000\n",
+- Line 3264, : "         Current function value: 0.000000\n",
+- Line 3268, : "         Current function value: 0.000000\n",
+- Line 3272, : "         Current function value: 0.000000\n",
+- Line 3276, : "         Current function value: 0.000000\n",
+- Line 3280, : "         Current function value: 0.000000\n",
+- Line 3284, : "         Current function value: 0.000000\n",
+- Line 3288, : "         Current function value: 0.000000\n",
+- Line 3292, : "         Current function value: 0.000000\n",
+- Line 3296, : "         Current function value: 0.000000\n",
+- Line 3300, : "         Current function value: 0.000000\n",
+- Line 3304, : "         Current function value: 0.000000\n",
+- Line 3308, : "         Current function value: 0.000000\n",
+- Line 3312, : "         Current function value: 0.000000\n",
+- Line 3316, : "         Current function value: 0.000000\n",
+- Line 3320, : "         Current function value: 0.000000\n",
+- Line 3324, : "         Current function value: 0.000000\n",
+- Line 3328, : "         Current function value: 0.000000\n",
+- Line 3332, : "         Current function value: 0.000000\n",
+- Line 3336, : "         Current function value: 0.000000\n",
+- Line 3346, : "         Current function value: 0.000000\n",
+- Line 3350, : "         Current function value: 0.000000\n",
+- Line 3354, : "         Current function value: 0.000000\n",
+- Line 3358, : "         Current function value: 0.000000\n",
+- Line 3362, : "         Current function value: 0.000000\n",
+- Line 3366, : "         Current function value: 0.000000\n",
+- Line 3370, : "         Current function value: 0.000000\n",
+- Line 3374, : "         Current function value: 0.000000\n",
+- Line 3378, : "         Current function value: 0.000000\n",
+- Line 3382, : "         Current function value: 0.000000\n",
+- Line 3386, : "         Current function value: 0.000000\n",
+- Line 3390, : "         Current function value: 0.000000\n",
+- Line 3394, : "         Current function value: 0.000000\n",
+- Line 3398, : "         Current function value: 0.000000\n",
+- Line 3402, : "         Current function value: 0.000000\n",
+- Line 3406, : "         Current function value: 0.000000\n",
+- Line 3410, : "         Current function value: 0.000000\n",
+- Line 3414, : "         Current function value: 0.000000\n",
+- Line 3418, : "         Current function value: 0.000000\n",
+- Line 3422, : "         Current function value: 0.000000\n",
+- Line 3426, : "         Current function value: 0.000000\n",
+- Line 3430, : "         Current function value: 0.000000\n",
+- Line 3434, : "         Current function value: 0.000000\n",
+- Line 3438, : "         Current function value: 0.000000\n",
+- Line 3442, : "         Current function value: 0.000000\n",
+- Line 3446, : "         Current function value: 0.000000\n",
+- Line 3450, : "         Current function value: 0.000000\n",
+- Line 3454, : "         Current function value: 0.000000\n",
+- Line 3458, : "         Current function value: 0.000000\n",
+- Line 3462, : "         Current function value: 0.000000\n",
+- Line 3466, : "         Current function value: 0.000000\n",
+- Line 3470, : "         Current function value: 0.000000\n",
+- Line 3474, : "         Current function value: 0.000000\n",
+- Line 3478, : "         Current function value: 0.000000\n",
+- Line 3482, : "         Current function value: 0.000000\n",
+- Line 3486, : "         Current function value: 0.000000\n",
+- Line 3490, : "         Current function value: 0.000000\n",
+- Line 3494, : "         Current function value: 0.000000\n",
+- Line 3498, : "         Current function value: 0.000000\n",
+- Line 3502, : "         Current function value: 0.000000\n",
+- Line 3506, : "         Current function value: 0.000000\n",
+- Line 3510, : "         Current function value: 0.000000\n",
+- Line 3514, : "         Current function value: 0.000000\n",
+- Line 3518, : "         Current function value: 0.000000\n",
+- Line 3522, : "         Current function value: 0.000000\n",
+- Line 3526, : "         Current function value: 0.000000\n",
+- Line 3530, : "         Current function value: 0.000000\n",
+- Line 3534, : "         Current function value: 0.000000\n",
+- Line 3538, : "         Current function value: 0.000000\n",
+- Line 3542, : "         Current function value: 0.000000\n",
+- Line 3546, : "         Current function value: 0.000000\n",
+- Line 3550, : "         Current function value: 0.000000\n",
+- Line 3554, : "         Current function value: 0.000000\n",
+- Line 3558, : "         Current function value: 0.000000\n",
+- Line 3562, : "         Current function value: 0.000000\n",
+- Line 3566, : "         Current function value: 0.000000\n",
+- Line 3570, : "         Current function value: 0.000000\n",
+- Line 3574, : "         Current function value: 0.000000\n",
+- Line 3578, : "         Current function value: 0.000000\n",
+- Line 3582, : "         Current function value: 0.000000\n",
+- Line 3592, : "         Current function value: 0.000000\n",
+- Line 3596, : "         Current function value: 0.000000\n",
+- Line 3600, : "         Current function value: 0.000000\n",
+- Line 3604, : "         Current function value: 0.000000\n",
+- Line 3608, : "         Current function value: 0.000000\n",
+- Line 3612, : "         Current function value: 0.000000\n",
+- Line 3616, : "         Current function value: 0.000000\n",
+- Line 3620, : "         Current function value: 0.000000\n",
+- Line 3624, : "         Current function value: 0.000000\n",
+- Line 3628, : "         Current function value: 0.000000\n",
+- Line 3632, : "         Current function value: 0.000000\n",
+- Line 3636, : "         Current function value: 0.000000\n",
+- Line 3640, : "         Current function value: 0.000000\n",
+- Line 3644, : "         Current function value: 0.000000\n",
+- Line 3648, : "         Current function value: 0.000000\n",
+- Line 3652, : "         Current function value: 0.000000\n",
+- Line 3656, : "         Current function value: 0.000000\n",
+- Line 3660, : "         Current function value: 0.000000\n",
+- Line 3664, : "         Current function value: 0.000000\n",
+- Line 3668, : "         Current function value: 0.000000\n",
+- Line 3672, : "         Current function value: 0.000000\n",
+- Line 3676, : "         Current function value: 0.000000\n",
+- Line 3680, : "         Current function value: 0.000000\n",
+- Line 3684, : "         Current function value: 0.000000\n",
+- Line 3688, : "         Current function value: 0.000000\n",
+- Line 3692, : "         Current function value: 0.000000\n",
+- Line 3696, : "         Current function value: 0.000000\n",
+- Line 3700, : "         Current function value: 0.000000\n",
+- Line 3704, : "         Current function value: 0.000000\n",
+- Line 3708, : "         Current function value: 0.000000\n",
+- Line 3712, : "         Current function value: 0.000000\n",
+- Line 3716, : "         Current function value: 0.000000\n",
+- Line 3720, : "         Current function value: 0.000000\n",
+- Line 3724, : "         Current function value: 0.000000\n",
+- Line 3728, : "         Current function value: 0.000000\n",
+- Line 3732, : "         Current function value: 0.000000\n",
+- Line 3736, : "         Current function value: 0.000000\n",
+- Line 3740, : "         Current function value: 0.000000\n",
+- Line 3744, : "         Current function value: 0.000000\n",
+- Line 3748, : "         Current function value: 0.000000\n",
+- Line 3752, : "         Current function value: 0.000000\n",
+- Line 3756, : "         Current function value: 0.000000\n",
+- Line 3760, : "         Current function value: 0.000000\n",
+- Line 3764, : "         Current function value: 0.000000\n",
+- Line 3768, : "         Current function value: 0.000000\n",
+- Line 3772, : "         Current function value: 0.000000\n",
+- Line 3776, : "         Current function value: 0.000000\n",
+- Line 3780, : "         Current function value: 0.000000\n",
+- Line 3784, : "         Current function value: 0.000000\n",
+- Line 3788, : "         Current function value: 0.000000\n",
+- Line 3792, : "         Current function value: 0.000000\n",
+- Line 3796, : "         Current function value: 0.000000\n",
+- Line 3800, : "         Current function value: 0.000000\n",
+- Line 3804, : "         Current function value: 0.000000\n",
+- Line 3808, : "         Current function value: 0.000000\n",
+- Line 3812, : "         Current function value: 0.000000\n",
+- Line 3816, : "         Current function value: 0.000000\n",
+- Line 3820, : "         Current function value: 0.000000\n",
+- Line 3824, : "         Current function value: 0.000000\n",
+- Line 3828, : "         Current function value: 0.000000\n",
+- Line 3838, : "         Current function value: 0.000000\n",
+- Line 3842, : "         Current function value: 0.000000\n",
+- Line 3846, : "         Current function value: 0.000000\n",
+- Line 3850, : "         Current function value: 0.000000\n",
+- Line 3854, : "         Current function value: 0.000000\n",
+- Line 3858, : "         Current function value: 0.000000\n",
+- Line 3862, : "         Current function value: 0.000000\n",
+- Line 3866, : "         Current function value: 0.000000\n",
+- Line 3870, : "         Current function value: 0.000000\n",
+- Line 3874, : "         Current function value: 0.000000\n",
+- Line 3878, : "         Current function value: 0.000000\n",
+- Line 3882, : "         Current function value: 0.000000\n",
+- Line 3886, : "         Current function value: 0.000000\n",
+- Line 3890, : "         Current function value: 0.000000\n",
+- Line 3894, : "         Current function value: 0.000000\n",
+- Line 3898, : "         Current function value: 0.000000\n",
+- Line 3902, : "         Current function value: 0.000000\n",
+- Line 3906, : "         Current function value: 0.000000\n",
+- Line 3910, : "         Current function value: 0.000000\n",
+- Line 3914, : "         Current function value: 0.000000\n",
+- Line 3918, : "         Current function value: 0.000000\n",
+- Line 3922, : "         Current function value: 0.000000\n",
+- Line 3926, : "         Current function value: 0.000000\n",
+- Line 3930, : "         Current function value: 0.000000\n",
+- Line 3934, : "         Current function value: 0.000000\n",
+- Line 3938, : "         Current function value: 0.000000\n",
+- Line 3942, : "         Current function value: 0.000000\n",
+- Line 3946, : "         Current function value: 0.000000\n",
+- Line 3950, : "         Current function value: 0.000000\n",
+- Line 3954, : "         Current function value: 0.000000\n",
+- Line 3958, : "         Current function value: 0.000000\n",
+- Line 3962, : "         Current function value: 0.000000\n",
+- Line 3966, : "         Current function value: 0.000000\n",
+- Line 3970, : "         Current function value: 0.000000\n",
+- Line 3974, : "         Current function value: 0.000000\n",
+- Line 3978, : "         Current function value: 0.000000\n",
+- Line 3982, : "         Current function value: 0.000000\n",
+- Line 3986, : "         Current function value: 0.000000\n",
+- Line 3990, : "         Current function value: 0.000000\n",
+- Line 3994, : "         Current function value: 0.000000\n",
+- Line 3998, : "         Current function value: 0.000000\n",
+- Line 4002, : "         Current function value: 0.000000\n",
+- Line 4006, : "         Current function value: 0.000000\n",
+- Line 4010, : "         Current function value: 0.000000\n",
+- Line 4014, : "         Current function value: 0.000000\n",
+- Line 4018, : "         Current function value: 0.000000\n",
+- Line 4022, : "         Current function value: 0.000000\n",
+- Line 4026, : "         Current function value: 0.000000\n",
+- Line 4030, : "         Current function value: 0.000000\n",
+- Line 4034, : "         Current function value: 0.000000\n",
+- Line 4038, : "         Current function value: 0.000000\n",
+- Line 4042, : "         Current function value: 0.000000\n",
+- Line 4046, : "         Current function value: 0.000000\n",
+- Line 4050, : "         Current function value: 0.000000\n",
+- Line 4054, : "         Current function value: 0.000000\n",
+- Line 4058, : "         Current function value: 0.000000\n",
+- Line 4062, : "         Current function value: 0.000000\n",
+- Line 4066, : "         Current function value: 0.000000\n",
+- Line 4070, : "         Current function value: 0.000000\n",
+- Line 4074, : "         Current function value: 0.000000\n",
+- Line 4078, : "         Current function value: 0.000000\n",
+- Line 4082, : "         Current function value: 0.000000\n",
+- Line 4086, : "         Current function value: 0.000000\n",
+- Line 4090, : "         Current function value: 0.000000\n",
+- Line 4094, : "         Current function value: 0.000000\n",
+- Line 4098, : "         Current function value: 0.000000\n",
+- Line 4102, : "         Current function value: 0.000000\n",
+- Line 4112, : "         Current function value: 0.000000\n",
+- Line 4116, : "         Current function value: 0.000000\n",
+- Line 4120, : "         Current function value: 0.000000\n",
+- Line 4124, : "         Current function value: 0.000000\n",
+- Line 4128, : "         Current function value: 0.000000\n",
+- Line 4132, : "         Current function value: 0.000000\n",
+- Line 4136, : "         Current function value: 0.000000\n",
+- Line 4140, : "         Current function value: 0.000000\n",
+- Line 4144, : "         Current function value: 0.000000\n",
+- Line 4148, : "         Current function value: 0.000000\n",
+- Line 4152, : "         Current function value: 0.000000\n",
+- Line 4156, : "         Current function value: 0.000000\n",
+- Line 4160, : "         Current function value: 0.000000\n",
+- Line 4164, : "         Current function value: 0.000000\n",
+- Line 4168, : "         Current function value: 0.000000\n",
+- Line 4172, : "         Current function value: 0.000000\n",
+- Line 4176, : "         Current function value: 0.000000\n",
+- Line 4180, : "         Current function value: 0.000000\n",
+- Line 4184, : "         Current function value: 0.000000\n",
+- Line 4188, : "         Current function value: 0.000000\n",
+- Line 4192, : "         Current function value: 0.000000\n",
+- Line 4196, : "         Current function value: 0.000000\n",
+- Line 4200, : "         Current function value: 0.000000\n",
+- Line 4204, : "         Current function value: 0.000000\n",
+- Line 4208, : "         Current function value: 0.000000\n",
+- Line 4212, : "         Current function value: 0.000000\n",
+- Line 4216, : "         Current function value: 0.000000\n",
+- Line 4220, : "         Current function value: 0.000000\n",
+- Line 4224, : "         Current function value: 0.000000\n",
+- Line 4228, : "         Current function value: 0.000000\n",
+- Line 4232, : "         Current function value: 0.000000\n",
+- Line 4236, : "         Current function value: 0.000000\n",
+- Line 4240, : "         Current function value: 0.000000\n",
+- Line 4244, : "         Current function value: 0.000000\n",
+- Line 4248, : "         Current function value: 0.000000\n",
+- Line 4252, : "         Current function value: 0.000000\n",
+- Line 4256, : "         Current function value: 0.000000\n",
+- Line 4260, : "         Current function value: 0.000000\n",
+- Line 4264, : "         Current function value: 0.000000\n",
+- Line 4268, : "         Current function value: 0.000000\n",
+- Line 4272, : "         Current function value: 0.000000\n",
+- Line 4276, : "         Current function value: 0.000000\n",
+- Line 4280, : "         Current function value: 0.000000\n",
+- Line 4284, : "         Current function value: 0.000000\n",
+- Line 4288, : "         Current function value: 0.000000\n",
+- Line 4292, : "         Current function value: 0.000000\n",
+- Line 4296, : "         Current function value: 0.000000\n",
+- Line 4300, : "         Current function value: 0.000000\n",
+- Line 4304, : "         Current function value: 0.000000\n",
+- Line 4308, : "         Current function value: 0.000000\n",
+- Line 4312, : "         Current function value: 0.000000\n",
+- Line 4316, : "         Current function value: 0.000000\n",
+- Line 4320, : "         Current function value: 0.000000\n",
+- Line 4324, : "         Current function value: 0.000000\n",
+- Line 4328, : "         Current function value: 0.000000\n",
+- Line 4332, : "         Current function value: 0.000000\n",
+- Line 4336, : "         Current function value: 0.000000\n",
+- Line 4340, : "         Current function value: 0.000000\n",
+- Line 4344, : "         Current function value: 0.000000\n",
+- Line 4354, : "         Current function value: 0.000000\n",
+- Line 4358, : "         Current function value: 0.000000\n",
+- Line 4362, : "         Current function value: 0.000000\n",
+- Line 4366, : "         Current function value: 0.000000\n",
+- Line 4370, : "         Current function value: 0.000000\n",
+- Line 4374, : "         Current function value: 0.000000\n",
+- Line 4378, : "         Current function value: 0.000000\n",
+- Line 4382, : "         Current function value: 0.000000\n",
+- Line 4386, : "         Current function value: 0.000000\n",
+- Line 4390, : "         Current function value: 0.000000\n",
+- Line 4394, : "         Current function value: 0.000000\n",
+- Line 4398, : "         Current function value: 0.000000\n",
+- Line 4402, : "         Current function value: 0.000000\n",
+- Line 4406, : "         Current function value: 0.000000\n",
+- Line 4410, : "         Current function value: 0.000000\n",
+- Line 4414, : "         Current function value: 0.000000\n",
+- Line 4418, : "         Current function value: 0.000000\n",
+- Line 4422, : "         Current function value: 0.000000\n",
+- Line 4426, : "         Current function value: 0.000000\n",
+- Line 4430, : "         Current function value: 0.000000\n",
+- Line 4434, : "         Current function value: 0.000000\n",
+- Line 4438, : "         Current function value: 0.000000\n",
+- Line 4442, : "         Current function value: 0.000000\n",
+- Line 4446, : "         Current function value: 0.000000\n",
+- Line 4450, : "         Current function value: 0.000000\n",
+- Line 4454, : "         Current function value: 0.000000\n",
+- Line 4458, : "         Current function value: 0.000000\n",
+- Line 4462, : "         Current function value: 0.000000\n",
+- Line 4466, : "         Current function value: 0.000000\n",
+- Line 4470, : "         Current function value: 0.000000\n",
+- Line 4474, : "         Current function value: 0.000000\n",
+- Line 4478, : "         Current function value: 0.000000\n",
+- Line 4482, : "         Current function value: 0.000000\n",
+- Line 4486, : "         Current function value: 0.000000\n",
+- Line 4490, : "         Current function value: 0.000000\n",
+- Line 4494, : "         Current function value: 0.000000\n",
+- Line 4498, : "         Current function value: 0.000000\n",
+- Line 4502, : "         Current function value: 0.000000\n",
+- Line 4506, : "         Current function value: 0.000000\n",
+- Line 4510, : "         Current function value: 0.000000\n",
+- Line 4514, : "         Current function value: 0.000000\n",
+- Line 4518, : "         Current function value: 0.000000\n",
+- Line 4522, : "         Current function value: 0.000000\n",
+- Line 4526, : "         Current function value: 0.000000\n",
+- Line 4530, : "         Current function value: 0.000000\n",
+- Line 4534, : "         Current function value: 0.000000\n",
+- Line 4538, : "         Current function value: 0.000000\n",
+- Line 4542, : "         Current function value: 0.000000\n",
+- Line 4546, : "         Current function value: 0.000000\n",
+- Line 4550, : "         Current function value: 0.000000\n",
+- Line 4554, : "         Current function value: 0.000000\n",
+- Line 4558, : "         Current function value: 0.000000\n",
+- Line 4562, : "         Current function value: 0.000000\n",
+- Line 4566, : "         Current function value: 0.000000\n",
+- Line 4570, : "         Current function value: 0.000000\n",
+- Line 4574, : "         Current function value: 0.000000\n",
+- Line 4578, : "         Current function value: 0.000000\n",
+- Line 4582, : "         Current function value: 0.000000\n",
+- Line 4586, : "         Current function value: 0.000000\n",
+- Line 4590, : "         Current function value: 0.000000\n",
+- Line 4600, : "         Current function value: 0.000000\n",
+- Line 4604, : "         Current function value: 0.000000\n",
+- Line 4608, : "         Current function value: 0.000000\n",
+- Line 4612, : "         Current function value: 0.000000\n",
+- Line 4616, : "         Current function value: 0.000000\n",
+- Line 4620, : "         Current function value: 0.000000\n",
+- Line 4624, : "         Current function value: 0.000000\n",
+- Line 4628, : "         Current function value: 0.000000\n",
+- Line 4632, : "         Current function value: 0.000000\n",
+- Line 4636, : "         Current function value: 0.000000\n",
+- Line 4640, : "         Current function value: 0.000000\n",
+- Line 4644, : "         Current function value: 0.000000\n",
+- Line 4648, : "         Current function value: 0.000000\n",
+- Line 4652, : "         Current function value: 0.000000\n",
+- Line 4656, : "         Current function value: 0.000000\n",
+- Line 4660, : "         Current function value: 0.000000\n",
+- Line 4664, : "         Current function value: 0.000000\n",
+- Line 4668, : "         Current function value: 0.000000\n",
+- Line 4672, : "         Current function value: 0.000000\n",
+- Line 4676, : "         Current function value: 0.000000\n",
+- Line 4680, : "         Current function value: 0.000000\n",
+- Line 4684, : "         Current function value: 0.000000\n",
+- Line 4688, : "         Current function value: 0.000000\n",
+- Line 4692, : "         Current function value: 0.000000\n",
+- Line 4696, : "         Current function value: 0.000000\n",
+- Line 4700, : "         Current function value: 0.000000\n",
+- Line 4704, : "         Current function value: 0.000000\n",
+- Line 4708, : "         Current function value: 0.000000\n",
+- Line 4712, : "         Current function value: 0.000000\n",
+- Line 4716, : "         Current function value: 0.000000\n",
+- Line 4720, : "         Current function value: 0.000000\n",
+- Line 4724, : "         Current function value: 0.000000\n",
+- Line 4728, : "         Current function value: 0.000000\n",
+- Line 4732, : "         Current function value: 0.000000\n",
+- Line 4736, : "         Current function value: 0.000000\n",
+- Line 4740, : "         Current function value: 0.000000\n",
+- Line 4744, : "         Current function value: 0.000000\n",
+- Line 4748, : "         Current function value: 0.000000\n",
+- Line 4752, : "         Current function value: 0.000000\n",
+- Line 4756, : "         Current function value: 0.000000\n",
+- Line 4760, : "         Current function value: 0.000000\n",
+- Line 4764, : "         Current function value: 0.000000\n",
+- Line 4768, : "         Current function value: 0.000000\n",
+- Line 4772, : "         Current function value: 0.000000\n",
+- Line 4776, : "         Current function value: 0.000000\n",
+- Line 4780, : "         Current function value: 0.000000\n",
+- Line 4784, : "         Current function value: 0.000000\n",
+- Line 4788, : "         Current function value: 0.000000\n",
+- Line 4792, : "         Current function value: 0.000000\n",
+- Line 4796, : "         Current function value: 0.000000\n",
+- Line 4800, : "         Current function value: 0.000000\n",
+- Line 4804, : "         Current function value: 0.000000\n",
+- Line 4808, : "         Current function value: 0.000000\n",
+- Line 4812, : "         Current function value: 0.000000\n",
+- Line 4816, : "         Current function value: 0.000000\n",
+- Line 4820, : "         Current function value: 0.000000\n",
+- Line 4824, : "         Current function value: 0.000000\n",
+- Line 4828, : "         Current function value: 0.000000\n",
+- Line 4832, : "         Current function value: 0.000000\n",
+- Line 4836, : "         Current function value: 0.000000\n",
+- Line 4840, : "         Current function value: 0.000000\n",
+- Line 4844, : "         Current function value: 0.000000\n",
+- Line 4855, : "for cg in np.arange(1, 1.5 + 0.001, 0.001):\n",
+- Line 4869, : "             ftol   = 0.00000001,\n",
+- Line 4889, : "end_time": "2023-10-21T19:27:53.720304Z",
+- Line 4890, : "start_time": "2023-10-21T19:27:53.403583Z"
+- Line 4955, : "end_time": "2023-10-13T00:38:59.989795Z",
+- Line 4956, : "start_time": "2023-10-13T00:38:59.985345Z"
+- Line 5067, : "                ftol   = 0.00000001,\n",
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/model/gradual_redistribution_model.py**
+
+- Line 95, : ftol   = 0.00000001,
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/esttab.ado**
+
+- Line 28, : local fixed_starlevels    `"* 0.05 ** 0.01 *** 0.001"'
+- Line 155, : local rtf_starlevels      `""{\super *}" 0.05 "{\super **}" 0.01 "{\super ***}" 0.001"'
+- Line 188, : local html_starlevels     `"<sup>*</sup> 0.05 <sup>**</sup> 0.01 <sup>***</sup> 0.001"'
+- Line 220, : local tex_starlevels      `"\sym{*} 0.05 \sym{**} 0.01 \sym{***} 0.001"'
+- Line 284, : local mmd_starlevels     `"<sup>\*</sup> 0.05 <sup>\*\*</sup> 0.01 <sup>\*\*\*</sup> 0.001"'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/09_figure_D9_explicit_redistribute_event_study.do**
+
+- Line 72, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 73, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 104, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 105, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/06_table_6_balance_tests.do**
+
+- Line 112, : if abs(`t') >= 2.576 {
+- Line 118, : else if abs(`t') >= 1.645 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg2.ado**
+
+- Line 3736, : local tdelta	= `_dta[_TSdelta]'				//  be stored as e.g. +1.0000000000000X+000
+- Line 4847, : //	cgamma = 1.4117
+- Line 4848, : cgamma = 1.1447
+- Line 4852, : cgamma = 2.6614
+- Line 4858, : cgamma = 1.3221
+- Line 6685, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/08_figure_C8_dividend_yield_event_study.do**
+
+- Line 136, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 137, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/11_table_11_model_calibration.py**
+
+- Line 31, : baseline_params['beta'] = 0.9608
+- Line 38, : baseline_params['y_A'] = 0.017
+- Line 39, : baseline_params['Delta_y_D'] = 0.000
+- Line 40, : baseline_params['sigma_y'] = 0.073
+- Line 49, : [0.99, 0.01, 0.000],
+- Line 51, : [0.000, 0.000, 1.000]
+- Line 73, : baseline_params_higher_growth['higher_growth_rate'] = 0.006
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/section_6.tex**
+
+- Line 1, : \newcommand{\tabTwelveDeltaTheta}{0.041}
+- Line 2, : \newcommand{\tabTwelveDeltaTau}{0.042}
+- Line 3, : \newcommand{\tabTwelveDeltaNu}{0.055}
+- Line 5, : \newcommand{\tabTwelveDivYldAutModel}{0.051}
+- Line 6, : \newcommand{\tabTwelveDivYldAutData}{0.051}
+- Line 7, : \newcommand{\tabTwelveDivYldDemModel}{0.061}
+- Line 8, : \newcommand{\tabTwelveDivYldDemData}{0.061}
+- Line 30, : \newcommand{\transPTwoOne}{0.054}
+- Line 31, : \newcommand{\transPTwoTwo}{0.892}
+- Line 32, : \newcommand{\transPTwoThree}{0.054}
+- Line 35, : \newcommand{\autoZ}{0.070}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/09_stylized_facts_appendix.tex**
+
+- Line 25, : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
+- Line 27, : Row (4) presents the results using an indicator variable equal to one for changes in the raw V-Dem Electoral Democracy Index above the 90th percentile,\footnote{A 90th percentile rise in the Electoral Democracy Index is 0.019.} which see a large increase in dividend yields, between \tabBThreeLargeJumpLow\---\tabBThreeLargeJumpHigh\%. Row (5) presents the results for the democratization start year in the \cite{Lindberg2018} data, which display large point estimates, indicating a \tabBThreeLindbergLow\---\tabBThreeLindbergHigh\% rise in the dividend yield.
+

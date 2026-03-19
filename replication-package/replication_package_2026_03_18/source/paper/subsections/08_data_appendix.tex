@@ -1,0 +1,205 @@
+
+\section{Data appendix}\label{section:dataAppendix}
+
+This section provides information on the construction of each data series. Various summary statistics for these series can be found in Section~\ref{section:summary_stats}.
+
+\subsection{Financial market data}\label{section:equity_app}
+
+Financial market data come from five main sources: the Global Financial Data (GFD) Main Dataset, the Jorda-Schularik-Taylor Macrohistory Database (JST), the GFD London Stock Exchange (GFD-LSE) Dataset, IBES Global, and Factset International Annual Fiscal data.  These data are then combined to construct the longest possible series of valuation ratios, returns, and dividend growth.
+
+\paragraph{Dividend yields}
+Data on dividend yields are available from each of the five sources above.  They are directly available in the GFD, JST, and GFD-LSE data. One caveat to this is that the GFD main data sometimes have multiple series for the same country. When this is the case, I always take the series with the longest time series.
+
+To obtain dividend yields from IBES Global, I use the Actuals file. This contains the dividend yield for several country-specific stock indices from 1985 to the present. Here, I also use the index with the longest possible time series in each country.  All series with a dividend yield equal to 0 or above 0.50 are dropped. 
+
+To obtain dividend yields from the Factset Annual Fiscal file, I obtain a market capitalization weighted average of dividends per share and the price per share for each country-year. I then divide them to obtain the dividend yield. Dividend yields greater than 35\% are set to missing. Country-year observations with capital gains in excess of 400\% or less than -90\% are dropped.
+
+I then construct the longest series possible for \textit{changes} in dividend yields. Take the 5-year change in log dividend yields as an example:
+\begin{enumerate}
+	\item I start with changes in dividend yields from GFD's Main Dataset.  This provides 4,647 observations. 
+	\item Missing observations are then filled with the JST data. The JST data only covers 17 countries compared to the 73 countries the main GFD dataset covers.  This adds 438 additional observations. 
+	\item Other missing observations are then filled in using changes in dividend yields from Factset, then IBES. This yields an additional 298 observations. 
+	\item  Finally, I fill in any remaining missing observations with changes in dividend yields from the GFD-LSE data, which adds 435 observations. 
+\end{enumerate}
+The total 5-year change in log dividend yields data have 5,818. Overall, the data cover 90 countries over 201 years.
+
+This procedure is not used to combine levels of the dividend yield since they vary somewhat across data sources. This means combining them would lead to arbitrary jumps in the series. In plots or tables where the level is presented, I use the main GFD data only.
+
+\paragraph{Equity returns}
+Both the GFD and GFD-LSE data make a total returns and price index series available. From this, total returns (i.e. inclusive of dividends) are given by
+\begin{equation*}
+R^{tot}_{c,t} = \frac{\text{Total Return Index}_{c,t}}{\text{Total Return Index}_{c,t-1}}
+\end{equation*}
+and capital gains (i.e. excluding dividends) by
+\begin{equation*}
+R^{cap. \; gains}_{c,t} = \frac{\text{Price Index}_{c,t}}{\text{Price Index}_{c,t-1}}.
+\end{equation*}
+The GFD return series are converted into U.S. dollars using the various exchange rate series from GFD. I then adjust each of these series for expected U.S. inflation, which is calculated by fitting an AR(1) process to realized inflation, to put them in real terms. The same procedure is used from the total returns and capital gains series from the JST data. They are converted to U.S. dollars---done using the \texttt{xusd} variable---and then adjusted for expected U.S. inflation. Total returns from IBES and Factset are obtained by adding the capital gains to the dividend yield. These are adjusted for home country inflation using the series from GFD.
+\label{par:convert_dollars_eq}
+
+The combined total returns series is then constructed in a similar way to the dividend yields series.  The main difference is that I also fill in missing observations with capital gains data from the main GFD data added to the dividend yield from either the main GFD data or the GFD-LSE data. This is done after adding the JST data and before adding IBES and Factset.
+
+\paragraph{Dividend growth}
+Dividend growth is constructed using the dividend yield and capital gains series,\footnote{The exception to this is the IBES global data,  where dividend growth can be computed directly.} and given by
+\begin{equation*}
+\frac{D_{c,t}}{D_{c,t-1}} = \frac{\text{Dividend Yield}_{c,t}}{\text{Dividend Yield}_{c,t-1}}(R^{cap. \; gains}_{c,t})^{-1}.
+\end{equation*}
+This gives the exact dividend growth when the price and dividend yield series are aligned. However, in the GFD data, it is not always possible to exactly match the dividend yield and price series to one another. Therefore, the dividend growth series is measured with some noise when using the GFD data.  The combined dividend growth series is then obtained using the same procedure used for dividend yields. 
+
+\paragraph{Number of publicly traded firms}
+Data on the number of publicly traded firms comes from GFD. There are a total of 3,854 observations of the log change number of publicly traded firms, which is used in Section~\ref{section:redistribution}. These data cover a broad cross-section of 107 countries.
+
+\paragraph{Vector autoregression decomposed shocks}
+In Appendix~\ref{section:robustness}, I present results from a structural approach that uncovers discount rate and cashflow shocks \citep{Campbell1991}. Assume that discount rates and cash flows follow a vector autoregression (VAR). Realized returns can be decomposed into expected returns and innovations to future expected cash flows and discount rates using the decomposition:
+\begin{align}
+r_{t+1}   & = \E_{t} r_{t+1}+v^{r}_{t+1}\label{eq:fulldecomp} \\
+v^{r}_{t+1} &= \eta^{d}_{t+1} -\eta^{r}_{t+1}\label{eq:errordecomp}
+\end{align}
+where
+\begin{equation}
+\eta^{r}_{t+1} \equiv\left(\E_{t+1}-\E_{t}\right) \sum_{j=1}^{\infty} \rho^{j} r_{t+1+j}\label{eq:discountrateshock}
+\end{equation}
+are discount rate shocks,
+\begin{equation}
+\eta^{d}_{t+1} \equiv\left(\E_{t+1}-\E_{t}\right) \sum_{j=1}^{\infty} \rho^{j-1} \Delta d_{t+j}\label{eq:cashflowshock}
+\end{equation}
+are cash flow shocks and $\rho \equiv \frac{\overline{pd}}{1+\exp\{\overline{pd}\}}$ as in \cite{Campbell1988} where $\overline{pd}$ is the average log price-dividend ratio.  The discount rate and cash flow shocks given in Equations (\ref{eq:discountrateshock}) and (\ref{eq:cashflowshock}) can be estimated directly by assuming a process for discount rates and cashflows. To do this, I assume a first-order VAR structure for log cum-dividend returns, log dividend yields, consumption growth, government bond yields, and capital gains given by 
+\begin{equation}
+\tilde{\mathbf{X}}_{t+1}=\mathbf{\Phi}\tilde{\mathbf{X}}_{t}+\mathbf{w}_{t+1}\label{eq:VARsetup}
+\end{equation}
+where $\tilde{\mathbf{X}}_{t}=\mathbf{X}_{t}-\bar{\mathbf{X}}$ and $\mathbf{X}_{t}$ is the data vector with cum-dividend returns, $r_{t}$, in the first position.\footnote{To estimate the vector autoregression, I use five different specifications with varying sets of control variables. For each country, I estimate all specifications where at least 20 non-missing observations are available for all variables in that specification. The final shock series then uses results from the specification with the most control variables available, filling in missing observations with results from specifications with fewer controls. For example, if a country has sufficient data for the full specification (cum-dividend returns, dividend yields, government bond yields, capital gains, and GDP growth), those shocks are used. If the full specification has missing observations, I fill them with shocks from a specification using only cum-dividend returns, dividend yields, capital gains, and GDP growth, and so on down to the most parsimonious specification.} Now, define $\mathbf{e}_{1}$ as an elementary column vector with a 1 in the first position and 0s elsewhere, meaning that Equation (\ref{eq:errordecomp}) can be written as $v^{r}_{t+1} = \mathbf{e}_{1}^{\prime}\mathbf{w}_{t+1}$. Under the assumed VAR structure, Equation (\ref{eq:discountrateshock}) becomes
+\begin{equation}
+\eta^{r}_{t+1} =\mathbf{\lambda}^{\prime} \mathbf{w}_{t+1}.\label{eq:vardiscountshock}
+\end{equation}
+where $\mathbf{\lambda}^{\prime} \equiv\mathbf{e}_{1}^{\prime}\text{\ensuremath{\rho}}\mathbf{\Phi}(\mathbf{I}-\rho\mathbf{\Phi})^{-1}$. Combining Equations (\ref{eq:errordecomp}) and (\ref{eq:vardiscountshock}) gives the cashflow shock as
+\begin{equation}
+\eta^{d}_{t+1} =(\mathbf{e}_{1}^{\prime}+\mathbf{\lambda}^{\prime})\mathbf{w}_{t+1}.
+\end{equation}
+The cashflow and discount rate shocks are, therefore, immediately given after estimating the VAR coefficients and residuals.
+
+\paragraph{Price-earnings ratios}
+Data on price-earnings ratios are also available from GFD for 75 countries over the last 182 years. Results using these data are presented in Appendix~\ref{section:robustness}. The 5-year change in log price-earnings ratios is constructed by first taking the difference between the current and lagged 5-year log cyclically-adjusted price-earnings (CAPE) ratio---where the CAPE ratio prioritizes the 5-year measure, filling missing observations with 3-year and then 7-year measures---and then filling any remaining missing observations with 5-year changes in the log price-earnings ratio.
+
+\paragraph{Fixed income}
+
+Data on corporate bond yields are also used and come from one data source, the GFD main dataset. This series covers 21 countries over 179 years.  These results are also reported in Appendix~\ref{section:robustness}. 
+
+Similarly, data on government bond yields come from the GFD main dataset. In particular, to construct average excess returns, I use the inflation-adjusted return on U.K. bills prior to 1914 and the U.S. after 1914. The U.K. bond yields are converted to U.S. dollars using the exchange rate series from GFD. Both series are then adjusted for expected U.S. inflation.
+\label{par:convert_dollars_bnd}
+
+\subsection{Macroeconomic data}\label{section:macro_data}
+
+\paragraph{Growth}
+Data on GDP per capita come from Maddison Historical Statistics.  These data provide both GDP per capita and population for 163 countries with data that extends back to the Roman Empire.  This paper uses the 2020 updated version of the data which are available up to 2018. This version of the data differ slightly from the methodology used from the Penn World Tables. However, results using both datasets are broadly similar. Data on consumption come from the Penn World Tables. These data cover 164 countries since 1950. Real consumption at constant 2017 national prices are used.
+
+\paragraph{Inflation}
+Inflation data come from the GFD main dataset, the JST data, and the Varieties of Democracy (V-Dem) database. The aggregate series is created by taking an equal weighted average over all these series. These data are used as controls in some specifications.
+
+\paragraph{Government revenue}
+Government revenue-GDP ratios come from GFD.  These data cover 56 countries over 200 years. Coverage for most countries begins in 1950. Tax revenue-GDP ratios come from the Relative Political Capacity Dataset. These data cover 173 countries from 1960 on. These data use a combination of methods to estimate tax revenue to GDP ratios, relying on data on exports, agricultural revenue, mining revenue, the level of economic development, and GDP per capita. 
+
+\paragraph{Inequality and factor shares}
+Data on Gini coefficients come from \cite{Solt2020}, who produces the Standardized World Income Inequality Database (SWIID). These data maximize the comparability of income inequality measures while still maintaining good coverage in the cross-section. The SWIID data cover 159 countries from 1960 to 2018. Labor share data comes from the Penn World Tables (PWT). This paper uses the labor share from labor compensation of employees (\textit{comp\_sh}).
+
+\paragraph{Net foreign direct investment }
+Data on net foreign direct investment (FDI) scaled by GDP come from the World Bank's World Development Indicators. Net FDI is given by
+\begin{equation}
+\text{Net FDI}_{c,t} = \text{Foreign Capital Inflows}_{c,t} - \text{Foreign Capital Outflows}_{c,t}.
+\end{equation}
+These data cover most countries after 1977.
+
+\paragraph{Investment and capital stock}
+Data on investment and the capital stock come from the Penn World Tables (PWT). This paper constructs investment and the capital stock at current national prices using the ``Capital detail'' file.  Investment is given by
+\begin{equation}
+\text{Ic}_{ct} = \text{Ic\_Struc}_{ct} + \text{Ic\_Mach}_{ct} + \text{Ic\_TraEq}_{ct} + \text{Ic\_Other}_{ct}
+\end{equation}
+and the capital stock by
+\begin{equation}
+\text{Nc}_{ct} = \text{Nc\_Struc}_{ct} + \text{Nc\_Mach}_{ct} + \text{Nc\_TraEq}_{ct} + \text{Nc\_Other}_{ct}.
+\end{equation}
+Investment-capital ratios are computed by dividing the two series. These are used in Appendix Figure~\ref{fig:physicalHumanShear}.
+
+\paragraph{Human capital}
+Data on human capital come from the PWT Human Capital Index. These data use information on years of schooling the return to education from the prior literature. These results are also presented in Appendix Figure~\ref{fig:physicalHumanShear}.
+
+\subsection{Political institutions data}
+
+\subsubsection{V-Dem indices}\label{section:vdem_ind}
+
+This section provides information on each of the different series used in the paper from the V-Dem database. That said, the construction of these series is quite complex. Interested readers should see \cite{Coppedge2018} for a more detailed explanation.
+
+\begin{enumerate}
+	\item Electoral democracy index (\textit{v2x\_polyarchy}): measures the extent to which electoral democracy is achieved. It is formed by taking a combination of indices measuring freedom of association, how clean elections are, freedom of expression, the extent to which officials are elected, and
+the fraction of individuals that can vote.
+	\item Regimes of the world (\textit{v2x\_regime}): groups regimes into one of four categories---(0) closed autocracy, (1) electoral autocracy, (2) electoral democracy,  and (3) liberal democracy. In Section~\ref{section:svc}, autocracies are countries denoted as either a closed autocracy or electoral autocracy.
+	\item Regime information (\textit{v2reginfo}): name of the regime currently in power. This can be used to determine when the regime changes.
+	\item Physical violence index (\textit{v2x\_clphy}): how free are people from political killings and torture by the government? This measure is transformed in the paper by multiplying by negative 1 and then adding 1.
+	\item Political violence (\textit{v2caviol}): how often have non-state actors used political violence against persons this year? This is rated on a scale of 0 to 4. This measure is transformed in the paper such that it is between 0 and 1.
+	\item Mass mobilizations (\textit{v2cagenmob}): in this year, how frequent and large have events of mass mobilization been?  This is rated on a scale of 0 to 4.
+	\item Mass mobilizations for democracy (\textit{v2cademmob}): in this year, how frequent and large have events of mass mobilization for pro-democratic aims been?  This is rated on a scale of 0 to 4.
+	\item Civil society organization anti-system movements (\textit{v2csantimv}): among civil society organizations, are there anti-system opposition movements?  This is rated on a scale of 0 to 4.
+	\item Civil society organization anti-system movement character---Leftist, socialist, communist (\textit{v2csanmvch\_4}): Would you characterize the anti-system movement(s) identified in the previous question as democratic? Answer is 0 or 1.
+	\item Civil society organization anti-system movement character---Leftist, socialist, communist (\text{v2csanmvch\_6}): Would you characterize the anti-system movement(s) identified in the previous question as leftist, socialist, or communist? Answer is 0 or 1.
+	\item Equal distribution of resources index (\textit{v2xeg\_eqdr}): how equal is the distribution of resources? This measure is transformed in the paper by multiplying by negative 1 and then adding 1.
+	\item Public sector corruption index (\textit{v2x\_pubcorr}): To what extent do public sector employees grant favors in exchange for bribes, kickbacks, or other material inducements, and how often do they steal, embezzle, or misappropriate public funds or other state resources for personal or family use?
+	\item Executive bribery and corrupt exchanges (\textit{v2exbribe}): How routinely do members of the executive (the head of state, the head of government, and cabinet ministers), or their agents, grant favors in exchange for bribes, kickbacks, or other material inducements? This measure is transformed in the paper such that it is between 0 and 1.
+\end{enumerate}
+
+\subsubsection{Other data on political institutions}\label{section:otherpolinst}
+
+\paragraph{Catholic population}
+Data on the portion of the population that is Catholic come from the World Religion Project (WRP) produced by \cite{Maoz2013}. These data are available every five years. I linearly interpolate to fill between years. Data for Hong Kong is not available, so these observations are filled in with the data from China. For all countries, I backfill the earliest observation back to 1816. For Section 4, countries are considered majority catholic based on the average of their 1939--1958 portion catholic.
+
+\paragraph{Other democratization measures}
+In addition to the ERT data, I also extend the measure of democratic transitions from \cite{Acemoglu2019}. For the years from 1960--2010, I use data directly from \citeauthor{Acemoglu2019}. These data are constructed using consensus transitions from Polity IV and Freedom House regime type datasets. Prior to 1972, when the Freedom House data end, these authors rely on other regime type measures and independent historical research. For episodes prior to 1960, I fill in these data using a similar methodology.   Since both Polity and V-Dem provide data back to the 1800s, I extend the Acemoglu dataset using consensus transition years in both dataset. This procedure provides \tabBThreeAceDem\ total transition years for which asset pricing data are available. 
+
+\paragraph{Economic Freedom Index}
+Data on the extent government regulation contributes to a competitive business sector comes from the Fraser Institute. In particular, I use measure 5C of their Economic Freedom Index. This is a composite measure that combines several measures related to the level of government regulation and its impact on private business, the degree to which the government exercises favoritism, and the level of tax complexity.
+
+\subsubsection{Episodes of Regime Transformation data}\label{section:ERTdescription}
+
+The main source used to locate democratization episodes is the Episodes of Regime Transformation (ERT) data. These data use changes in the electoral democracy index (EDI) from the Varieties of Democracy (V-Dem) project to determine the start and end years of democratizations.  V-Dem creates the EDI by surveying over 3,500 country-level experts and asking  ``to what extent is the ideal of electoral democracy in its fullest sense achieved.'' This is done in practice by combining information on the level of freedom of association, to what extent elections are free and fair, the level of freedom of expression, to what extent government officials are elected, and by examining the proportion of individuals in the country with voting rights. V-Dem then combines these 5 index categories both additively and using a five-way multiplicative interaction to produce a continuous index from 0 to 1.
+
+The ERT data locate democratization episodes using the EDI according to two main criteria. First, a democratization episode must begin with at least a 0.01 increase in the EDI. Second, the episode must have at least a 0.10 increase in the EDI before experiencing (1) an annual drop in the EDI of 0.03, (2) a cumulative drop in the EDI of 0.10, or a stasis period of 5-years or longer. A stasis period is defined as a period where no years see at least a 0.01 increase in the EDI.  The end year of a democratization is determined as the final year prior to when the annual or cumulative decline threshold or the stasis period condition is met.  V-Dem produces these data from 1900-- 2018. To extend the data to cover my full sample, I use an identical procedure on the subset of countries V-Dem provides the EDI prior to 1900. This yields 10 additional democratization episodes.  In addition to providing democratization dates, the ERT data also provide information on autocratization episodes too. This is done by using an identical procedure to create the democratization indicators, but using 1 minus the EDI. 
+
+Successful and failed democratizations are determined using the aggregate democratization outcome (dem\_ep\_outcome\_agg) variable.  This measure yields four potential outcomes: (1) democratic transition, (2) no democratic transition, (3) deepened democracy, or (4) outcome censored. A democratization is coded as a democratic transition if ``the episode resulted in a change from autocracy to democracy on the [regimes of the world] measure followed by a democratic founding election.'' A democratization is coded with no democratic transition if ``the episode did not result in a change from autocracy to democracy on the [regimes of the world] measure; or it did result in a change between democracy and autocracy on the [regimes of the world] measure, but the political unit did not hold a democratic founding election before reverting to autocracy.'' A democratization is coded as a democratic deepening if ``the episode resulted in further liberalization or democratization of a political unit that was already classified as democracy in the pre-episode year.'' A democratization is coded as censored if the episode is ongoing in the final year of the data.  Both democratic transition and democratic deepening episodes are coded as successful democratizations whereas episodes without a democratic transition are coded as failed.
+
+A list of the democratization episodes used for the asset pricing results is presented in Table~\ref{table:fastDem}. Alongside this table is a discussion of 2 case studies of the democratization process, subsequent redistribution, and stock market impact of the democratization events. These case studies focus on the democratic transition in Sweden from 1917--1924 (Appendix~\ref{section:SWEDEN}) and the failed democratization in France from 1847--1852 (Appendix~\ref{section:FRANCE}).
+
+\subsection{Events data}\label{section:events_data}
+
+Data on adverse events that affect asset prices come from a variety of sources. These are used mainly as controls in the regressions in the main paper as well as in the robustness checks in the appendix sections below.
+
+\paragraph{Financial Crises}
+Data on financial crises come from two sources. The first is the Jorda-Schularik-Taylor macrohistory database. These data cover 17 developed countries from 1870 to the present. The second source comes from \cite{Reinhart2009}. Dates of various crisis have been pulled from Carmen Reinhart’s website, which is primarily using the methodology of Reinhart-Rogoff financial crises. In total, 121 countries experience financial crises in the data over 95 different years.
+
+\paragraph{Wars}
+War data come from the Correlates of War (COW) Project. The COW project provides data on the start and end years of wars for 116 countries from 1816--2007 (the post-Napoleonic period). The COW Project defines war as being ``sustained combat, involving organized armed forces, resulting in a minimum of 1,000 battle-related fatalities.''  I use data on three types of wars: inter-state wars, extra-state wars, and intra-state wars.  When controlling for wars in regressions, each of these war types are combined into a single binary variable.
+
+The COW Project also provides data on militarized interstate disputes (MIDs) for 156 countries from 1816--2014. The COW Project defines militarized interstate disputes as ``united historical cases of conflict in which the threat, display or use of military force short of war by one member state is explicitly directed towards the government, official representatives, official forces, property, or territory of another state.''  The data categorize the disputes by the highest action taken. The action range on a scale from 0 to 21. Some examples of the categories include: no militarized action (0); threat to declare war (4); mobilization (10); seizure (15); declaration of war (18); and join interstate war (21). A full list of the categories can be found in \cite{Palmer2020}. This variable is  included as a control in regressions.
+
+\paragraph{Sovereign defaults}
+\cite{Reinhart2009} collect data on external sovereign defaults from 1800--2008. They provide both the start year and the duration of the default. These data cover 125 countries.
+
+\paragraph{Recessions}
+Data on recessions come from GFD who source their data from the OECD Composite leading indicator (CLI) and the Federal Reserve Economic Data. These data cover 39 countries since 1816. Because the coverage for this series is low, GDP growth is also included as a control in specification (6) of all regressions with dividend yields.
+
+\paragraph{Head of government deaths}
+Head of government deaths come from three sources. The first are from \cite{Jones2009} who provide data on attempted and successful assassinations. These data are supplemented with data from V-Dem, who take head of government and head of state deaths from \href{https://www.worldstatesmen.org/}{WorldStatesmen.org}. I additionally supplement these data with deaths from \href{https://en.wikipedia.org/wiki/List_of_heads_of_state_and_government_who_died_in_office}{Wikipedia}.  Putting the data together gives 297 deaths across 102 countries which extends back to 1827 with the death of Prime Minister George Canning.
+
+\paragraph{Coups}
+Data on coups come from \cite{Przeworski2013}. These data cover the period 1816 to 2008. 102 countries in the sample experience a \textit{coup d'etat}.
+
+\paragraph{Regime changes}
+Data on regime changes are constructed using the V-Dem regime information and the coups information described in the preceding paragraph. Whenever a regime changes or a coup occurs, the regime change variable is assigned 1 in the start year of the new regime. For the results in Section~\ref{section:macropol}, all regime changes that occur during an ICB crisis, autocratization or democratization are excluded. Also excluded are regime changes that occur during wars and sovereign defaults to maintain consistency with the democratization variable.
+
+\paragraph{ICB crises}
+Data on international political crises come from the International Crisis Behavior (ICB) Project. This paper uses Version 12. The data includes information relating to all crises occurring from 1918 to 2013. The data includes the trigger date and termination dates of the conflicts. The trigger data is used at the start date. ICB crises are assigned to countries based on their involvement. Further information can be found in \cite{Brecher2017}.
+
+ICB crises are varied and represent most local political crises that spillover into the international community. Examples of prominent crises in the data are the Russian Civil War, the 1917 Costa Rican coup, the start of the Israel-Palestine conflict, the Chinese Civil War, the Cuban Missile Crisis, and many others. All parties involved in the conflict are assigned a value of 1 in the results above. Similar to regime changes, for the results in Section~\ref{section:macropol}, all international political crises that occur during an autocratization or democratization are excluded. Also excluded are international political crises that occur during wars and sovereign defaults, to maintain consistency with the democratization variable.
+
+\subsection{Summary statistics}\label{section:summary_stats}
+
+This section presents various summary statistics for various financial market, macroeconomic, and political variables used in the main text and appendix. They are shown in Table~\ref{table:summary_stats}. Data from all available countries is used, not just for those with an active stock market. For valuation ratios data, just the data coming from GFD are presented.
+
+\input{../tables/clean/table_A1_summary_statistics.tex} 

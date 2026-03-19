@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Difference-in-differences, No rolling $\beta$ estimation} \label{table:no_rolling_beta}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows the regression coefficients for the difference-in-differences specification in Equation (\ref{eq:twoFactorDiD}) on two sample windows, one from 1946--1976 and the other from 1939--1983, and for two different samples, one for all countries and the other on autocracies only.  In each regression, 1959 to 1963 are the years of treatment and are excluded. Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100. The controls used are a series of ``event controls'' meaning indicator variables for whether the country is experiencing a head of government death, financial crisis, international political crisis, war, first five years of a sovereign default, recession, or coup d'etat. In addition to the event controls, I also control for the level of log GDP per capita, log GDP per capita growth, and add regime-type fixed-effects.  \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\footnotesize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_C13_did_no_rolling_beta.tex}
+	}}}}
+\end{table}

@@ -1,0 +1,122 @@
+Import('*')
+
+# Path definitions
+TABLES_CODE = '#source/analysis/appendix/tables'
+TABLES_OUTPUT = '#source/tables/raw'
+TABLES_JSON = '#source/tables/json'
+ANALYSIS_DERIVED = '#datastore/derived/analysis'
+ASSETS_DERIVED = '#datastore/derived/assets'
+EVENTS_DERIVED = '#datastore/derived/events'
+MACRO_POLITICAL_DERIVED = '#datastore/derived/macro_political'
+REGIME_CHANGE_ORIG = '#datastore/raw/regime_change/orig'
+
+# Table A1 - Summary statistics
+target = [f'{TABLES_OUTPUT}/table_A1_summary_statistics.tex']
+source = [f'{TABLES_CODE}/01_table_A1_summary_statistics.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table B2 - Adverse dividend growth
+target = [f'{TABLES_OUTPUT}/table_B2_adverse_dividend_growth.tex']
+source = [f'{TABLES_CODE}/02_table_B2_adverse_dividend_growth.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table B3 - Risk premium robustness
+target = [f'{TABLES_OUTPUT}/table_B3_risk_premium.tex',
+          '#source/numbers/tableB3.json']
+source = [f'{TABLES_CODE}/03_table_B3_risk_premium.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table B4 - Macro political risk measures
+target = [f'{TABLES_OUTPUT}/table_B4_macro_political_risk_measures.tex']
+source = [f'{TABLES_CODE}/04_table_B4_macro_political_risk_measures.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table B5 - Adverse probability
+target = [f'{TABLES_OUTPUT}/table_B5a_adverse_probability_all.tex',
+          f'{TABLES_OUTPUT}/table_B5b_adverse_probability_div_yld.tex']
+source = [f'{TABLES_CODE}/05_table_B5_adverse_probability.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table B6 - Democratize risk measures
+target = [f'{TABLES_OUTPUT}/table_B6_democratize_risk_measures.tex']
+source = [f'{TABLES_CODE}/06_table_B6_democratize_risk_measures.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table C7 - Probability of democratization post Vatican II
+target = [f'{TABLES_OUTPUT}/table_C7_probability_democratize_post_vatican_ii.tex']
+source = [f'{TABLES_CODE}/07_table_C7_probability_democratize_post_vatican_ii.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta',
+          f'{EVENTS_DERIVED}/all_events.dta',
+          f'{MACRO_POLITICAL_DERIVED}/democracy_index_and_regime_info.dta',
+          f'{MACRO_POLITICAL_DERIVED}/catholic_pct_1939_1983.dta']
+env.Stata(target, source)
+
+# Table C8 - DID First Vatican Council
+target = [f'{TABLES_OUTPUT}/table_C8_did_first_vatican.tex']
+source = [f'{TABLES_CODE}/08_table_C8_vatican_i.do',
+          f'{ASSETS_DERIVED}/all_excess_and_abnormal_returns.dta',
+          f'{EVENTS_DERIVED}/all_events.dta']
+env.Stata(target, source)
+
+# Table C9 - DID Catholic democracies
+target = [f'{TABLES_OUTPUT}/table_C9_did_democracies.tex']
+source = [f'{TABLES_CODE}/09_table_C9_catholic_democracies.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table C10 - DID removing outliers
+target = [f'{TABLES_OUTPUT}/table_C10a_removing_outliers_short_sample.tex',
+          f'{TABLES_OUTPUT}/table_C10b_removing_outliers_long_sample.tex']
+source = [f'{TABLES_CODE}/10_table_C10_removing_outliers.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table C11 - DID robust weights
+target = [f'{TABLES_OUTPUT}/table_C11_did_robust_weights.tex']
+source = [f'{TABLES_CODE}/11_table_C11_outlier_robust_weights.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table C12 - DID global CAPM
+target = [f'{TABLES_OUTPUT}/table_C12_did_global_capm.tex']
+source = [f'{TABLES_CODE}/12_table_C12_global_capm.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table C13 - DID no rolling beta
+target = [f'{TABLES_OUTPUT}/table_C13_did_no_rolling_beta.tex']
+source = [f'{TABLES_CODE}/13_table_C13_no_rolling_beta.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table C14 - DID home country bonds
+target = [f'{TABLES_OUTPUT}/table_C14_did_results_country_bonds.tex']
+source = [f'{TABLES_CODE}/14_table_C14_home_country_bonds.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Table C15 - DID capital gains control
+target = [f'{TABLES_OUTPUT}/table_C15_did_capital_gains.tex']
+source = [f'{TABLES_CODE}/15_table_C15_capital_gains_control.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta',
+          f'{ASSETS_DERIVED}/all_equity_returns.dta']
+env.Stata(target, source)
+
+# Table D16 - Inequality price decline
+target = [f'{TABLES_OUTPUT}/table_D16_inequality_price_decline.tex']
+source = [f'{TABLES_CODE}/16_table_D16_inequality_price_decline.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Table G17 - ERT democracy
+target = [f'{TABLES_OUTPUT}/table_G17_democratizations_and_history.tex']
+source = [f'{TABLES_CODE}/17_table_G17_ert_democracy.py',
+          f'{REGIME_CHANGE_ORIG}/historical_events_for_democratization.csv',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Python(target, source)

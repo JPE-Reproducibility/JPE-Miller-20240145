@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Dividend growth in adverse democratizations} \label{table:defWar}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions for the cumulative 3 year change in log dividends and log prices around adverse democratizations, defined as democratizations that begin in a country fighting in a war on their own continent or are engaged in a sovereign default. Results are shown in a three-year window around the adverse democratization start and then reported for the remainder of the democratization after the start in the final row. Standard errors are clustered by country and year and are reported in parentheses. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\footnotesize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_B2_adverse_dividend_growth.tex}
+	}}}}
+\end{table}

@@ -1,0 +1,32 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Democratizations and probability of adverse events} \label{table:advEvent}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the form
+	\begin{multline}
+	\mathbbm{1}_{c,t}\{\textrm{Event Start}\}=\alpha_c + \alpha_t + \\ \beta_1 \mathbbm{1}_{c,t}\{\textrm{Democratization}\}+\beta_2 \mathbbm{1}_{c,t}\{\textrm{Autocratization}\}+\beta_3 \mathbbm{1}_{c,t}\{\textrm{Regime Change}\}+\epsilon_{c,t}. 
+	\end{multline}
+	Data are presented from 1900 on since the V-Dem constructed autocratization variable is only available over that sample. Standard errors are clustered by country.\sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+		\begin{center}
+			\textbf{Panel A: All countries}
+			\vspace*{-.5cm}
+		\end{center}
+		\newcolumntype{Y}{>{\centering\arraybackslash}X}
+		\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+		\centerline{{
+			\input{../tables/raw/table_B5a_adverse_probability_all.tex}
+		}}}
+		\begin{center}
+			\textbf{Panel B: Countries with equity market during sample}
+			\vspace*{-.5cm}
+		\end{center}
+		\newcolumntype{Y}{>{\centering\arraybackslash}X}
+		\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+		\centerline{{
+			\input{../tables/raw/table_B5b_adverse_probability_div_yld.tex}
+		}}}
+	}
+\end{table}

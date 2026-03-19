@@ -1,0 +1,99 @@
+
+\section{Quasi-natural experiment appendix}\label{section:natExpApp}
+
+\subsection{Likelihood of democratizations after Vatican II}
+\label{section:antiCSO}
+
+Table~\ref{table:dem_after_svc} presents a linear probability model describing the change in the likelihood that a majority Catholic autocracy has a democratization after Vatican II relative to a non-Catholic autocracy.  It shows that majority Catholic autocracies were substantially more likely to undergo democratizations after Vatican II. Those democratizations were also very likely to be successful. Among all autocracies, majority Catholic countries were 3.7 percentage points more likely to democratize annually. They were also 2.1 percentage points more likely to undergo a successful democratization annually. The results are more stark in the countries where stock market data are available, with a rise in the  annual likelihood of democratization of nearly 5 percentage points.
+
+\input{../tables/clean/table_C7_probability_democratize_post_vatican_ii.tex}
+
+These results are consistent with the rise in anti-regime civil society organization activity. Figure~\ref{fig:predictingDemo} shows that anti-regime civil society organization (CSO) activity is a key predictor of future democratizations. In particular, this figure estimates a linear probability model including both lagged anti-regime CSO activity and democratic mobilizations where the dependent variable is equal to 1 if it is a democratization year for a given country. The number of lags is shown on the x-axis. Here, we see that anti-regime CSO activity is (1) a significant predictor of future democratizations and (2) outperforms democratic protests substantially at longer horizons between 5 to 20 years. This is important as anti-regime CSO activity spikes during the treatment period in majority Catholic autocracies from 1959--1963.
+
+\input{../figures/clean/figure_C3_democracy_activity_mobil.tex}
+
+\subsection{The First Vatican Council}\label{section:fvc}
+
+One potential concern is that the results are driven by the change in Catholic church doctrine, and have nothing to do with an increased probability of democratization. To assess the validity of this challenge, I estimate the difference-in-differences specifications on another major change in Catholic church doctrine: the First Vatican Council of 1868--1870 (Vatican-I). Vatican-I is distinct from Vatican II in that it reaffirmed the Church's rejection of liberalism and democratic principles. As such, it serves as an excellent test of whether changes in religious doctrine, in general, lead to high risk premia. For the estimation window, I use all years from 1864--1870 as Vatican-I was announced in 1864. Moreover, the affirmation of the Church's stance against liberalism began with the Syllabus of Errors in 1864, which \cite{Luebbert1991} calls a ``declaration of war on liberalism.'' 
+
+Once again, two sample windows are estimated: one 15 year symmetric window from 1849--1885, as to place the Revolutions of 1848 outside the sample, and one symmetric 20 year window from 1844--1890. All countries that are not majority Catholic autocracies are used as the control group. The results, reported in Table~\ref{table:fvc}, display negative, insignificant point estimates in both specifications. This is consistent with the theory underlying the shock: The Vatican-I likely reduced the probability of democratization, thereby reducing risk premia. It also supports that changes in Catholic doctrine do not generally raise risk premia.
+
+\input{../tables/clean/table_C8_did_first_vatican.tex}
+
+\subsection{Shifting the treatment window}\label{section:shiftWindow}
+
+This section presents an additional falsification test coming from shifting the treatment window. Figure~\ref{fig:shiftWindowAll} presents the results. This falsification test indicates that estimating the difference-in-differences specifications would only have yielded significant results in a narrow range of years. Moreover, the results shifting forward by 1 to 4 years are made stronger by the realized negative returns entering the pre-period estimation, as shown in Figure~\ref{fig:rawParallelTrends}.  Without this, shifting the treatment window forward would have yielded insignificant results more quickly. 
+
+\input{../figures/clean/figure_C4_sample_period_move.tex}
+
+\subsection{Majority Catholic democracies}\label{section:maj_cath_dem}
+
+This section presents the results from a single difference-in-differences specification for majority Catholic democracies. The goal is to understand whether Vatican II drove up average excess returns in both Catholic democracies and autocracies. Table~\ref{table:svc_dem} presents the difference-in-differences results for the 4 majority Catholic democracies for which returns data are available.  We can see that across specifications, majority Catholic democracies do not have significantly different returns when compared to either all other countries are majority Catholic democracies. This provides evidence that the changes introduced by Vatican II primarily affected majority Catholic autocracies.
+
+\input{../tables/clean/table_C9_did_democracies.tex}
+
+\subsection{Estimation end date}\label{section:estimationEnd}
+
+The end year of the estimation window in Section~\ref{section:svc} is chosen such that the sample is symmetric about the treatment window. However, other choices for end years may be reasonable. To show that the results for each specification are robust to different choices, I provide the point estimate and 95\% confidence interval for each specification with the estimation window ending in each year from 1970--1983, shown in Figure~\ref{fig:expandingWindow}. For the specification where all countries are included, all of the point estimates are significant at the 95\% level and decline as the post-treatment window moves further in the future, suggesting a gradual resolution of the increased risk premia over time. In the autocracies only sample, the results become significant in 1976 as more observations enter the sample and the post-treatment effects become more precisely estimated. Moreover, the treatment effect seems to be stable as more years are included.
+
+\input{../figures/clean/figure_C5_window_end_date.tex}
+
+\subsection{Dropping every country pair}\label{section:excludingCountries}
+
+To assure the results are not driven by any one or two countries, I estimate all specifications excluding every possible combination of countries. This means that each regression is estimated on 41 countries from 1946--1976. Figure~\ref{fig:droppingPairs} shows that no pairs of countries drive the results. For the all countries specification, the point estimates range from 6 to 12 percentage points with t-stats between 2 and 4. Similar results hold for the autocracies only specifications with estimates between 8 to 16 percentage points and t-stats between 2.5 and 5. Figure~\ref{fig:droppingPairsLong} provides similar results for the same exercise, but for the 1939--1983 sample.
+
+\input{../figures/clean/figure_C6_country_pair_1946_1976.tex}
+
+\input{../figures/clean/figure_C7_country_pair_1939_1983.tex}
+
+\subsection{Extreme values driving the results}\label{section:outliers}
+
+The results reported in Section~\ref{section:svc} are somewhat large when compared to the results found in the panel regressions. Some of this could be due to anomalously high returns in the post period, in particular in the years 1967--1969. To show how removing these outliers affects the results, I use three different methods: (1) winsorizing at the 5\% and 10\% levels, (2) removing the three highest return years from 1967--1969, and (3) using outlier robust regression via \cite{Li2006}.
+
+In the winsorized results,  the global and continental risk-adjusted returns are truncated at the 5th and 95th percentiles and the 10th and 90th percentiles. The results are shown in Table~\ref{table:outlier1}. The point estimates are lower and suggest a 4 to 7.5 percentage point treatment effect. This indicates that approximately one-third of the treatment effect reported in the main text is coming from anomalously large observations. Table~\ref{table:outlier1} also shows the results from excluding the high return years. These three years do not seem to be driving the results and, when removed, the estimated treatment effect is between 4 and 12 percentage points.
+
+\input{../tables/clean/table_C10_removing_outliers.tex}
+
+Table~\ref{table:outlier2} uses outlier robust regression weights via \cite{Li2006} and finds a treatment effect of 5--6 percentage points. These results indicate that approximately one-third of the results above can be ascribed to outliers.
+
+\input{../tables/clean/table_C11_did_robust_weights.tex}
+
+\subsection{Other methods of adjusting for orthogonal sources of risk}\label{section:globalCAPM}
+
+Another potential concern is that factor model used to adjust average excess returns for time-varying global and continental risk could be absorbing some of the treatment variation, especially for the majority Catholic autocracies in Latin America. To assure this is not driving the results, this subsection presents the results adjusting average excess returns for global risk only, estimating a one factor model of the form
+\begin{equation}
+R^e_{c,t} = \alpha_{c,t} + \beta^{glo}_{c,t} R^{e,glo}_t + \varepsilon_{c,t}\label{eq:oneFactor}
+\end{equation}
+where $R^{e,global}_t$ denotes the total return in excess of the return on U.S. treasury bills on a GDP-weighted global market portfolio, $c$ denotes the country,  and $t$ denotes the year. Once again, the $\beta$'s are estimated on a rolling basis over 10-years and require a minimum of 5-years to be estimated. This risk model also has good explanatory power for returns in the cross-section of countries, with an average (median) coefficient of determination, or $R^2$, of 0.32 (0.29).  The results remain large and statistically significant, albeit with larger standard errors potentially coming from measurement error in the dependent variable when using only a one factor model to account for orthogonal sources of risk. Table~\ref{table:svcCAPM} presents the results from 1946 on over the two samples. This is because without the model that adjusts for regional risks, returns during WWII dominate the pre-period.
+
+\input{../tables/clean/table_C12_did_global_capm.tex}
+
+There could also be concerns about the two-step procedure whereby risk-adjusted returns are estimated prior to the central difference-in-differences regression. To address this, I estimate the following specification:
+\begin{multline}
+R^e_{c,t} = \alpha_{c}+\alpha_{t} +\beta\mathbbm{1}_{c,t}\{\textrm{Post}\times\textrm{Catholic}\times\textrm{Autocracy}\} + \beta^{glo}_c R^{e,glo}_t + \beta^{reg}_c R^{e,reg}_{j,t} + \\ \beta^{glo}_{\text{Post},c} \mathbbm{1}_{c,t}\{\textrm{Post}\} \times R^{e,glo}_t + \beta^{reg}_{\text{Post},c} \mathbbm{1}_{c,t}\{\textrm{Post}\} \times R^{e,reg}_{j,t}  +\mathbf{\omega} \textrm{Controls}_{c,t}+\epsilon_{c,t} \label{eq:twoFactorDiD}
+\end{multline}
+This adjusts for country-specific global and continental risk exposures separately in the pre- and post-periods in a single regression. Table~\ref{table:no_rolling_beta} presents the results, which are similar to those in the main text, with larger magnitudes in some specifications.
+
+\input{../tables/clean/table_C13_did_no_rolling_beta.tex}
+
+\subsection{Addressing inflation risk}\label{section:did_inflation_risk}
+
+Despite controls for inflation, one could be worried that increasing inflation risk in the post-periods could be driving the results.  One way to mitigate this concern is to subtract home country bond returns instead of using the global safe asset as I do in the main text.
+
+Doing this adjustment comes with some decisions. First, there is the question of whether to use bond yields or rates of return to remove inflation risk. Over long samples, both of these should rise with increases in inflation risk premia. But, bond returns will initially respond negatively. Provided bonds are more exposed to such risk than stocks, this will increase my estimates of the increase in the risk premium. As such, to be conservative, I have elected to use yields and not rates of return.
+
+Further, bond yields are not available for some of the countries in my sample. For all countries, however, I have either or both of the rate of return on government bills and inflation. As such, to fill in the bond yields series, I regress the bond yield on leads and lags of bill returns and inflation.  These regressions have good explanatory power for bond yields, with $R^2$ estimates of 0.42 when bill returns and inflation are used,  0.15 when inflation and government revenue and expenditures are used, and 0.08 when only inflation is used. I then use these estimated yields to construct excess returns and the global and regional risk-adjusted returns used in the main analysis.
+
+Table~\ref{table:home_bond_adjustment} presents these results. Two main points stick out. First, the point estimates are slightly higher after this adjustment. The reason for this is that yields decline by a (statistically insignificant) 4 percentage points after the change in Catholic church doctrine. Second, the results are less precisely estimated. This is because home country bond yields are more volatile than the safe bond yields from the United States used in the main analysis. This added source of variability reduces the precision of the estimates. Overall, the main point remain: average excess returns are substantially elevated after the change in Catholic church doctrine.
+
+\input{../tables/clean/table_C14_did_results_country_bonds.tex}
+
+\subsection{Results with dividend yields}\label{section:did_div_yld}
+
+Figure~\ref{fig:rawParallelTrendsDivYld} presents the difference-in-differences event study plot with a three-year moving average of dividend yields instead of average excess returns.\footnote{To obtain dividend yields observations for all countries in the sample, I create dividend yields for countries where they are missing by subtracting the cum-dividend and ex-dividend return. I then multiply this by the inverse of the ex-dividend return. This dividend yield series is then standardized and then multiplied by the standard deviation of the GFD main dividend yield series. The average dividend yield from the GFD main dividend yield series is then added. This gives this series the same mean and standard deviation as the GFD main series. These dividend yields are somewhat noisy, which is why the three-year moving average is presented.} The dividend yield rises substantially during the treatment period and remains elevated until 1967 before beginning to fall. We can see here that there is also no evidence of pretrends in the pre-treatment period.
+
+\input{../figures/clean/figure_C8_dividend_yield_event_study.tex}
+
+The fact that the dividend yield falls after 1967 could suggest that the results are in part driven by an initial discount rate shock that then subsides over time. To understand how important this is, I add capital gains as a control in the analysis below. Table~\ref{table:capital_gains_did} presents the results. This reduces the magnitudes by approximately 20\% in the full sample, but leaves the headline results unchanged.
+
+\input{../tables/clean/table_C15_did_capital_gains.tex}

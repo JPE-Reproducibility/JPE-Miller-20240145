@@ -1,0 +1,117 @@
+Import('*')
+
+# Code paths
+ASSETS_CODE = '#source/derived/03_assets'
+PROGRAMS = '#source/derived/programs'
+
+# Derived data paths
+ASSETS_DERIVED = '#datastore/derived/assets'
+MACRO_POLITICAL_DERIVED = '#datastore/derived/macro_political'
+
+# Raw data paths
+WRDS_ORIG = '#datastore/raw/wrds/orig'
+JST_ORIG = '#datastore/raw/jst/orig'
+GFD_ORIG = '#datastore/raw/gfd/orig'
+CROSSWALKS = '#datastore/raw/crosswalks'
+
+# Script 01: Factset Clean
+target = [f'{ASSETS_DERIVED}/factset.dta']
+source = [f'{ASSETS_CODE}/01_factset_clean.do',
+          f'{WRDS_ORIG}/factset_annual_fiscal.dta',
+          f'{CROSSWALKS}/iso2_codes_to_iso3_codes.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 02: IBES Global Clean
+target = [f'{ASSETS_DERIVED}/ibes_global.dta']
+source = [f'{ASSETS_CODE}/02_ibes_global_clean.do',
+          f'{WRDS_ORIG}/ibes_global_actual.dta',
+          f'{CROSSWALKS}/ibes_country_to_iso3_codes.csv',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 03: Create Dividend Yields
+target = [f'{ASSETS_DERIVED}/all_div_yld.dta']
+source = [f'{ASSETS_CODE}/03_create_dividend_yields.do',
+          f'{JST_ORIG}/JSTdatasetR5.dta',
+          f'{ASSETS_DERIVED}/factset.dta',
+          f'{ASSETS_DERIVED}/ibes_global.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{PROGRAMS}/create_gfd_data.do',
+          f'{GFD_ORIG}/gfd_data_series_list.xlsx',
+          Glob(f'{GFD_ORIG}/country_series/*/*.csv')]
+env.Stata(target, source)
+
+# Script 04: Create Equity Returns
+target = [f'{ASSETS_DERIVED}/all_equity_returns.dta']
+source = [f'{ASSETS_CODE}/04_create_equity_returns.do',
+          f'{JST_ORIG}/JSTdatasetR5.dta',
+          f'{ASSETS_DERIVED}/factset.dta',
+          f'{ASSETS_DERIVED}/ibes_global.dta',
+          f'{ASSETS_DERIVED}/all_div_yld.dta',
+          f'{MACRO_POLITICAL_DERIVED}/all_inflation.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{PROGRAMS}/create_gfd_data.do',
+          f'{GFD_ORIG}/gfd_data_series_list.xlsx',
+          Glob(f'{GFD_ORIG}/country_series/*/*.csv'),
+          f'{GFD_ORIG}/supplements/extraTotalReturnsClean.xlsx']
+env.Stata(target, source)
+
+# Script 05: Create Fixed Income
+target = [f'{ASSETS_DERIVED}/all_fixed_income.dta',
+          f'{ASSETS_DERIVED}/global_safe_asset.dta']
+source = [f'{ASSETS_CODE}/05_create_fixed_income.do',
+          f'{JST_ORIG}/JSTdatasetR5.dta',
+          f'{MACRO_POLITICAL_DERIVED}/all_inflation.dta',
+          f'{PROGRAMS}/create_gfd_data.do',
+          f'{GFD_ORIG}/gfd_data_series_list.xlsx',
+          Glob(f'{GFD_ORIG}/country_series/*/*.csv')]
+env.Stata(target, source)
+
+# Script 06: Create Home Country Bond Rate
+target = [f'{ASSETS_DERIVED}/home_country_bond_rate.dta']
+source = [f'{ASSETS_CODE}/06_create_home_country_bond_rate.do',
+          f'{ASSETS_DERIVED}/all_fixed_income.dta',
+          f'{MACRO_POLITICAL_DERIVED}/all_inflation.dta',
+          f'{MACRO_POLITICAL_DERIVED}/gov_rev.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta']
+env.Stata(target, source)
+
+# Script 07: Create Excess and Abnormal Returns
+target = [f'{ASSETS_DERIVED}/all_excess_and_abnormal_returns.dta']
+source = [f'{ASSETS_CODE}/07_create_excess_and_abnormal_returns.do',
+          f'{ASSETS_DERIVED}/all_equity_returns.dta',
+          f'{ASSETS_DERIVED}/all_fixed_income.dta',
+          f'{MACRO_POLITICAL_DERIVED}/real_gdp.dta',
+          f'{ASSETS_DERIVED}/global_safe_asset.dta',
+          f'{CROSSWALKS}/region_map.dta',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{ASSETS_DERIVED}/home_country_bond_rate.dta']
+env.Stata(target, source)
+
+# Script 08: Create Cashflow Growth
+target = [f'{ASSETS_DERIVED}/all_cashflow_growth.dta']
+source = [f'{ASSETS_CODE}/08_create_cashflow_growth.do',
+          f'{ASSETS_DERIVED}/all_equity_returns.dta',
+          f'{ASSETS_DERIVED}/all_div_yld.dta']
+env.Stata(target, source)
+
+# Script 09: Create Other Asset Market Variables
+target = [f'{ASSETS_DERIVED}/other_asset_market_variables.dta']
+source = [f'{ASSETS_CODE}/09_create_other_asset_market_variables.do',
+          f'{CROSSWALKS}/valid_iso3_codes.dta',
+          f'{PROGRAMS}/create_gfd_data.do',
+          f'{GFD_ORIG}/gfd_data_series_list.xlsx',
+          Glob(f'{GFD_ORIG}/country_series/*/*.csv'),
+          f'{GFD_ORIG}/supplements/price_earnings_clean.csv']
+env.Stata(target, source)
+
+# Script 10: Create Return News (Campbell 1991 VAR)
+target = [f'{ASSETS_DERIVED}/campbell_1991_var_shocks.dta']
+source = [f'{ASSETS_CODE}/10_create_return_news.do',
+          f'{ASSETS_DERIVED}/all_equity_returns.dta',
+          f'{ASSETS_DERIVED}/all_fixed_income.dta',
+          f'{ASSETS_DERIVED}/all_div_yld.dta',
+          f'{MACRO_POLITICAL_DERIVED}/real_gdp.dta',
+          f'{PROGRAMS}/run_campbell_1991_var.do']
+env.Stata(target, source)

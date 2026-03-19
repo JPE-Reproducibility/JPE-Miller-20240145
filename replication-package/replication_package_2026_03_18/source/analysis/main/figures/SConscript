@@ -1,0 +1,77 @@
+Import('*')
+
+# Path definitions
+FIGURES_CODE = '#source/analysis/main/figures'
+FIGURES_OUTPUT = '#source/figures'
+ANALYSIS_DERIVED = '#datastore/derived/analysis'
+MACRO_POLITICAL_DERIVED = '#datastore/derived/macro_political'
+MODEL_DERIVED = '#source/derived/model'
+
+# Figure 01 - Dividend yield event study
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_1_dividend_yield_event_study.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_1_democratization_event_study.dta',
+    f'{FIGURES_OUTPUT}/data/figure_1_financial_crisis_event_study.dta',
+]
+source = [f'{FIGURES_CODE}/01_figure_1_dividend_yield_event_study.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Figure 02 - Physical and human capital
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_2_physical_human_capital.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_2_investment_capital_ratio_event_study.dta',
+    f'{FIGURES_OUTPUT}/data/figure_2_human_capital_event_study.dta',
+]
+source = [f'{FIGURES_CODE}/02_figure_2_physical_human_capital.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Figure 03 - GDP and consumption growth distributions
+target = [f'{FIGURES_OUTPUT}/raw/figure_3a_gdp_growth_distribution.pdf',
+          f'{FIGURES_OUTPUT}/raw/figure_3b_consumption_growth_distribution.pdf']
+source = [f'{FIGURES_CODE}/03_figure_3_gdp_consumption_distributions.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Figure 04 - Regional waves
+target = [f'{FIGURES_OUTPUT}/raw/figure_4_regional_waves.pdf']
+source = [f'{FIGURES_CODE}/04_figure_4_regional_waves.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Figure 05 - Anti-regime event study
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_5a_event_study_anti_system_cso.pdf',
+    f'{FIGURES_OUTPUT}/raw/figure_5b_event_study_democratic_protests.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_5a_event_study_anti_system_cso.dta',
+    f'{FIGURES_OUTPUT}/data/figure_5b_event_study_democratic_protests.dta',
+]
+source = [f'{FIGURES_CODE}/05_figure_5_anti_regime_event_study.do',
+          f'{MACRO_POLITICAL_DERIVED}/anti_system_cso_activity_and_mobilizations.dta',
+          f'{MACRO_POLITICAL_DERIVED}/catholic_pct_1816_2018.dta',
+          f'{MACRO_POLITICAL_DERIVED}/democracy_index_and_regime_info.dta']
+env.Stata(target, source)
+
+# Figure 06 - Returns event study (DiD)
+target = [
+    f'{FIGURES_OUTPUT}/raw/figure_6_did_event_study_returns.pdf',
+    f'{FIGURES_OUTPUT}/data/figure_6_did_event_study_returns.dta',
+]
+source = [f'{FIGURES_CODE}/06_figure_6_returns_event_study.do',
+          f'{ANALYSIS_DERIVED}/section_4_data.dta']
+env.Stata(target, source)
+
+# Figure 07 - Dividend yield coefficients over time
+target = [f'{FIGURES_OUTPUT}/raw/figure_7_coefficients_over_time.pdf']
+source = [f'{FIGURES_CODE}/07_figure_7_dividend_yield_coefficients_over_time.do',
+          f'{ANALYSIS_DERIVED}/section_3_data.dta']
+env.Stata(target, source)
+
+# Figure 08 - Autocratization model
+target = [f'{FIGURES_OUTPUT}/raw/figure_8_autocratization_model.pdf']
+source = [f'{FIGURES_CODE}/08_figure_8_autocratization_figure.py',
+          f'#model_numbers.json',
+          f'{MODEL_DERIVED}/baseline_params.json',
+          f'{MODEL_DERIVED}/autocratization_model.py']
+env.Python(target, source)

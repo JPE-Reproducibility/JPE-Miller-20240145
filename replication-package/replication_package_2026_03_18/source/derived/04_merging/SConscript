@@ -1,0 +1,53 @@
+Import('*')
+
+# Code paths
+MERGING_CODE = '#source/derived/04_merging'
+
+# Derived data paths
+ANALYSIS_DERIVED = '#datastore/derived/analysis'
+ASSETS_DERIVED = '#datastore/derived/assets'
+MACRO_POLITICAL_DERIVED = '#datastore/derived/macro_political'
+EVENTS_DERIVED = '#datastore/derived/events'
+
+# Script 01: Create Section 3 and 5 Data
+target = [f'{ANALYSIS_DERIVED}/section_3_data.dta',
+          '#source/numbers/section3.json',
+          '#source/numbers/section4.json',
+          '#source/numbers/section6.json']
+source = [f'{MERGING_CODE}/01_create_section_3_and_5_data.do',
+          f'{EVENTS_DERIVED}/all_events.dta',
+          f'{ASSETS_DERIVED}/all_div_yld.dta',
+          f'{ASSETS_DERIVED}/all_equity_returns.dta',
+          f'{ASSETS_DERIVED}/all_fixed_income.dta',
+          f'{ASSETS_DERIVED}/all_cashflow_growth.dta',
+          f'{ASSETS_DERIVED}/other_asset_market_variables.dta',
+          f'{ASSETS_DERIVED}/all_excess_and_abnormal_returns.dta',
+          f'{ASSETS_DERIVED}/campbell_1991_var_shocks.dta',
+          f'{MACRO_POLITICAL_DERIVED}/real_gdp.dta',
+          f'{MACRO_POLITICAL_DERIVED}/all_inflation.dta',
+          f'{MACRO_POLITICAL_DERIVED}/investment_capital_ratio.dta',
+          f'{MACRO_POLITICAL_DERIVED}/tax_rates.dta',
+          f'{MACRO_POLITICAL_DERIVED}/gini_coefficients.dta',
+          f'{MACRO_POLITICAL_DERIVED}/democracy_index_and_regime_info.dta',
+          f'{MACRO_POLITICAL_DERIVED}/physical_and_political_violence.dta',
+          f'{MACRO_POLITICAL_DERIVED}/anti_system_cso_activity_and_mobilizations.dta',
+          f'{MACRO_POLITICAL_DERIVED}/economic_competition.dta',
+          f'{MACRO_POLITICAL_DERIVED}/corruption_and_bribery.dta',
+          f'{MACRO_POLITICAL_DERIVED}/regions.dta',
+          f'{MACRO_POLITICAL_DERIVED}/fdi_clean.dta',
+          f'{MACRO_POLITICAL_DERIVED}/catholic_pct_1816_2018.dta']
+env.Stata(target, source)
+
+# Script 02: Create Section 4 Data (DiD Dataset)
+target = [f'{ANALYSIS_DERIVED}/section_4_data.dta']
+source = [f'{MERGING_CODE}/02_create_section_4_data.do',
+          f'{ASSETS_DERIVED}/all_excess_and_abnormal_returns.dta',
+          f'{EVENTS_DERIVED}/all_events.dta',
+          f'{MACRO_POLITICAL_DERIVED}/real_gdp.dta',
+          f'{MACRO_POLITICAL_DERIVED}/democracy_index_and_regime_info.dta',
+          f'{MACRO_POLITICAL_DERIVED}/gini_coefficients.dta',
+          f'{MACRO_POLITICAL_DERIVED}/resource_inequality.dta',
+          f'{ASSETS_DERIVED}/all_cashflow_growth.dta',
+          f'{MACRO_POLITICAL_DERIVED}/gov_rev.dta',
+          f'{MACRO_POLITICAL_DERIVED}/catholic_pct_1939_1983.dta']
+env.Stata(target, source)

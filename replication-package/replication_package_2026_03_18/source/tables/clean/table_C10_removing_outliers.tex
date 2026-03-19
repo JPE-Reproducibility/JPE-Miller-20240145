@@ -1,0 +1,19 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Difference-in-differences --- Removing outliers} \label{table:outlier1}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table shows the regression coefficients for the difference-in-differences specification in Equation (\ref{eq:singleDiff}) on two sample windows, one from 1946--1976 and the other from 1939--1983, and for two different samples, one for all countries and the other on autocracies only. In each regression, 1959 to 1963 are the years of treatment and are excluded. Excess returns are adjusted for global and continental risk using the two-factor risk model described by Equation (\ref{eq:twoFactor}). Standard errors are clustered by country and year. All coefficients have been multiplied by 100, and standard errors are in parentheses. The controls used are a series of ``event controls'' meaning indicator variables for whether the country is experiencing a head of government death, financial crisis, international political crisis, war, first five years of a sovereign default, recession, or coup d'etat. In addition to the event controls, I also control for the level of log GDP per capita, log GDP per capita growth, and add regime-type fixed-effects. The first two columns present results winsorized at the 5\% threshold. Columns (3) and (4) present results winsorized at the 10\% threshold, and Columns (5) and (6) present results with 1967--1969 excluded. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\footnotesize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_C10a_removing_outliers_short_sample.tex}
+	}}}
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\footnotesize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_C10b_removing_outliers_long_sample.tex}
+	}}}}
+\end{table}

@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Democratizations, growth, and cash flows} \label{table:cashflow}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+	{\footnotesize \justify This table presents regressions of the five-year change in log GDP per capita and dividend growth on indicator variables denoting the start year of a democratization. The regressions estimated take the form $$\frac{y_{c,t+5}-y_{c,t}}{5}=\alpha+\beta \mathbbm{1}\{\textrm{Democratization Start}_{c,t}\}+\epsilon_{c,t}$$ where $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100 for presentation. The same results for financial crises are included for purpose of comparison.  In~Columns~(3)~and~(6) some observations are lost due to there only being one observation in a region-year.  \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_2_cashflow_growth.tex}
+	}}}}
+\end{table}

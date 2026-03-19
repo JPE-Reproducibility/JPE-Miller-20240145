@@ -1,0 +1,20 @@
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+\centerline{\
+\begin{tabularx}{\linewidth}{@{} l*{6}{Y} @{}}
+\toprule
+\multicolumn{1}{l}{Dependent variable:} & \multicolumn{1}{c}{Adverse Event} & \multicolumn{1}{c}{Default} & \multicolumn{1}{c}{War} & \multicolumn{1}{c}{Financial Crisis} & \multicolumn{1}{c}{Recession} & \multicolumn{1}{c}{Market Loss} \\ \cmidrule(lr){2-7}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline \addlinespace[0.75ex]
+Democratization     &        0.34         &        0.20         &        0.57         &        0.31         &       -0.54         &        0.07         \\
+                    &      (0.66)         &      (0.42)         &      (0.51)         &      (0.43)         &      (0.53)         &      (0.18)         \\
+\addlinespace
+Autocratization     &        3.02\sym{**} &        2.97\sym{***}&        1.71         &        1.44\sym{*}  &       -0.25         &        0.77         \\
+                    &      (1.44)         &      (0.98)         &      (1.25)         &      (0.83)         &      (1.07)         &      (0.73)         \\
+\hline \addlinespace[0.75ex]
+Democratization obs.&         214         &         214         &         214         &         214         &         214         &         214         \\
+R$^2$               &        0.07         &        0.05         &        0.06         &        0.08         &        0.12         &        0.03         \\
+Observations        &      12,602         &      12,602         &      12,602         &      12,602         &      12,602         &      12,602         \\
+\bottomrule
+\end{tabularx}
+}}

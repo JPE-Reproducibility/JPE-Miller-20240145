@@ -1,0 +1,14 @@
+\begin{table}[t!]
+	\renewcommand{\baselinestretch}{1}
+	\caption{Elite democratizations and changes in log dividend yields} \label{table:valuationratioElite}
+	\captionsetup{singlelinecheck=off}
+	\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+		{\footnotesize \justify This table presents regressions of the 5-year change in log dividend yields on indicator variables representing the start of an elite democratization or non-elite democratization. An elite democratization is a democratization in which the aristocracy, business elites, political elites, or local elites were the most important regime support group in the year of the democratization or either of the two years prior according to the V-Dem regime data. The specification estimated is $$dp_{c,t}-dp_{c,t-5}=\alpha+\beta_1 \mathbbm{1}_{c,t}\{\textrm{HRR Democratization Start}\}+\beta_2 \mathbbm{1}_{c,t}\{\textrm{LRR Democratization Start}\}+\epsilon_{c,t}$$ where $dp$ is the log dividend yield and $\alpha$ represents either the coefficient on a vector of ones or the fixed effects denoted at the bottom of the table.  Standard errors (in parentheses) are clustered by country and year. All coefficients have been multiplied by 100 for presentation.  In~Columns~(4)-(6) some observations are lost due to there only being one observation in a region-year or in a continent-regime-year and from missing control observations. \sym{***}, \sym{**}, \sym{*} denote significance at the 1\%, 5\%, and 10\% level, respectively.
+	\vspace{0.10in}
+	\par
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{../tables/raw/table_10_high_vs_low_redistribution_risk.tex}
+	}}}}
+\end{table}

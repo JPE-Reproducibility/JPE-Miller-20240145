@@ -1,178 +1,34 @@
 ## Filepaths Analysis Details
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/04_table_4_revolution_risk.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_1_dividend_yield_event_study.tex**
 
-- Line 2, unix : Purpose: Generate Table 4 - Democratizations and revolution/democratic CSO activity
+- Line 13, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_1_dividend_yield_event_study.pdf}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_7_coefficients_over_time.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/numbers/01_combine_numbers.py**
 
-- Line 11, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_7_coefficients_over_time.pdf} \\
+- Line 2, unix : Purpose: Combine all JSON files from source/numbers/ into a single all_numbers.json
+- Line 17, unix : NUMBERS_PATH = ROOT_PATH / 'source/numbers'
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/03_assets/02_ibes_global_clean.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_C6_country_pair_1946_1976.tex**
 
-- Line 47, unix : gen ibes_eq_capgain = Price/L.Price - 1
-- Line 48, unix : gen ibes_div_yld = DivYLD/100
+- Line 16, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6a_country_pair_PE_short.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6a_country_pair_T_short.pdf} \\
+- Line 21, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6b_country_pair_T_short_aut.pdf} \\
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_1_change_in_log_dividend_yields.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_1_change_in_log_dividend_yields.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C8_did_first_vatican.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C8_did_first_vatican.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/programs/create_var_full.do**
-
-- Line 43, windows : mat iden = (1,0\0,1)
-- Line 44, windows : mat e1 = (1\0)
-- Line 81, windows : mat iden = (1,0,0\0,1,0\0,0,1)
-- Line 82, windows : mat e1 = (1\0\0)
-- Line 126, windows : mat iden = (1,0,0,0\0,1,0,0\0,0,1,0\0,0,0,1)
-- Line 127, windows : mat e1 = (1\0\0\0)
-- Line 181, windows : mat iden = (1,0,0,0,0\0,1,0,0,0\0,0,1,0,0\0,0,0,1,0\0,0,0,0,1)
-- Line 182, windows : mat e1 = (1\0\0\0\0)
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_2_physical_human_capital.tex**
-
-- Line 9, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_2_physical_human_capital.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/table_12_model_results.tex**
-
-- Line 8, windows : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/02_figure_B2_democracy_dividend_yield_specs.do**
-
-- Line 47, unix : forvalues spec = 1/4 {
-- Line 57, unix : forvalues spec = 1/4 {
-- Line 126, unix : forvalues spec = 1/4 {
-- Line 158, unix : forvalues spec = 1/4 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C15_did_capital_gains.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C15_did_capital_gains.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_D9_explicit_redistribute_event_study.tex**
-
-- Line 13, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/05_democracy_and_redistribution.tex**
-
-- Line 13, unix : I assess the effect of successful democratizations on both \textit{explicit redistribution}---increases in the size of the public sector, reductions in inequality, and/or increases in the labor share---and \textit{tacit redistribution}---changes in corruption or bribery and increased entrepreneurship, new business formation, and competitiveness.  Both forms of redistribution will be used to calibrate the redistribution-based model presented in Section~\ref{section:model}.
-- Line 22, unix : \input{../tables/clean/table_8_explicit_redistribution.tex}
-- Line 31, unix : \input{../tables/clean/table_9_implicit_redistribution.tex}
-- Line 45, unix : \input{../tables/clean/table_10_high_vs_low_redistribution_risk.tex}
-- Line 59, unix : \input{../figures/clean/figure_7_coefficients_over_time.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/02_macro_political/03_create_gdp.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/02_macro_political/03_create_gdp.do**
 
 - Line 68, unix : gen ggdc_gdppc_g = ggdc_gdppc/L.ggdc_gdppc - 1
 - Line 69, unix : gen ggdc_gdppc_i_g = ggdc_gdppc_i/L.ggdc_gdppc_i - 1
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_B2_democracy_dividend_yield_specs.tex**
-
-- Line 13, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_1.pdf} &
-- Line 14, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_2.pdf} &
-- Line 15, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_3.pdf} &
-- Line 16, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_4.pdf} \\
-- Line 18, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_1_lp.pdf} &
-- Line 19, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_2_lp.pdf} &
-- Line 20, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_3_lp.pdf} &
-- Line 21, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_4_lp.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/reghdfe5_header.ado**
-
-- Line 63, unix : forv i=2/5 {
-- Line 72, unix : forv i=2/5 {
-- Line 110, unix : forval i = 2/5 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/06_figure_6_returns_event_study.do**
-
-- Line 51, unix : event_study capm_unexp2_smooth5 svc, tlags(9 17) reflag(1) cluster(country_id year) absorb(country_id year) controls($EC $CC ) savedata($FIGURES/data/figure_6_did_event_study_returns)
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/builders/build_matlab.py**
-
-- Line 82, windows : fprintf('%s: %s\\n', me.identifier, me.message),
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/reghdfe_old.ado**
-
-- Line 1444, windows : if (S.verbose==4 & method!="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e\n", iter, update_error)
-- Line 1445, windows : if (S.verbose==4 & method=="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e  {txt}norm(ssr)={res}%g\n", iter, update_error, norm(y_new))
-- Line 1705, windows : basestring = "{txt}   - FE%f ({res}%s{txt}): {col 40}K=%f {col 50}M=%f {col 60}is_exact=%f\n"
-- Line 1790, unix : b) In the DoF of the F and t tests (not when doing chi/normal)
-- Line 4451, unix : forv i=2/5 {
-- Line 4460, unix : forv i=2/5 {
-- Line 4498, unix : forval i = 2/5 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg29.ado**
-
-- Line 5859, unix : oneT = 1/T
-- Line 5860, unix : expo = 2/9
-- Line 5865, unix : expo = 4/25
-- Line 5870, unix : expo = 2/25
-- Line 5971, windows : printf("{err}bandwidth option bw() required for HAC-robust estimation\n")
-- Line 5982, windows : printf("{err}Automatic bandwidth selection not available for panel data\n")
-- Line 6014, windows : printf("{err}invalid kernel\n")
-- Line 6025, windows : printf("{result} and bw=1 implies zero lags used.  Standard errors and\n")
-- Line 6081, unix : TAU=T/vcvo.tdelta-1
-- Line 6115, unix : shat=shat/vcvo.N
-- Line 6147, unix : TAU=T/vcvo.tdelta-1
-- Line 6330, unix : TAU=T/vcvo.tdelta-1
-- Line 6391, unix : shat=shat/vcvo.N
-- Line 6429, unix : bhat=bhat + ZZsub/Tsub#sigmahatsub/(Tsub-1)/(Tsub-2)
-- Line 6440, unix : bhat=bhat/N_panels
-- Line 7178, windows : printf("ivreg29_ranktest error\n")
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/14_list_of_democratizations.tex**
-
-- Line 6, unix : \input{../tables/clean/table_G17_democratizations_and_history.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/reghdfe.ado**
-
-- Line 81, windows : if (!`online') net install ftools, from("c:\git\ftools\src")
-- Line 91, windows : if (!`online') net install reghdfe, from("c:\git\reghdfe\src")
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/08_figure_8_autocratization_figure.py**
-
-- Line 21, unix : FIGURES = ROOT_PATH / 'source/figures'
-- Line 22, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
-- Line 57, unix : output_pdf = FIGURES / 'raw/figure_8_autocratization_model.pdf'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/05_figure_5_anti_regime_event_study.do**
-
-- Line 48, unix : savedata(${FIGURES}/data/figure_5a_event_study_anti_system_cso)
-- Line 52, unix : savedata(${FIGURES}/data/figure_5b_event_study_democratic_protests)
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C14_did_results_country_bonds.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_9_implicit_redistribution.tex**
 
 - Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C14_did_results_country_bonds.tex}
+- Line 12, unix : \input{../tables/raw/table_9_implicit_redistribution.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/12_table_12_model_results.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/numbers/02_section_3_numbers.py**
 
-- Line 20, unix : TABLES = ROOT_PATH / 'source/tables/raw'
-- Line 21, unix : NUMBERS = ROOT_PATH / 'source/numbers'
-- Line 23, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
-- Line 24, unix : PARAMS_PATH_HIGHER_GROWTH = ROOT_PATH / 'source/derived/model/baseline_params_higher_growth.json'
-- Line 53, windows : Tax increase $\\tau^D-\\tau^A$  & & {m.Δτ:.3f}   \\\\
+- Line 18, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_3.tex'
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_B6_democratize_risk_measures.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_B6_democratize_risk_measures.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C12_did_global_capm.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C12_did_global_capm.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/flevelsof.ado**
-
-- Line 114, windows : printf("{err}macro length exceeded\n")
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/online_appendix.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/online_appendix.tex**
 
 - Line 33, unix : \input{numbers/section_3.tex}
 - Line 34, unix : \input{numbers/section_4.tex}
@@ -188,7 +44,747 @@
 - Line 151, unix : \input{subsections/13_case_studies.tex}
 - Line 152, unix : \input{subsections/14_list_of_democratizations.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/model/.ipynb_checkpoints/model_final-checkpoint.ipynb**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/05_democracy_and_redistribution.tex**
+
+- Line 13, unix : I assess the effect of successful democratizations on both \textit{explicit redistribution}---increases in the size of the public sector, reductions in inequality, and/or increases in the labor share---and \textit{tacit redistribution}---changes in corruption or bribery and increased entrepreneurship, new business formation, and competitiveness.  Both forms of redistribution will be used to calibrate the redistribution-based model presented in Section~\ref{section:model}.
+- Line 22, unix : \input{../tables/clean/table_8_explicit_redistribution.tex}
+- Line 31, unix : \input{../tables/clean/table_9_implicit_redistribution.tex}
+- Line 45, unix : \input{../tables/clean/table_10_high_vs_low_redistribution_risk.tex}
+- Line 59, unix : \input{../figures/clean/figure_7_coefficients_over_time.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_B3_risk_premium.tex**
+
+- Line 6, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 13, unix : \input{../tables/raw/table_B3_risk_premium.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/conference/03_democratization_risk_premia.tex**
+
+- Line 28, unix : \input{\tablepath/table_1_change_in_log_dividend_yields.tex}
+- Line 56, unix : \input{\tablepath/table_2_cashflow_growth.tex}
+- Line 70, mixed : \includegraphics[width=.475\textwidth]{\figurepath/figure_3a_gdp_growth_distribution.pdf} & \includegraphics[width=.475\textwidth]{\figurepath/figure_3b_consumption_growth_distribution.pdf}
+- Line 83, unix : \input{\tablepath/table_3_democratization_vs_other_political_risk.tex}
+- Line 104, unix : \input{\tablepath/table_10_high_vs_low_redistribution_risk.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_build_latex.py**
+
+- Line 1, unix : #! /usr/bin/env python
+- Line 40, unix : target = 'build/latex.pdf'
+- Line 56, unix : target = ['build/latex.pdf']
+- Line 71, unix : target = ['build/latex.pdf']
+- Line 100, unix : target = 'build/latex.pdf'
+- Line 101, unix : source = ['input/latex_test_file.tex']
+- Line 116, unix : build_latex('build/latex.pdf',
+- Line 117, unix : ['bad_dir/latex_test_file.tex'], env = {})
+- Line 120, unix : build_latex('build/latex.pdf',
+- Line 121, unix : ['input/nonexistent_file.tex'], env = {})
+- Line 131, unix : build_latex('nonexistent_directory/latex.pdf',
+- Line 132, unix : ['input/latex_test_file.tex'], env = True)
+- Line 137, unix : source = ['input/lyx_test_file.tex'],
+- Line 144, unix : source = ['input/lyx_test_file.tex'],
+- Line 151, unix : source = ['input/lyx_test_file.tex'],
+- Line 164, unix : source = ['input/latex_test_file.tex']
+- Line 165, unix : target = ['build/path_to_clean.pdf',
+- Line 166, unix : 'build/path_to_handout_.pdf',
+- Line 167, unix : 'build/path_to_handout__.pdf']
+- Line 187, unix : target = ['build/path_to_clean.pdf',
+- Line 188, unix : 'build/path_to_handout_.pdf',
+- Line 189, unix : 'build/path_to_handout__.pdf']
+- Line 190, unix : source = ['input/latex_test_file.tex']
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_7_coefficients_over_time.tex**
+
+- Line 11, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_7_coefficients_over_time.pdf} \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/03_online_appendix.tex**
+
+- Line 76, windows : \usepackage[font=footnotesize, width=.9\textwidth]{caption}
+- Line 97, windows : %\usepackage[font=footnotesize, width=1\textwidth]{caption}
+- Line 310, windows : Successful and failed democratizations are determined using the aggregate democratization outcome (dem\_ep\_outcome\_agg) variable.  This measure yields four potential outcomes: (1) democratic transition, (2) no democratic transition, (3) deepened democracy, or (4) outcome censored. A democratization is coded as a democratic transition if ``the episode resulted in a change from autocracy to democracy on the [regimes of the world] measure followed by a democratic founding election.'' A democratization is coded with no democratic transition if ``the episode did not result in a change from autocracy to democracy on the [regimes of the world] measure; or it did result in a change between democracy and autocracy on the [regimes of the world] measure, but the political unit did not hold a democratic founding election before reverting to autocracy.'' A democratization is coded as a democratic deepening if ``the episode resulted in further liberalization or democratization of a political unit that was already classified as democracy in the pre-episode year.'' A democratization is coded as censored if the episode is ongoing in the final year of the data.  Both democratic transition and democratic deepening episodes are coded as successful democratizations whereas episodes without a democratic transition are coded as failed.
+- Line 354, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 377, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 404, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 415, windows : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
+- Line 453, windows : \includegraphics[width=.45\textwidth]{figure_B1a_log_price_event_study.pdf} & \includegraphics[width=.45\textwidth]{figure_B1a_log_price_event_study_lp.pdf} \\
+- Line 455, windows : \includegraphics[width=.45\textwidth]{figure_B1b_log_dividend_growth_event_study.pdf} & \includegraphics[width=.45\textwidth]{figure_B1b_log_dividend_growth_event_study_lp.pdf} \\
+- Line 457, windows : \includegraphics[width=.45\textwidth]{figure_B1c_log_gdp_per_capita_event_study.pdf} & \includegraphics[width=.45\textwidth]{figure_B1c_log_gdp_per_capita_event_study_lp.pdf}
+- Line 485, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_1.pdf} &
+- Line 486, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_2.pdf} &
+- Line 487, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_3.pdf} &
+- Line 488, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_4.pdf} \\
+- Line 490, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_1_lp.pdf} &
+- Line 491, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_2_lp.pdf} &
+- Line 492, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_3_lp.pdf} &
+- Line 493, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_4_lp.pdf}
+- Line 508, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 528, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 557, unix : Additionally, in the panel dataset employed in this paper, data on equity prices is sometimes lost. It is possible that this missing data could bias the results if it represents a market shutdown and these shutdowns are more likely in democratizations and/or autocratizations. Column (6) shows that this also does not seem to be a concern, as missing data are no more likely to occur in either episode.
+- Line 570, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 592, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 621, windows : \includegraphics[width=.9\textwidth]{figure_C3_democracy_activity_mobil.pdf}
+- Line 635, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 663, windows : \includegraphics[width=.45\textwidth]{figure_C4a_country_pair_falsification.pdf}& \includegraphics[width=.45\textwidth]{figure_C4b_country_pair_falsification_aut.pdf} \\
+- Line 675, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 702, windows : \includegraphics[width=.45\textwidth]{figure_C5a_window_end_date_all.pdf} & \includegraphics[width=.45\textwidth]{figure_C5b_window_end_date_aut.pdf}
+- Line 725, windows : \includegraphics[width=.45\textwidth]{figure_C6a_country_pair_PE_short.pdf}& \includegraphics[width=.45\textwidth]{figure_C6a_country_pair_T_short.pdf} \\
+- Line 730, windows : \includegraphics[width=.45\textwidth]{figure_C6b_country_pair_PE_short_aut.pdf}& \includegraphics[width=.45\textwidth]{figure_C6b_country_pair_T_short_aut.pdf} \\
+- Line 750, windows : \includegraphics[width=.45\textwidth]{figure_C7a_country_pair_PE_long.pdf}& \includegraphics[width=.45\textwidth]{figure_C7a_country_pair_T_long.pdf} \\
+- Line 755, windows : \includegraphics[width=.45\textwidth]{figure_C7b_country_pair_PE_long_aut.pdf}& \includegraphics[width=.45\textwidth]{figure_C7b_country_pair_T_long_aut.pdf} \\
+- Line 770, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 792, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 815, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 836, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 861, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 888, windows : \includegraphics[width=.95\textwidth]{figure_C8_dividend_yield_event_study.pdf}
+- Line 898, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 928, windows : \includegraphics[width=.45\textwidth]{figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf}& \includegraphics[width=.45\textwidth]{figure_D9b_explicit_redistribute_event_study_swiid.pdf}
+- Line 948, windows : \includegraphics[width=1\textwidth]{figure_D10a_democratize_price_response_succ.pdf} \\
+- Line 949, windows : \includegraphics[width=1\textwidth]{figure_D10b_democratize_price_response_ld.pdf}
+- Line 961, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 1179, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$. This means that the solution is given by the solution to the system of equations
+- Line 1187, windows : \kappa(\mu^{3})^{\alpha}(qZ_H^{1-\gamma} + (1-q)Z_L^{1-\gamma})
+- Line 1208, windows : \kappa(\mu^{3})^{\alpha-1}(qZ_H^{-\gamma} + (1-q)Z_L^{-\gamma})
+- Line 1257, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$.  This means that the solution is given by the solution to the system of equations
+- Line 1272, windows : with $k\in\{H,L\}$. This system of equations can be solved numerically.
+- Line 1286, windows : where again $k\in\{H,L\}$. This can also be solved numerically.
+- Line 1306, windows : \includegraphics[width=1\textwidth]{figure_F12_sweden_case_study.pdf}
+- Line 1332, windows : \includegraphics[width=1\textwidth]{figure_F13_france_case_study.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_5_anti_regime_event_study.tex**
+
+- Line 15, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_5b_event_study_democratic_protests.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_8_explicit_redistribution.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_8_explicit_redistribution.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/06_model.tex**
+
+- Line 160, unix : \input{../tables/clean/table_11_model_calibration.tex}
+- Line 182, unix : \input{../tables/clean/table_12_model_results.tex}
+- Line 278, unix : \input{../figures/clean/figure_8_autocratization_model.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/numbers/03_section_4_numbers.py**
+
+- Line 19, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_4.tex'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg210.ado**
+
+- Line 66, windows : printf("{err}bandwidth option bw() required for HAC-robust estimation\n")
+- Line 77, windows : printf("{err}Automatic bandwidth selection not available for panel data\n")
+- Line 109, windows : printf("{err}invalid kernel\n")
+- Line 120, windows : printf("{result} and bw=1 implies zero lags used.  Standard errors and\n")
+- Line 176, unix : TAU=T/vcvo.tdelta-1
+- Line 210, unix : shat=shat/vcvo.N
+- Line 242, unix : TAU=T/vcvo.tdelta-1
+- Line 425, unix : TAU=T/vcvo.tdelta-1
+- Line 486, unix : shat=shat/vcvo.N
+- Line 524, unix : bhat=bhat + ZZsub/Tsub#sigmahatsub/(Tsub-1)/(Tsub-2)
+- Line 535, unix : bhat=bhat/N_panels
+- Line 1429, windows : printf("ivreg210_ranktest error\n")
+- Line 5243, unix : expo = 2/9
+- Line 5248, unix : expo = 4/25
+- Line 5254, unix : expo = 2/25
+- Line 5600, unix : W = W/sigmasq
+- Line 5678, unix : W = W/sigmasq
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_C5_window_end_date.tex**
+
+- Line 13, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C5a_window_end_date_all.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_C5b_window_end_date_aut.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/12_model_appendix.tex**
+
+- Line 143, unix : \input{../figures/clean/figure_E11_equilibrium_mu.tex}
+- Line 173, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$. This means that the solution is given by the solution to the system of equations
+- Line 181, windows : \kappa(\mu^{3})^{\alpha}(qZ_H^{1-\gamma} + (1-q)Z_L^{1-\gamma})
+- Line 202, windows : \kappa(\mu^{3})^{\alpha-1}(qZ_H^{-\gamma} + (1-q)Z_L^{-\gamma})
+- Line 251, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$.  This means that the solution is given by the solution to the system of equations
+- Line 266, windows : with $k\in\{H,L\}$. This system of equations can be solved numerically.
+- Line 280, windows : where again $k\in\{H,L\}$. This can also be solved numerically.
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/numbers/04_section_5_numbers.py**
+
+- Line 18, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_5.tex'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/03_assets/04_create_equity_returns.do**
+
+- Line 144, unix : gen gfd_eq_tr = gfd_total_ret_sup/L.gfd_total_ret_sup - 1
+- Line 163, unix : gen jst_xusd_mult = L.jst_xrusd/jst_xrusd
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_B2_adverse_dividend_growth.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_B2_adverse_dividend_growth.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/04_table_4_revolution_risk.do**
+
+- Line 2, unix : Purpose: Generate Table 4 - Democratizations and revolution/democratic CSO activity
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/esttab.ado**
+
+- Line 139, windows : local rtf_open_l3       `" `"\deflang1033\plain\fs24"'"'
+- Line 140, windows : local rtf_open_l4       `" `"{\footer\pard\qc\plain\f0\fs24\chpgn\par}"'"'
+- Line 150, windows : local rtf_midgap          `"{\trowd\trgaph108\trleft-108@rtfemptyrow\row}"'
+- Line 160, windows : local rtf_end             `"}\cell\row}"'
+- Line 211, windows : local tex_toprule         `"`"\`="\hline\hline" + cond("\`longtable'"!="", "\endfirsthead\hline\endhead\hline\endfoot\endlastfoot", "")'"'"'
+- Line 213, windows : local tex_bottomrule      `""\hline\hline""'
+- Line 243, windows : local booktabs_toprule    `"`"\`="\toprule" + cond("\`longtable'"!="", "\endfirsthead\midrule\endhead\midrule\endfoot\endlastfoot", "")'"'"'
+- Line 755, windows : local opening `"`macval(opening)' "\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}""'
+- Line 770, windows : if `"`width'"'!="" local extracolsep "@{\hskip\tabcolsep\extracolsep\fill}"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/reghdfe3.ado**
+
+- Line 1444, windows : if (S.verbose==4 & method!="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e\n", iter, update_error)
+- Line 1445, windows : if (S.verbose==4 & method=="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e  {txt}norm(ssr)={res}%g\n", iter, update_error, norm(y_new))
+- Line 1705, windows : basestring = "{txt}   - FE%f ({res}%s{txt}): {col 40}K=%f {col 50}M=%f {col 60}is_exact=%f\n"
+- Line 1790, unix : b) In the DoF of the F and t tests (not when doing chi/normal)
+- Line 4451, unix : forv i=2/5 {
+- Line 4460, unix : forv i=2/5 {
+- Line 4498, unix : forval i = 2/5 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_build_python.py**
+
+- Line 1, unix : #! /usr/bin/env python
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/backup/08_section_3_appendix.tex**
+
+- Line 6, unix : \includegraphics[width=\textwidth]{\figurepath/figure_2_physical_human_capital.pdf}
+- Line 17, mixed : \includegraphics[width=.45\textwidth]{\figurepath/figure_B1a_log_price_event_study.pdf} & \includegraphics[width=.45\textwidth]{\figurepath/figure_B1a_log_price_event_study_lp.pdf} \\
+- Line 30, mixed : \includegraphics[width=.45\textwidth]{\figurepath/figure_B1b_log_dividend_growth_event_study.pdf} & \includegraphics[width=.45\textwidth]{\figurepath/figure_B1b_log_dividend_growth_event_study_lp.pdf} \\
+- Line 43, mixed : \includegraphics[width=.45\textwidth]{\figurepath/figure_B1c_log_gdp_per_capita_event_study.pdf} & \includegraphics[width=.45\textwidth]{\figurepath/figure_B1c_log_gdp_per_capita_event_study_lp.pdf} \\
+- Line 54, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_F13_france_case_study.pdf}
+- Line 57, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_F13_france_case_study.pdf}
+- Line 67, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_F12_sweden_case_study.pdf}
+- Line 80, unix : \input{\tablepath/table_4_revolution_risk.tex}
+- Line 94, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_4_regional_waves.pdf}
+- Line 102, unix : \input{\tablepath/table_5_regional_waves_instrument.tex}
+- Line 118, unix : \input{\tablepath/table_B2_adverse_dividend_growth.tex}
+- Line 130, unix : \input{../tables/raw/table_B3_risk_premium.tex}
+- Line 143, unix : \input{../tables/raw/table_B4_macro_political_risk_measures.tex}
+- Line 155, unix : \input{\tablepath/table_B5a_adverse_probability_all.tex}
+- Line 170, unix : \input{\tablepath/table_B6_democratize_risk_measures.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/_test_helpers.py**
+
+- Line 180, unix : source = 'input/test_script.%s' % extension
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/seminar/02_data.tex**
+
+- Line 65, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_F12_sweden_case_study.pdf}
+- Line 68, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_F12_sweden_case_study.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/seminar/03_democratization_risk_premia.tex**
+
+- Line 28, unix : \input{\tablepath/table_1_change_in_log_dividend_yields.tex}
+- Line 56, unix : \input{\tablepath/table_2_cashflow_growth.tex}
+- Line 70, mixed : \includegraphics[width=.475\textwidth]{\figurepath/figure_3a_gdp_growth_distribution.pdf} & \includegraphics[width=.475\textwidth]{\figurepath/figure_3b_consumption_growth_distribution.pdf}
+- Line 83, unix : \input{\tablepath/table_3_democratization_vs_other_political_risk.tex}
+- Line 104, unix : \input{\tablepath/table_10_high_vs_low_redistribution_risk.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/seminar/05_democracy_and_redistribution.tex**
+
+- Line 19, unix : \input{\tablepath/table_8_explicit_redistribution.tex}
+- Line 42, unix : \input{\tablepath/table_9_implicit_redistribution.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/02_macro_political/08_create_gov_rev.do**
+
+- Line 76, unix : replace vdem_debt_gdp = vdem_debt_gdp/100
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_F12_sweden_case_study.tex**
+
+- Line 10, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_F12_sweden_case_study.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/conference/06_model.tex**
+
+- Line 106, unix : \input{\tablepath/table_12_model_results.tex}
+- Line 140, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_8_autocratization_model.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/11_democracy_and_redistribution_appendix.tex**
+
+- Line 8, unix : \input{../figures/clean/figure_D9_explicit_redistribute_event_study.tex}
+- Line 16, unix : \input{../figures/clean/figure_D10_democratization_end_price_response.tex}
+- Line 22, unix : \input{../tables/clean/table_D16_inequality_price_decline.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_G17_democratizations_and_history.tex**
+
+- Line 19, unix : \input{../tables/raw/table_G17_democratizations_and_history.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/seminar/04_vatican_ii.tex**
+
+- Line 42, mixed : \includegraphics[width=.45\textwidth]{\figurepath/figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{\figurepath/figure_5b_event_study_democratic_protests.pdf}
+- Line 77, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_6_did_event_study_returns.pdf}
+- Line 94, unix : \input{\tablepath/table_7_did_results.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/09_figure_D9_explicit_redistribute_event_study.do**
+
+- Line 41, unix : savedata(${FIGURES}/data/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp, replace)
+- Line 46, unix : savedata(${FIGURES}/data/figure_D9b_explicit_redistribute_event_study_swiid, replace)
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/14_list_of_democratizations.tex**
+
+- Line 6, unix : \input{../tables/clean/table_G17_democratizations_and_history.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/reghdfe5_header.ado**
+
+- Line 63, unix : forv i=2/5 {
+- Line 72, unix : forv i=2/5 {
+- Line 110, unix : forval i = 2/5 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/programs/create_var_full.do**
+
+- Line 43, windows : mat iden = (1,0\0,1)
+- Line 44, windows : mat e1 = (1\0)
+- Line 81, windows : mat iden = (1,0,0\0,1,0\0,0,1)
+- Line 82, windows : mat e1 = (1\0\0)
+- Line 126, windows : mat iden = (1,0,0,0\0,1,0,0\0,0,1,0\0,0,0,1)
+- Line 127, windows : mat e1 = (1\0\0\0)
+- Line 181, windows : mat iden = (1,0,0,0,0\0,1,0,0,0\0,0,1,0,0\0,0,0,1,0\0,0,0,0,1)
+- Line 182, windows : mat e1 = (1\0\0\0\0)
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/conference/05_democracy_and_redistribution.tex**
+
+- Line 19, unix : \input{\tablepath/table_8_explicit_redistribution.tex}
+- Line 42, unix : \input{\tablepath/table_9_implicit_redistribution.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_7_did_results.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_7_did_results.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_A1_summary_statistics.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_A1_summary_statistics.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/save_estimate.ado**
+
+- Line 18, unix : # Store in source/numbers/ directory with .json extension
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/02_macro_political/01_create_inflation.do**
+
+- Line 110, unix : replace vdem_cpi_g = vdem_cpi_g/100
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/backup/10_section_5_appendix.tex**
+
+- Line 6, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_7_coefficients_over_time.pdf}
+- Line 18, unix : \includegraphics[width=\textwidth]{\figurepath/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf}
+- Line 28, unix : \includegraphics[width=\textwidth]{\figurepath/figure_D9b_explicit_redistribute_event_study_swiid.pdf}
+- Line 40, mixed : \includegraphics[width=.95\textwidth]{\figurepath/figure_D10a_democratize_price_response_succ.pdf}
+- Line 47, mixed : \includegraphics[width=.95\textwidth]{\figurepath/figure_D10b_democratize_price_response_ld.pdf}
+- Line 54, mixed : \includegraphics[width=.95\textwidth]{\figurepath/figure_D10b_democratize_price_response_ld.pdf}
+- Line 70, unix : \input{\tablepath/table_D16_inequality_price_decline.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/seminar/06_model.tex**
+
+- Line 106, unix : \input{\tablepath/table_11_model_calibration.tex}
+- Line 117, unix : \input{\tablepath/table_12_model_results.tex}
+- Line 151, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_8_autocratization_model.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/model/gradual_redistribution_model.py**
+
+- Line 19, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
+- Line 30, unix : α = (1-γ)/(1-(1/ψ))
+- Line 109, unix : Δdp = np.log(1/pd[1]) - np.log(1/pd[0])
+- Line 113, unix : print(1/pd[1] - 1/pd[0])
+- Line 114, unix : print(1/pd)
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_build_tables.py**
+
+- Line 1, unix : #! /usr/bin/env python
+- Line 46, unix : source = ['input/tablefill_template.lyx',
+- Line 47, unix : 'input/tables_appendix.txt',
+- Line 48, unix : 'input/tables_appendix.txt']
+- Line 49, unix : target = ['build/tablefill_template_filled.lyx']
+- Line 56, unix : target = ('build/tablefill_template_filled.lyx')
+- Line 61, unix : target = ('build/tablefill_template_filled.tex')
+- Line 72, unix : source = ['input/tablefill_template.lyx',
+- Line 73, unix : 'input/tables_appendix.txt',
+- Line 74, unix : 'input/tables_appendix_two.txt']
+- Line 75, unix : target = 'build/tablefill_template_filled.lyx'
+- Line 86, unix : source = ['input/tablefill_template.lyx',
+- Line 87, unix : 'input/tables_appendix.txt',
+- Line 88, unix : 'input/tables_appendix_two.txt']
+- Line 89, unix : target = 'build/tablefill_template_filled.lyx'
+- Line 97, unix : source = ['input/tablefill_template.BAD',
+- Line 98, unix : 'input/tables_appendix.txt',
+- Line 99, unix : 'input/tables_appendix_two.txt']
+- Line 100, unix : target = 'build/tablefill_template_filled.lyx'
+- Line 113, unix : std_source = ['input/tablefill_template.lyx',
+- Line 114, unix : 'input/tables_appendix.txt']
+- Line 115, unix : std_target = 'build/tablefill_template_filled.lyx'
+- Line 163, unix : source = [f'input/tablefill_template.{ext}',
+- Line 164, unix : 'input/tables_appendix.txt',
+- Line 165, unix : 'input/tables_appendix_two.txt']
+- Line 166, unix : target = f'build/tablefill_template_filled.{ext}'
+- Line 194, unix : source = [f'input/tablefill_template_breaks.{ext}',
+- Line 195, unix : 'input/tables_appendix.txt',
+- Line 196, unix : 'input/tables_appendix_two.txt']
+- Line 197, unix : target = f'build/tablefill_template_filled.{ext}'
+- Line 214, unix : source = [f'input/tablefill_template_breaks.{ext}',
+- Line 215, unix : 'input/fake_file.txt',
+- Line 216, unix : 'input/tables_appendix_two.txt']
+- Line 217, unix : target = f'build/tablefill_template_filled.{ext}'
+- Line 223, unix : source = [f'input/tablefill_template_breaks.{ext}',
+- Line 224, unix : 'input/tables_appendix_two.txt',
+- Line 225, unix : 'input/fake_file.txt']
+- Line 226, unix : target = f'build/tablefill_template_filled.{ext}'
+- Line 239, unix : source = [f'input/tablefill_template.{ext}',
+- Line 240, unix : 'input/tables_appendix.txt',
+- Line 241, unix : 'input/tables_appendix_two.txt']
+- Line 242, unix : target = f'build/tablefill_template_filled.{ext}'
+- Line 250, unix : source = [f'input/tablefill_template.{ext}',
+- Line 251, unix : 'input/tables_appendix_two.txt',
+- Line 252, unix : 'input/tables_appendix.txt']
+- Line 253, unix : target = f'build/tablefill_template_filled.{ext}'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/11_table_11_model_calibration.py**
+
+- Line 18, unix : TABLES = ROOT_PATH / 'source/tables/raw'
+- Line 20, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
+- Line 21, unix : PARAMS_PATH_HIGHER_GROWTH = ROOT_PATH / 'source/derived/model/baseline_params_higher_growth.json'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_B2_democracy_dividend_yield_specs.tex**
+
+- Line 13, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_1.pdf} &
+- Line 14, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_2.pdf} &
+- Line 15, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_3.pdf} &
+- Line 16, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_4.pdf} \\
+- Line 18, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_1_lp.pdf} &
+- Line 19, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_2_lp.pdf} &
+- Line 20, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_3_lp.pdf} &
+- Line 21, mixed : \includegraphics[width=.35\textwidth]{../figures/raw/figure_B2_dividend_yield_event_study_4_lp.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_B4_macro_political_risk_measures.tex**
+
+- Line 6, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 13, unix : \input{../tables/raw/table_B4_macro_political_risk_measures.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/additional/03_figure_B3_democracy_IK_specs.do**
+
+- Line 45, unix : forvalues spec = 1/4 {
+- Line 50, unix : savedata(${FIGURES}/data/figure_B3_IK_event_study_`spec', replace)
+- Line 55, unix : savedata(${FIGURES}/data/figure_B3_hc_event_study_`spec', replace)
+- Line 59, unix : forvalues spec = 1/4 {
+- Line 140, unix : forvalues spec = 1/4 {
+- Line 184, unix : forvalues spec = 1/4 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/06_table_6_balance_tests.do**
+
+- Line 55, unix : tex \hspace{0.5cm} Debt/GDP (\%) 							& `_7_1_str'	&`_7_2_str' 	&`_7_3_str'	    &`_7_4_str' 	&`_7_5_str'		\\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/__init__.py**
+
+- Line 9, unix : To run a single script, run `pytest path/to/script.py`, e.g.
+- Line 16, unix : - On Windows (CMD): SET JMSLAB_EXE_STATA=/path to/stata.exe
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_misc.py**
+
+- Line 1, unix : #! /usr/bin/env python
+- Line 62, unix : @mock.patch('%s.os.environ' % path, {'PATH': '/bin:usrs/local'})
+- Line 74, unix : self.assertEqual(misc.is_in_path('stata'), str(Path('/bin/stata')))
+- Line 87, unix : execute_files = [str(Path('/bin/stata')),
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/02_main_figures.tex**
+
+- Line 75, windows : \usepackage[font=footnotesize, width=.9\textwidth]{caption}
+- Line 96, windows : %\usepackage[font=footnotesize, width=1\textwidth]{caption}
+- Line 135, windows : \includegraphics[width=1\textwidth]{figure_1_dividend_yield_event_study.pdf}
+- Line 149, windows : \includegraphics[width=1\textwidth]{figure_2_physical_human_capital.pdf}
+- Line 165, windows : \includegraphics[width=.47\textwidth]{figure_3a_gdp_growth_distribution.pdf}& \includegraphics[width=.47\textwidth]{figure_3b_consumption_growth_distribution.pdf}
+- Line 181, windows : \includegraphics[width=1\textwidth]{figure_4_regional_waves.pdf}
+- Line 201, windows : \includegraphics[width=.45\textwidth]{figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{figure_5b_event_study_democratic_protests.pdf}
+- Line 220, windows : \includegraphics[width=.95\textwidth]{figure_6_did_event_study_returns.pdf}
+- Line 236, windows : \includegraphics[width=1\textwidth]{figure_7_coefficients_over_time.pdf} \\
+- Line 252, windows : \includegraphics[width=1\textwidth]{figure_8_autocratization_model.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_12_model_results.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_12_model_results.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C9_did_democracies.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C9_did_democracies.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg28.ado**
+
+- Line 1052, unix : scalar `T_bar' = 1/r(mean)
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/miller_2025.tex**
+
+- Line 33, unix : \input{numbers/section_3.tex}
+- Line 34, unix : \input{numbers/section_4.tex}
+- Line 35, unix : \input{numbers/section_5.tex}
+- Line 36, unix : \input{numbers/section_6.tex}
+- Line 76, windows : \usepackage[font=footnotesize, width=.9\textwidth]{caption}
+- Line 97, windows : %\usepackage[font=footnotesize, width=1\textwidth]{caption}
+- Line 152, unix : \input{subsections/01_introduction.tex}
+- Line 153, unix : \input{subsections/02_data.tex}
+- Line 154, unix : \input{subsections/03_stylized_facts.tex}
+- Line 155, unix : \input{subsections/04_vatican_ii.tex}
+- Line 156, unix : \input{subsections/05_democracy_and_redistribution.tex}
+- Line 157, unix : \input{subsections/06_model.tex}
+- Line 158, unix : \input{subsections/07_conclusion.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_C8_dividend_yield_event_study.tex**
+
+- Line 13, mixed : \includegraphics[width=.95\textwidth]{../figures/raw/figure_C8_dividend_yield_event_study.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/03_stylized_facts.tex**
+
+- Line 13, unix : \input{../figures/clean/figure_1_dividend_yield_event_study.tex}
+- Line 21, unix : \input{../tables/clean/table_1_change_in_log_dividend_yields.tex}
+- Line 30, unix : \input{../tables/clean/table_2_cashflow_growth.tex}
+- Line 45, unix : \input{../figures/clean/figure_2_physical_human_capital.tex}
+- Line 65, unix : \input{../figures/clean/figure_3_gdp_consumption_distributions.tex}
+- Line 72, unix : \input{../tables/clean/table_3_democratization_vs_other_political_risk.tex}
+- Line 86, unix : \input{../tables/clean/table_4_revolution_risk.tex}
+- Line 104, unix : \input{../figures/clean/figure_4_regional_waves.tex}
+- Line 119, unix : \input{../tables/clean/table_5_regional_waves_instrument.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/seminar/01_motivation.tex**
+
+- Line 57, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_1_dividend_yield_event_study.pdf} \\}
+- Line 59, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_1_dividend_yield_event_study.pdf} \\}
+- Line 60, unix : \textbf{Gordon growth intuition: dividend yield (prior 12-month dividends divided by price) is discount rate less expected cashflow growth, $D/P = r-g$. Data from 90 countries over 200 years.}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/03_assets/10_create_return_news.do**
+
+- Line 50, unix : forval i = 1/5 {
+- Line 59, unix : forval i = 2/5 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/builders/jmslab_builder.py**
+
+- Line 185, windows : self.timestamp_log(misc.current_time(), message + '\n\n')
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/who_values_democracy_conference.tex**
+
+- Line 14, unix : \setbeamerfont{itemize/enumerate body}{size=\normalsize}
+- Line 15, unix : \setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
+- Line 16, unix : \setbeamerfont{itemize/enumerate subsubbody}{size=\normalsize}
+- Line 40, unix : \input{../paper/numbers/section_3.tex}
+- Line 41, unix : \input{../paper/numbers/section_4.tex}
+- Line 42, unix : \input{../paper/numbers/section_5.tex}
+- Line 43, unix : \input{../paper/numbers/section_6.tex}
+- Line 52, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 57, windows : \let\set@color\beamerorig@set@color
+- Line 58, windows : \let\reset@color\beamerorig@reset@color}
+- Line 68, windows : font issue/.style={execute at begin picture={#1\selectfont}}
+- Line 74, windows : \newcommand\marktopleft[1]{%
+- Line 78, windows : \newcommand\markbottomright[1]{%
+- Line 85, windows : \newcommand\circletext[1]{%
+- Line 95, windows : \newcommand\circletextblue[1]{%
+- Line 141, unix : %comment out to revert to previous/default definitions
+- Line 178, windows : \let\oldcitet=\citet
+- Line 216, unix : \input{conference/01_motivation.tex}
+- Line 217, unix : \input{conference/02_data.tex}
+- Line 218, unix : \input{conference/03_democratization_risk_premia.tex}
+- Line 219, unix : \input{conference/04_vatican_ii.tex}
+- Line 220, unix : \input{conference/05_democracy_and_redistribution.tex}
+- Line 221, unix : \input{conference/06_model.tex}
+- Line 222, unix : \input{conference/07_conclusion.tex}
+- Line 226, unix : \input{backup/08_section_3_appendix.tex}
+- Line 227, unix : \input{backup/09_section_4_appendix.tex}
+- Line 228, unix : \input{backup/10_section_5_appendix.tex}
+- Line 231, unix : \bibliography{../paper/Democratization}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/08_data_appendix.tex**
+
+- Line 165, windows : Successful and failed democratizations are determined using the aggregate democratization outcome (dem\_ep\_outcome\_agg) variable.  This measure yields four potential outcomes: (1) democratic transition, (2) no democratic transition, (3) deepened democracy, or (4) outcome censored. A democratization is coded as a democratic transition if ``the episode resulted in a change from autocracy to democracy on the [regimes of the world] measure followed by a democratic founding election.'' A democratization is coded with no democratic transition if ``the episode did not result in a change from autocracy to democracy on the [regimes of the world] measure; or it did result in a change between democracy and autocracy on the [regimes of the world] measure, but the political unit did not hold a democratic founding election before reverting to autocracy.'' A democratization is coded as a democratic deepening if ``the episode resulted in further liberalization or democratization of a political unit that was already classified as democracy in the pre-episode year.'' A democratization is coded as censored if the episode is ongoing in the final year of the data.  Both democratic transition and democratic deepening episodes are coded as successful democratizations whereas episodes without a democratic transition are coded as failed.
+- Line 205, unix : \input{../tables/clean/table_A1_summary_statistics.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/conference/04_vatican_ii.tex**
+
+- Line 42, mixed : \includegraphics[width=.45\textwidth]{\figurepath/figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{\figurepath/figure_5b_event_study_democratic_protests.pdf}
+- Line 77, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_6_did_event_study_returns.pdf}
+- Line 94, unix : \input{\tablepath/table_7_did_results.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/reghdfe.ado**
+
+- Line 81, windows : if (!`online') net install ftools, from("c:\git\ftools\src")
+- Line 91, windows : if (!`online') net install reghdfe, from("c:\git\reghdfe\src")
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_3_democratization_vs_other_political_risk.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_3_democratization_vs_other_political_risk.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/10_vatican_ii_appendix.tex**
+
+- Line 9, unix : \input{../tables/clean/table_C7_probability_democratize_post_vatican_ii.tex}
+- Line 13, unix : \input{../figures/clean/figure_C3_democracy_activity_mobil.tex}
+- Line 21, unix : \input{../tables/clean/table_C8_did_first_vatican.tex}
+- Line 27, unix : \input{../figures/clean/figure_C4_sample_period_move.tex}
+- Line 33, unix : \input{../tables/clean/table_C9_did_democracies.tex}
+- Line 39, unix : \input{../figures/clean/figure_C5_window_end_date.tex}
+- Line 45, unix : \input{../figures/clean/figure_C6_country_pair_1946_1976.tex}
+- Line 47, unix : \input{../figures/clean/figure_C7_country_pair_1939_1983.tex}
+- Line 55, unix : \input{../tables/clean/table_C10_removing_outliers.tex}
+- Line 59, unix : \input{../tables/clean/table_C11_did_robust_weights.tex}
+- Line 69, unix : \input{../tables/clean/table_C12_did_global_capm.tex}
+- Line 77, unix : \input{../tables/clean/table_C13_did_no_rolling_beta.tex}
+- Line 89, unix : \input{../tables/clean/table_C14_did_results_country_bonds.tex}
+- Line 95, unix : \input{../figures/clean/figure_C8_dividend_yield_event_study.tex}
+- Line 99, unix : \input{../tables/clean/table_C15_did_capital_gains.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C11_did_robust_weights.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C11_did_robust_weights.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/tables/17_table_G17_ert_democracy.py**
+
+- Line 19, unix : REGIME_CHANGE_ORIG = DATASTORE_PATH / 'raw/regime_change/orig'
+- Line 20, unix : CROSSWALKS = DATASTORE_PATH / 'raw/crosswalks'
+- Line 21, unix : ANALYSIS_DERIVED = DATASTORE_PATH / 'derived/analysis'
+- Line 22, unix : TABLES_OUTPUT = ROOT_PATH / 'source/tables/raw'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/flevelsof.ado**
+
+- Line 114, windows : printf("{err}macro length exceeded\n")
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_8_autocratization_model.tex**
+
+- Line 11, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_8_autocratization_model.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_1_change_in_log_dividend_yields.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_1_change_in_log_dividend_yields.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_C4_sample_period_move.tex**
+
+- Line 14, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C4a_country_pair_falsification.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C4b_country_pair_falsification_aut.pdf} \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/02_figure_B2_democracy_dividend_yield_specs.do**
+
+- Line 47, unix : forvalues spec = 1/4 {
+- Line 57, unix : forvalues spec = 1/4 {
+- Line 126, unix : forvalues spec = 1/4 {
+- Line 158, unix : forvalues spec = 1/4 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/02_macro_political/02_create_pwt_data.do**
+
+- Line 51, unix : gen IK = Ic/Nc
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/input/tablefill_template_breaks.tex**
+
+- Line 56, windows : & Baseline & No Unobservables\tabularnewline
+- Line 86, windows : & Markets with & Share of hhlds & Share of hhlds\tabularnewline
+- Line 87, windows : & diverse & in mkt with & reading\tabularnewline
+- Line 88, windows : & papers & diverse papers & diverse papers\tabularnewline
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/esplot.ado**
+
+- Line 9, unix : to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/reghdfe_header.ado**
+
+- Line 63, unix : forv i=2/5 {
+- Line 72, unix : forv i=2/5 {
+- Line 110, unix : forval i = 2/5 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_B6_democratize_risk_measures.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_B6_democratize_risk_measures.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C14_did_results_country_bonds.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C14_did_results_country_bonds.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/join.ado**
+
+- Line 51, unix : keep_nums: {1, 3, 1 3} depending on whether we keep master/match
+- Line 247, unix : forval i = 1/3 {
+- Line 449, windows : msg = "{err}merge:  variable %s already exists in master dataset\n"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/table_12_model_results.tex**
+
+- Line 8, windows : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_10_high_vs_low_redistribution_risk.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_10_high_vs_low_redistribution_risk.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/04_merging/01_create_section_3_and_5_data.do**
+
+- Line 75, unix : gen efi_5c_scale = efi_5c/10
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/rangestat.ado**
+
+- Line 932, unix : return(mean(dev:^3) :/ (mean(dev:^2)):^(3/2))
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C15_did_capital_gains.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C15_did_capital_gains.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_build_stata.py**
+
+- Line 1, unix : #! /usr/bin/env python
+- Line 154, unix : build_stata(target = 'build/stata.dta',
+- Line 155, unix : source = 'input/test_script.do',
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C13_did_no_rolling_beta.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C13_did_no_rolling_beta.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/reghdfe_old.ado**
+
+- Line 1444, windows : if (S.verbose==4 & method!="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e\n", iter, update_error)
+- Line 1445, windows : if (S.verbose==4 & method=="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e  {txt}norm(ssr)={res}%g\n", iter, update_error, norm(y_new))
+- Line 1705, windows : basestring = "{txt}   - FE%f ({res}%s{txt}): {col 40}K=%f {col 50}M=%f {col 60}is_exact=%f\n"
+- Line 1790, unix : b) In the DoF of the F and t tests (not when doing chi/normal)
+- Line 4451, unix : forv i=2/5 {
+- Line 4460, unix : forv i=2/5 {
+- Line 4498, unix : forval i = 2/5 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/who_values_democracy_seminar.tex**
+
+- Line 14, unix : \setbeamerfont{itemize/enumerate body}{size=\normalsize}
+- Line 15, unix : \setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
+- Line 16, unix : \setbeamerfont{itemize/enumerate subsubbody}{size=\normalsize}
+- Line 40, unix : \input{../paper/numbers/section_3.tex}
+- Line 41, unix : \input{../paper/numbers/section_4.tex}
+- Line 42, unix : \input{../paper/numbers/section_5.tex}
+- Line 43, unix : \input{../paper/numbers/section_6.tex}
+- Line 52, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 57, windows : \let\set@color\beamerorig@set@color
+- Line 58, windows : \let\reset@color\beamerorig@reset@color}
+- Line 68, windows : font issue/.style={execute at begin picture={#1\selectfont}}
+- Line 74, windows : \newcommand\marktopleft[1]{%
+- Line 78, windows : \newcommand\markbottomright[1]{%
+- Line 85, windows : \newcommand\circletext[1]{%
+- Line 95, windows : \newcommand\circletextblue[1]{%
+- Line 141, unix : %comment out to revert to previous/default definitions
+- Line 178, windows : \let\oldcitet=\citet
+- Line 216, unix : \input{seminar/01_motivation.tex}
+- Line 217, unix : \input{seminar/02_data.tex}
+- Line 218, unix : \input{seminar/03_democratization_risk_premia.tex}
+- Line 219, unix : \input{seminar/04_vatican_ii.tex}
+- Line 220, unix : \input{seminar/05_democracy_and_redistribution.tex}
+- Line 221, unix : \input{seminar/06_model.tex}
+- Line 222, unix : \input{seminar/07_conclusion.tex}
+- Line 226, unix : \input{backup/08_section_3_appendix.tex}
+- Line 227, unix : \input{backup/09_section_4_appendix.tex}
+- Line 228, unix : \input{backup/10_section_5_appendix.tex}
+- Line 231, unix : \bibliography{../paper/Democratization}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/table_8_explicit_redistribution.tex**
+
+- Line 4, unix : & \multicolumn{1}{c}{$\Delta$ Govt Rev/GDP} & \multicolumn{1}{c}{$\Delta$ Tax Rev/GDP} & \multicolumn{1}{c}{$\Delta$ Gini Coef} & \multicolumn{1}{c}{$\Delta$ Labor Share Emp} \\ \cmidrule(lr){2-5}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/05_figure_5_anti_regime_event_study.do**
+
+- Line 48, unix : savedata(${FIGURES}/data/figure_5a_event_study_anti_system_cso)
+- Line 52, unix : savedata(${FIGURES}/data/figure_5b_event_study_democratic_protests)
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/model/.ipynb_checkpoints/model_final-checkpoint.ipynb**
 
 - Line 15, windows : "#%% Import packages\n",
 - Line 16, windows : "import pandas as pd\n",
@@ -3382,640 +3978,155 @@
 - Line 5058, windows : "           disp   = True\n",
 - Line 5068, windows : "                disp   = True\n",
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_10_high_vs_low_redistribution_risk.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_10_high_vs_low_redistribution_risk.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/esttab.ado**
-
-- Line 139, windows : local rtf_open_l3       `" `"\deflang1033\plain\fs24"'"'
-- Line 140, windows : local rtf_open_l4       `" `"{\footer\pard\qc\plain\f0\fs24\chpgn\par}"'"'
-- Line 150, windows : local rtf_midgap          `"{\trowd\trgaph108\trleft-108@rtfemptyrow\row}"'
-- Line 160, windows : local rtf_end             `"}\cell\row}"'
-- Line 211, windows : local tex_toprule         `"`"\`="\hline\hline" + cond("\`longtable'"!="", "\endfirsthead\hline\endhead\hline\endfoot\endlastfoot", "")'"'"'
-- Line 213, windows : local tex_bottomrule      `""\hline\hline""'
-- Line 243, windows : local booktabs_toprule    `"`"\`="\toprule" + cond("\`longtable'"!="", "\endfirsthead\midrule\endhead\midrule\endfoot\endlastfoot", "")'"'"'
-- Line 755, windows : local opening `"`macval(opening)' "\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}""'
-- Line 770, windows : if `"`width'"'!="" local extracolsep "@{\hskip\tabcolsep\extracolsep\fill}"
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/reghdfe_header.ado**
-
-- Line 63, unix : forv i=2/5 {
-- Line 72, unix : forv i=2/5 {
-- Line 110, unix : forval i = 2/5 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/03_assets/10_create_return_news.do**
-
-- Line 50, unix : forval i = 1/5 {
-- Line 59, unix : forval i = 2/5 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/numbers/01_combine_numbers.py**
-
-- Line 2, unix : Purpose: Combine all JSON files from source/numbers/ into a single all_numbers.json
-- Line 17, unix : NUMBERS_PATH = ROOT_PATH / 'source/numbers'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/08_table_8_explicit_redistribution.do**
-
-- Line 45, unix : replace govt_rev_gdp = govt_rev_gdp/100
-- Line 46, unix : replace swiid_gini_mkt = swiid_gini_mkt/100
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tablefill.py**
-
-- Line 1, unix : #! /usr/bin/env python
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_log.py**
-
-- Line 1, unix : #! /usr/bin/env python
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg2.ado**
-
-- Line 4845, unix : expo = 2/9
-- Line 4850, unix : expo = 4/25
-- Line 4856, unix : expo = 2/25
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_build_tables.py**
-
-- Line 1, unix : #! /usr/bin/env python
-- Line 46, unix : source = ['input/tablefill_template.lyx',
-- Line 47, unix : 'input/tables_appendix.txt',
-- Line 48, unix : 'input/tables_appendix.txt']
-- Line 49, unix : target = ['build/tablefill_template_filled.lyx']
-- Line 56, unix : target = ('build/tablefill_template_filled.lyx')
-- Line 61, unix : target = ('build/tablefill_template_filled.tex')
-- Line 72, unix : source = ['input/tablefill_template.lyx',
-- Line 73, unix : 'input/tables_appendix.txt',
-- Line 74, unix : 'input/tables_appendix_two.txt']
-- Line 75, unix : target = 'build/tablefill_template_filled.lyx'
-- Line 86, unix : source = ['input/tablefill_template.lyx',
-- Line 87, unix : 'input/tables_appendix.txt',
-- Line 88, unix : 'input/tables_appendix_two.txt']
-- Line 89, unix : target = 'build/tablefill_template_filled.lyx'
-- Line 97, unix : source = ['input/tablefill_template.BAD',
-- Line 98, unix : 'input/tables_appendix.txt',
-- Line 99, unix : 'input/tables_appendix_two.txt']
-- Line 100, unix : target = 'build/tablefill_template_filled.lyx'
-- Line 113, unix : std_source = ['input/tablefill_template.lyx',
-- Line 114, unix : 'input/tables_appendix.txt']
-- Line 115, unix : std_target = 'build/tablefill_template_filled.lyx'
-- Line 163, unix : source = [f'input/tablefill_template.{ext}',
-- Line 164, unix : 'input/tables_appendix.txt',
-- Line 165, unix : 'input/tables_appendix_two.txt']
-- Line 166, unix : target = f'build/tablefill_template_filled.{ext}'
-- Line 194, unix : source = [f'input/tablefill_template_breaks.{ext}',
-- Line 195, unix : 'input/tables_appendix.txt',
-- Line 196, unix : 'input/tables_appendix_two.txt']
-- Line 197, unix : target = f'build/tablefill_template_filled.{ext}'
-- Line 214, unix : source = [f'input/tablefill_template_breaks.{ext}',
-- Line 215, unix : 'input/fake_file.txt',
-- Line 216, unix : 'input/tables_appendix_two.txt']
-- Line 217, unix : target = f'build/tablefill_template_filled.{ext}'
-- Line 223, unix : source = [f'input/tablefill_template_breaks.{ext}',
-- Line 224, unix : 'input/tables_appendix_two.txt',
-- Line 225, unix : 'input/fake_file.txt']
-- Line 226, unix : target = f'build/tablefill_template_filled.{ext}'
-- Line 239, unix : source = [f'input/tablefill_template.{ext}',
-- Line 240, unix : 'input/tables_appendix.txt',
-- Line 241, unix : 'input/tables_appendix_two.txt']
-- Line 242, unix : target = f'build/tablefill_template_filled.{ext}'
-- Line 250, unix : source = [f'input/tablefill_template.{ext}',
-- Line 251, unix : 'input/tables_appendix_two.txt',
-- Line 252, unix : 'input/tables_appendix.txt']
-- Line 253, unix : target = f'build/tablefill_template_filled.{ext}'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_1_dividend_yield_event_study.tex**
-
-- Line 13, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_1_dividend_yield_event_study.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/11_table_11_model_calibration.py**
-
-- Line 18, unix : TABLES = ROOT_PATH / 'source/tables/raw'
-- Line 20, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
-- Line 21, unix : PARAMS_PATH_HIGHER_GROWTH = ROOT_PATH / 'source/derived/model/baseline_params_higher_growth.json'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_B1_democracy_log_price.tex**
-
-- Line 14, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1a_log_price_event_study.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1a_log_price_event_study_lp.pdf} \\
-- Line 16, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf} \\
-- Line 18, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/input/tablefill_template.tex**
-
-- Line 56, windows : & Baseline & No Unobservables\tabularnewline
-- Line 86, windows : & Markets with & Share of hhlds & Share of hhlds\tabularnewline
-- Line 87, windows : & diverse & in mkt with & reading\tabularnewline
-- Line 88, windows : & papers & diverse papers & diverse papers\tabularnewline
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_build_stata.py**
-
-- Line 1, unix : #! /usr/bin/env python
-- Line 154, unix : build_stata(target = 'build/stata.dta',
-- Line 155, unix : source = 'input/test_script.do',
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/reghdfe5.ado**
-
-- Line 73, windows : if (!`online') net install ftools, from("c:\git\ftools\src")
-- Line 83, windows : if (!`online') net install reghdfe, from("c:\git\reghdfe\src")
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_B2_adverse_dividend_growth.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_B2_adverse_dividend_growth.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/raw/table_8_explicit_redistribution.tex**
-
-- Line 4, unix : & \multicolumn{1}{c}{$\Delta$ Govt Rev/GDP} & \multicolumn{1}{c}{$\Delta$ Tax Rev/GDP} & \multicolumn{1}{c}{$\Delta$ Gini Coef} & \multicolumn{1}{c}{$\Delta$ Labor Share Emp} \\ \cmidrule(lr){2-5}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/tables/03_table_B3_risk_premium.do**
-
-- Line 267, unix : tex   	\hspace{0.5cm} (17) 5-year log P/E ratio change			`row17'	\\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/numbers/03_section_4_numbers.py**
-
-- Line 19, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_4.tex'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_6_did_event_study_returns.tex**
-
-- Line 13, mixed : \includegraphics[width=.95\textwidth]{../figures/raw/figure_6_did_event_study_returns.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_G17_democratizations_and_history.tex**
-
-- Line 19, unix : \input{../tables/raw/table_G17_democratizations_and_history.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_8_autocratization_model.tex**
-
-- Line 11, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_8_autocratization_model.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/save_estimate.ado**
-
-- Line 18, unix : # Store in source/numbers/ directory with .json extension
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_8_explicit_redistribution.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_8_explicit_redistribution.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_C7_country_pair_1939_1983.tex**
-
-- Line 16, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7a_country_pair_PE_long.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7a_country_pair_T_long.pdf} \\
-- Line 21, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7b_country_pair_T_long_aut.pdf} \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/builders/jmslab_builder.py**
-
-- Line 185, windows : self.timestamp_log(misc.current_time(), message + '\n\n')
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/02_main_figures.tex**
-
-- Line 75, windows : \usepackage[font=footnotesize, width=.9\textwidth]{caption}
-- Line 96, windows : %\usepackage[font=footnotesize, width=1\textwidth]{caption}
-- Line 135, windows : \includegraphics[width=1\textwidth]{figure_1_dividend_yield_event_study.pdf}
-- Line 149, windows : \includegraphics[width=1\textwidth]{figure_2_physical_human_capital.pdf}
-- Line 165, windows : \includegraphics[width=.47\textwidth]{figure_3a_gdp_growth_distribution.pdf}& \includegraphics[width=.47\textwidth]{figure_3b_consumption_growth_distribution.pdf}
-- Line 181, windows : \includegraphics[width=1\textwidth]{figure_4_regional_waves.pdf}
-- Line 201, windows : \includegraphics[width=.45\textwidth]{figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{figure_5b_event_study_democratic_protests.pdf}
-- Line 220, windows : \includegraphics[width=.95\textwidth]{figure_6_did_event_study_returns.pdf}
-- Line 236, windows : \includegraphics[width=1\textwidth]{figure_7_coefficients_over_time.pdf} \\
-- Line 252, windows : \includegraphics[width=1\textwidth]{figure_8_autocratization_model.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/10_vatican_ii_appendix.tex**
-
-- Line 9, unix : \input{../tables/clean/table_C7_probability_democratize_post_vatican_ii.tex}
-- Line 13, unix : \input{../figures/clean/figure_C3_democracy_activity_mobil.tex}
-- Line 21, unix : \input{../tables/clean/table_C8_did_first_vatican.tex}
-- Line 27, unix : \input{../figures/clean/figure_C4_sample_period_move.tex}
-- Line 33, unix : \input{../tables/clean/table_C9_did_democracies.tex}
-- Line 39, unix : \input{../figures/clean/figure_C5_window_end_date.tex}
-- Line 45, unix : \input{../figures/clean/figure_C6_country_pair_1946_1976.tex}
-- Line 47, unix : \input{../figures/clean/figure_C7_country_pair_1939_1983.tex}
-- Line 55, unix : \input{../tables/clean/table_C10_removing_outliers.tex}
-- Line 59, unix : \input{../tables/clean/table_C11_did_robust_weights.tex}
-- Line 69, unix : \input{../tables/clean/table_C12_did_global_capm.tex}
-- Line 77, unix : \input{../tables/clean/table_C13_did_no_rolling_beta.tex}
-- Line 89, unix : \input{../tables/clean/table_C14_did_results_country_bonds.tex}
-- Line 95, unix : \input{../figures/clean/figure_C8_dividend_yield_event_study.tex}
-- Line 99, unix : \input{../tables/clean/table_C15_did_capital_gains.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/02_macro_political/08_create_gov_rev.do**
-
-- Line 76, unix : replace vdem_debt_gdp = vdem_debt_gdp/100
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_B4_macro_political_risk_measures.tex**
-
-- Line 6, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 13, unix : \input{../tables/raw/table_B4_macro_political_risk_measures.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/03_stylized_facts.tex**
-
-- Line 13, unix : \input{../figures/clean/figure_1_dividend_yield_event_study.tex}
-- Line 21, unix : \input{../tables/clean/table_1_change_in_log_dividend_yields.tex}
-- Line 30, unix : \input{../tables/clean/table_2_cashflow_growth.tex}
-- Line 45, unix : \input{../figures/clean/figure_2_physical_human_capital.tex}
-- Line 65, unix : \input{../figures/clean/figure_3_gdp_consumption_distributions.tex}
-- Line 72, unix : \input{../tables/clean/table_3_democratization_vs_other_political_risk.tex}
-- Line 86, unix : \input{../tables/clean/table_4_revolution_risk.tex}
-- Line 104, unix : \input{../figures/clean/figure_4_regional_waves.tex}
-- Line 119, unix : \input{../tables/clean/table_5_regional_waves_instrument.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/compile_paper.py**
-
-- Line 1, unix : #!/usr/bin/env python3
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_F13_france_case_study.tex**
-
-- Line 10, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_F13_france_case_study.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_6_balance_tests.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_6_balance_tests.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg210.ado**
-
-- Line 66, windows : printf("{err}bandwidth option bw() required for HAC-robust estimation\n")
-- Line 77, windows : printf("{err}Automatic bandwidth selection not available for panel data\n")
-- Line 109, windows : printf("{err}invalid kernel\n")
-- Line 120, windows : printf("{result} and bw=1 implies zero lags used.  Standard errors and\n")
-- Line 176, unix : TAU=T/vcvo.tdelta-1
-- Line 210, unix : shat=shat/vcvo.N
-- Line 242, unix : TAU=T/vcvo.tdelta-1
-- Line 425, unix : TAU=T/vcvo.tdelta-1
-- Line 486, unix : shat=shat/vcvo.N
-- Line 524, unix : bhat=bhat + ZZsub/Tsub#sigmahatsub/(Tsub-1)/(Tsub-2)
-- Line 535, unix : bhat=bhat/N_panels
-- Line 1429, windows : printf("ivreg210_ranktest error\n")
-- Line 5243, unix : expo = 2/9
-- Line 5248, unix : expo = 4/25
-- Line 5254, unix : expo = 2/25
-- Line 5600, unix : W = W/sigmasq
-- Line 5678, unix : W = W/sigmasq
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/tables/04_table_B4_macro_political_risk_measures.do**
-
-- Line 133, unix : tex   	\hspace{0.5cm} Net FDI/GDP								&	t-5 $\rightarrow$ t		`row10'	\\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/_test_helpers.py**
-
-- Line 180, unix : source = 'input/test_script.%s' % extension
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/table_B4_macro_political_risk_measures.tex**
-
-- Line 19, unix : \hspace{0.5cm} Net FDI/GDP & t-5 $\rightarrow$ t &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.48 & (0.91) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.24 & (0.47) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.28 & (0.76) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.06 & (0.14) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.45 & (0.87) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.19 & (0.38) \end{tabular} \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_12_model_results.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_12_model_results.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C11_did_robust_weights.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C11_did_robust_weights.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C9_did_democracies.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C9_did_democracies.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/builders/executables.py**
-
-- Line 73, unix : 2. Check full/relative path or current directory:
-- Line 82, unix : full/relative path, then we check each directory in the
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/11_democracy_and_redistribution_appendix.tex**
-
-- Line 8, unix : \input{../figures/clean/figure_D9_explicit_redistribute_event_study.tex}
-- Line 16, unix : \input{../figures/clean/figure_D10_democratization_end_price_response.tex}
-- Line 22, unix : \input{../tables/clean/table_D16_inequality_price_decline.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_B5_adverse_probability.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 20, unix : \input{../tables/raw/table_B5a_adverse_probability_all.tex}
-- Line 29, unix : \input{../tables/raw/table_B5b_adverse_probability_div_yld.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_build_latex.py**
-
-- Line 1, unix : #! /usr/bin/env python
-- Line 40, unix : target = 'build/latex.pdf'
-- Line 56, unix : target = ['build/latex.pdf']
-- Line 71, unix : target = ['build/latex.pdf']
-- Line 100, unix : target = 'build/latex.pdf'
-- Line 101, unix : source = ['input/latex_test_file.tex']
-- Line 116, unix : build_latex('build/latex.pdf',
-- Line 117, unix : ['bad_dir/latex_test_file.tex'], env = {})
-- Line 120, unix : build_latex('build/latex.pdf',
-- Line 121, unix : ['input/nonexistent_file.tex'], env = {})
-- Line 131, unix : build_latex('nonexistent_directory/latex.pdf',
-- Line 132, unix : ['input/latex_test_file.tex'], env = True)
-- Line 137, unix : source = ['input/lyx_test_file.tex'],
-- Line 144, unix : source = ['input/lyx_test_file.tex'],
-- Line 151, unix : source = ['input/lyx_test_file.tex'],
-- Line 164, unix : source = ['input/latex_test_file.tex']
-- Line 165, unix : target = ['build/path_to_clean.pdf',
-- Line 166, unix : 'build/path_to_handout_.pdf',
-- Line 167, unix : 'build/path_to_handout__.pdf']
-- Line 187, unix : target = ['build/path_to_clean.pdf',
-- Line 188, unix : 'build/path_to_handout_.pdf',
-- Line 189, unix : 'build/path_to_handout__.pdf']
-- Line 190, unix : source = ['input/latex_test_file.tex']
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/numbers/05_section_6_numbers.py**
-
-- Line 20, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_6.tex'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/09_figure_D9_explicit_redistribute_event_study.do**
-
-- Line 41, unix : savedata(${FIGURES}/data/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp, replace)
-- Line 46, unix : savedata(${FIGURES}/data/figure_D9b_explicit_redistribute_event_study_swiid, replace)
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_5_anti_regime_event_study.tex**
-
-- Line 15, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_5b_event_study_democratic_protests.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_C4_sample_period_move.tex**
-
-- Line 14, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C4a_country_pair_falsification.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C4b_country_pair_falsification_aut.pdf} \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/raw/table_B4_macro_political_risk_measures.tex**
-
-- Line 19, unix : \hspace{0.5cm} Net FDI/GDP & t-5 $\rightarrow$ t &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.48 & (0.91) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.24 & (0.47) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.28 & (0.76) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.06 & (0.14) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.45 & (0.87) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.19 & (0.38) \end{tabular} \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/09_stylized_facts_appendix.tex**
-
-- Line 10, unix : \input{../tables/clean/table_B2_adverse_dividend_growth.tex}
-- Line 23, unix : \input{../tables/clean/table_B3_risk_premium.tex}
-- Line 25, windows : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
-- Line 50, unix : \input{../figures/clean/figure_B1_democracy_log_price.tex}
-- Line 63, unix : \input{../figures/clean/figure_B2_democracy_dividend_yield_specs.tex}
-- Line 70, unix : \input{../tables/clean/table_B4_macro_political_risk_measures.tex}
-- Line 76, unix : \input{../tables/clean/table_B5_adverse_probability.tex}
-- Line 78, unix : Additionally, in the panel dataset employed in this paper, data on equity prices is sometimes lost. It is possible that this missing data could bias the results if it represents a market shutdown and these shutdowns are more likely in democratizations and/or autocratizations. Column (6) shows that this also does not seem to be a concern, as missing data are no more likely to occur in either episode.
-- Line 87, unix : \input{../tables/clean/table_B6_democratize_risk_measures.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/03_assets/04_create_equity_returns.do**
-
-- Line 144, unix : gen gfd_eq_tr = gfd_total_ret_sup/L.gfd_total_ret_sup - 1
-- Line 163, unix : gen jst_xusd_mult = L.jst_xrusd/jst_xrusd
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/04_vatican_ii.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/04_vatican_ii.tex**
 
 - Line 53, unix : \input{../figures/clean/figure_5_anti_regime_event_study.tex}
 - Line 59, unix : \input{../tables/clean/table_6_balance_tests.tex}
 - Line 105, unix : \input{../tables/clean/table_7_did_results.tex}
 - Line 111, unix : \input{../figures/clean/figure_6_did_event_study_returns.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_3_democratization_vs_other_political_risk.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/conference/01_motivation.tex**
 
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_3_democratization_vs_other_political_risk.tex}
+- Line 57, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_1_dividend_yield_event_study.pdf} \\}
+- Line 59, mixed : \includegraphics[width=1\textwidth]{\figurepath/figure_1_dividend_yield_event_study.pdf} \\}
+- Line 60, unix : \textbf{Gordon growth intuition: dividend yield (prior 12-month dividends divided by price) is discount rate less expected cashflow growth, $D/P = r-g$. Data from 90 countries over 200 years.}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C10_removing_outliers.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/08_figure_8_autocratization_figure.py**
+
+- Line 21, unix : FIGURES = ROOT_PATH / 'source/figures'
+- Line 22, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
+- Line 57, unix : output_pdf = FIGURES / 'raw/figure_8_autocratization_model.pdf'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C10_removing_outliers.tex**
 
 - Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 - Line 12, unix : \input{../tables/raw/table_C10a_removing_outliers_short_sample.tex}
 - Line 17, unix : \input{../tables/raw/table_C10b_removing_outliers_long_sample.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C13_did_no_rolling_beta.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C13_did_no_rolling_beta.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/03_online_appendix.tex**
-
-- Line 76, windows : \usepackage[font=footnotesize, width=.9\textwidth]{caption}
-- Line 97, windows : %\usepackage[font=footnotesize, width=1\textwidth]{caption}
-- Line 310, windows : Successful and failed democratizations are determined using the aggregate democratization outcome (dem\_ep\_outcome\_agg) variable.  This measure yields four potential outcomes: (1) democratic transition, (2) no democratic transition, (3) deepened democracy, or (4) outcome censored. A democratization is coded as a democratic transition if ``the episode resulted in a change from autocracy to democracy on the [regimes of the world] measure followed by a democratic founding election.'' A democratization is coded with no democratic transition if ``the episode did not result in a change from autocracy to democracy on the [regimes of the world] measure; or it did result in a change between democracy and autocracy on the [regimes of the world] measure, but the political unit did not hold a democratic founding election before reverting to autocracy.'' A democratization is coded as a democratic deepening if ``the episode resulted in further liberalization or democratization of a political unit that was already classified as democracy in the pre-episode year.'' A democratization is coded as censored if the episode is ongoing in the final year of the data.  Both democratic transition and democratic deepening episodes are coded as successful democratizations whereas episodes without a democratic transition are coded as failed.
-- Line 354, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 377, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 404, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 415, windows : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
-- Line 453, windows : \includegraphics[width=.45\textwidth]{figure_B1a_log_price_event_study.pdf} & \includegraphics[width=.45\textwidth]{figure_B1a_log_price_event_study_lp.pdf} \\
-- Line 455, windows : \includegraphics[width=.45\textwidth]{figure_B1b_log_dividend_growth_event_study.pdf} & \includegraphics[width=.45\textwidth]{figure_B1b_log_dividend_growth_event_study_lp.pdf} \\
-- Line 457, windows : \includegraphics[width=.45\textwidth]{figure_B1c_log_gdp_per_capita_event_study.pdf} & \includegraphics[width=.45\textwidth]{figure_B1c_log_gdp_per_capita_event_study_lp.pdf}
-- Line 485, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_1.pdf} &
-- Line 486, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_2.pdf} &
-- Line 487, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_3.pdf} &
-- Line 488, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_4.pdf} \\
-- Line 490, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_1_lp.pdf} &
-- Line 491, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_2_lp.pdf} &
-- Line 492, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_3_lp.pdf} &
-- Line 493, windows : \includegraphics[width=.35\textwidth]{figure_B2_dividend_yield_event_study_4_lp.pdf}
-- Line 508, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 528, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 557, unix : Additionally, in the panel dataset employed in this paper, data on equity prices is sometimes lost. It is possible that this missing data could bias the results if it represents a market shutdown and these shutdowns are more likely in democratizations and/or autocratizations. Column (6) shows that this also does not seem to be a concern, as missing data are no more likely to occur in either episode.
-- Line 570, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 592, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 621, windows : \includegraphics[width=.9\textwidth]{figure_C3_democracy_activity_mobil.pdf}
-- Line 635, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 663, windows : \includegraphics[width=.45\textwidth]{figure_C4a_country_pair_falsification.pdf}& \includegraphics[width=.45\textwidth]{figure_C4b_country_pair_falsification_aut.pdf} \\
-- Line 675, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 702, windows : \includegraphics[width=.45\textwidth]{figure_C5a_window_end_date_all.pdf} & \includegraphics[width=.45\textwidth]{figure_C5b_window_end_date_aut.pdf}
-- Line 725, windows : \includegraphics[width=.45\textwidth]{figure_C6a_country_pair_PE_short.pdf}& \includegraphics[width=.45\textwidth]{figure_C6a_country_pair_T_short.pdf} \\
-- Line 730, windows : \includegraphics[width=.45\textwidth]{figure_C6b_country_pair_PE_short_aut.pdf}& \includegraphics[width=.45\textwidth]{figure_C6b_country_pair_T_short_aut.pdf} \\
-- Line 750, windows : \includegraphics[width=.45\textwidth]{figure_C7a_country_pair_PE_long.pdf}& \includegraphics[width=.45\textwidth]{figure_C7a_country_pair_T_long.pdf} \\
-- Line 755, windows : \includegraphics[width=.45\textwidth]{figure_C7b_country_pair_PE_long_aut.pdf}& \includegraphics[width=.45\textwidth]{figure_C7b_country_pair_T_long_aut.pdf} \\
-- Line 770, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 792, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 815, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 836, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 861, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 888, windows : \includegraphics[width=.95\textwidth]{figure_C8_dividend_yield_event_study.pdf}
-- Line 898, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 928, windows : \includegraphics[width=.45\textwidth]{figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf}& \includegraphics[width=.45\textwidth]{figure_D9b_explicit_redistribute_event_study_swiid.pdf}
-- Line 948, windows : \includegraphics[width=1\textwidth]{figure_D10a_democratize_price_response_succ.pdf} \\
-- Line 949, windows : \includegraphics[width=1\textwidth]{figure_D10b_democratize_price_response_ld.pdf}
-- Line 961, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 1179, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$. This means that the solution is given by the solution to the system of equations
-- Line 1187, windows : \kappa(\mu^{3})^{\alpha}(qZ_H^{1-\gamma} + (1-q)Z_L^{1-\gamma})
-- Line 1208, windows : \kappa(\mu^{3})^{\alpha-1}(qZ_H^{-\gamma} + (1-q)Z_L^{-\gamma})
-- Line 1257, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$.  This means that the solution is given by the solution to the system of equations
-- Line 1272, windows : with $k\in\{H,L\}$. This system of equations can be solved numerically.
-- Line 1286, windows : where again $k\in\{H,L\}$. This can also be solved numerically.
-- Line 1306, windows : \includegraphics[width=1\textwidth]{figure_F12_sweden_case_study.pdf}
-- Line 1332, windows : \includegraphics[width=1\textwidth]{figure_F13_france_case_study.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/06_model.tex**
-
-- Line 160, unix : \input{../tables/clean/table_11_model_calibration.tex}
-- Line 182, unix : \input{../tables/clean/table_12_model_results.tex}
-- Line 278, unix : \input{../figures/clean/figure_8_autocratization_model.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_B3_risk_premium.tex**
-
-- Line 6, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 13, unix : \input{../tables/raw/table_B3_risk_premium.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/08_data_appendix.tex**
-
-- Line 165, windows : Successful and failed democratizations are determined using the aggregate democratization outcome (dem\_ep\_outcome\_agg) variable.  This measure yields four potential outcomes: (1) democratic transition, (2) no democratic transition, (3) deepened democracy, or (4) outcome censored. A democratization is coded as a democratic transition if ``the episode resulted in a change from autocracy to democracy on the [regimes of the world] measure followed by a democratic founding election.'' A democratization is coded with no democratic transition if ``the episode did not result in a change from autocracy to democracy on the [regimes of the world] measure; or it did result in a change between democracy and autocracy on the [regimes of the world] measure, but the political unit did not hold a democratic founding election before reverting to autocracy.'' A democratization is coded as a democratic deepening if ``the episode resulted in further liberalization or democratization of a political unit that was already classified as democracy in the pre-episode year.'' A democratization is coded as censored if the episode is ongoing in the final year of the data.  Both democratic transition and democratic deepening episodes are coded as successful democratizations whereas episodes without a democratic transition are coded as failed.
-- Line 205, unix : \input{../tables/clean/table_A1_summary_statistics.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_9_implicit_redistribution.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_9_implicit_redistribution.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/rangestat.ado**
-
-- Line 932, unix : return(mean(dev:^3) :/ (mean(dev:^2)):^(3/2))
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/04_merging/01_create_section_3_and_5_data.do**
-
-- Line 75, unix : gen efi_5c_scale = efi_5c/10
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_C3_democracy_activity_mobil.tex**
-
-- Line 17, mixed : \includegraphics[width=.9\textwidth]{../figures/raw/figure_C3_democracy_activity_mobil.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/raw/table_12_model_results.tex**
-
-- Line 8, windows : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/model/democratization_model.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/model/democratization_model.py**
 
 - Line 6, unix : and price-dividend ratio. Analysis functions live in source/analysis/model/.
 - Line 223, unix : m = DemocratizationModel(ROOT_PATH / 'source/derived/model/baseline_params.json')
 - Line 232, unix : m_hg = DemocratizationModel(ROOT_PATH / 'source/derived/model/baseline_params_higher_growth.json')
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_C8_dividend_yield_event_study.tex**
-
-- Line 13, mixed : \includegraphics[width=.95\textwidth]{../figures/raw/figure_C8_dividend_yield_event_study.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_2_cashflow_growth.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_2_cashflow_growth.tex**
 
 - Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 - Line 12, unix : \input{../tables/raw/table_2_cashflow_growth.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/02_macro_political/01_create_inflation.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/_side_effects.py**
 
-- Line 110, unix : replace vdem_cpi_g = vdem_cpi_g/100
+- Line 40, windows : log_file.write(b'Test log\n')
+- Line 150, windows : option_type    = re.findall(r'^(-\w+)',  option)[0]
+- Line 160, windows : log_file.write(b'Test log\n')
+- Line 169, unix : existing_files = ['test_script.lyx', 'input/lyx_test_file.lyx', 'build/path_to_clean.lyx']
+- Line 182, unix : existing_files = ['input/lyx_test_file.lyx', 'input/latex_test_file.tex', 'build/path_to_clean.pdf']
+- Line 213, windows : option1_type = re.findall(r'^(-\w+)', option1)[0]
+- Line 214, windows : option2_type = re.findall(r'^(-\w+)', option2)[0]
+- Line 224, windows : log_file.write(b'Test log\n')
+- Line 233, unix : existing_files = ['test_script.tex', 'input/latex_test_file.tex']
+- Line 261, windows : log_file.write(b'Test log\n')
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/estout.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_B1_democracy_log_price.tex**
 
-- Line 4481, windows : local brdrt "\clbrdrt\brdrw10\brdrs"
-- Line 4482, windows : local brdrb "\clbrdrb\brdrw10\brdrs"
-- Line 4483, windows : local emptycell "\pard\intbl\ql\cell"
+- Line 14, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1a_log_price_event_study.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1a_log_price_event_study_lp.pdf} \\
+- Line 16, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf} \\
+- Line 18, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_7_did_results.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/input/tablefill_template.tex**
 
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_7_did_results.tex}
+- Line 56, windows : & Baseline & No Unobservables\tabularnewline
+- Line 86, windows : & Markets with & Share of hhlds & Share of hhlds\tabularnewline
+- Line 87, windows : & diverse & in mkt with & reading\tabularnewline
+- Line 88, windows : & papers & diverse papers & diverse papers\tabularnewline
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/esplot.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/tables/04_table_B4_macro_political_risk_measures.do**
 
-- Line 9, unix : to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+- Line 133, unix : tex   	\hspace{0.5cm} Net FDI/GDP								&	t-5 $\rightarrow$ t		`row10'	\\
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreghdfe.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/table_B4_macro_political_risk_measures.tex**
 
-- Line 4902, unix : expo = 2/9
-- Line 4907, unix : expo = 4/25
-- Line 4913, unix : expo = 2/25
+- Line 19, unix : \hspace{0.5cm} Net FDI/GDP & t-5 $\rightarrow$ t &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.48 & (0.91) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.24 & (0.47) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.28 & (0.76) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.06 & (0.14) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.45 & (0.87) \end{tabular} &\begin{tabular}{@{}p{1.1cm}p{1.1cm}@{}} 0.19 & (0.38) \end{tabular} \\
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/numbers/02_section_3_numbers.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/13_case_studies.tex**
 
-- Line 18, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_3.tex'
+- Line 10, unix : \input{../figures/clean/figure_F12_sweden_case_study.tex}
+- Line 26, unix : \input{../figures/clean/figure_F13_france_case_study.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/03_assets/03_create_dividend_yields.do**
-
-- Line 67, unix : forvalues i = 1/5 {
-- Line 127, unix : forvalues i = 1/5 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_misc.py**
-
-- Line 1, unix : #! /usr/bin/env python
-- Line 62, unix : @mock.patch('%s.os.environ' % path, {'PATH': '/bin:usrs/local'})
-- Line 74, unix : self.assertEqual(misc.is_in_path('stata'), str(Path('/bin/stata')))
-- Line 87, unix : execute_files = [str(Path('/bin/stata')),
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/model/gradual_redistribution_model.py**
-
-- Line 19, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
-- Line 30, unix : α = (1-γ)/(1-(1/ψ))
-- Line 109, unix : Δdp = np.log(1/pd[1]) - np.log(1/pd[0])
-- Line 113, unix : print(1/pd[1] - 1/pd[0])
-- Line 114, unix : print(1/pd)
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/numbers/04_section_5_numbers.py**
-
-- Line 18, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_5.tex'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/06_table_6_balance_tests.do**
-
-- Line 55, unix : tex \hspace{0.5cm} Debt/GDP (\%) 							& `_7_1_str'	&`_7_2_str' 	&`_7_3_str'	    &`_7_4_str' 	&`_7_5_str'		\\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/miller_2025.tex**
-
-- Line 33, unix : \input{numbers/section_3.tex}
-- Line 34, unix : \input{numbers/section_4.tex}
-- Line 35, unix : \input{numbers/section_5.tex}
-- Line 36, unix : \input{numbers/section_6.tex}
-- Line 76, windows : \usepackage[font=footnotesize, width=.9\textwidth]{caption}
-- Line 97, windows : %\usepackage[font=footnotesize, width=1\textwidth]{caption}
-- Line 152, unix : \input{subsections/01_introduction.tex}
-- Line 153, unix : \input{subsections/02_data.tex}
-- Line 154, unix : \input{subsections/03_stylized_facts.tex}
-- Line 155, unix : \input{subsections/04_vatican_ii.tex}
-- Line 156, unix : \input{subsections/05_democracy_and_redistribution.tex}
-- Line 157, unix : \input{subsections/06_model.tex}
-- Line 158, unix : \input{subsections/07_conclusion.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_D16_inequality_price_decline.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 16, unix : \input{../tables/raw/table_D16_inequality_price_decline.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_build_python.py**
-
-- Line 1, unix : #! /usr/bin/env python
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/02_macro_political/02_create_pwt_data.do**
-
-- Line 51, unix : gen IK = Ic/Nc
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_F12_sweden_case_study.tex**
-
-- Line 10, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_F12_sweden_case_study.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_4_revolution_risk.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_4_revolution_risk.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_C7_probability_democratize_post_vatican_ii.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_C7_probability_democratize_post_vatican_ii.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_C5_window_end_date.tex**
-
-- Line 13, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C5a_window_end_date_all.pdf} & \includegraphics[width=.45\textwidth]{../figures/raw/figure_C5b_window_end_date_aut.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ranktest.ado**
-
-- Line 767, windows : printf("ranktest error\n")
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_11_model_calibration.tex**
-
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_11_model_calibration.tex}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/builders/build_tables.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/builders/build_tables.py**
 
 - Line 12, unix : table from (i) an empty table in a LyX/Tex file and (ii) text files
 - Line 21, unix : should be the LyX/Tex file specifying the table format. The subsequent
 - Line 61, windows : f.write('\n\n')
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/greshape.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_4_regional_waves.tex**
+
+- Line 10, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_4_regional_waves.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/estout.ado**
+
+- Line 4481, windows : local brdrt "\clbrdrt\brdrw10\brdrs"
+- Line 4482, windows : local brdrb "\clbrdrb\brdrw10\brdrs"
+- Line 4483, windows : local emptycell "\pard\intbl\ql\cell"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/gtools.ado**
+
+- Line 95, unix : cap noi do `github'/build/gtools_tests.do `tests'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/03_assets/01_factset_clean.do**
+
+- Line 50, unix : gen factset_div_yld = FF_DPS/price
+- Line 60, unix : gen factset_eq_capgain = price/L.price - 1
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_C3_democracy_activity_mobil.tex**
+
+- Line 17, mixed : \includegraphics[width=.9\textwidth]{../figures/raw/figure_C3_democracy_activity_mobil.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_D10_democratization_end_price_response.tex**
+
+- Line 11, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_D10a_democratize_price_response_succ.pdf} \\
+- Line 12, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_D10b_democratize_price_response_ld.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/builders/build_lyx.py**
+
+- Line 91, unix : has the correct suffix and/or extension. Raise value error if intended
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C12_did_global_capm.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C12_did_global_capm.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_D16_inequality_price_decline.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 16, unix : \input{../tables/raw/table_D16_inequality_price_decline.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/greshape.ado**
 
 - Line 1292, windows : errprintf("%s type mismatch with other %s variables\n",
 - Line 1298, windows : errprintf("strL variables not supported\n")
 - Line 1350, windows : errprintf("unknown variable type: %s\n", v)
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/table_8_explicit_redistribution.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C8_did_first_vatican.tex**
 
-- Line 4, unix : & \multicolumn{1}{c}{$\Delta$ Govt Rev/GDP} & \multicolumn{1}{c}{$\Delta$ Tax Rev/GDP} & \multicolumn{1}{c}{$\Delta$ Gini Coef} & \multicolumn{1}{c}{$\Delta$ Labor Share Emp} \\ \cmidrule(lr){2-5}
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C8_did_first_vatican.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_build_lyx.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/04_figure_C4_sample_period_move.do**
+
+- Line 49, unix : forvalues i = -8/8 {
+- Line 91, unix : forvalues i = -8/8 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/08_table_8_explicit_redistribution.do**
+
+- Line 45, unix : replace govt_rev_gdp = govt_rev_gdp/100
+- Line 46, unix : replace swiid_gini_mkt = swiid_gini_mkt/100
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/tables/03_table_B3_risk_premium.do**
+
+- Line 267, unix : tex   	\hspace{0.5cm} (17) 5-year log P/E ratio change			`row17'	\\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_build_lyx.py**
 
 - Line 1, unix : #! /usr/bin/env python
 - Line 41, unix : target = 'build/lyx.pdf'
@@ -4040,24 +4151,114 @@
 - Line 163, unix : 'build/path_to_handout__.pdf']
 - Line 164, unix : source = ['input/lyx_test_file.lyx']
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/13_case_studies.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_6_did_event_study_returns.tex**
 
-- Line 10, unix : \input{../figures/clean/figure_F12_sweden_case_study.tex}
-- Line 26, unix : \input{../figures/clean/figure_F13_france_case_study.tex}
+- Line 13, mixed : \includegraphics[width=.95\textwidth]{../figures/raw/figure_6_did_event_study_returns.pdf}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tablefill_info.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/12_table_12_model_results.py**
+
+- Line 20, unix : TABLES = ROOT_PATH / 'source/tables/raw'
+- Line 21, unix : NUMBERS = ROOT_PATH / 'source/numbers'
+- Line 23, unix : PARAMS_PATH = ROOT_PATH / 'source/derived/model/baseline_params.json'
+- Line 24, unix : PARAMS_PATH_HIGHER_GROWTH = ROOT_PATH / 'source/derived/model/baseline_params_higher_growth.json'
+- Line 53, windows : Tax increase $\\tau^D-\\tau^A$  & & {m.Δτ:.3f}   \\\\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_B5_adverse_probability.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 20, unix : \input{../tables/raw/table_B5a_adverse_probability_all.tex}
+- Line 29, unix : \input{../tables/raw/table_B5b_adverse_probability_div_yld.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/reghdfe5.ado**
+
+- Line 73, windows : if (!`online') net install ftools, from("c:\git\ftools\src")
+- Line 83, windows : if (!`online') net install reghdfe, from("c:\git\reghdfe\src")
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_11_model_calibration.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_11_model_calibration.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/builders/build_matlab.py**
+
+- Line 82, windows : fprintf('%s: %s\\n', me.identifier, me.message),
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/builders/executables.py**
+
+- Line 73, unix : 2. Check full/relative path or current directory:
+- Line 82, unix : full/relative path, then we check each directory in the
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/09_stylized_facts_appendix.tex**
+
+- Line 10, unix : \input{../tables/clean/table_B2_adverse_dividend_growth.tex}
+- Line 23, unix : \input{../tables/clean/table_B3_risk_premium.tex}
+- Line 25, windows : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
+- Line 50, unix : \input{../figures/clean/figure_B1_democracy_log_price.tex}
+- Line 63, unix : \input{../figures/clean/figure_B2_democracy_dividend_yield_specs.tex}
+- Line 70, unix : \input{../tables/clean/table_B4_macro_political_risk_measures.tex}
+- Line 76, unix : \input{../tables/clean/table_B5_adverse_probability.tex}
+- Line 78, unix : Additionally, in the panel dataset employed in this paper, data on equity prices is sometimes lost. It is possible that this missing data could bias the results if it represents a market shutdown and these shutdowns are more likely in democratizations and/or autocratizations. Column (6) shows that this also does not seem to be a concern, as missing data are no more likely to occur in either episode.
+- Line 87, unix : \input{../tables/clean/table_B6_democratize_risk_measures.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_D9_explicit_redistribute_event_study.tex**
+
+- Line 13, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ranktest.ado**
+
+- Line 767, windows : printf("ranktest error\n")
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_log.py**
+
+- Line 1, unix : #! /usr/bin/env python
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/compile_paper.py**
+
+- Line 1, unix : #!/usr/bin/env python3
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/03_assets/02_ibes_global_clean.do**
+
+- Line 47, unix : gen ibes_eq_capgain = Price/L.Price - 1
+- Line 48, unix : gen ibes_div_yld = DivYLD/100
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tablefill_info.py**
 
 - Line 3, unix : #  tablefill_info.py - Help/Documentation for tablefill.py
 - Line 7, unix : tablefill.py is a Python module designed to fill LyX/Tex tables with output
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_build_matlab.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_build_r.py**
 
 - Line 1, unix : #! /usr/bin/env python
-- Line 81, unix : build_matlab(target = 'build/test.mat',
-- Line 82, unix : source = 'input/test_script.m',
-- Line 109, unix : source = 'input/test_script.m',
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/01_main_body.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/numbers/05_section_6_numbers.py**
+
+- Line 20, unix : OUTPUT_PATH = ROOT_PATH / 'source/paper/numbers/section_6.tex'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_2_physical_human_capital.tex**
+
+- Line 9, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_2_physical_human_capital.pdf}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_C7_country_pair_1939_1983.tex**
+
+- Line 16, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7a_country_pair_PE_long.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7a_country_pair_T_long.pdf} \\
+- Line 21, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C7b_country_pair_T_long_aut.pdf} \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ranktest9.ado**
+
+- Line 668, windows : printf("ranktest error\n")
+- Line 781, windows : printf("{err}bandwidth option bw() required for HAC-robust estimation\n")
+- Line 792, windows : printf("{err}Automatic bandwidth selection not available for panel data\n")
+- Line 824, windows : printf("{err}invalid kernel\n")
+- Line 835, windows : printf("{result} and bw=1 implies zero lags used.  Standard errors and\n")
+- Line 889, unix : TAU=T/vcvo.tdelta-1
+- Line 923, unix : shat=shat/vcvo.N
+- Line 955, unix : TAU=T/vcvo.tdelta-1
+- Line 1138, unix : TAU=T/vcvo.tdelta-1
+- Line 1199, unix : shat=shat/vcvo.N
+- Line 1237, unix : bhat=bhat + ZZsub/Tsub#sigmahatsub/(Tsub-1)/(Tsub-2)
+- Line 1248, unix : bhat=bhat/N_panels
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/01_main_body.tex**
 
 - Line 76, windows : \usepackage[font=footnotesize, width=.9\textwidth]{caption}
 - Line 97, windows : %\usepackage[font=footnotesize, width=1\textwidth]{caption}
@@ -4075,144 +4276,109 @@
 - Line 1026, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 - Line 1043, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/join.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_3_gdp_consumption_distributions.tex**
 
-- Line 51, unix : keep_nums: {1, 3, 1 3} depending on whether we keep master/match
-- Line 247, unix : forval i = 1/3 {
-- Line 449, windows : msg = "{err}merge:  variable %s already exists in master dataset\n"
+- Line 11, mixed : \includegraphics[width=.47\textwidth]{../figures/raw/figure_3a_gdp_growth_distribution.pdf}& \includegraphics[width=.47\textwidth]{../figures/raw/figure_3b_consumption_growth_distribution.pdf}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg28.ado**
-
-- Line 1052, unix : scalar `T_bar' = 1/r(mean)
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_C6_country_pair_1946_1976.tex**
-
-- Line 16, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6a_country_pair_PE_short.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6a_country_pair_T_short.pdf} \\
-- Line 21, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C6b_country_pair_T_short_aut.pdf} \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/event_study.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/event_study.ado**
 
 - Line 122, unix : forval i = 0/203 {
 - Line 125, unix : forval i = 1/203 {
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_A1_summary_statistics.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/figures/clean/figure_F13_france_case_study.tex**
 
-- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-- Line 12, unix : \input{../tables/raw/table_A1_summary_statistics.tex}
+- Line 10, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_F13_france_case_study.pdf}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_D10_democratization_end_price_response.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/06_figure_6_returns_event_study.do**
 
-- Line 11, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_D10a_democratize_price_response_succ.pdf} \\
-- Line 12, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_D10b_democratize_price_response_ld.pdf}
+- Line 51, unix : event_study capm_unexp2_smooth5 svc, tlags(9 17) reflag(1) cluster(country_id year) absorb(country_id year) controls($EC $CC ) savedata($FIGURES/data/figure_6_did_event_study_returns)
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_3_gdp_consumption_distributions.tex**
-
-- Line 11, mixed : \includegraphics[width=.47\textwidth]{../figures/raw/figure_3a_gdp_growth_distribution.pdf}& \includegraphics[width=.47\textwidth]{../figures/raw/figure_3b_consumption_growth_distribution.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/reghdfe3.ado**
-
-- Line 1444, windows : if (S.verbose==4 & method!="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e\n", iter, update_error)
-- Line 1445, windows : if (S.verbose==4 & method=="hestenes") printf("{txt} iter={res}%4.0f{txt}\tupdate_error={res}%-9.6e  {txt}norm(ssr)={res}%g\n", iter, update_error, norm(y_new))
-- Line 1705, windows : basestring = "{txt}   - FE%f ({res}%s{txt}): {col 40}K=%f {col 50}M=%f {col 60}is_exact=%f\n"
-- Line 1790, unix : b) In the DoF of the F and t tests (not when doing chi/normal)
-- Line 4451, unix : forv i=2/5 {
-- Line 4460, unix : forv i=2/5 {
-- Line 4498, unix : forval i = 2/5 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/_side_effects.py**
-
-- Line 40, windows : log_file.write(b'Test log\n')
-- Line 150, windows : option_type    = re.findall(r'^(-\w+)',  option)[0]
-- Line 160, windows : log_file.write(b'Test log\n')
-- Line 169, unix : existing_files = ['test_script.lyx', 'input/lyx_test_file.lyx', 'build/path_to_clean.lyx']
-- Line 182, unix : existing_files = ['input/lyx_test_file.lyx', 'input/latex_test_file.tex', 'build/path_to_clean.pdf']
-- Line 213, windows : option1_type = re.findall(r'^(-\w+)', option1)[0]
-- Line 214, windows : option2_type = re.findall(r'^(-\w+)', option2)[0]
-- Line 224, windows : log_file.write(b'Test log\n')
-- Line 233, unix : existing_files = ['test_script.tex', 'input/latex_test_file.tex']
-- Line 261, windows : log_file.write(b'Test log\n')
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/03_assets/01_factset_clean.do**
-
-- Line 50, unix : gen factset_div_yld = FF_DPS/price
-- Line 60, unix : gen factset_eq_capgain = price/L.price - 1
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/gtools.ado**
-
-- Line 95, unix : cap noi do `github'/build/gtools_tests.do `tests'
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/additional/03_figure_B3_democracy_IK_specs.do**
-
-- Line 45, unix : forvalues spec = 1/4 {
-- Line 50, unix : savedata(${FIGURES}/data/figure_B3_IK_event_study_`spec', replace)
-- Line 55, unix : savedata(${FIGURES}/data/figure_B3_hc_event_study_`spec', replace)
-- Line 59, unix : forvalues spec = 1/4 {
-- Line 140, unix : forvalues spec = 1/4 {
-- Line 184, unix : forvalues spec = 1/4 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/test_build_r.py**
-
-- Line 1, unix : #! /usr/bin/env python
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/04_figure_C4_sample_period_move.do**
-
-- Line 49, unix : forvalues i = -8/8 {
-- Line 91, unix : forvalues i = -8/8 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/input/tablefill_template_breaks.tex**
-
-- Line 56, windows : & Baseline & No Unobservables\tabularnewline
-- Line 86, windows : & Markets with & Share of hhlds & Share of hhlds\tabularnewline
-- Line 87, windows : & diverse & in mkt with & reading\tabularnewline
-- Line 88, windows : & papers & diverse papers & diverse papers\tabularnewline
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/12_model_appendix.tex**
-
-- Line 143, unix : \input{../figures/clean/figure_E11_equilibrium_mu.tex}
-- Line 173, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$. This means that the solution is given by the solution to the system of equations
-- Line 181, windows : \kappa(\mu^{3})^{\alpha}(qZ_H^{1-\gamma} + (1-q)Z_L^{1-\gamma})
-- Line 202, windows : \kappa(\mu^{3})^{\alpha-1}(qZ_H^{-\gamma} + (1-q)Z_L^{-\gamma})
-- Line 251, unix : where $\kappa \equiv W/C$ is the cum-dividend wealth-consumption ratio. Conjecture that $\kappa$ is constant in each state of $\mu$.  This means that the solution is given by the solution to the system of equations
-- Line 266, windows : with $k\in\{H,L\}$. This system of equations can be solved numerically.
-- Line 280, windows : where again $k\in\{H,L\}$. This can also be solved numerically.
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/clean/figure_4_regional_waves.tex**
-
-- Line 10, mixed : \includegraphics[width=1\textwidth]{../figures/raw/figure_4_regional_waves.pdf}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/clean/table_5_regional_waves_instrument.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_5_regional_waves_instrument.tex**
 
 - Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 - Line 12, unix : \input{../tables/raw/table_5_regional_waves_instrument.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tests/__init__.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/backup/09_section_4_appendix.tex**
 
-- Line 9, unix : To run a single script, run `pytest path/to/script.py`, e.g.
-- Line 16, unix : - On Windows (CMD): SET JMSLAB_EXE_STATA=/path to/stata.exe
+- Line 9, unix : \input{\tablepath/table_6_balance_tests.tex}
+- Line 19, mixed : \includegraphics[width=.8\textwidth]{\figurepath/figure_C3_democracy_activity_mobil.pdf}
+- Line 30, mixed : \includegraphics[width=.45\textwidth]{../figures/raw/figure_C4a_country_pair_falsification.pdf}& \includegraphics[width=.45\textwidth]{../figures/raw/figure_C4b_country_pair_falsification_aut.pdf} \\
+- Line 41, mixed : \includegraphics[width=.8\textwidth]{\figurepath/figure_C5a_window_end_date_all.pdf}
+- Line 51, mixed : \includegraphics[width=.8\textwidth]{\figurepath/figure_C5b_window_end_date_aut.pdf}
+- Line 63, mixed : \includegraphics[width=.475\textwidth]{\figurepath/figure_C6b_country_pair_PE_short_aut.pdf}& \includegraphics[width=.475\textwidth]{\figurepath/figure_C6b_country_pair_T_short_aut.pdf}
+- Line 76, mixed : \includegraphics[width=.475\textwidth]{\figurepath/figure_C6a_country_pair_PE_short.pdf}& \includegraphics[width=.475\textwidth]{\figurepath/figure_C6a_country_pair_T_short.pdf}
+- Line 89, mixed : \includegraphics[width=.475\textwidth]{\figurepath/figure_C7a_country_pair_PE_long.pdf}& \includegraphics[width=.475\textwidth]{\figurepath/figure_C7b_country_pair_PE_long_aut.pdf}
+- Line 100, mixed : \includegraphics[width=.95\textwidth]{\figurepath/figure_C8_dividend_yield_event_study.pdf}
+- Line 116, unix : \input{\tablepath/table_C7_probability_democratize_post_vatican_ii.tex}
+- Line 130, unix : \input{\tablepath/table_C8_did_first_vatican.tex}
+- Line 143, unix : \input{\tablepath/table_C9_did_democracies.tex}
+- Line 160, unix : \input{\tablepath/table_C10a_removing_outliers_short_sample.tex}
+- Line 174, unix : \input{\tablepath/table_C10b_removing_outliers_long_sample.tex}
+- Line 188, unix : \input{\tablepath/table_C11_did_robust_weights.tex}
+- Line 200, unix : \input{\tablepath/table_C12_did_global_capm.tex}
+- Line 212, unix : \input{\tablepath/table_C13_did_no_rolling_beta.tex}
+- Line 227, unix : \input{\tablepath/table_C14_did_results_country_bonds.tex}
+- Line 243, unix : \input{\tablepath/table_C15_did_capital_gains.tex}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ranktest9.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg29.ado**
 
-- Line 668, windows : printf("ranktest error\n")
-- Line 781, windows : printf("{err}bandwidth option bw() required for HAC-robust estimation\n")
-- Line 792, windows : printf("{err}Automatic bandwidth selection not available for panel data\n")
-- Line 824, windows : printf("{err}invalid kernel\n")
-- Line 835, windows : printf("{result} and bw=1 implies zero lags used.  Standard errors and\n")
-- Line 889, unix : TAU=T/vcvo.tdelta-1
-- Line 923, unix : shat=shat/vcvo.N
-- Line 955, unix : TAU=T/vcvo.tdelta-1
-- Line 1138, unix : TAU=T/vcvo.tdelta-1
-- Line 1199, unix : shat=shat/vcvo.N
-- Line 1237, unix : bhat=bhat + ZZsub/Tsub#sigmahatsub/(Tsub-1)/(Tsub-2)
-- Line 1248, unix : bhat=bhat/N_panels
+- Line 5859, unix : oneT = 1/T
+- Line 5860, unix : expo = 2/9
+- Line 5865, unix : expo = 4/25
+- Line 5870, unix : expo = 2/25
+- Line 5971, windows : printf("{err}bandwidth option bw() required for HAC-robust estimation\n")
+- Line 5982, windows : printf("{err}Automatic bandwidth selection not available for panel data\n")
+- Line 6014, windows : printf("{err}invalid kernel\n")
+- Line 6025, windows : printf("{result} and bw=1 implies zero lags used.  Standard errors and\n")
+- Line 6081, unix : TAU=T/vcvo.tdelta-1
+- Line 6115, unix : shat=shat/vcvo.N
+- Line 6147, unix : TAU=T/vcvo.tdelta-1
+- Line 6330, unix : TAU=T/vcvo.tdelta-1
+- Line 6391, unix : shat=shat/vcvo.N
+- Line 6429, unix : bhat=bhat + ZZsub/Tsub#sigmahatsub/(Tsub-1)/(Tsub-2)
+- Line 6440, unix : bhat=bhat/N_panels
+- Line 7178, windows : printf("ivreg29_ranktest error\n")
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/tables/17_table_G17_ert_democracy.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tablefill.py**
 
-- Line 19, unix : REGIME_CHANGE_ORIG = DATASTORE_PATH / 'raw/regime_change/orig'
-- Line 20, unix : CROSSWALKS = DATASTORE_PATH / 'raw/crosswalks'
-- Line 21, unix : ANALYSIS_DERIVED = DATASTORE_PATH / 'derived/analysis'
-- Line 22, unix : TABLES_OUTPUT = ROOT_PATH / 'source/tables/raw'
+- Line 1, unix : #! /usr/bin/env python
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/builders/build_lyx.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreghdfe.ado**
 
-- Line 91, unix : has the correct suffix and/or extension. Raise value error if intended
+- Line 4902, unix : expo = 2/9
+- Line 4907, unix : expo = 4/25
+- Line 4913, unix : expo = 2/25
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/03_assets/03_create_dividend_yields.do**
+
+- Line 67, unix : forvalues i = 1/5 {
+- Line 127, unix : forvalues i = 1/5 {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg2.ado**
+
+- Line 4845, unix : expo = 2/9
+- Line 4850, unix : expo = 4/25
+- Line 4856, unix : expo = 2/25
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tests/test_build_matlab.py**
+
+- Line 1, unix : #! /usr/bin/env python
+- Line 81, unix : build_matlab(target = 'build/test.mat',
+- Line 82, unix : source = 'input/test_script.m',
+- Line 109, unix : source = 'input/test_script.m',
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_4_revolution_risk.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_4_revolution_risk.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_6_balance_tests.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_6_balance_tests.tex}
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/tables/clean/table_C7_probability_democratize_post_vatican_ii.tex**
+
+- Line 5, windows : \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+- Line 12, unix : \input{../tables/raw/table_C7_probability_democratize_post_vatican_ii.tex}
 

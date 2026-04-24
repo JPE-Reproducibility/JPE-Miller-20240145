@@ -1,0 +1,1935 @@
+*** Builder log created: {2026-04-08 12:38:02}
+*** Builder log completed: {2026-04-08 12:38:19}
+Python did not run successfully. Please check that the executable, source, and target files are correctly specified. Check source/paper/sconscript.log and sconstruct.log for errors. 
+Command tried: "python"  source/paper/compile_paper.py  > source/paper/sconscript.log
+Error running: pdflatex -interaction=nonstopmode -halt-on-error -file-line-error miller_2025.tex
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./miller_2025.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty)))))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))))
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(./numbers/section_3.tex) (./numbers/section_4.tex) (./numbers/section_5.tex)
+(./numbers/section_6.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+(/usr/share/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty)
+
+Package xr Warning: 
+No file online_appendix.aux
+LABELS NOT IMPORTED.
+ on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file miller_2025.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(86.72377pt, 440.84746pt, 86.72377pt)
+* v-part:(T,H,B)=(86.72377pt, 621.52245pt, 86.72377pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=440.84746pt
+* \textheight=621.52245pt
+* \oddsidemargin=14.45378pt
+* \evensidemargin=14.45378pt
+* \topmargin=-25.42122pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 125.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1
+
+pdfTeX warning: pdflatex (file pdftex.map): cannot open font map file
+] (./subsections/01_introduction.tex
+
+Package natbib Warning: Citation `Marx1848' on page 1 undefined on input line 4
+.
+
+
+Package natbib Warning: Citation `Lipset1959' on page 1 undefined on input line
+ 4.
+
+
+Package natbib Warning: Citation `Moore1966' on page 1 undefined on input line 
+4.
+
+
+Package natbib Warning: Citation `Boix2003' on page 1 undefined on input line 4
+.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 1 undefined on input li
+ne 4.
+
+
+Package natbib Warning: Citation `Ansell2010' on page 1 undefined on input line
+ 4.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 1 undefined on input li
+ne 4.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 
+      [1]
+
+Package natbib Warning: Citation `Huntington1991' on page 2 undefined on input 
+line 14.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 2 undefined on input li
+ne 18.
+
+
+Package natbib Warning: Citation `Tullock1986' on page 2 undefined on input lin
+e 20.
+
+
+Package natbib Warning: Citation `Perotti2006' on page 2 undefined on input lin
+e 20.
+
+
+Package natbib Warning: Citation `Bravo2021' on page 2 undefined on input line 
+20.
+
+[2]
+
+Package natbib Warning: Citation `Acemoglu2006' on page 3 undefined on input li
+ne 22.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 3 undefined on input li
+ne 22.
+
+
+Package natbib Warning: Citation `Epstein1989' on page 3 undefined on input lin
+e 24.
+
+[3]
+
+Package natbib Warning: Citation `Rietz1988' on page 4 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `Barro2006a' on page 4 undefined on input line
+ 26.
+
+
+Package natbib Warning: Citation `Gabaix2012' on page 4 undefined on input line
+ 26.
+
+
+Package natbib Warning: Citation `Wachter2013' on page 4 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `Garleanu2012' on page 4 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Aghion2008' on page 4 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `Aghion2014' on page 4 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 4 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Bravo2021' on page 4 undefined on input line 
+28.
+
+[4]
+
+Package natbib Warning: Citation `Boix2003' on page 5 undefined on input line 3
+4.
+
+
+Package natbib Warning: Citation `Hinnerich2014' on page 5 undefined on input l
+ine 34.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 5 undefined on input li
+ne 34.
+
+
+Package natbib Warning: Citation `Diamond2015' on page 5 undefined on input lin
+e 34.
+
+[5]
+
+Package natbib Warning: Citation `Luebbert1991' on page 6 undefined on input li
+ne 43.
+
+
+Package natbib Warning: Citation `North1989' on page 6 undefined on input line 
+43.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 6 undefined on input li
+ne 43.
+
+
+Package natbib Warning: Citation `Brodhurst1897' on page 6 undefined on input l
+ine 43.
+
+
+Package natbib Warning: Citation `Brodhurst1897' on page 6 undefined on input l
+ine 43.
+
+[6]
+
+Package natbib Warning: Citation `Acemoglu2006' on page 7 undefined on input li
+ne 55.
+
+
+Package natbib Warning: Citation `Boix2003' on page 7 undefined on input line 5
+5.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 7 undefined on input li
+ne 55.
+
+
+Package natbib Warning: Citation `Dasgupta2021' on page 7 undefined on input li
+ne 57.
+
+
+Package natbib Warning: Citation `Tuncer2022' on page 7 undefined on input line
+ 57.
+
+
+Package natbib Warning: Citation `Delis2019' on page 7 undefined on input line 
+57.
+
+
+Package natbib Warning: Citation `Fisman2001' on page 7 undefined on input line
+ 57.
+
+
+Package natbib Warning: Citation `Acemoglu2018' on page 7 undefined on input li
+ne 57.
+
+
+Package natbib Warning: Citation `Dube2011' on page 7 undefined on input line 5
+7.
+
+
+Package natbib Warning: Citation `Rodrik1999' on page 7 undefined on input line
+ 59.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 7 undefined on input li
+ne 59.
+
+
+Package natbib Warning: Citation `Drautzburg2022' on page 7 undefined on input 
+line 59.
+
+
+Package natbib Warning: Citation `Husted1997' on page 7 undefined on input line
+ 59.
+
+
+Package natbib Warning: Citation `Naidu2012' on page 7 undefined on input line 
+59.
+
+
+Package natbib Warning: Citation `Cascio2013' on page 7 undefined on input line
+ 59.
+
+
+Package natbib Warning: Citation `Miller2008' on page 7 undefined on input line
+ 59.
+
+
+Package natbib Warning: Citation `Aidt2009' on page 7 undefined on input line 5
+9.
+
+
+Package natbib Warning: Citation `Hinnerich2014' on page 7 undefined on input l
+ine 59.
+
+
+Package natbib Warning: Citation `Fujiwara2015' on page 7 undefined on input li
+ne 59.
+
+[7]
+
+Package natbib Warning: Citation `Rietz1988' on page 8 undefined on input line 
+61.
+
+
+Package natbib Warning: Citation `Barro2006a' on page 8 undefined on input line
+ 61.
+
+
+Package natbib Warning: Citation `Gabaix2012' on page 8 undefined on input line
+ 61.
+
+
+Package natbib Warning: Citation `Wachter2013' on page 8 undefined on input lin
+e 61.
+
+
+Package natbib Warning: Citation `Mankiw1986' on page 8 undefined on input line
+ 63.
+
+
+Package natbib Warning: Citation `Constantinides1996' on page 8 undefined on in
+put line 63.
+
+
+Package natbib Warning: Citation `Constantinides2017' on page 8 undefined on in
+put line 63.
+
+
+Package natbib Warning: Citation `Schmidt2016' on page 8 undefined on input lin
+e 63.
+
+
+Package natbib Warning: Citation `Paron2021' on page 8 undefined on input line 
+63.
+
+
+Package natbib Warning: Citation `Catherine2021' on page 8 undefined on input l
+ine 63.
+
+
+Package natbib Warning: Citation `Pastor2012' on page 8 undefined on input line
+ 65.
+
+
+Package natbib Warning: Citation `Pastor2013' on page 8 undefined on input line
+ 65.
+
+
+Package natbib Warning: Citation `Pastor2016' on page 8 undefined on input line
+ 65.
+
+
+Package natbib Warning: Citation `Pastor2021' on page 8 undefined on input line
+ 65.
+
+
+Package natbib Warning: Citation `Danthine2002' on page 8 undefined on input li
+ne 65.
+
+
+Package natbib Warning: Citation `Santos2005' on page 8 undefined on input line
+ 65.
+
+[8]
+
+Package natbib Warning: Citation `Baker2016' on page 9 undefined on input line 
+67.
+
+
+Package natbib Warning: Citation `Kelly2016' on page 9 undefined on input line 
+67.
+
+
+Package natbib Warning: Citation `Manela2017' on page 9 undefined on input line
+ 67.
+
+) (./subsections/02_data.tex
+
+Package natbib Warning: Citation `Jorda2020' on page 9 undefined on input line 
+8.
+
+
+Overfull \hbox (8.72707pt too wide) in paragraph at lines 8--9
+\OT1/ptm/m/n/12 (GFD), the Jorda-Schularik-Taylor Macro-his-tory Database (JST)
+ men-tioned in \OT1/ptm/b/n/12 ?\OT1/ptm/m/n/12 , IBES Global,
+
+Package natbib Warning: Citation `Miller2020' on page 9 undefined on input line
+ 10.
+
+[9]
+
+LaTeX Warning: Reference `section:equity_app' on page 10 undefined on input lin
+e 12.
+
+
+Package natbib Warning: Citation `Barro2008' on page 10 undefined on input line
+ 16.
+
+
+LaTeX Warning: Reference `section:macro_data' on page 10 undefined on input lin
+e 16.
+
+
+LaTeX Warning: Reference `section:vdem_ind' on page 10 undefined on input line 
+20.
+
+
+LaTeX Warning: Reference `section:otherpolinst' on page 10 undefined on input l
+ine 22.
+
+[10]
+
+Package natbib Warning: Citation `Reinhart2009' on page 11 undefined on input l
+ine 25.
+
+
+Package natbib Warning: Citation `Reinhart2009' on page 11 undefined on input l
+ine 25.
+
+
+Package natbib Warning: Citation `Berkman2011' on page 11 undefined on input li
+ne 25.
+
+
+Package natbib Warning: Citation `Jones2009' on page 11 undefined on input line
+ 25.
+
+
+Package natbib Warning: Citation `Jones2009' on page 11 undefined on input line
+ 25.
+
+
+LaTeX Warning: Reference `section:events_data' on page 11 undefined on input li
+ne 25.
+
+
+Package natbib Warning: Citation `Lindberg2018' on page 11 undefined on input l
+ine 33.
+
+
+Package natbib Warning: Citation `Lindberg2018' on page 11 undefined on input l
+ine 33.
+
+[11]
+
+LaTeX Warning: Reference `section:ERTdescription' on page 12 undefined on input
+ line 35.
+
+
+LaTeX Warning: Reference `section:case_studies' on page 12 undefined on input l
+ine 35.
+
+
+LaTeX Warning: Reference `table:fastDem' on page 12 undefined on input line 35.
+
+
+
+LaTeX Warning: Reference `section:robustness' on page 12 undefined on input lin
+e 38.
+
+) (./subsections/03_stylized_facts.tex
+
+Package natbib Warning: Citation `Muir2017' on page 12 undefined on input line 
+8.
+
+
+Package natbib Warning: Citation `Gordon1959' on page 12 undefined on input lin
+e 8.
+
+
+Package natbib Warning: Citation `Campbell1988' on page 12 undefined on input l
+ine 8.
+
+
+Package natbib Warning: Citation `Fama1988' on page 12 undefined on input line 
+8.
+
+
+Package natbib Warning: Citation `Merton1980' on page 12 undefined on input lin
+e 8.
+
+
+LaTeX Warning: Reference `table:robustness' on page 12 undefined on input line 
+8.
+
+
+LaTeX Warning: Reference `section:svc' on page 12 undefined on input line 8.
+
+[12]
+
+Package natbib Warning: Citation `Barro2013' on page 13 undefined on input line
+ 11.
+
+
+LaTeX Warning: Reference `section:defWar' on page 13 undefined on input line 11
+.
+
+(../figures/clean/figure_1_dividend_yield_event_study.tex
+
+LaTeX Warning: Reference `table:valuationratio' on page 13 undefined on input l
+ine 8.
+
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_1_dividend_yield_event_stu
+dy.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allo
+wed
+)
+
+LaTeX Warning: Reference `fig:figure1' on page 13 undefined on input line 15.
+
+
+LaTeX Warning: Reference `table:valuationratio' on page 13 undefined on input l
+ine 17.
+
+[13] (../tables/clean/table_1_change_in_log_dividend_yields.tex
+(/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/ubbm.fd)
+(../tables/raw/table_1_change_in_log_dividend_yields.tex))
+
+Package natbib Warning: Citation `Teorell2018' on page 14 undefined on input li
+ne 23.
+
+[14 <../figures/raw/figure_1_dividend_yield_event_study.pdf>]
+
+LaTeX Warning: Reference `table:cashflow' on page 15 undefined on input line 26
+.
+
+
+LaTeX Warning: Reference `table:risk_measures' on page 15 undefined on input li
+ne 26.
+
+
+LaTeX Warning: Reference `table:cashflow' on page 15 undefined on input line 26
+.
+
+
+LaTeX Warning: Reference `table:risk_measures' on page 15 undefined on input li
+ne 26.
+
+
+LaTeX Warning: Reference `table:risk_measures' on page 15 undefined on input li
+ne 26.
+
+[15]
+
+LaTeX Warning: Reference `table:valuationratio' on page 16 undefined on input l
+ine 28.
+
+(../tables/clean/table_2_cashflow_growth.tex
+(../tables/raw/table_2_cashflow_growth.tex))
+
+Package natbib Warning: Citation `Fisman2001' on page 16 undefined on input lin
+e 33.
+
+
+Package natbib Warning: Citation `Garleanu2012' on page 16 undefined on input l
+ine 33.
+
+
+LaTeX Warning: Reference `section:model' on page 16 undefined on input line 33.
+
+
+[16]
+
+LaTeX Warning: Reference `fig:physicalHumanShear' on page 17 undefined on input
+ line 38.
+
+[17]
+
+Package natbib Warning: Citation `Feenstra2015' on page 18 undefined on input l
+ine 42.
+
+(../figures/clean/figure_2_physical_human_capital.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_2_physical_human_capital.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+)
+
+LaTeX Warning: Reference `section:addSF' on page 18 undefined on input line 49.
+
+
+
+LaTeX Warning: Reference `table:robustness' on page 18 undefined on input line 
+49.
+
+
+Package natbib Warning: Citation `Lindberg2018' on page 18 undefined on input l
+ine 49.
+
+
+Package natbib Warning: Citation `Papaioannou2008' on page 18 undefined on inpu
+t line 51.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 18 undefined on input l
+ine 51.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 18 undefined on input l
+ine 51.
+
+
+LaTeX Warning: Reference `table:robustness' on page 18 undefined on input line 
+51.
+
+[18]
+
+LaTeX Warning: Reference `table:robustness' on page 19 undefined on input line 
+53.
+
+
+LaTeX Warning: Reference `table:robustness' on page 19 undefined on input line 
+55.
+
+
+Package natbib Warning: Citation `Campbell1991' on page 19 undefined on input l
+ine 55.
+
+
+LaTeX Warning: Reference `section:demEnd' on page 19 undefined on input line 55
+.
+
+[19 <../figures/raw/figure_2_physical_human_capital.pdf>]
+
+LaTeX Warning: Reference `fig:figure1prices' on page 20 undefined on input line
+ 57.
+
+
+LaTeX Warning: Reference `fig:consumption' on page 20 undefined on input line 6
+3.
+
+(../figures/clean/figure_3_gdp_consumption_distributions.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_3a_gdp_growth_distribution
+.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowe
+d
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_3b_consumption_growth_dist
+ribution.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+)
+
+LaTeX Warning: Reference `section:events_data' on page 20 undefined on input li
+ne 68.
+
+[20]
+
+LaTeX Warning: Reference `table:polRisk' on page 21 undefined on input line 70.
+
+
+
+LaTeX Warning: Reference `table:polRisk' on page 21 undefined on input line 70.
+
+
+
+LaTeX Warning: Reference `section:redistribution' on page 21 undefined on input
+ line 70.
+
+(../tables/clean/table_3_democratization_vs_other_political_risk.tex
+(../tables/raw/table_3_democratization_vs_other_political_risk.tex))
+
+LaTeX Warning: Reference `section:model' on page 21 undefined on input line 76.
+
+
+
+Package natbib Warning: Citation `Boix2003' on page 21 undefined on input line 
+76.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 21 undefined on input l
+ine 76.
+
+
+LaTeX Warning: Reference `table:polRisk' on page 21 undefined on input line 76.
+
+
+[21 <../figures/raw/figure_3a_gdp_growth_distribution.pdf> <../figures/raw/figu
+re_3b_consumption_growth_distribution.pdf>] [22]
+
+LaTeX Warning: Reference `section:model' on page 23 undefined on input line 78.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd)
+
+LaTeX Warning: Reference `table:rev_test' on page 23 undefined on input line 84
+.
+
+(../tables/clean/table_4_revolution_risk.tex
+(../tables/raw/table_4_revolution_risk.tex)) [23]
+
+LaTeX Warning: Reference `section:risk_app' on page 24 undefined on input line 
+94.
+
+
+LaTeX Warning: Reference `table:risk_measures' on page 24 undefined on input li
+ne 94.
+
+[24]
+
+LaTeX Warning: Reference `table:advEvent' on page 25 undefined on input line 96
+.
+
+
+LaTeX Warning: Reference `table:risk_measures' on page 25 undefined on input li
+ne 98.
+
+
+LaTeX Warning: Reference `table:violence_levels' on page 25 undefined on input 
+line 98.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 25 undefined on input l
+ine 102.
+
+
+Package natbib Warning: Citation `Huntington1991' on page 25 undefined on input
+ line 102.
+
+(../figures/clean/figure_4_regional_waves.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_4_regional_waves.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+)
+
+Package natbib Warning: Citation `Acemoglu2019' on page 25 undefined on input l
+ine 106.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 25 undefined on input l
+ine 106.
+
+
+LaTeX Warning: Reference `fig:regionalWave' on page 25 undefined on input line 
+111.
+
+[25]
+
+LaTeX Warning: Reference `table:regionalWave' on page 26 undefined on input lin
+e 113.
+
+
+LaTeX Warning: Reference `table:valuationratio' on page 26 undefined on input l
+ine 113.
+
+
+LaTeX Warning: Reference `table:regionalWave' on page 26 undefined on input lin
+e 115.
+
+[26 <../figures/raw/figure_4_regional_waves.pdf>]
+(../tables/clean/table_5_regional_waves_instrument.tex
+
+LaTeX Warning: Reference `eq:reg_dem' on page 27 undefined on input line 6.
+
+(../tables/raw/table_5_regional_waves_instrument.tex)))
+(./subsections/04_vatican_ii.tex [27]
+
+Package natbib Warning: Citation `Hook1940' on page 28 undefined on input line 
+12.
+
+
+Package natbib Warning: Citation `Blanshard1949' on page 28 undefined on input 
+line 12.
+
+
+Package natbib Warning: Citation `Philpott2004' on page 28 undefined on input l
+ine 12.
+
+
+Package natbib Warning: Citation `Hofmann1958' on page 28 undefined on input li
+ne 14.
+
+[28]
+
+Package natbib Warning: Citation `Alberigo2005' on page 29 undefined on input l
+ine 16.
+
+
+Package natbib Warning: Citation `Alberigo2005' on page 29 undefined on input l
+ine 16.
+
+
+Package natbib Warning: Citation `Boix2003' on page 29 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 29 undefined on input l
+ine 26.
+
+[29]
+
+Package natbib Warning: Citation `Huntington1991' on page 30 undefined on input
+ line 32.
+
+
+Package natbib Warning: Citation `Weber1921' on page 30 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `Billings1994' on page 30 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `Payne1984' on page 30 undefined on input line
+ 34.
+
+
+Package natbib Warning: Citation `Linz1991' on page 30 undefined on input line 
+34.
+
+
+Package natbib Warning: Citation `Andersen2019' on page 30 undefined on input l
+ine 34.
+
+[30]
+
+Package natbib Warning: Citation `Guiso2003' on page 31 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `Guiso2006' on page 31 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `Buschges2021' on page 31 undefined on input l
+ine 38.
+
+
+Package natbib Warning: Citation `Berryman1973' on page 31 undefined on input l
+ine 38.
+
+
+Package natbib Warning: Citation `Moore1995' on page 31 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `Sigmund1987' on page 31 undefined on input li
+ne 46.
+
+
+Package natbib Warning: Citation `Huntington1991' on page 31 undefined on input
+ line 46.
+
+
+Package natbib Warning: Citation `Huntington1991' on page 31 undefined on input
+ line 46.
+
+
+Package natbib Warning: Citation `Huntington1991' on page 31 undefined on input
+ line 46.
+
+
+Package natbib Warning: Citation `Fukuyama1992' on page 31 undefined on input l
+ine 46.
+
+
+Package natbib Warning: Citation `Andersen2019' on page 31 undefined on input l
+ine 46.
+
+[31]
+
+Package natbib Warning: Citation `Andersen2019' on page 32 undefined on input l
+ine 48.
+
+
+LaTeX Warning: Reference `table:dem_after_svc' on page 32 undefined on input li
+ne 48.
+
+
+LaTeX Warning: Reference `fig:treatmentEffect' on page 32 undefined on input li
+ne 50.
+
+
+LaTeX Warning: Reference `section:antiCSO' on page 32 undefined on input line 5
+0.
+
+
+Package natbib Warning: Citation `Arato1981a' on page 32 undefined on input lin
+e 50.
+
+
+Package natbib Warning: Citation `Arato1981b' on page 32 undefined on input lin
+e 50.
+
+
+Package natbib Warning: Citation `Stepan1985' on page 32 undefined on input lin
+e 50.
+
+
+Package natbib Warning: Citation `Stepan1988' on page 32 undefined on input lin
+e 50.
+
+
+Package natbib Warning: Citation `Linz1996' on page 32 undefined on input line 
+50.
+
+(../figures/clean/figure_5_anti_regime_event_study.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_5a_event_study_anti_system
+_cso.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
+lowed
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_5b_event_study_democratic_
+protests.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+) [32] (../tables/clean/table_6_balance_tests.tex
+
+LaTeX Warning: Reference `eq:twoFactor' on page 33 undefined on input line 6.
+
+(../tables/raw/table_6_balance_tests.tex))
+
+LaTeX Warning: Reference `table:balance' on page 33 undefined on input line 61.
+
+
+
+Package natbib Warning: Citation `Alberigo2005' on page 33 undefined on input l
+ine 63.
+
+
+Package natbib Warning: Citation `Alberigo2005' on page 33 undefined on input l
+ine 63.
+
+
+Package natbib Warning: Citation `Andersen2019' on page 33 undefined on input l
+ine 63.
+
+[33 <../figures/raw/figure_5a_event_study_anti_system_cso.pdf> <../figures/raw/
+figure_5b_event_study_democratic_protests.pdf>] [34]
+
+LaTeX Warning: Reference `fig:treatmentEffect' on page 35 undefined on input li
+ne 68.
+
+
+LaTeX Warning: Reference `section:model' on page 35 undefined on input line 74.
+
+
+[35]
+
+Package natbib Warning: Citation `Neville1959' on page 36 undefined on input li
+ne 79.
+
+
+Overfull \hbox (3.06013pt too wide) in paragraph at lines 82--83
+[]\OT1/ptm/m/n/12 Second, the data re-veals a marked rise in anti-regime CSO ac
+-tiv-ity and demo-cratic protests
+[36]
+Overfull \hbox (16.8301pt too wide) in paragraph at lines 93--94
+[] []\OT1/ptm/b/n/12 Con-trols and risk-ad-just-ment[] \OT1/ptm/m/n/12 Each re-
+gres-sion in-cludes sev-eral dummy vari-ables for macroe-
+
+Package natbib Warning: Citation `Bekaert2009' on page 37 undefined on input li
+ne 95.
+
+
+Package natbib Warning: Citation `Brooks2005' on page 37 undefined on input lin
+e 99.
+
+
+Package natbib Warning: Citation `Bekaert1995' on page 37 undefined on input li
+ne 99.
+
+
+Package natbib Warning: Citation `Baele2005' on page 37 undefined on input line
+ 99.
+
+
+Package natbib Warning: Citation `Bekaert2009' on page 37 undefined on input li
+ne 99.
+
+
+LaTeX Warning: Reference `section:globalCAPM' on page 37 undefined on input lin
+e 99.
+
+[37]
+
+LaTeX Warning: Reference `table:svc' on page 38 undefined on input line 103.
+
+
+Package natbib Warning: Citation `GoldsmithPinkham2022' on page 38 undefined on
+ input line 103.
+
+
+LaTeX Warning: Reference `eq:singleDiff' on page 38 undefined on input line 103
+.
+
+(../tables/clean/table_7_did_results.tex
+
+LaTeX Warning: Reference `eq:singleDiff' on page 38 undefined on input line 6.
+
+
+LaTeX Warning: Reference `eq:twoFactor' on page 38 undefined on input line 6.
+
+(../tables/raw/table_7_did_results.tex))
+
+LaTeX Warning: Reference `fig:rawParallelTrends' on page 38 undefined on input 
+line 107.
+
+
+LaTeX Warning: Reference `table:svc' on page 38 undefined on input line 107.
+
+
+Package natbib Warning: Citation `Merton1980' on page 38 undefined on input lin
+e 109.
+
+[38] (../figures/clean/figure_6_did_event_study_returns.tex
+
+LaTeX Warning: Reference `eq:twoFactor' on page 39 undefined on input line 8.
+
+
+LaTeX Warning: Reference `table:svc' on page 39 undefined on input line 8.
+
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_6_did_event_study_returns.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+)
+
+LaTeX Warning: Reference `section:natExpApp' on page 39 undefined on input line
+ 115.
+
+
+LaTeX Warning: Reference `section:fvc' on page 39 undefined on input line 115.
+
+
+LaTeX Warning: Reference `section:shiftWindow' on page 39 undefined on input li
+ne 115.
+
+[39]
+
+LaTeX Warning: Reference `section:maj_cath_dem' on page 40 undefined on input l
+ine 117.
+
+
+LaTeX Warning: Reference `section:estimationEnd' on page 40 undefined on input 
+line 119.
+
+
+LaTeX Warning: Reference `section:excludingCountries' on page 40 undefined on i
+nput line 121.
+
+[40 <../figures/raw/figure_6_did_event_study_returns.pdf>]
+
+LaTeX Warning: Reference `section:facts' on page 41 undefined on input line 123
+.
+
+
+LaTeX Warning: Reference `section:facts' on page 41 undefined on input line 123
+.
+
+
+LaTeX Warning: Reference `section:facts' on page 41 undefined on input line 123
+.
+
+
+LaTeX Warning: Reference `section:outliers' on page 41 undefined on input line 
+123.
+
+
+Package natbib Warning: Citation `Li2006' on page 41 undefined on input line 12
+3.
+
+
+LaTeX Warning: Reference `section:facts' on page 41 undefined on input line 123
+.
+
+
+LaTeX Warning: Reference `section:globalCAPM' on page 41 undefined on input lin
+e 125.
+
+
+LaTeX Warning: Reference `section:globalCAPM' on page 41 undefined on input lin
+e 125.
+
+
+LaTeX Warning: Reference `section:did_inflation_risk' on page 41 undefined on i
+nput line 127.
+
+
+LaTeX Warning: Reference `section:did_div_yld' on page 41 undefined on input li
+ne 129.
+
+
+LaTeX Warning: Reference `section:did_div_yld' on page 41 undefined on input li
+ne 129.
+
+) (./subsections/05_democracy_and_redistribution.tex [41]
+
+Package natbib Warning: Citation `Fisman2001' on page 42 undefined on input lin
+e 3.
+
+
+Package natbib Warning: Citation `Boix2003' on page 42 undefined on input line 
+3.
+
+
+Package natbib Warning: Citation `Kolstad2016' on page 42 undefined on input li
+ne 3.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 42 undefined on input l
+ine 3.
+
+
+Package natbib Warning: Citation `Rock2016' on page 42 undefined on input line 
+3.
+
+
+Package natbib Warning: Citation `Husted1997' on page 42 undefined on input lin
+e 3.
+
+
+Package natbib Warning: Citation `Miller2008' on page 42 undefined on input lin
+e 3.
+
+
+Package natbib Warning: Citation `Naidu2012' on page 42 undefined on input line
+ 3.
+
+
+Package natbib Warning: Citation `Cascio2013' on page 42 undefined on input lin
+e 3.
+
+
+Package natbib Warning: Citation `Fujiwara2015' on page 42 undefined on input l
+ine 3.
+
+[42]
+
+LaTeX Warning: Reference `section:model' on page 43 undefined on input line 13.
+
+
+
+Overfull \hbox (5.60316pt too wide) in paragraph at lines 13--14
+[]\OT1/ptm/m/n/12 I as-sess the ef-fect of suc-cess-ful de-moc-ra-ti-za-tions o
+n both \OT1/ptm/m/it/12 ex-plicit re-dis-tri-bu-tion\OT1/ptm/m/n/12 ---increase
+s
+
+LaTeX Warning: Reference `table:explicitRedist' on page 43 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 43 undefined on input l
+ine 18.
+
+
+LaTeX Warning: Reference `table:explicitRedist' on page 43 undefined on input l
+ine 20.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 43 undefined on input l
+ine 20.
+
+
+Package natbib Warning: Citation `Drautzburg2022' on page 43 undefined on input
+ line 20.
+
+
+Package natbib Warning: Citation `Rodrik1999' on page 43 undefined on input lin
+e 20.
+
+(../tables/clean/table_8_explicit_redistribution.tex
+
+LaTeX Warning: Reference `eq:reg_redistribute' on page 43 undefined on input li
+ne 6.
+
+(../tables/raw/table_8_explicit_redistribution.tex))
+
+Package natbib Warning: Citation `Tullock1986' on page 43 undefined on input li
+ne 25.
+
+
+Package natbib Warning: Citation `Li2003' on page 43 undefined on input line 25
+.
+
+
+Package natbib Warning: Citation `Perotti2006' on page 43 undefined on input li
+ne 25.
+
+
+Package natbib Warning: Citation `Karolyi2017' on page 43 undefined on input li
+ne 25.
+
+
+Package natbib Warning: Citation `Li2008' on page 43 undefined on input line 25
+.
+
+[43]
+
+LaTeX Warning: Reference `table:implicitRedist' on page 44 undefined on input l
+ine 27.
+
+[44]
+Overfull \hbox (5.0807pt too wide) in paragraph at lines 29--30
+\OT1/ptm/m/n/12 vor-ing competition---as mea-sured by the Eco-nomic Free-dom In
+-dex from the Fraser Institute---
+(../tables/clean/table_9_implicit_redistribution.tex
+
+LaTeX Warning: Reference `eq:reg_redistribute' on page 45 undefined on input li
+ne 6.
+
+(../tables/raw/table_9_implicit_redistribution.tex)) [45]
+
+LaTeX Warning: Reference `table:valuationratioElite' on page 46 undefined on in
+put line 41.
+
+
+LaTeX Warning: Reference `table:polRisk' on page 46 undefined on input line 43.
+
+
+(../tables/clean/table_10_high_vs_low_redistribution_risk.tex
+(../tables/raw/table_10_high_vs_low_redistribution_risk.tex))
+
+LaTeX Warning: Reference `table:valuationratioElite' on page 46 undefined on in
+put line 48.
+
+
+LaTeX Warning: Reference `section:demEnd' on page 46 undefined on input line 50
+.
+
+
+LaTeX Warning: Reference `fig:priceDeclineSucc' on page 46 undefined on input l
+ine 50.
+
+[46]
+
+LaTeX Warning: Reference `fig:rollingEstimation' on page 47 undefined on input 
+line 57.
+
+
+LaTeX Warning: Reference `table:valuationratio' on page 47 undefined on input l
+ine 57.
+
+(../figures/clean/figure_7_coefficients_over_time.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_7_coefficients_over_time.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+)
+
+Package natbib Warning: Citation `Luebbert1991' on page 47 undefined on input l
+ine 61.
+
+
+Package natbib Warning: Citation `North1989' on page 47 undefined on input line
+ 61.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 47 undefined on input l
+ine 61.
+
+[47]
+
+Package natbib Warning: Citation `Lipset1959' on page 48 undefined on input lin
+e 63.
+
+
+Package natbib Warning: Citation `Weber1946' on page 48 undefined on input line
+ 63.
+
+
+LaTeX Warning: Reference `fig:rollingEstimation' on page 48 undefined on input 
+line 63.
+
+[48 <../figures/raw/figure_7_coefficients_over_time.pdf>]
+
+LaTeX Warning: Reference `section:redistributeRobustness' on page 49 undefined 
+on input line 67.
+
+
+LaTeX Warning: Reference `section:eventStudyRedist' on page 49 undefined on inp
+ut line 67.
+
+
+LaTeX Warning: Reference `section:assRedistribution' on page 49 undefined on in
+put line 69.
+
+) (./subsections/06_model.tex
+
+Package natbib Warning: Citation `Acemoglu2006' on page 49 undefined on input l
+ine 4.
+
+[49]
+
+Package natbib Warning: Citation `Epstein1989' on page 50 undefined on input li
+ne 18.
+
+[50]
+
+LaTeX Warning: Reference `section:bellman_app' on page 51 undefined on input li
+ne 42.
+
+
+LaTeX Warning: Reference `section:svc' on page 51 undefined on input line 44.
+
+
+LaTeX Warning: Reference `section:model_limitations' on page 51 undefined on in
+put line 44.
+
+[51]
+
+Package natbib Warning: Citation `Acemoglu2006' on page 52 undefined on input l
+ine 52.
+
+
+Package natbib Warning: Citation `Epstein1989' on page 52 undefined on input li
+ne 56.
+
+
+LaTeX Warning: Reference `fig:mu_graph' on page 52 undefined on input line 61.
+
+[52]
+
+Package natbib Warning: Citation `Boix2003' on page 53 undefined on input line 
+64.
+
+
+Package natbib Warning: Citation `Acemoglu2006' on page 53 undefined on input l
+ine 64.
+
+[53]
+
+LaTeX Warning: Reference `section:generalCase' on page 54 undefined on input li
+ne 102.
+
+[54] [55]
+
+Package natbib Warning: Citation `Gabaix2012' on page 56 undefined on input lin
+e 126.
+
+
+Package natbib Warning: Citation `Wachter2013' on page 56 undefined on input li
+ne 126.
+
+
+LaTeX Warning: Reference `section:redistribution' on page 56 undefined on input
+ line 142.
+
+
+Package natbib Warning: Citation `Garleanu2012' on page 56 undefined on input l
+ine 144.
+
+
+Package natbib Warning: Citation `Hinnerich2014' on page 56 undefined on input 
+line 147.
+
+[56]
+
+LaTeX Warning: Reference `eq:revolution' on page 57 undefined on input line 156
+.
+
+
+LaTeX Warning: Reference `eq:democracy' on page 57 undefined on input line 156.
+
+
+(../tables/clean/table_11_model_calibration.tex
+(../tables/raw/table_11_model_calibration.tex
+
+Package natbib Warning: Citation `Tian2021' on page 57 undefined on input line 
+37.
+
+
+Package natbib Warning: Citation `Wachter2013' on page 57 undefined on input li
+ne 37.
+
+
+Package natbib Warning: Citation `Genschel2016' on page 57 undefined on input l
+ine 37.
+
+
+Package natbib Warning: Citation `Fisman2001' on page 57 undefined on input lin
+e 37.
+
+
+Package natbib Warning: Citation `Catherine2021' on page 57 undefined on input 
+line 37.
+
+
+Package natbib Warning: Citation `Bansal2010' on page 57 undefined on input lin
+e 37.
+
+))
+
+LaTeX Warning: Reference `table:calibration' on page 57 undefined on input line
+ 162.
+
+
+Package natbib Warning: Citation `Tian2021' on page 57 undefined on input line 
+166.
+
+
+LaTeX Warning: Reference `section:redistribution' on page 57 undefined on input
+ line 166.
+
+[57]
+
+LaTeX Warning: Reference `section:redistribution' on page 58 undefined on input
+ line 168.
+
+
+LaTeX Warning: Reference `section:redistribution' on page 58 undefined on input
+ line 168.
+
+
+Package natbib Warning: Citation `Wachter2013' on page 58 undefined on input li
+ne 170.
+
+
+Package natbib Warning: Citation `Genschel2016' on page 58 undefined on input l
+ine 170.
+
+
+Package natbib Warning: Citation `Fisman2001' on page 58 undefined on input lin
+e 170.
+
+[58]
+
+LaTeX Warning: Reference `section:demEnd' on page 59 undefined on input line 17
+2.
+
+
+Package natbib Warning: Citation `Catherine2021' on page 59 undefined on input 
+line 174.
+
+
+Package natbib Warning: Citation `Bansal2010' on page 59 undefined on input lin
+e 174.
+
+
+LaTeX Warning: Reference `table:modelResults' on page 59 undefined on input lin
+e 178.
+
+(../tables/clean/table_12_model_results.tex
+(../tables/raw/table_12_model_results.tex)) [59]
+
+Package natbib Warning: Citation `Aghion2008' on page 60 undefined on input lin
+e 188.
+
+
+Package natbib Warning: Citation `Aghion2014' on page 60 undefined on input lin
+e 188.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 60 undefined on input l
+ine 188.
+
+
+Package natbib Warning: Citation `Bravo2021' on page 60 undefined on input line
+ 188.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 60 undefined on input l
+ine 188.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 60 undefined on input l
+ine 188.
+
+
+LaTeX Warning: Reference `section:redistribution_emp' on page 60 undefined on i
+nput line 188.
+
+[60] [61] [62]
+
+Package natbib Warning: Citation `Acemoglu2019' on page 63 undefined on input l
+ine 221.
+
+
+LaTeX Warning: Reference `section:redistribution_emp' on page 63 undefined on i
+nput line 225.
+
+[63]
+
+LaTeX Warning: Reference `section:gradual_redist' on page 64 undefined on input
+ line 232.
+
+
+Package natbib Warning: Citation `Acemoglu2015' on page 64 undefined on input l
+ine 235.
+
+[64]
+
+Package natbib Warning: Citation `Buera2011' on page 65 undefined on input line
+ 248.
+
+
+LaTeX Warning: Reference `table:cashflow' on page 65 undefined on input line 25
+0.
+
+
+LaTeX Warning: Reference `table:risk_measures' on page 65 undefined on input li
+ne 250.
+
+
+LaTeX Warning: Reference `fig:consumption' on page 65 undefined on input line 2
+50.
+
+
+Package natbib Warning: Citation `Acemoglu2019' on page 65 undefined on input l
+ine 250.
+
+
+LaTeX Warning: Reference `fig:rollingEstimation' on page 65 undefined on input 
+line 252.
+
+
+LaTeX Warning: Reference `table:robustness' on page 65 undefined on input line 
+254.
+
+
+Package natbib Warning: Citation `Ghaderi2022' on page 65 undefined on input li
+ne 254.
+
+[65]
+
+LaTeX Warning: Reference `section:auto_reverse' on page 66 undefined on input l
+ine 256.
+
+
+Overfull \hbox (9.92557pt too wide) in paragraph at lines 258--259
+[]\OT1/ptm/m/n/12 The base-line model would, in-stead, rely upon a mech-a-nism 
+like com-mon shocks, spillovers,
+
+Package natbib Warning: Citation `Philpott2004' on page 66 undefined on input l
+ine 260.
+
+
+LaTeX Warning: Reference `section:facts' on page 66 undefined on input line 264
+.
+
+[66]
+
+LaTeX Warning: Reference `eq:democracy' on page 67 undefined on input line 274.
+
+
+
+LaTeX Warning: Reference `eq:autocratization' on page 67 undefined on input lin
+e 274.
+
+
+LaTeX Warning: Reference `fig:auto_model_res' on page 67 undefined on input lin
+e 276.
+
+(../figures/clean/figure_8_autocratization_model.tex
+
+LaTeX Warning: Reference `table:calibration' on page 67 undefined on input line
+ 6.
+
+)
+
+LaTeX Warning: Reference `fig:auto_model_res' on page 67 undefined on input lin
+e 280.
+
+[67]
+
+LaTeX Warning: Reference `fig:auto_model_res' on page 68 undefined on input lin
+e 282.
+
+) (./subsections/07_conclusion.tex [68 <../figures/raw/figure_8_autocratization
+_model.pdf>]
+
+Package natbib Warning: Citation `Acemoglu2019' on page 69 undefined on input l
+ine 8.
+
+)
+No file miller_2025.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[69] (./miller_2025.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `miller_2025.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Hfootnote.49} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.48} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.47} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.46} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.45} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.44} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.43} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.42} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.41} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.40} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.37} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.36} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.35} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.34} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.33} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.32} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.31} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.30} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ </home/spkim/.texlive2021/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/ms
+bm10.720pk> </home/spkim/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx1
+2.600pk> </home/spkim/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmib10.
+720pk> </home/spkim/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmi6.600p
+k> </home/spkim/.texlive2021/texmf-var/fonts/pk/ljfour/public/bbm/bbm12.600pk>
+!pdfTeX error: pdflatex (file ptmri8r): Font ptmri8r at 480 not found
+ ==> Fatal error occurred, no output PDF file produced!
+
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 ptmri8r
+gsftopk: fatal: map file `psfonts.map' not found.
+mktexpk: don't know how to create bitmap font for ptmri8r.
+mktexpk: perhaps ptmri8r is missing from the map file.
+kpathsea: Appending font creation commands to missfont.log.
+
+
+
+Pass 1/3: pdflatex (generate aux files)...
+  pdflatex miller_2025.tex

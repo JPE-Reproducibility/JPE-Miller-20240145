@@ -1,0 +1,118 @@
+
+\section{\scshape Quasi-Natural Experiment}
+
+\subsection{\scshape Pope Stuff}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[noframenumbering] 
+	\begin{center}
+		{ \Huge \textcolor{blue}{\scshape Quasi-Natural Experiment \\
+		}}
+	\end{center}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[label=home2]{Exogenous Shock to Probability of Democratization}
+	\begin{itemize}
+		\item<1-> \textbf{Doctrinal shift in the Catholic church in favor of democracy from 1959--1963.}
+		\vspace{.5cm}
+		\item<2-> \textbf{Plausibly exogenous shock to the probability of a successful democratization.}
+		\begin{itemize}
+			\item<2->[--] Unexpected election of Pope John XXIII.
+			\vspace{.1cm}
+			\item<2->[--] Unexpected decision to call the Second Vatican Council.
+		\end{itemize}				
+		 \hyperlink{popeQuotes<1>}{\beamerskipbutton{\textit{Pacem in Terris} Quotes}}
+		\vspace{.5cm}
+		\item<3-> \textbf{\cite{Huntington1991}:} one of the main reasons Third Wave of Democracy occurred. 
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[label=figure5]{Relevance of the doctrinal shift}
+
+\textbf{Event study on key democratization predictors.}
+ \begin{center}
+	\vspace{.1cm}
+	\begin{tabular}{cc}
+	\textbf{\makecell{A. Anti-regime activity from \\ Civil Society Organizations}} & \textbf{B. Democratic mobilizations}  \\
+		\includegraphics[width=.45\textwidth]{\figurepath/figure_5a_event_study_anti_system_cso.pdf}& \includegraphics[width=.45\textwidth]{\figurepath/figure_5b_event_study_democratic_protests.pdf}
+	\end{tabular}
+	\end{center}
+	
+	\begin{center}
+		\hyperlink{figureC3<1>}{\beamerskipbutton{Predicting democratizations}}
+		\hyperlink{tableC7<1>}{\beamerskipbutton{Democratization probability}}
+	\end{center}
+	
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[label=movingAverage]{Difference-In-Differences}
+	\begin{itemize}
+		\item<1-> \textbf{Estimate single difference-in-differences specification:}
+		\begin{align*}
+		\textrm{Excess Returns}_{c,t} = 	& \alpha_{c}+\alpha_{t} +\beta\mathbbm{1}_{c,t}\{\textrm{Post}\times\textrm{Catholic}\times\textrm{Autocracy}\}  +\mathbf{\omega}^\prime \textrm{Controls}_{c,t}+\epsilon_{c,t} .
+		\end{align*}
+		\item<2-> \textbf{Two symmetric sample windows:} One from 1946--1976; one from 1939--1983. Exclude treatment years from 1959--1963.
+		\vspace{.25cm}		
+		\item<2-> \textbf{Two control groups:} all countries and autocracies only. \hyperlink{table6<1>}{\beamerskipbutton{Balance tests}}
+		\vspace{.25cm}		
+		\item<3-> \textbf{Controls:} political, event, and macro controls.
+		\vspace{.25cm}		
+		\item<4-> \textbf{Risk-adjustment:} excess returns adjusted for global and continental risk.
+		
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Event study plot}
+	\begin{center}
+		\textbf{Majority catholic autocracies vs. non-catholic autocracies} \\
+		\includegraphics[width=1\textwidth]{\figurepath/figure_6_did_event_study_returns.pdf}
+	\end{center}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[label=table7]{Results}
+		\vspace{-.75cm}
+		\begin{align*}
+		\textrm{Excess Returns}_{c,t} = 	& \alpha_{c}+\alpha_{t} +\beta\mathbbm{1}_{c,t}\{\textrm{Post}\times\textrm{Catholic}\times\textrm{Autocracy}\}  +\mathbf{\omega}^\prime \textrm{Controls}_{c,t}+\epsilon_{c,t} .
+		\end{align*}
+
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\scriptsize\setlength{\tabcolsep}{.025in}
+	\centerline{{
+			\input{\tablepath/table_7_did_results.tex}
+	}}}
+
+	\begin{center}
+		\hyperlink{figureC4<1>}{\beamerskipbutton{Different Estimation Windows}}
+		\hyperlink{figureC5a<1>}{\beamerskipbutton{End Window: All countries}}
+		\hyperlink{figureC5b<1>}{\beamerskipbutton{End Window: Autocracies only}}
+		\hyperlink{figureC6b<1>}{\beamerskipbutton{Dropping: Autocracy}}
+		\hyperlink{figureC6a<1>}{\beamerskipbutton{Dropping: All}}
+		\hyperlink{figureC8<1>}{\beamerskipbutton{Dividend yields}}
+		\hyperlink{tableC8<1>}{\beamerskipbutton{First Vatican Council}}
+		\hyperlink{tableC9<1>}{\beamerskipbutton{Maj Cath Dem}}
+		\hyperlink{tableC10a<1>}{\beamerskipbutton{Excluding years}}
+		\hyperlink{tableC10a<1>}{\beamerskipbutton{Winsorizing short}}
+		\hyperlink{tableC10b<1>}{\beamerskipbutton{Winsorizing long}}
+		\hyperlink{tableC11<1>}{\beamerskipbutton{Robust Estimators}}
+		\hyperlink{tableC12<1>}{\beamerskipbutton{Global CAPM}}
+		\hyperlink{tableC13<1>}{\beamerskipbutton{No rolling $\beta$s}}
+		\hyperlink{tableC14<1>}{\beamerskipbutton{Home country bonds}}
+		\hyperlink{tableC15<1>}{\beamerskipbutton{Price reversals}}
+	\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

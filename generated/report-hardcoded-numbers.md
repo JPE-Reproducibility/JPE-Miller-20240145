@@ -3,49 +3,24 @@
 
 We found the following set of hard coded numbers. This may be completely legitimate (parameter input, thresholds for computations, etc), and is hence only for information.
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/04_vatican_ii.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/08_figure_C8_dividend_yield_event_study.do**
 
-- Line 82, : Second, the data reveals a marked rise in anti-regime CSO activity and democratic protests starting from 1959 to 1963. A structural break test indicates a change in trend in either 1959 or 1962 in the majority Catholic autocracies.\footnote{The structural break test is performed on the annual average across majority Catholic autocracies less the annual average across non-Catholic autocracies for both series. Two tests are run on each series from 1940--1989, a supremum Wald test and a supremum likelihood-ratio test. Each test indicates the same break date on each series: \figFiveBreakCSO\ for anti-regime CSO activity and \figFiveBreakMob\ for democratic mobilizations. The test statistics represent a high degree of statistical significance ($p<0.001$).} This suggests that the political reality on the ground began to change before 1963.
+- Line 136, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 137, : replace dem_ub = dem_pe + 1.645*dem_se
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/gcollapse.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/02_figure_B2_democracy_dividend_yield_specs.do**
 
-- Line 1645, : return local st_time = max(`total_time', 0.001) * scalar(__gtools_gc_k_extra) * `factor'
+- Line 76, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 77, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 178, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 179, : replace dem_ub = dem_pe + 1.645*dem_se
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/tables/03_table_B3_risk_premium.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/tables/03_table_B3_risk_premium.do**
 
 - Line 337, : if abs(`tstat') >= 2.576       local stars "\sym{***}"
 - Line 339, : else if abs(`tstat') >= 1.645  local stars "\sym{*}"
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/03_online_appendix.tex**
-
-- Line 415, : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
-- Line 417, : Row (4) presents the results using an indicator variable equal to one for changes in the raw V-Dem Electoral Democracy Index above the 90th percentile,\footnote{A 90th percentile rise in the Electoral Democracy Index is 0.019.} which see a large increase in dividend yields, between \tabBThreeLargeJumpLow\---\tabBThreeLargeJumpHigh\%. Row (5) presents the results for the democratization start year in the \cite{Lindberg2018} data, which display large point estimates, indicating a \tabBThreeLindbergLow\---\tabBThreeLindbergHigh\% rise in the dividend yield.
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/06_model.tex**
-
-- Line 88, : 0.990 & 0.010 & 0.000\\
-- Line 90, : 0.000 & 0.000 & 1.000
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/07_figure_7_dividend_yield_coefficients_over_time.do**
-
-- Line 52, : mat dem_coef[`j',3] = _b[`dem_var'] - 1.645*_se[`dem_var']
-- Line 53, : mat dem_coef[`j',4] = _b[`dem_var'] + 1.645*_se[`dem_var']
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/03_figure_C3_cso_activity_vs_mobilizations.do**
-
-- Line 58, : mat coefs[`i',4] = 100*(temp[1,2] + 1.645*temp[2,2])/mean_dem
-- Line 59, : mat coefs[`i',5] = 100*(temp[1,2] - 1.645*temp[2,2])/mean_dem
-- Line 60, : mat coefs[`i',6] = 100*(temp[1,1] + 1.645*temp[2,1])/mean_dem
-- Line 61, : mat coefs[`i',7] = 100*(temp[1,1] - 1.645*temp[2,1])/mean_dem
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/02_figure_2_physical_human_capital.do**
-
-- Line 48, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 49, : replace dem_ub = dem_pe + 1.645*dem_se
-- Line 62, : replace dem2_lb = dem2_pe - 1.645*dem2_se
-- Line 63, : replace dem2_ub = dem2_pe + 1.645*dem2_se
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/05_table_5_regional_waves_instrument.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/05_table_5_regional_waves_instrument.do**
 
 - Line 69, : if abs(`t') < 1.96 & abs(`t') >= 1.645 {
 - Line 72, : else if abs(`t') >= 1.96 & abs(`t') < 2.576 {
@@ -60,31 +35,28 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 139, : else if abs(`t') >= 1.96 & abs(`t') < 2.576 {
 - Line 142, : else if abs(`t') > 2.576 {
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/table_12_model_results.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/07_figure_7_dividend_yield_coefficients_over_time.do**
 
-- Line 6, : Inequality reduction $\theta^A - \theta^D$   &  & 0.041   \\
-- Line 8, : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
-- Line 10, : Corruption reduction $\nu^D- \nu^A$  & & 0.055   \\
-- Line 16, : Dividend yield autocracy  &  0.051  & 0.051  \\
-- Line 18, : Dividend yield democratization  &  0.061  & 0.061  \\
+- Line 52, : mat dem_coef[`j',3] = _b[`dem_var'] - 1.645*_se[`dem_var']
+- Line 53, : mat dem_coef[`j',4] = _b[`dem_var'] + 1.645*_se[`dem_var']
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/01_figure_B1_democracy_log_price.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/model/gradual_redistribution_model.py**
 
-- Line 165, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 166, : replace dem_ub = dem_pe + 1.645*dem_se
-- Line 235, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 236, : replace dem_ub = dem_pe + 1.645*dem_se
-- Line 304, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 305, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 95, : ftol   = 0.00000001,
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/02_figure_B2_democracy_dividend_yield_specs.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/01_figure_1_dividend_yield_event_study.do**
 
-- Line 76, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 77, : replace dem_ub = dem_pe + 1.645*dem_se
-- Line 178, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 179, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 61, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 62, : replace dem_ub = dem_pe + 1.645*dem_se
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/numbers/section_6.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/02_figure_2_physical_human_capital.do**
+
+- Line 48, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 49, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 62, : replace dem2_lb = dem2_pe - 1.645*dem2_se
+- Line 63, : replace dem2_ub = dem2_pe + 1.645*dem2_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/section_6.tex**
 
 - Line 1, : \newcommand{\tabTwelveDeltaTheta}{0.041}
 - Line 2, : \newcommand{\tabTwelveDeltaTau}{0.042}
@@ -98,15 +70,7 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 32, : \newcommand{\transPTwoThree}{0.054}
 - Line 35, : \newcommand{\autoZ}{0.070}
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/raw/table_12_model_results.tex**
-
-- Line 6, : Inequality reduction $\theta^A - \theta^D$   &  & 0.041   \\
-- Line 8, : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
-- Line 10, : Corruption reduction $\nu^D- \nu^A$  & & 0.055   \\
-- Line 16, : Dividend yield autocracy  &  0.051  & 0.051  \\
-- Line 18, : Dividend yield democratization  &  0.061  & 0.061  \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/table_11_model_calibration.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/table_11_model_calibration.tex**
 
 - Line 8, : $\qquad \qquad \bar{y}$     & 0.017 & Income growth & Maddison Historical Statistics \\
 - Line 9, : $\qquad \qquad \sigma_y$      & 0.073 & Income standard deviation & Maddison Historical Statistics \\
@@ -117,7 +81,60 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 18, : $\qquad \qquad \tau^A$ & 0.175 & Tax rate in autocracy & Autocracy Gov. Rev.-GDP ratio \\
 - Line 33, : $\qquad \qquad \beta$ & 0.9608 & Subjective discount rate & Match PD ratio in autocracy \\
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg210.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/seminar/06_model.tex**
+
+- Line 74, : 0.990 & 0.010  & 0.000 & \quad \textrm{Autocracy} \\
+- Line 76, : 0.000 & 0.000 & 1.000 &  \quad \textrm{Democracy} \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/01_events/02_create_pre1900_dem.do**
+
+- Line 29, : global FLOAT_TOL = 0.0001
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/11_table_11_model_calibration.py**
+
+- Line 31, : baseline_params['beta'] = 0.9608
+- Line 38, : baseline_params['y_A'] = 0.017
+- Line 39, : baseline_params['Delta_y_D'] = 0.000
+- Line 40, : baseline_params['sigma_y'] = 0.073
+- Line 49, : [0.99, 0.01, 0.000],
+- Line 51, : [0.000, 0.000, 1.000]
+- Line 73, : baseline_params_higher_growth['higher_growth_rate'] = 0.006
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/03_online_appendix.tex**
+
+- Line 415, : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
+- Line 417, : Row (4) presents the results using an indicator variable equal to one for changes in the raw V-Dem Electoral Democracy Index above the 90th percentile,\footnote{A 90th percentile rise in the Electoral Democracy Index is 0.019.} which see a large increase in dividend yields, between \tabBThreeLargeJumpLow\---\tabBThreeLargeJumpHigh\%. Row (5) presents the results for the democratization start year in the \cite{Lindberg2018} data, which display large point estimates, indicating a \tabBThreeLindbergLow\---\tabBThreeLindbergHigh\% rise in the dividend yield.
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/table_12_model_results.tex**
+
+- Line 6, : Inequality reduction $\theta^A - \theta^D$   &  & 0.041   \\
+- Line 8, : Tax increase $\tau^D-\tau^A$  & & 0.042   \\
+- Line 10, : Corruption reduction $\nu^D- \nu^A$  & & 0.055   \\
+- Line 16, : Dividend yield autocracy  &  0.051  & 0.051  \\
+- Line 18, : Dividend yield democratization  &  0.061  & 0.061  \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/09_stylized_facts_appendix.tex**
+
+- Line 25, : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
+- Line 27, : Row (4) presents the results using an indicator variable equal to one for changes in the raw V-Dem Electoral Democracy Index above the 90th percentile,\footnote{A 90th percentile rise in the Electoral Democracy Index is 0.019.} which see a large increase in dividend yields, between \tabBThreeLargeJumpLow\---\tabBThreeLargeJumpHigh\%. Row (5) presents the results for the democratization start year in the \cite{Lindberg2018} data, which display large point estimates, indicating a \tabBThreeLindbergLow\---\tabBThreeLindbergHigh\% rise in the dividend yield.
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/06_model.tex**
+
+- Line 88, : 0.990 & 0.010 & 0.000\\
+- Line 90, : 0.000 & 0.000 & 1.000
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/additional/03_figure_B3_democracy_IK_specs.do**
+
+- Line 76, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 77, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 90, : replace dem2_lb = dem2_pe - 1.645*dem2_se
+- Line 91, : replace dem2_ub = dem2_pe + 1.645*dem2_se
+- Line 201, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 202, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 215, : replace dem2_lb = dem2_pe - 1.645*dem2_se
+- Line 216, : replace dem2_ub = dem2_pe + 1.645*dem2_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg210.ado**
 
 - Line 5245, : //		cgamma = 1.4117
 - Line 5246, : cgamma = 1.1447
@@ -125,12 +142,12 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 5256, : cgamma = 1.3221
 - Line 6823, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/tables/04_table_B4_macro_political_risk_measures.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/05_figure_5_anti_regime_event_study.do**
 
-- Line 215, : if abs(`tstat') >= 2.576       local stars "\sym{***}"
-- Line 217, : else if abs(`tstat') >= 1.645  local stars "\sym{*}"
+- Line 89, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 90, : replace dem_ub = dem_pe + 1.645*dem_se
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/lib/JMSLab/tablefill_info.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/lib/JMSLab/tablefill_info.py**
 
 - Line 98, : 23.2389e+23
 - Line 100, : -0.922e+3
@@ -155,84 +172,27 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 258, : 2e-5    3.023
 - Line 284, : 1   1.00    3.000
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/01_main_body.tex**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/03_figure_C3_cso_activity_vs_mobilizations.do**
 
-- Line 442, : Second, the data reveals a marked rise in anti-regime CSO activity and democratic protests starting from 1959 to 1963. A structural break test indicates a change in trend in either 1959 or 1962 in the majority Catholic autocracies.\footnote{The structural break test is performed on the annual average across majority Catholic autocracies less the annual average across non-Catholic autocracies for both series. Two tests are run on each series from 1940--1989, a supremum Wald test and a supremum likelihood-ratio test. Each test indicates the same break date on each series: \figFiveBreakCSO\ for anti-regime CSO activity and \figFiveBreakMob\ for democratic mobilizations. The test statistics represent a high degree of statistical significance ($p<0.001$).} This suggests that the political reality on the ground began to change before 1963.
-- Line 638, : 0.990 & 0.010 & 0.000\\
-- Line 640, : 0.000 & 0.000 & 1.000
+- Line 58, : mat coefs[`i',4] = 100*(temp[1,2] + 1.645*temp[2,2])/mean_dem
+- Line 59, : mat coefs[`i',5] = 100*(temp[1,2] - 1.645*temp[2,2])/mean_dem
+- Line 60, : mat coefs[`i',6] = 100*(temp[1,1] + 1.645*temp[2,1])/mean_dem
+- Line 61, : mat coefs[`i',7] = 100*(temp[1,1] - 1.645*temp[2,1])/mean_dem
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg28.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/tables/06_table_6_balance_tests.do**
 
-- Line 805, : * so require it to be >= 0.9999999999.
-- Line 810, : if (`lambda' > `Eval'[1,`i']) & (`Eval'[1,`i'] >=0.9999999999) {
+- Line 112, : if abs(`t') >= 2.576 {
+- Line 118, : else if abs(`t') >= 1.645 {
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/06_figure_6_returns_event_study.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/esttab.ado**
 
-- Line 73, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 74, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 28, : local fixed_starlevels    `"* 0.05 ** 0.01 *** 0.001"'
+- Line 155, : local rtf_starlevels      `""{\super *}" 0.05 "{\super **}" 0.01 "{\super ***}" 0.001"'
+- Line 188, : local html_starlevels     `"<sup>*</sup> 0.05 <sup>**</sup> 0.01 <sup>***</sup> 0.001"'
+- Line 220, : local tex_starlevels      `"\sym{*} 0.05 \sym{**} 0.01 \sym{***} 0.001"'
+- Line 284, : local mmd_starlevels     `"<sup>\*</sup> 0.05 <sup>\*\*</sup> 0.01 <sup>\*\*\*</sup> 0.001"'
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg29.ado**
-
-- Line 5862, : //		cgamma = 1.4117
-- Line 5863, : cgamma = 1.1447
-- Line 5867, : cgamma = 2.6614
-- Line 5872, : cgamma = 1.3221
-- Line 7487, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/estout.ado**
-
-- Line 442, : local starlevels "* 0.05 ** 0.01 *** 0.001"
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/01_events/02_create_pre1900_dem.do**
-
-- Line 29, : global FLOAT_TOL = 0.0001
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/01_figure_1_dividend_yield_event_study.do**
-
-- Line 61, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 62, : replace dem_ub = dem_pe + 1.645*dem_se
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/figures/05_figure_5_anti_regime_event_study.do**
-
-- Line 89, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 90, : replace dem_ub = dem_pe + 1.645*dem_se
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/tables/raw/table_11_model_calibration.tex**
-
-- Line 8, : $\qquad \qquad \bar{y}$     & 0.017 & Income growth & Maddison Historical Statistics \\
-- Line 9, : $\qquad \qquad \sigma_y$      & 0.073 & Income standard deviation & Maddison Historical Statistics \\
-- Line 13, : $\qquad \qquad \theta^A$ & 0.527 & Inequality in autocracy & SWIID \\
-- Line 14, : $\qquad \qquad \theta^D$ & 0.486 & Avg. Inequality in democracy & Author estimation \\
-- Line 15, : $\qquad \qquad \nu^A$ & 0.370 & Rent diversion in autocracy & V-Dem \\
-- Line 16, : $\qquad \qquad \nu^D$ & 0.315 & Avg. rent diversion in democracy & Author estimation \\
-- Line 18, : $\qquad \qquad \tau^A$ & 0.175 & Tax rate in autocracy & Autocracy Gov. Rev.-GDP ratio \\
-- Line 33, : $\qquad \qquad \beta$ & 0.9608 & Subjective discount rate & Match PD ratio in autocracy \\
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreghdfe.ado**
-
-- Line 3806, : local tdelta	= `_dta[_TSdelta]'				//  be stored as e.g. +1.0000000000000X+000
-- Line 4904, : //	cgamma = 1.4117
-- Line 4905, : cgamma = 1.1447
-- Line 4909, : cgamma = 2.6614
-- Line 4915, : cgamma = 1.3221
-- Line 6742, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/additional/03_figure_B3_democracy_IK_specs.do**
-
-- Line 76, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 77, : replace dem_ub = dem_pe + 1.645*dem_se
-- Line 90, : replace dem2_lb = dem2_pe - 1.645*dem2_se
-- Line 91, : replace dem2_ub = dem2_pe + 1.645*dem2_se
-- Line 201, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 202, : replace dem_ub = dem_pe + 1.645*dem_se
-- Line 215, : replace dem2_lb = dem2_pe - 1.645*dem2_se
-- Line 216, : replace dem2_ub = dem2_pe + 1.645*dem2_se
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/10_figure_D10_democratization_end_price_response.do**
-
-- Line 32, : global CONF_INT = 1.645
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/model/.ipynb_checkpoints/model_final-checkpoint.ipynb**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/derived/model/.ipynb_checkpoints/model_final-checkpoint.ipynb**
 
 - Line 9, : "end_time": "2024-01-04T20:29:36.931586Z",
 - Line 10, : "start_time": "2024-01-04T20:29:36.927374Z"
@@ -1312,31 +1272,74 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 4956, : "start_time": "2023-10-13T00:38:59.985345Z"
 - Line 5067, : "                ftol   = 0.00000001,\n",
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/derived/model/gradual_redistribution_model.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/subsections/04_vatican_ii.tex**
 
-- Line 95, : ftol   = 0.00000001,
+- Line 82, : Second, the data reveals a marked rise in anti-regime CSO activity and democratic protests starting from 1959 to 1963. A structural break test indicates a change in trend in either 1959 or 1962 in the majority Catholic autocracies.\footnote{The structural break test is performed on the annual average across majority Catholic autocracies less the annual average across non-Catholic autocracies for both series. Two tests are run on each series from 1940--1989, a supremum Wald test and a supremum likelihood-ratio test. Each test indicates the same break date on each series: \figFiveBreakCSO\ for anti-regime CSO activity and \figFiveBreakMob\ for democratic mobilizations. The test statistics represent a high degree of statistical significance ($p<0.001$).} This suggests that the political reality on the ground began to change before 1963.
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/esttab.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/01_main_body.tex**
 
-- Line 28, : local fixed_starlevels    `"* 0.05 ** 0.01 *** 0.001"'
-- Line 155, : local rtf_starlevels      `""{\super *}" 0.05 "{\super **}" 0.01 "{\super ***}" 0.001"'
-- Line 188, : local html_starlevels     `"<sup>*</sup> 0.05 <sup>**</sup> 0.01 <sup>***</sup> 0.001"'
-- Line 220, : local tex_starlevels      `"\sym{*} 0.05 \sym{**} 0.01 \sym{***} 0.001"'
-- Line 284, : local mmd_starlevels     `"<sup>\*</sup> 0.05 <sup>\*\*</sup> 0.01 <sup>\*\*\*</sup> 0.001"'
+- Line 442, : Second, the data reveals a marked rise in anti-regime CSO activity and democratic protests starting from 1959 to 1963. A structural break test indicates a change in trend in either 1959 or 1962 in the majority Catholic autocracies.\footnote{The structural break test is performed on the annual average across majority Catholic autocracies less the annual average across non-Catholic autocracies for both series. Two tests are run on each series from 1940--1989, a supremum Wald test and a supremum likelihood-ratio test. Each test indicates the same break date on each series: \figFiveBreakCSO\ for anti-regime CSO activity and \figFiveBreakMob\ for democratic mobilizations. The test statistics represent a high degree of statistical significance ($p<0.001$).} This suggests that the political reality on the ground began to change before 1963.
+- Line 638, : 0.990 & 0.010 & 0.000\\
+- Line 640, : 0.000 & 0.000 & 1.000
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/09_figure_D9_explicit_redistribute_event_study.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg28.ado**
+
+- Line 805, : * so require it to be >= 0.9999999999.
+- Line 810, : if (`lambda' > `Eval'[1,`i']) & (`Eval'[1,`i'] >=0.9999999999) {
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/gcollapse.ado**
+
+- Line 1645, : return local st_time = max(`total_time', 0.001) * scalar(__gtools_gc_k_extra) * `factor'
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/main/figures/06_figure_6_returns_event_study.do**
+
+- Line 73, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 74, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/conference/06_model.tex**
+
+- Line 74, : 0.990 & 0.010  & 0.000 & \quad \textrm{Autocracy} \\
+- Line 76, : 0.000 & 0.000 & 1.000 &  \quad \textrm{Democracy} \\
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/tables/04_table_B4_macro_political_risk_measures.do**
+
+- Line 215, : if abs(`tstat') >= 2.576       local stars "\sym{***}"
+- Line 217, : else if abs(`tstat') >= 1.645  local stars "\sym{*}"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/01_figure_B1_democracy_log_price.do**
+
+- Line 165, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 166, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 235, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 236, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 304, : replace dem_lb = dem_pe - 1.645*dem_se
+- Line 305, : replace dem_ub = dem_pe + 1.645*dem_se
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg29.ado**
+
+- Line 5862, : //		cgamma = 1.4117
+- Line 5863, : cgamma = 1.1447
+- Line 5867, : cgamma = 2.6614
+- Line 5872, : cgamma = 1.3221
+- Line 7487, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreghdfe.ado**
+
+- Line 3806, : local tdelta	= `_dta[_TSdelta]'				//  be stored as e.g. +1.0000000000000X+000
+- Line 4904, : //	cgamma = 1.4117
+- Line 4905, : cgamma = 1.1447
+- Line 4909, : cgamma = 2.6614
+- Line 4915, : cgamma = 1.3221
+- Line 6742, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/09_figure_D9_explicit_redistribute_event_study.do**
 
 - Line 72, : replace dem_lb = dem_pe - 1.645*dem_se
 - Line 73, : replace dem_ub = dem_pe + 1.645*dem_se
 - Line 104, : replace dem_lb = dem_pe - 1.645*dem_se
 - Line 105, : replace dem_ub = dem_pe + 1.645*dem_se
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/06_table_6_balance_tests.do**
-
-- Line 112, : if abs(`t') >= 2.576 {
-- Line 118, : else if abs(`t') >= 1.645 {
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/utils/analysis/ivreg2.ado**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/ivreg2.ado**
 
 - Line 3736, : local tdelta	= `_dta[_TSdelta]'				//  be stored as e.g. +1.0000000000000X+000
 - Line 4847, : //	cgamma = 1.4117
@@ -1345,37 +1348,11 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 4858, : cgamma = 1.3221
 - Line 6685, : * 2.2.09   Per msg from Brian Poi, Alastair Hall verifies that Newey-West cited constant of 1.1447
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/appendix/figures/08_figure_C8_dividend_yield_event_study.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/utils/analysis/estout.ado**
 
-- Line 136, : replace dem_lb = dem_pe - 1.645*dem_se
-- Line 137, : replace dem_ub = dem_pe + 1.645*dem_se
+- Line 442, : local starlevels "* 0.05 ** 0.01 *** 0.001"
 
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/analysis/main/tables/11_table_11_model_calibration.py**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/analysis/appendix/figures/10_figure_D10_democratization_end_price_response.do**
 
-- Line 31, : baseline_params['beta'] = 0.9608
-- Line 38, : baseline_params['y_A'] = 0.017
-- Line 39, : baseline_params['Delta_y_D'] = 0.000
-- Line 40, : baseline_params['sigma_y'] = 0.073
-- Line 49, : [0.99, 0.01, 0.000],
-- Line 51, : [0.000, 0.000, 1.000]
-- Line 73, : baseline_params_higher_growth['higher_growth_rate'] = 0.006
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/section_6.tex**
-
-- Line 1, : \newcommand{\tabTwelveDeltaTheta}{0.041}
-- Line 2, : \newcommand{\tabTwelveDeltaTau}{0.042}
-- Line 3, : \newcommand{\tabTwelveDeltaNu}{0.055}
-- Line 5, : \newcommand{\tabTwelveDivYldAutModel}{0.051}
-- Line 6, : \newcommand{\tabTwelveDivYldAutData}{0.051}
-- Line 7, : \newcommand{\tabTwelveDivYldDemModel}{0.061}
-- Line 8, : \newcommand{\tabTwelveDivYldDemData}{0.061}
-- Line 30, : \newcommand{\transPTwoOne}{0.054}
-- Line 31, : \newcommand{\transPTwoTwo}{0.892}
-- Line 32, : \newcommand{\transPTwoThree}{0.054}
-- Line 35, : \newcommand{\autoZ}{0.070}
-
-**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/subsections/09_stylized_facts_appendix.tex**
-
-- Line 25, : Row (3) presents a similar exercise using the raw change in V-Dem's electoral democracy index. Again, to make the results comparable, the change in the index is divided by 0.324, the average change in the index during a democratization. These results are smaller than the results from using growth rates and point to a \tabBThreeIndexDiffLow\---\tabBThreeIndexDiffHigh\% change in the dividend yield over 5-years. The smaller magnitudes here make sense since using the raw difference weighs democratizations within existing democracies more heavily.
-- Line 27, : Row (4) presents the results using an indicator variable equal to one for changes in the raw V-Dem Electoral Democracy Index above the 90th percentile,\footnote{A 90th percentile rise in the Electoral Democracy Index is 0.019.} which see a large increase in dividend yields, between \tabBThreeLargeJumpLow\---\tabBThreeLargeJumpHigh\%. Row (5) presents the results for the democratization start year in the \cite{Lindberg2018} data, which display large point estimates, indicating a \tabBThreeLindbergLow\---\tabBThreeLindbergHigh\% rise in the dividend yield.
+- Line 32, : global CONF_INT = 1.645
 

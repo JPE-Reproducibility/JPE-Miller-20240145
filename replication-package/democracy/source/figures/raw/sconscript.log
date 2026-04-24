@@ -1,0 +1,130 @@
+*** Builder log created: {2026-04-08 12:33:47}
+*** Builder log completed: {2026-04-08 12:33:53}
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      StataNow 19.5
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2025 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-782-8272        https://www.stata.com
+                                   979-696-4600        service@stata.com
+
+Stata license: Unlimited-user 4-core network, expiring 17 Nov 2026
+Serial number: 501909320365
+  Licensed to: HBS User
+               Harvard Business School
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000 but can be increased;
+          see help set_maxvar.
+
+. do "source/analysis/appendix/figures/12_figure_F13_france_case_study.do" 
+
+. /*
+> Purpose: Generate Figure F13 - Electoral Democracy Index and dividend yield, 
+> France 1847–1848
+> Author: Max Miller
+> Date: 12-10-2025
+> */
+. 
+. * ===========================================================================
+. * Housekeeping
+. * ===========================================================================
+. 
+. clear all
+
+. version 19
+
+. set scheme s2color
+
+. 
+. * ===========================================================================
+. * Set globals
+. * ===========================================================================
+. 
+. global ASSETS_DERIVED                   "datastore/derived/assets"
+
+. global MACRO_POLITICAL_DERIVED  "datastore/derived/macro_political"
+
+. global FIGURES                                  "source/figures"
+
+. 
+. global START_YEAR = 1842
+
+. global END_YEAR = 1855
+
+. global DEM_YEARS 1847 1848
+
+. 
+. * ===========================================================================
+. * Main execution logic
+. * ===========================================================================
+. 
+. program define main
+  1.     use "${ASSETS_DERIVED}/all_div_yld.dta", clear
+  2.     keep country year gfd_div_yld
+  3.     keep if gfd_div_yld != .
+  4.     merge 1:1 country year using "${MACRO_POLITICAL_DERIVED}/democracy_ind
+> ex_and_regime_info.dta", keep(1 3) nogen
+  5.         keep if year >= $START_YEAR & year <= $END_YEAR & country == "FRA"
+  6.     create_france_case_study
+  7. end
+
+. 
+. * ===========================================================================
+. * Create France plot
+. * ===========================================================================
+. 
+. program define create_france_case_study
+  1.     
+.     local labSize = "large"
+  2.     two (connected vdem_elect year , lc(blue) lw(.6) mc(blue)) ///
+>         (connected gfd_div_yld year , lc(red) lw(.6) yaxis(2) msymbol(s) mc(r
+> ed) ), ///
+>         ylabel(,  axis(1) labcolor(blue) nogrid labsize(`labSize')) ///
+>                 yscale(axis(1) lc(blue)) ///
+>                 ytitle("Electoral Democracy Index", size(`labSize') margin(me
+> dsmall) color(blue)) ///
+>         ylabel(,  axis(2) labcolor(red) nogrid labsize(`labSize')) ///
+>                 yscale(axis(2) lc(red)) ///
+>                 ytitle("Dividend Yield", size(`labSize') margin(medsmall) axi
+> s(2) color(red)) ///
+>                 ysize(3) ///
+>         xline($DEM_YEARS , lc(gs12) lwidth(12) lp(solid)) ///
+>                 xlabel($START_YEAR(4)$END_YEAR, labsize(`labSize') nogrid) //
+> /
+>                 xtitle("") ///
+>         legend(off) ///
+>         graphregion(color(white)) ///
+>         bgcolor(white) subtitle(" ")
+  3.     graph export "${FIGURES}/raw/figure_F13_france_case_study.pdf", replac
+> e
+  4. 
+. end
+
+. 
+. * ===========================================================================
+. * Run script
+. * ===========================================================================
+. 
+. main
+(Type 'notes' for license, see https://creativecommons.org/licenses/by-nc-sa/4.
+> 0/)
+(1,346 observations deleted)
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             5,225  
+    -----------------------------------------
+(5,211 observations deleted)
+file source/figures/raw/figure_F13_france_case_study.pdf saved as PDF format
+
+. 
+end of do-file

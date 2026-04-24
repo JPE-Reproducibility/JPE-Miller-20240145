@@ -1,284 +1,100 @@
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/arpc/docs/._Relative Political Capacity Dataset 2.4 Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._Dyadic MID Codebook V3.0.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._MIDLOCA_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._MIDLOCI_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._MID_Narratives_1993-2001.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._MID_Narratives_2002-2010.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._MID_v4.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._MID_v4.0_GeneralSources.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/._MII_v4.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/._Discussion - MID changes as of v3.10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/._Discussion - MIDs reviewed and unchanged as of v3.10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/._MID_Changes_as_of_v4.0.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/._MID_v3.0.associated document.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/._mid42_recommended_changes.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/orig/MID-level/._MIDLOCA_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/orig/MID-level/._MIDLOCI_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/religion/docs/._wrp-codebook-bibliography.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._COW Website - Typology of war.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._CowWarList.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._Extra-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._Inter-StateWarsList.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._Inter-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._Intra-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._Non-StateWarsList.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._Non-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/cow/wars/docs/._The Directed Dyadic Interstate War Dataset Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/icb/docs/._ICB2Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/other_events/docs/._Data Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/other_events/docs/._ReadMe.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/regime_change/docs/._(2018) Successful and Failed Episodes of Democratization.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/regime_change/docs/._ERT_codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/swiid/docs/._R_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/swiid/docs/._stata_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/._V-Dem Cautionary Notes v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/._V-Dem Codebook v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/._V-Dem Suggested Citation v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/._What's New.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/._V-Dem Cautionary Notes v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/._V-Dem Codebook v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/._V-Dem Suggested Citation v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/._What's New v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/._V-Dem Cautionary Notes v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/._V-Dem Codebook v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/._V-Dem Suggested Citation v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/._What's New.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/._Cautionary_notes_v8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/._Suggested_citation_v8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/._V-Dem Codebook V8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/._What's_new_v8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_1_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_2_physical_human_capital.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_3a_gdp_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_3b_consumption_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_4_regional_waves.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_5a_event_study_anti_system_cso.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_5b_event_study_democratic_protests.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_6_did_event_study_returns.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_7_coefficients_over_time.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_8_autocratization_model.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B1a_log_price_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B1a_log_price_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B1b_log_dividend_growth_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B1b_log_dividend_growth_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B1c_log_gdp_per_capita_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B1c_log_gdp_per_capita_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_1.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_1_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_2.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_2_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_3.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_3_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_4.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_B2_dividend_yield_event_study_4_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C3_democracy_activity_mobil.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C4a_country_pair_falsification.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C4b_country_pair_falsification_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C5a_window_end_date_all.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C5b_window_end_date_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C6a_country_pair_PE_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C6a_country_pair_T_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C6b_country_pair_PE_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C6b_country_pair_T_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C7a_country_pair_PE_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C7a_country_pair_T_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C7b_country_pair_PE_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C7b_country_pair_T_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_C8_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_D10a_democratize_price_response_succ.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_D10b_democratize_price_response_ld.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_D9b_explicit_redistribute_event_study_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_F12_sweden_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/figures/raw/._figure_F13_france_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/._miller_2025.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/._online_appendix.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._20251215113502398.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_1_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_2_physical_human_capital.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_3a_gdp_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_3b_consumption_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_4_regional_waves.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_5a_event_study_anti_system_cso.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_5b_event_study_democratic_protests.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_6_did_event_study_returns.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_7_coefficients_over_time.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_8_autocratization_model.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B1a_log_price_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B1a_log_price_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B1b_log_dividend_growth_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B1b_log_dividend_growth_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B1c_log_gdp_per_capita_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B1c_log_gdp_per_capita_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_1.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_1_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_2.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_2_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_3.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_3_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_4.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_B2_dividend_yield_event_study_4_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C3_democracy_activity_mobil.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C4a_country_pair_falsification.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C4b_country_pair_falsification_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C5a_window_end_date_all.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C5b_window_end_date_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C6a_country_pair_PE_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C6a_country_pair_T_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C6b_country_pair_PE_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C6b_country_pair_T_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C7a_country_pair_PE_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C7a_country_pair_T_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C7b_country_pair_PE_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C7b_country_pair_T_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_C8_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_D10a_democratize_price_response_succ.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_D10b_democratize_price_response_ld.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_D9b_explicit_redistribute_event_study_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_F12_sweden_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/source/paper/paper_upload/._figure_F13_france_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/arpc/docs/Relative Political Capacity Dataset 2.4 Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/Dyadic MID Codebook V3.0.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/MIDLOCA_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/MIDLOCI_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/MID_Narratives_1993-2001.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/MID_Narratives_2002-2010.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/MID_v4.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/MID_v4.0_GeneralSources.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/MII_v4.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/Discussion - MID changes as of v3.10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/Discussion - MIDs reviewed and unchanged as of v3.10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/MID_Changes_as_of_v4.0.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/MID_v3.0.associated document.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/mid42_recommended_changes.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/orig/MID-level/MIDLOCA_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/militarized_interstate_disputes/orig/MID-level/MIDLOCI_2.0_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/religion/docs/wrp-codebook-bibliography.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/COW Website - Typology of war.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/CowWarList.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/Extra-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/Inter-StateWarsList.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/Inter-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/Intra-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/Non-StateWarsList.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/Non-StateWars_Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/cow/wars/docs/The Directed Dyadic Interstate War Dataset Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/icb/docs/ICB2Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/other_events/docs/Data Codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/other_events/docs/ReadMe.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/regime_change/docs/(2018) Successful and Failed Episodes of Democratization.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/regime_change/docs/ERT_codebook.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/swiid/docs/R_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/swiid/docs/stata_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/V-Dem Cautionary Notes v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/V-Dem Codebook v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/V-Dem Suggested Citation v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version10/What's New.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/V-Dem Cautionary Notes v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/V-Dem Codebook v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/V-Dem Suggested Citation v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/docs/version12/What's New v12.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/V-Dem Cautionary Notes v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/V-Dem Codebook v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/V-Dem Suggested Citation v10.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version10/What's New.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/Cautionary_notes_v8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/Suggested_citation_v8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/V-Dem Codebook V8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/vdem/orig/version8/What's_new_v8.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_1_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_2_physical_human_capital.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_3a_gdp_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_3b_consumption_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_4_regional_waves.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_5a_event_study_anti_system_cso.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_5b_event_study_democratic_protests.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_6_did_event_study_returns.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_7_coefficients_over_time.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_8_autocratization_model.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B1a_log_price_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B1a_log_price_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B1b_log_dividend_growth_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_1.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_1_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_2.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_2_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_3.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_3_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_4.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_B2_dividend_yield_event_study_4_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C3_democracy_activity_mobil.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C4a_country_pair_falsification.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C4b_country_pair_falsification_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C5a_window_end_date_all.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C5b_window_end_date_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C6a_country_pair_PE_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C6a_country_pair_T_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C6b_country_pair_PE_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C6b_country_pair_T_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C7a_country_pair_PE_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C7a_country_pair_T_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C7b_country_pair_PE_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C7b_country_pair_T_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_C8_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_D10a_democratize_price_response_succ.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_D10b_democratize_price_response_ld.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_F12_sweden_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/figures/raw/figure_F13_france_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/miller_2025.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/online_appendix.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/20251215113502398.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_1_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_2_physical_human_capital.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_3a_gdp_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_3b_consumption_growth_distribution.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_4_regional_waves.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_5a_event_study_anti_system_cso.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_5b_event_study_democratic_protests.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_6_did_event_study_returns.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_7_coefficients_over_time.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_8_autocratization_model.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B1a_log_price_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B1a_log_price_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B1b_log_dividend_growth_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B1b_log_dividend_growth_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B1c_log_gdp_per_capita_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B1c_log_gdp_per_capita_event_study_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_1.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_1_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_2.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_2_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_3.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_3_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_4.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_B2_dividend_yield_event_study_4_lp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C3_democracy_activity_mobil.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C4a_country_pair_falsification.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C4b_country_pair_falsification_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C5a_window_end_date_all.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C5b_window_end_date_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C6a_country_pair_PE_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C6a_country_pair_T_short.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C6b_country_pair_PE_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C6b_country_pair_T_short_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C7a_country_pair_PE_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C7a_country_pair_T_long.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C7b_country_pair_PE_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C7b_country_pair_T_long_aut.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_C8_dividend_yield_event_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_D10a_democratize_price_response_succ.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_D10b_democratize_price_response_ld.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_D9b_explicit_redistribute_event_study_swiid.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_F12_sweden_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/source/paper/paper_upload/figure_F13_france_case_study.pdf
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/._README.md
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/README.md
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/__MACOSX/replication_package_2026_03_18/datastore/raw/gfd/docs/._Python_API_Guide.docx
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-2/replication-package/replication_package_2026_03_18/datastore/raw/gfd/docs/Python_API_Guide.docx
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/arpc/docs/Relative Political Capacity Dataset 2.4 Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/Dyadic MID Codebook V3.0.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/MIDLOCA_2.0_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/MIDLOCI_2.0_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/MID_Narratives_1993-2001.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/MID_Narratives_2002-2010.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/MID_v4.0_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/MID_v4.0_GeneralSources.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/MII_v4.0_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/Discussion - MID changes as of v3.10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/Discussion - MIDs reviewed and unchanged as of v3.10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/MID_Changes_as_of_v4.0.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/MID_v3.0.associated document.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/docs/data-changes/mid42_recommended_changes.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/orig/MID-level/MIDLOCA_2.0_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/militarized_interstate_disputes/orig/MID-level/MIDLOCI_2.0_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/religion/docs/wrp-codebook-bibliography.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/COW Website - Typology of war.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/CowWarList.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/Extra-StateWars_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/Inter-StateWarsList.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/Inter-StateWars_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/Intra-StateWars_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/Non-StateWarsList.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/Non-StateWars_Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/cow/wars/docs/The Directed Dyadic Interstate War Dataset Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/icb/docs/ICB2Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/other_events/docs/Data Codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/other_events/docs/ReadMe.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/regime_change/docs/(2018) Successful and Failed Episodes of Democratization.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/regime_change/docs/ERT_codebook.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/swiid/docs/R_swiid.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/swiid/docs/stata_swiid.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version10/V-Dem Cautionary Notes v10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version10/V-Dem Codebook v10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version10/V-Dem Suggested Citation v10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version10/What's New.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version12/V-Dem Cautionary Notes v12.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version12/V-Dem Codebook v12.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version12/V-Dem Suggested Citation v12.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/docs/version12/What's New v12.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version10/V-Dem Cautionary Notes v10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version10/V-Dem Codebook v10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version10/V-Dem Suggested Citation v10.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version10/What's New.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version8/Cautionary_notes_v8.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version8/Suggested_citation_v8.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version8/V-Dem Codebook V8.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/vdem/orig/version8/What's_new_v8.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/miller_2025.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/online_appendix.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/20251215113502398.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_1_dividend_yield_event_study.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_2_physical_human_capital.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_3a_gdp_growth_distribution.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_3b_consumption_growth_distribution.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_4_regional_waves.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_5a_event_study_anti_system_cso.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_5b_event_study_democratic_protests.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_6_did_event_study_returns.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_7_coefficients_over_time.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_8_autocratization_model.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B1a_log_price_event_study.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B1a_log_price_event_study_lp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B1b_log_dividend_growth_event_study.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B1b_log_dividend_growth_event_study_lp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B1c_log_gdp_per_capita_event_study.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B1c_log_gdp_per_capita_event_study_lp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_1.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_1_lp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_2.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_2_lp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_3.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_3_lp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_4.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_B2_dividend_yield_event_study_4_lp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C3_democracy_activity_mobil.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C4a_country_pair_falsification.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C4b_country_pair_falsification_aut.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C5a_window_end_date_all.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C5b_window_end_date_aut.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C6a_country_pair_PE_short.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C6a_country_pair_T_short.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C6b_country_pair_PE_short_aut.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C6b_country_pair_T_short_aut.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C7a_country_pair_PE_long.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C7a_country_pair_T_long.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C7b_country_pair_PE_long_aut.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C7b_country_pair_T_long_aut.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_C8_dividend_yield_event_study.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_D10a_democratize_price_response_succ.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_D10b_democratize_price_response_ld.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_D9b_explicit_redistribute_event_study_swiid.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_F12_sweden_case_study.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/paper/paper_upload/figure_F13_france_case_study.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/who_values_democracy_conference.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/source/talk/who_values_democracy_seminar.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/README.md
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240145-3/replication-package/democracy/datastore/raw/gfd/docs/Python_API_Guide.docx

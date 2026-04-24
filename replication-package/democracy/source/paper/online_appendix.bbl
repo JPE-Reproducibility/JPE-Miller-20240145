@@ -1,0 +1,148 @@
+\ifx\undefined\bysame
+\newcommand{\bysame}{\leavevmode\hbox to\leftmargin{\hrulefill\,\,}}
+\fi
+\begin{thebibliography}{xx}
+
+\harvarditem[Acemoglu et al.]{Acemoglu, Naidu, Restrepo and
+  Robinson}{2019}{Acemoglu2019}
+{\bf Acemoglu, Daron, Suresh Naidu, Pascual Restrepo, and James~A. Robinson},
+  ``{Democracy Does Cause Growth},'' {\it Journal of Political Economy}, 2019,
+  {\it 127} (1), 47--100.
+
+\harvarditem[Bengtsson]{Bengtsson}{2014}{Bengtsson2014}
+{\bf Bengtsson, Erik}, ``{Labour's share in twentieth-century Sweden: a
+  reinterpretation},'' {\it Scandinavian Economic History Review}, 2014, {\it
+  62} (3), 290--314.
+
+\harvarditem[Bengtsson]{Bengtsson}{2019}{Bengtsson2019}
+{\bf \bysame{}}, ``{The Swedish Sonderweg in Question: Democratization and
+  Inequality in Comparative Perspective, c.1750–1920},'' {\it Past \&
+  Present}, 2019, {\it 244} (1), 123–161.
+
+\harvarditem[Bengtsson et al.]{Bengtsson, Molinder and
+  Prado}{2021}{Bengtsson2021}
+{\bf \bysame{}, Jakob Molinder, and Svante Prado}, ``{Incomes and Income
+  Inequality in Stockholm, 1870–1950},'' 2021.
+\newblock Working Paper.
+
+\harvarditem[Brecher et al.]{Brecher, Wilkenfeld, Beardsley, James and
+  Quinn}{2017}{Brecher2017}
+{\bf Brecher, Michael, Jonathan Wilkenfeld, Kyle Beardsley, Patrick James, and
+  David Quinn}, ``{International Crisis Behavior Data Codebook},'' 2017.
+\newblock Version 12.
+
+\harvarditem[Campbell]{Campbell}{1991}{Campbell1991}
+{\bf Campbell, John~Y.}, ``{A Variance Decomposition for Stock Returns},'' {\it
+  The Economic Journal}, 1991, {\it 101} (405), 157--179.
+
+\harvarditem[Campbell and Shiller]{Campbell and Shiller}{1988}{Campbell1988}
+{\bf \bysame{} and Robert~J. Shiller}, ``{Stock Prices, Earnings, and Expected
+  Dividends},'' {\it Journal of Finance}, 1988, {\it 43} (3), 157--179.
+
+\harvarditem[Coppedge et al.]{Coppedge, Gerring, {Henrik Knutsen}, Lind-berg,
+  Skaaning, Teorell, Altman, Bernhard, Cornell, {Steven Fish}, Gjerl{\o}w,
+  Glynn, Hicken, Krusell, L{\"{u}}hrmann, Mar-quardt, McMann, Mechkova, Olin,
+  Paxton, Pemstein, Seim, Sigman, Staton, Sundstr{\"{o}}m, Tzelgov, Uberti,
+  Wang, Andersson, Ciobanu, Cojocaru, Negash, Saxer, Ahlbom, Ahlin, Bader,
+  Bianco, Bilinski, Bj{\o}rkholt, Cassell, Dwinger, Frederiksen, Gusoi,
+  Hellegaard, Isola, Jabbar, Jernsletten, Karlsdottir, Kava-soglu, Krauchi,
+  {Martin Laegreid}, Lasserre, {Lunnan Djuve}, Maier, Marten, Patteson,
+  Radaeski, Rassuchine, Schlect, Selnes, Sibbers, Skenteris, Slivka, Tan,
+  Tannen-berg and T{\"{o}}njes}{2020}{Coppedge2018}
+{\bf Coppedge, Michael, John Gerring, Carl {Henrik Knutsen}, Staffan~I
+  Lind-berg, Svend-Erik Skaaning, Jan Teorell, David Altman, Michael Bernhard,
+  Agnes Cornell, M~{Steven Fish}, Haakon Gjerl{\o}w, Adam Glynn, Allen Hicken,
+  Joshua Krusell, Anna L{\"{u}}hrmann, Kyle~L Mar-quardt, Kelly McMann,
+  Valeriya Mechkova, Moa Olin, Pamela Paxton, Daniel Pemstein, Brigitte Seim,
+  Rachel Sigman, Jeffrey Staton, Aksel Sundstr{\"{o}}m, Eitan Tzelgov, Luca
+  Uberti, Yi~ting Wang, Frida Andersson, Vlad Ciobanu, Lee Cojocaru, Selemon
+  Negash, Laura Saxer, Tove Ahlbom, Pelle Ahlin, Eric Bader, Julia Bianco, Adam
+  Bilinski, Solveig Bj{\o}rkholt, Sophie Cassell, Felix Dwinger, Kristian
+  Frederiksen, Ionut Gusoi, Sune Hellegaard, Bernardo Isola, Talib Jabbar,
+  Haakon Jernsletten, Eva Karlsdottir, Berker Kava-soglu, Thomas Krauchi, Ole
+  {Martin Laegreid}, Frederik Lasserre, Vilde {Lunnan Djuve}, Claudia Maier,
+  Swaantje Marten, Mark Patteson, Livia Radaeski, Hayley Rassuchine, Janina
+  Schlect, Tove Selnes, Katharina Sibbers, Konstantinos Skenteris, Andrew
+  Slivka, Tolga Tan, Marcus Tannen-berg, and Philipp T{\"{o}}njes},
+  ``{Varieties of Democracy Codebook},'' 2020.
+\newblock Version 10.
+
+\harvarditem[Dube et al.]{Dube, Girardi, Òscar Jordà and
+  Taylor}{2025}{Dube2025}
+{\bf Dube, Arindrajit, Daniele Girardi, Òscar Jordà, and Alan~M. Taylor}, ``A
+  Local Projections Approach to Difference-in-Differences,'' {\it Journal of
+  Applied Econometrics}, 2025.
+\newblock Forthcoming.
+
+\harvarditem[Epstein and Zin]{Epstein and Zin}{1989}{Epstein1989}
+{\bf Epstein, Larry~G. and Stanley~E. Zin}, ``{Substitution, Risk Aversion, and
+  the Temporal Behavior of Consumption and Asset Returns: A Theoretical
+  Framework},'' {\it Econometrica}, 1989, {\it 57} (4), 937--969.
+
+\harvarditem[Gon\c{c}alves]{Gon\c{c}alves}{2022}{Goncalves2022}
+{\bf Gon\c{c}alves, Andrei~S.}, ``{What Moves Equity Markets? A Term Structure
+  Decomposition for Stock Returns},'' 2022.
+\newblock Kenan Institute of Private Enterprise Research Paper No.20-08.
+
+\harvarditem[Jones and Olken]{Jones and Olken}{2009}{Jones2009}
+{\bf Jones, Benjamin~F. and Benjamin~A. Olken}, ``{Hit or miss? The effect of
+  assassinations on institutions and war},'' {\it American Economic Journal:
+  Macroeconomics}, 2009, {\it 1} (2), 29--54.
+
+\harvarditem[Li]{Li}{2006}{Li2006}
+{\bf Li, Guoying}, ``Robust Regression,'' 2006.
+\newblock Wiley Series in Probability and Statistics.
+
+\harvarditem[Lindberg et al.]{Lindberg, Lindenfors, L{\"{u}}hrmann, Maxwell,
+  Medzihorsky, Morgan and Wilson}{2018}{Lindberg2018}
+{\bf Lindberg, Staffan~I., Patrik Lindenfors, Anna L{\"{u}}hrmann, Laura
+  Maxwell, Juraj Medzihorsky, Richard Morgan, and Matthew~Charles Wilson},
+  ``{Successful and Failed Episodes of Democratization: Conceptualization,
+  Identification, and Description},'' 2018.
+\newblock V-Dem Working Paper 2018:79.
+
+\harvarditem[Luebbert]{Luebbert}{1991}{Luebbert1991}
+{\bf Luebbert, Gregory}, {\it {Liberalism, Fascism, Or Social Democracy: Social
+  Classes and the Political Origins of Regimes in Interwar Europe}}, Oxford
+  University Press, 1991.
+
+\harvarditem[Maoz and Henderson]{Maoz and Henderson}{2013}{Maoz2013}
+{\bf Maoz, Zeev and Errol~A. Henderson}, ``The World Religion Dataset,
+  1945-2010: Logic, Estimates, and Trends,'' {\it International Interactions},
+  2013, {\it 39} (1), 265--291.
+
+\harvarditem[Marx]{Marx}{1850}{Marx1850}
+{\bf Marx, Karl}, {\it {The Class Struggles in France, 1848--1850}}, Friedrich
+  Engels, 1850.
+
+\harvarditem[Muir]{Muir}{2017}{Muir2017}
+{\bf Muir, Tyler}, ``{Financial crises and risk premia},'' {\it Quarterly
+  Journal of Economics}, 2017, {\it 132} (2), 765--809.
+
+\harvarditem[Palmer et al.]{Palmer, McManus, D’Orazio, Kenwick, Karstens,
+  Bloch, Dietrich, Kahn, Ritter and Soules}{2020}{Palmer2020}
+{\bf Palmer, Glenn, Roseanne~W. McManus, Vito D’Orazio, Michael~R. Kenwick,
+  Mikaela Karstens, Chase Bloch, Nick Dietrich, Kayla Kahn, Kellan Ritter, and
+  Michael~J. Soules}, ``The MID5 Dataset, 2011-2014: Procedures, Coding Rules,
+  and Description,'' {\it Conflict Management and Peace Science}, 2020, {\it
+  39} (4), 470--482.
+
+\harvarditem[Przeworski]{Przeworski}{2013}{Przeworski2013}
+{\bf Przeworski, Adam}, ``{Political Institutions and Political Events (PIPE)
+  Data Set},'' 2013.
+\newblock Department of Politics, New York University.
+
+\harvarditem[Reinhart and Rogoff]{Reinhart and Rogoff}{2009}{Reinhart2009}
+{\bf Reinhart, Carmen and Kenneth Rogoff}, {\it {This Time is Different: Eight
+  Centuries of Financial Folly}}, Princeton University Press, 2009.
+
+\harvarditem[Solt]{Solt}{2020}{Solt2020}
+{\bf Solt, Frederick}, ``Measuring Income Inequality Across Countries and Over
+  Time: The Standardized World Income Inequality Database.,'' {\it Social
+  Science Quarterly}, 2020, {\it 101} (3), 1183--1199.
+
+\harvarditem[Jordà]{Jordà}{2005}{Jorda2005}
+{\bf Òscar Jordà}, ``Estimation and Inference of Impulse Responses by Local
+  Projections,'' {\it American Economic Review}, 2005, {\it 95} (1), 161--182.
+
+\end{thebibliography}

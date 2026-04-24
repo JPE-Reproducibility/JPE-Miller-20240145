@@ -1,0 +1,143 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[noframenumbering] 
+	\begin{center}
+		{ \Huge \textcolor{blue}{\scshape The Model \\
+		}}
+	\end{center}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Macroeconomic environment}
+	\begin{itemize}
+		\item<1-> \textbf{Two types of agents:} $\delta<\frac{1}{2}$ Elites and $1-\delta$ Citizens.
+		\vspace{.25cm}
+		\item<2-> \textbf{Lucas tree:} constant drift and lognormal shocks.
+		\vspace{.25cm}
+		\item<3-> \textbf{Inequality:}  Elites get $\theta^\mathcal{I}$ and Citizens get $1-\theta^\mathcal{I}$ where $\mathcal{I}\in\{A,D\}$ and $\theta^\mathcal{I}>\delta$.
+		\vspace{.25cm}
+		\item<3-> \textbf{Incomplete markets:} Elites and Citizens do not trade with each other. Elites are marginal investor.
+		\vspace{.25cm}
+		\item<4-> \textbf{After-tax income:}
+		\begin{align*}
+			\hat{y}_{t}^{r} (\tau_{t},\theta^{\mathcal{I}},\nu^{\mathcal{I}}) = & (1-\tau_{t})\bigg(\frac{\theta^\mathcal{I}}{\delta}\bigg)+\left(\left(\frac{\nu^{\mathcal{I}}}{\delta}\right)\tau_{t}-\frac{1}{2}\omega\tau_t^2\right) \\
+			\hat{y}_{t}^{p} (\tau_{t},\theta^{\mathcal{I}},\nu^{\mathcal{I}}) = & (1-\tau_{t})\bigg(\frac{1-\theta^\mathcal{I}}{1-\delta}\bigg)+\left(\left(\frac{1-\nu^{\mathcal{I}}}{1-\delta}\right)\tau_{t}-\frac{1}{2}\omega\tau_t^2\right)
+		\end{align*}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Taxes, transfers, and institutions}
+	\begin{itemize}
+		\item<1-> \textbf{Fiscal instrument:} non-negative taxes ($\tau$) distributed equally to all agents (Meltzer and Richard, 1981).
+		\vspace{.25cm}
+		\begin{itemize}
+			\item<2->[--] \textbf{Elites dislike taxes:} optimal tax rate is $\tau^{r*} = 0$.
+			\vspace{.10cm}
+			\item<2->[--]  \textbf{Citizens like taxes:} optimal tax rate is $\tau^{p*}=\frac{\theta^\mathcal{I}-\nu^\mathcal{I}}{\omega(1-\delta)}$
+		\end{itemize}
+		\vspace{.25cm}
+		\item<3->  \textbf{Taxes decided by majority rule voting:}
+			\vspace{.10cm}
+		\begin{itemize}
+			\item<4->[--] \textbf{Autocracy:} only the Elites can vote and absent frictions the tax rate will be 0.
+			\vspace{.10cm}
+			\item<4->[--] \textbf{Democracy:} everyone can vote; there are more Citizens, so the tax rate will be  $\tau^{p*}$.
+		\end{itemize}
+		\vspace{.25cm}
+		\item<5-> \textbf{Revolution:} citizens can constrain the policies of the Elites by threatening revolution. 
+		\begin{itemize}
+			\vspace{.10cm}
+			\item<5->[--] \textbf{Cost of revolution:} a fraction $\mu$ of the Lucas tree is permanently destroyed.
+		\end{itemize}
+	\end{itemize}
+	
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{One-shot democracy example}
+	\begin{itemize}
+		\item<1-> Assume $\mu$ follows three state Markov process.
+		\vspace{.10cm}
+		\begin{itemize}
+			\item<1->[--] \textbf{States 1 and 2:} calibrate $\mu$ to match government revenue-GDP ratio in autocracy.
+			\vspace{.10cm}
+			\item<1->[--] \textbf{State 3:} permanent transition to democracy.
+			\begin{equation*}
+			\mathbf{P}=\begin{blockarray}{cccc}
+			\begin{block}{(ccc)l}
+ 			 0.990 & 0.010  & 0.000 & \quad \textrm{Autocracy} \\
+  			 \transPTwoOne & \transPTwoTwo & \transPTwoThree  & \quad \textrm{Democratization} \\
+  			 0.000 & 0.000 & 1.000 &  \quad \textrm{Democracy} \\
+			\end{block}
+			\end{blockarray}.
+		\end{equation*}
+		\end{itemize}
+		\vspace*{-.85cm}
+	\item<2-> \textbf{Consumption process of the Elites:}
+	\begin{equation*}
+		\log \frac{C^r_{t+1}}{C^r_{t}} = \bar{y}+\sigma_y\varepsilon_{t} + \log \chi_{r}
+	\end{equation*}
+	with 
+	\begin{equation*}
+		\chi_{r}=\begin{cases}
+			1 & \text{if no transition} \\
+			\frac{\hat{y}_{t+1}^{r} (\tau_{t},\theta^{\mathcal{D}},\nu^{\mathcal{D}})}{\hat{y}_{t}^{r}(\tau_{t},\theta^{\mathcal{A}},\nu^{\mathcal{A}})} & \textrm{if transitioning to democracy}
+		\end{cases}.
+	\end{equation*}
+	\vspace{.10cm}
+	\item<3-> \textbf{Uncertain redistribution:} redistribution can either be ``high'' or ``low.''
+	\end{itemize}
+		
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[label=table12]{Change in dividend yields}
+
+	\newcolumntype{Y}{>{\centering\arraybackslash}X}
+	\vspace{.10in} {\tiny\setlength{\tabcolsep}{.025in}
+	\centerline{{
+		\input{\tablepath/table_12_model_results.tex}
+	}}}
+\vspace*{.25cm}
+
+\begin{center}
+\textbf{Redistribution risk can explain all of the rise in dividend yields.}
+\end{center}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Understanding autocratizations}
+	\begin{itemize}
+		\item<1-> \textbf{Model also produces near 0 change in log dividend yields in autocratizations.}
+		\vspace{.25cm}
+		\item<2->  \textbf{Main difference:} while democratizations are chosen by the Citizens, autocratization are chosen by the Elites.
+		\vspace{.15cm}
+			\begin{itemize}
+				\item<2->[--] \textbf{If successful:} society becomes an autocracy.
+				\vspace{.15cm}
+				\item<2->[--] \textbf{If failed:} society remains a democracy and Elites lose a fraction $Z$ of their consumption permanently.
+		\vspace{.25cm}
+			\end{itemize}
+		\item<3-> \textbf{Autocratizations at indifference point:} negligible effect on dividend yields. 
+	\end{itemize}
+	
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{High benefit autocratizations create more risk}
+	\begin{center}
+		\includegraphics[width=1\textwidth]{\figurepath/figure_8_autocratization_model.pdf}
+	\end{center}
+
+\end{frame}

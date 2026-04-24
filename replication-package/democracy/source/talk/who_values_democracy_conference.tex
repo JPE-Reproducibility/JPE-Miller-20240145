@@ -1,0 +1,236 @@
+\documentclass[12pt,xcolor=x11names,compress, plain]{beamer}
+
+%% General document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{paperwidth=190mm,paperheight=140mm}
+\usepackage{graphicx}
+\usepackage{hhline}
+\usepackage[utf8]{inputenc}
+\usepackage{dcolumn}
+\setbeamertemplate{caption}{\insertcaption} 
+\setbeamertemplate{caption label separator}{}
+\setbeamerfont{normal text}{size=\normalsize}
+\setbeamerfont{caption}{size=\normalsize}
+\setbeamerfont{table body}{size=\normalsize}
+\setbeamerfont{itemize/enumerate body}{size=\normalsize}
+\setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
+\setbeamerfont{itemize/enumerate subsubbody}{size=\normalsize}
+\usepackage{tikz}
+\usepackage{animate}
+\usepackage[authoryear]{natbib}
+\usepackage{color, colortbl}
+\usepackage{xcolor,soul}
+\usepackage{xmpmulti}
+\usepackage[english]{babel}
+\usepackage{epigraph}
+\setlength\epigraphwidth{16cm}
+\setlength\epigraphrule{0pt}
+\usepackage{pifont}
+\usepackage{longtable}
+\usepackage{bbm}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{blkarray}
+\usepackage{xcolor}
+\usepackage{mfirstuc}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+\usepackage{ragged2e}
+\usepackage{setspace}
+
+\input{../paper/numbers/section_3.tex}
+\input{../paper/numbers/section_4.tex}
+\input{../paper/numbers/section_5.tex}
+\input{../paper/numbers/section_6.tex}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\usepackage{float}
+\usepackage{tabu,booktabs}
+\tabulinesep=0.9mm
+\usepackage{tabularx}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\makeatletter
+\newcommand\SoulColor{%
+	\let\set@color\beamerorig@set@color
+	\let\reset@color\beamerorig@reset@color}
+\makeatother
+
+\usepackage{tikz}
+\tikzset{font={\fontsize{9pt}{12}\selectfont}}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+
+\usepackage{epstopdf}
+\usetikzlibrary{arrows}
+\tikzset{every picture/.style={font issue=\footnotesize},
+         font issue/.style={execute at begin picture={#1\selectfont}}
+        }
+\usetikzlibrary{positioning,decorations.pathreplacing,shapes}     
+
+\usetikzlibrary{fit,shapes.misc}
+
+\newcommand\marktopleft[1]{%
+	\tikz[overlay,remember picture] 
+	\node (marker-#1-a) at (0,1.5ex) {};%
+}
+\newcommand\markbottomright[1]{%
+	\tikz[overlay,remember picture] 
+	\node (marker-#1-b) at (0,0) {};%
+	\tikz[overlay,remember picture,thick,dashed,inner sep=3pt]
+	\node[draw,rounded rectangle,fit=(marker-#1-a.center) (marker-#1-b.center)] {};%
+}
+\newcounter{nodemarkers}
+\newcommand\circletext[1]{%
+	\tikz[overlay,remember picture] 
+	\node (marker-\arabic{nodemarkers}-a) at (0,1.5ex) {};%
+	#1%
+	\tikz[overlay,remember picture]
+	\node (marker-\arabic{nodemarkers}-b) at (0,0){};%
+	\tikz[overlay,remember picture,inner sep=2pt]
+	\node[draw,ellipse,red,thick,fit=(marker-\arabic{nodemarkers}-a.center) (marker-\arabic{nodemarkers}-b.center)] {};%
+	\stepcounter{nodemarkers}%
+}
+\newcommand\circletextblue[1]{%
+	\tikz[overlay,remember picture] 
+	\node (marker-\arabic{nodemarkers}-a) at (0,1.5ex) {};%
+	#1%
+	\tikz[overlay,remember picture]
+	\node (marker-\arabic{nodemarkers}-b) at (0,0){};%
+	\tikz[overlay,remember picture,inner sep=2pt]
+	\node[draw,ellipse,blue,thick,fit=(marker-\arabic{nodemarkers}-a.center) (marker-\arabic{nodemarkers}-b.center)] {};%
+	\stepcounter{nodemarkers}%
+}
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% Beamer Layout %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\useoutertheme[subsection=false,shadow]{miniframes}
+\useinnertheme{default}
+\usefonttheme{serif}
+\usepackage{palatino}
+\usepackage{eurosym}
+\usepackage{tabu}
+\usepackage{transparent}
+\setbeamerfont{title like}{shape=\scshape}
+\setbeamerfont{frametitle}{shape=\scshape,series=\bfseries}
+\setbeamerfont{frametitle}{size=\Large}
+%\setbeamerfont{frametitle}{series=\bfseries,parent=structure}
+
+\setbeamercolor*{lower separation line head}{bg=DeepSkyBlue4} 
+\setbeamercolor*{normal text}{fg=black,bg=white} 
+\setbeamercolor*{alerted text}{fg=red} 
+\setbeamercolor*{example text}{fg=black} 
+\setbeamercolor*{structure}{fg=black} 
+
+%gets rid of bottom navigation bars
+%\setbeamertemplate{footline}[frame number]{}
+
+%gets rid of bottom navigation symbols
+\setbeamertemplate{navigation symbols}{}
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
+%gets rid of footer
+%will override 'frame number' instruction above
+%comment out to revert to previous/default definitions
+%\setbeamertemplate{footline}{}
+
+\setbeamertemplate{itemize items}[circle]
+ 
+\setbeamercolor*{palette tertiary}{fg=black,bg=black!10} 
+\setbeamercolor*{palette quaternary}{fg=black,bg=black!10} 
+
+%\renewcommand{\(}{\begin{columns}}
+%\renewcommand{\)}{\end{columns}}
+%\newcommand{\<}[1]{\begin{column}{#1}}
+%\renewcommand{\>}{\end{column}}
+
+\definecolor{britishracinggreen}{rgb}{0.0,0.26,0.15}
+\definecolor{asparagus}{rgb}{0.53, 0.66, 0.42}
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
+\definecolor{LightCyan}{RGB}{229, 245, 249}
+\definecolor{DarkBlue}{RGB}{25, 25, 112}
+\definecolor{brickred}{rgb}{0.8, 0.25, 0.33}
+\definecolor{cardinal}{rgb}{0.77, 0.12, 0.23}
+\definecolor{carmine}{rgb}{0.59, 0.0, 0.09}
+\definecolor{columnhighlight}{rgb}{.89, .96, .96}
+\renewcommand<>{\hl}[1]{\only#2{\beameroriginal{\hl}}{#1}}
+\usepackage{xcolor}
+\setbeamercovered{invisible}
+\setbeamercovered{%
+	again covered={\opaqueness<1->{15}}}
+
+\usepackage{lmodern}
+\usepackage[beamer,customcolors]{hf-tikz}
+
+\tikzset{hl/.style={
+		set fill color=red!80!black!40,
+		set border color=red!80!black,
+	},
+}
+
+\let\oldcitet=\citet
+\renewcommand{\citet}[1]{\textcolor{DeepSkyBlue4}{\oldcitet{#1}}}
+
+\renewcommand{\baselinestretch}{1.2}\normalsize
+\newcommand*{\my}[2]{\multicolumn{1}{#1}{#2}}
+\newcommand*{\sig}[1]{\textsuperscript{#1}}
+\newcolumntype{Y}{D..{1.4}}
+\newcolumntype{g}{>{\columncolor{columnhighlight}}X[c]}
+\setbeamercovered{transparent}
+
+\newcommand{\tablepath}{\string"../tables/raw\string"}
+\newcommand{\figurepath}{\string"../figures/raw\string"}
+
+%\usepackage{pgfpages}
+%\setbeamertemplate{note page}[plain]
+%\setbeameroption{show notes on second screen}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[noframenumbering] 
+\title{\textbf{Who values democracy?}}
+\vspace{2cm}
+\author{\begin{tabular}{c}
+		Max Miller \\ 
+		Harvard Business School \\ 
+\end{tabular} }
+
+\date{January 4th 2026}
+\titlepage 
+\begin{center}
+American Economic Association Annual Meeting
+\end{center}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{conference/01_motivation.tex}
+\input{conference/02_data.tex}
+\input{conference/03_democratization_risk_premia.tex}
+\input{conference/04_vatican_ii.tex}
+\input{conference/05_democracy_and_redistribution.tex}
+\input{conference/06_model.tex}
+\input{conference/07_conclusion.tex}
+
+\appendix
+
+\input{backup/08_section_3_appendix.tex}
+\input{backup/09_section_4_appendix.tex}
+\input{backup/10_section_5_appendix.tex}
+
+\begin{frame}[noframenumbering]<beamer:0>
+	\bibliography{../paper/Democratization}
+	\bibliographystyle{aer}
+\end{frame}
+
+
+\end{document}

@@ -1,0 +1,3436 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.9)  27 DEC 2025 10:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**who_values_democracy_conference.tex
+(./who_values_democracy_conference.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+\beamer@tempbox=\box50
+\beamer@tempcount=\count186
+\c@beamerpauses=\count187
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count188
+\beamer@minimum=\count189
+\beamer@decode@box=\box51
+)
+\beamer@commentbox=\box52
+\beamer@modecount=\count190
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
+\beamer@lastskip=\skip47
+\beamer@areabox=\box53
+\beamer@animcurrent=\box54
+\beamer@animshowbox=\box55
+\beamer@sectionbox=\box56
+\beamer@logobox=\box57
+\beamer@linebox=\box58
+\beamer@sectioncount=\count191
+\beamer@subsubsectionmax=\count192
+\beamer@subsectionmax=\count193
+\beamer@sectionmax=\count194
+\beamer@totalheads=\count195
+\beamer@headcounter=\count196
+\beamer@partstartpage=\count197
+\beamer@sectionstartpage=\count198
+\beamer@subsectionstartpage=\count199
+\beamer@animationtempa=\count266
+\beamer@animationtempb=\count267
+\beamer@xpos=\count268
+\beamer@ypos=\count269
+\beamer@ypos@offset=\count270
+\beamer@showpartnumber=\count271
+\beamer@currentsubsection=\count272
+\beamer@coveringdepth=\count273
+\beamer@sectionadjust=\count274
+\beamer@toclastsection=\count275
+\beamer@tocsectionnumber=\count276
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks21
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen164
+\pgf@xa=\dimen165
+\pgf@xb=\dimen166
+\pgf@xc=\dimen167
+\pgf@y=\dimen168
+\pgf@ya=\dimen169
+\pgf@yb=\dimen170
+\pgf@yc=\dimen171
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count284
+\pgfmath@box=\box60
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+\pgf@x=\dimen175
+\pgf@y=\dimen176
+\pgf@xa=\dimen177
+\pgf@ya=\dimen178
+\pgf@xb=\dimen179
+\pgf@yb=\dimen180
+\pgf@xc=\dimen181
+\pgf@yc=\dimen182
+\pgf@xd=\dimen183
+\pgf@yd=\dimen184
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count286
+\c@pgf@countb=\count287
+\c@pgf@countc=\count288
+\c@pgf@countd=\count289
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count290
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count291
+\pgfsyssoftpath@bigbuffer@items=\count292
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2021/10/31 v2.13 Predefined colors according to Unix/X11 (UK)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen185
+\pgf@picmaxx=\dimen186
+\pgf@picminy=\dimen187
+\pgf@picmaxy=\dimen188
+\pgf@pathminx=\dimen189
+\pgf@pathmaxx=\dimen190
+\pgf@pathminy=\dimen191
+\pgf@pathmaxy=\dimen192
+\pgf@xx=\dimen193
+\pgf@xy=\dimen194
+\pgf@yx=\dimen195
+\pgf@yy=\dimen196
+\pgf@zx=\dimen197
+\pgf@zy=\dimen198
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen199
+\pgf@path@lasty=\dimen256
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen257
+\pgf@shorten@start@additional=\dimen258
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count293
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen259
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen260
+\pgf@pt@y=\dimen261
+\pgf@pt@temp=\dimen262
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen263
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen264
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box64
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count296
+\XC@countmixins=\count297
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen265
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count300
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4018.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4018.
+Package hyperref Info: Option `implicit' set `false' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count301
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen266
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count302
+\Field@Width=\dimen267
+\Fld@charsize=\dimen268
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+\Hy@abspage=\count303
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks28
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count306
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count307
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count308
+\c@part=\count309
+\c@section=\count310
+\c@subsection=\count311
+\c@subsubsection=\count312
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box65
+\beamer@frametitlebox=\box66
+\beamer@zoombox=\box67
+\beamer@zoomcount=\count313
+\beamer@zoomframecount=\count314
+\beamer@frametextheight=\dimen269
+\c@subsectionslide=\count315
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks29
+\framewidth=\dimen270
+\c@framenumber=\count316
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box68
+\beamer@autobreakcount=\count317
+\beamer@autobreaklastheight=\dimen271
+\beamer@frametitletoks=\toks30
+\beamer@framesubtitletoks=\toks31
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+\beamer@footins=\box69
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box70
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks32
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box71
+\bmb@colorbox=\box72
+\bmb@boxwidth=\dimen272
+\bmb@boxheight=\dimen273
+\bmb@prevheight=\dimen274
+\bmb@temp=\dimen275
+\bmb@dima=\dimen276
+\bmb@dimb=\dimen277
+\bmb@prevheight=\dimen278
+)
+\beamer@blockheadheight=\dimen279
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+)
+\beamer@bibiconwidth=\skip55
+\c@figure=\count318
+\c@table=\count319
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen280
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen281
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen282
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count320
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count321
+\leftroot@=\count322
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count323
+\DOTSCASE@=\count324
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box73
+\strutbox@=\box74
+\big@size=\dimen283
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count325
+\c@MaxMatrixCols=\count326
+\dotsspace@=\muskip17
+\c@parentequation=\count327
+\dspbrk@lvl=\count328
+\tag@help=\toks35
+\row@=\count329
+\column@=\count330
+\maxfields@=\count331
+\andhelp@=\toks36
+\eqnshift@=\dimen284
+\alignsep@=\dimen285
+\tagshift@=\dimen286
+\tagwidth@=\dimen287
+\totwidth@=\dimen288
+\lineht@=\dimen289
+\@envbody=\toks37
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks44
+)
+\c@theorem=\count332
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamercolorthemedefault.st
+y)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
+y
+\beamer@dima=\dimen290
+\beamer@dimb=\dimen291
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y))) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks45
+\inpenc@posthook=\toks46
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen292
+\ar@mcellbox=\box75
+\extrarowheight=\dimen293
+\NC@list=\toks47
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box76
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box77
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count333
+\pgfplotmarksize=\dimen298
+)
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count334
+\tikznumberofchildren=\count335
+\tikznumberofcurrentchild=\count336
+\tikz@fig@count=\count337
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count338
+\pgfmatrixcurrentcolumn=\count339
+\pgf@matrix@numberofcolumns=\count340
+)
+\tikz@expandcount=\count341
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2022/02/21 PDF & SVG animations from files and inline graphics
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks50
+\XKV@tempa@toks=\toks51
+)
+\XKV@depth=\count342
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count343
+\calc@Bcount=\count344
+\calc@Adimen=\dimen307
+\calc@Bdimen=\dimen308
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count345
+\calc@Cskip=\skip68
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count346
+Package zref Info: New property: abspage on input line 66.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count347
+\l__pdf_internal_box=\box82
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: pdfbase 2022/03/18 v0.54 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count348
+\g_pbs_oc_int=\count349
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count350
+)
+\@anim@box=\box83
+\@anim@measbox=\box84
+\@anim@tmpdima=\dimen309
+\@anim@tmpdimb=\dimen310
+\@anim@num=\count351
+\@anim@curframe=\count352
+\@anim@curframe@zb=\count353
+\@anim@resizeflags=\count354
+\@anim@skipfram=\count355
+\@anim@mulframecnt=\count356
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count357
+\c@@anim@ltxcnt=\count358
+\@anim@curlayer=\count359
+\@anim@lineno=\count360
+\@anim@curfield=\count361
+\@anim@@resizeflags=\count362
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip69
+\bibsep=\skip70
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count363
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks52
+\minrowclearance=\skip71
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks53
+\SOUL@lasttoken=\toks54
+\SOUL@cmds=\toks55
+\SOUL@buffer=\toks56
+\SOUL@token=\toks57
+\SOUL@spaceskip=\skip72
+\SOUL@ttwidth=\dimen311
+\SOUL@uldp=\dimen312
+\SOUL@ulht=\dimen313
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/xmpmulti.sty
+\@mpm@count=\count364
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count365
+\U@D=\dimen314
+\l@unhyphenated=\language87
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read4
+LaTeX Info: Redefining \textlatin on input line 3969.
+\bbl@dirlevel=\count366
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip73
+\afterepigraphskip=\skip74
+\epigraphwidth=\skip75
+\epigraphrule=\skip76
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip77
+\LTright=\skip78
+\LTpre=\skip79
+\LTpost=\skip80
+\LTchunksize=\count367
+\LTcapwidth=\dimen315
+\LT@head=\box85
+\LT@firsthead=\box86
+\LT@foot=\box87
+\LT@lastfoot=\box88
+\LT@gbox=\box89
+\LT@cols=\count368
+\LT@rows=\count369
+\c@LT@tables=\count370
+\c@LT@chunks=\count371
+\LT@p@ftn=\toks58
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen316
+\lightrulewidth=\dimen317
+\cmidrulewidth=\dimen318
+\belowrulesep=\dimen319
+\belowbottomsep=\dimen320
+\aboverulesep=\dimen321
+\abovetopsep=\dimen322
+\cmidrulesep=\dimen323
+\cmidrulekern=\dimen324
+\defaultaddspace=\dimen325
+\@cmidla=\count372
+\@cmidlb=\count373
+\@aboverulesep=\dimen326
+\@belowrulesep=\dimen327
+\@thisruleclass=\count374
+\@lastruleclass=\count375
+\@thisrulewidth=\dimen328
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen329
+\c@nlinenum=\count376
+\TeXr@lab=\toks59
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/blkarray/blkarray.sty
+Package: blkarray 2015/02/27 v0.07 Block array (dpc)
+\c@BAenumi=\count377
+\BA@col=\count378
+\BA@block@cnt=\count379
+\BA@final@box=\box90
+\BA@first@box=\box91
+\BA@colsep=\dimen330
+\BA@ftn=\toks60
+\BAextrarowheight=\dimen331
+\BAextraheightafterhline=\dimen332
+\BAarrayrulewidth=\dimen333
+\BAdoublerulesep=\dimen334
+\BAfootskip=\dimen335
+\BA@dashbox=\box92
+\BA@ddashbox=\box93
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2021/10/15 v2.07 (NLCT)
+\@glsmfirst=\toks61
+\@glsmrest=\toks62
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks63
+\AP@partial=\box94
+\AP@footins=\box95
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip81
+\RaggedLeftLeftskip=\skip82
+\RaggedRightLeftskip=\skip83
+\CenteringRightskip=\skip84
+\RaggedLeftRightskip=\skip85
+\RaggedRightRightskip=\skip86
+\CenteringParfillskip=\skip87
+\RaggedLeftParfillskip=\skip88
+\RaggedRightParfillskip=\skip89
+\JustifyingParfillskip=\skip90
+\CenteringParindent=\skip91
+\RaggedLeftParindent=\skip92
+\RaggedRightParindent=\skip93
+\JustifyingParindent=\skip94
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(../paper/numbers/section_3.tex) (../paper/numbers/section_4.tex)
+(../paper/numbers/section_5.tex) (../paper/numbers/section_6.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count380
+\float@exts=\toks64
+\float@box=\box96
+\@float@everytoks=\toks65
+\@floatcapt=\box97
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box98
+\sift@deathcycles=\count381
+\@vwid@loff=\dimen336
+\@vwid@roff=\dimen337
+)
+\c@taburow=\count382
+\tabu@nbcols=\count383
+\tabu@cnt=\count384
+\tabu@Xcol=\count385
+\tabu@alloc=\count386
+\tabu@nested=\count387
+\tabu@target=\dimen338
+\tabu@spreadtarget=\dimen339
+\tabu@naturalX=\dimen340
+\tabucolX=\dimen341
+\tabu@Xsum=\dimen342
+\extrarowdepth=\dimen343
+\abovetabulinesep=\dimen344
+\belowtabulinesep=\dimen345
+\tabustrutrule=\dimen346
+\tabu@thebody=\toks66
+\tabu@footnotes=\toks67
+\tabu@box=\box99
+\tabu@arstrutbox=\box100
+\tabu@hleads=\box101
+\tabu@vleads=\box102
+\tabu@cellskip=\skip95
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen347
+\TX@old@table=\dimen348
+\TX@old@col=\dimen349
+\TX@target=\dimen350
+\TX@delta=\dimen351
+\TX@cols=\count388
+\TX@ftn=\toks68
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen352
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen353
+\pgfdecoratedremainingdistance=\dimen354
+\pgfdecoratedinputsegmentcompleteddistance=\dimen355
+\pgfdecoratedinputsegmentremainingdistance=\dimen356
+\pgf@decorate@distancetomove=\dimen357
+\pgf@decorate@repeatstate=\count389
+\pgfdecorationsegmentamplitude=\dimen358
+\pgfdecorationsegmentlength=\dimen359
+)
+\tikz@lib@dec@box=\box103
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box104
+\pgfnodeparttwobox=\box105
+\pgfnodepartthreebox=\box106
+\pgfnodepartfourbox=\box107
+\pgfnodeparttwentybox=\box108
+\pgfnodepartnineteenbox=\box109
+\pgfnodeparteighteenbox=\box110
+\pgfnodepartseventeenbox=\box111
+\pgfnodepartsixteenbox=\box112
+\pgfnodepartfifteenbox=\box113
+\pgfnodepartfourteenbox=\box114
+\pgfnodepartthirteenbox=\box115
+\pgfnodeparttwelvebox=\box116
+\pgfnodepartelevenbox=\box117
+\pgfnodeparttenbox=\box118
+\pgfnodepartninebox=\box119
+\pgfnodeparteightbox=\box120
+\pgfnodepartsevenbox=\box121
+\pgfnodepartsixbox=\box122
+\pgfnodepartfivebox=\box123
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+\c@nodemarkers=\count390
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerouterthememiniframes
+.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box124
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty
+Package: hf-tikz 2014/07/25 v0.3a A simple way to highlight formulas and formul
+a parts.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadings.code.tex
+File: tikzlibraryshadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryshading
+s.code.tex
+File: pgflibraryshadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+\c@jumping=\count391
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+95.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(./who_values_democracy_conference.aux)
+\openout1 = `who_values_democracy_conference.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 483.69687pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 398.33858pt, 0.0pt)
+* \paperwidth=540.60236pt
+* \paperheight=398.33858pt
+* \textwidth=483.69687pt
+* \textheight=369.88585pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count392
+\scratchdimen=\dimen360
+\scratchbox=\box125
+\nofMPsegments=\count393
+\nofMParguments=\count394
+\everyMPshowfont=\toks69
+\MPscratchCnt=\count395
+\MPscratchDim=\dimen361
+\MPnumerator=\count396
+\makeMPintoPDFobject=\count397
+\everyMPtoPDFconversion=\toks70
+)
+Package hyperref Info: Link coloring OFF on input line 195.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count398
+)
+LaTeX Info: Redefining \ref on input line 195.
+LaTeX Info: Redefining \pageref on input line 195.
+LaTeX Info: Redefining \nameref on input line 195.
+ (./who_values_democracy_conference.out)
+(./who_values_democracy_conference.out)
+\@outlinefile=\write5
+\openout5 = `who_values_democracy_conference.out'.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+) (./who_values_democracy_conference.nav)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 212.
+
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+12.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+212.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+212.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 212.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 212.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 212.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 212
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 212
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+(./conference/01_motivation.tex
+
+LaTeX Font Warning: Font shape `OT1/lmr/bx/sc' undefined
+(Font)              using `OT1/lmr/bx/n' instead on input line 49.
+
+[2
+
+] [3
+
+] [4
+
+] [5
+
+] [6
+
+] [7
+
+] [8
+
+]
+<../figures/raw/figure_1_dividend_yield_event_study.pdf, id=422, 397.485pt x 18
+0.675pt>
+File: ../figures/raw/figure_1_dividend_yield_event_study.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_1_dividend_yield_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_1_dividend_yield_event_study.pdf
+  used on input line 63.
+(pdftex.def)             Requested size: 483.69687pt x 219.86903pt.
+ [9
+
+ <../figures/raw/figure_1_dividend_yield_event_study.pdf>]
+File: ../figures/raw/figure_1_dividend_yield_event_study.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_1_dividend_yield_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_1_dividend_yield_event_study.pdf
+  used on input line 63.
+(pdftex.def)             Requested size: 483.69687pt x 219.86903pt.
+ [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+]) (./conference/02_data.tex
+[17
+
+] [18
+
+] [19
+
+]) (./conference/03_democratization_risk_premia.tex [20
+
+]
+
+Package array Warning: Column Y is already defined on input line 43.
+
+(../tables/raw/table_1_change_in_log_dividend_yields.tex) [21
+
+]
+
+Package array Warning: Column Y is already defined on input line 62.
+
+(../tables/raw/table_2_cashflow_growth.tex) [22
+
+]
+<../figures/raw/figure_3a_gdp_growth_distribution.pdf, id=980, 397.485pt x 289.
+08pt>
+File: ../figures/raw/figure_3a_gdp_growth_distribution.pdf Graphic file (type p
+df)
+<use ../figures/raw/figure_3a_gdp_growth_distribution.pdf>
+Package pdftex.def Info: ../figures/raw/figure_3a_gdp_growth_distribution.pdf  
+used on input line 74.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+<../figures/raw/figure_3b_consumption_growth_distribution.pdf, id=981, 397.485p
+t x 289.08pt>
+File: ../figures/raw/figure_3b_consumption_growth_distribution.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_3b_consumption_growth_distribution.pdf>
+Package pdftex.def Info: ../figures/raw/figure_3b_consumption_growth_distributi
+on.pdf  used on input line 74.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+ [23
+
+ <../figures/raw/figure_3a_gdp_growth_distribution.pdf> <../figures/raw/figure_
+3b_consumption_growth_distribution.pdf>]
+
+Package array Warning: Column Y is already defined on input line 95.
+
+(../tables/raw/table_3_democratization_vs_other_political_risk.tex) [24
+
+]
+
+Package array Warning: Column Y is already defined on input line 107.
+
+(../tables/raw/table_10_high_vs_low_redistribution_risk.tex) [25
+
+])
+(./conference/04_vatican_ii.tex [26
+
+] [27
+
+] [28
+
+] [29
+
+]
+<../figures/raw/figure_5a_event_study_anti_system_cso.pdf, id=1289, 397.485pt x
+ 361.35pt>
+File: ../figures/raw/figure_5a_event_study_anti_system_cso.pdf Graphic file (ty
+pe pdf)
+<use ../figures/raw/figure_5a_event_study_anti_system_cso.pdf>
+Package pdftex.def Info: ../figures/raw/figure_5a_event_study_anti_system_cso.p
+df  used on input line 51.
+(pdftex.def)             Requested size: 217.66211pt x 197.87746pt.
+<../figures/raw/figure_5b_event_study_democratic_protests.pdf, id=1290, 397.485
+pt x 361.35pt>
+File: ../figures/raw/figure_5b_event_study_democratic_protests.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_5b_event_study_democratic_protests.pdf>
+Package pdftex.def Info: ../figures/raw/figure_5b_event_study_democratic_protes
+ts.pdf  used on input line 51.
+(pdftex.def)             Requested size: 217.66211pt x 197.87746pt.
+ [30
+
+ <../figures/raw/figure_5a_event_study_anti_system_cso.pdf> <../figures/raw/fig
+ure_5b_event_study_democratic_protests.pdf>]
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 70.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+) [31
+
+] [32
+
+]
+[33
+
+] [34
+
+]
+<../figures/raw/figure_6_did_event_study_returns.pdf, id=1506, 397.485pt x 216.
+81pt>
+File: ../figures/raw/figure_6_did_event_study_returns.pdf Graphic file (type pd
+f)
+<use ../figures/raw/figure_6_did_event_study_returns.pdf>
+Package pdftex.def Info: ../figures/raw/figure_6_did_event_study_returns.pdf  u
+sed on input line 80.
+(pdftex.def)             Requested size: 483.69687pt x 263.84285pt.
+ [35
+
+ <../figures/raw/figure_6_did_event_study_returns.pdf>]
+
+Package array Warning: Column Y is already defined on input line 116.
+
+(../tables/raw/table_7_did_results.tex) [36
+
+])
+(./conference/05_democracy_and_redistribution.tex
+
+Package array Warning: Column Y is already defined on input line 27.
+
+(../tables/raw/table_8_explicit_redistribution.tex) [37
+
+]
+
+Package array Warning: Column Y is already defined on input line 46.
+
+(../tables/raw/table_9_implicit_redistribution.tex) [38
+
+])
+(./conference/06_model.tex [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+]
+[48
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 97.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 97.
+ [49
+
+] [50
+
+] [51
+
+]
+
+Package array Warning: Column Y is already defined on input line 114.
+
+(../tables/raw/table_12_model_results.tex) [52
+
+] [53
+
+] [54
+
+] [55
+
+]
+<../figures/raw/figure_8_autocratization_model.pdf, id=2345, 715.30359pt x 335.
+66591pt>
+File: ../figures/raw/figure_8_autocratization_model.pdf Graphic file (type pdf)
+
+<use ../figures/raw/figure_8_autocratization_model.pdf>
+Package pdftex.def Info: ../figures/raw/figure_8_autocratization_model.pdf  use
+d on input line 143.
+(pdftex.def)             Requested size: 483.69687pt x 226.98468pt.
+ [56
+
+ <../figures/raw/figure_8_autocratization_model.pdf>]) (./conference/07_conclus
+ion.tex
+[57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
+]) (./backup/08_section_3_appendix.tex
+<../figures/raw/figure_2_physical_human_capital.pdf, id=2648, 397.485pt x 180.6
+75pt>
+File: ../figures/raw/figure_2_physical_human_capital.pdf Graphic file (type pdf
+)
+<use ../figures/raw/figure_2_physical_human_capital.pdf>
+Package pdftex.def Info: ../figures/raw/figure_2_physical_human_capital.pdf  us
+ed on input line 9.
+(pdftex.def)             Requested size: 483.69687pt x 219.86903pt.
+ [63
+
+ <../figures/raw/figure_2_physical_human_capital.pdf>]
+<../figures/raw/figure_B1a_log_price_event_study.pdf, id=2745, 397.485pt x 216.
+81pt>
+File: ../figures/raw/figure_B1a_log_price_event_study.pdf Graphic file (type pd
+f)
+<use ../figures/raw/figure_B1a_log_price_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1a_log_price_event_study.pdf  u
+sed on input line 22.
+(pdftex.def)             Requested size: 217.66211pt x 118.72647pt.
+<../figures/raw/figure_B1a_log_price_event_study_lp.pdf, id=2746, 397.485pt x 2
+16.81pt>
+File: ../figures/raw/figure_B1a_log_price_event_study_lp.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_B1a_log_price_event_study_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1a_log_price_event_study_lp.pdf
+  used on input line 22.
+(pdftex.def)             Requested size: 217.66211pt x 118.72647pt.
+ [64
+
+ <../figures/raw/figure_B1a_log_price_event_study.pdf> <../figures/raw/figure_B
+1a_log_price_event_study_lp.pdf>]
+<../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf, id=2811, 397.48
+5pt x 216.81pt>
+File: ../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf Graphic fil
+e (type pdf)
+<use ../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1b_log_dividend_growth_event_st
+udy.pdf  used on input line 35.
+(pdftex.def)             Requested size: 217.66211pt x 118.72647pt.
+<../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf, id=2812, 397
+.485pt x 216.81pt>
+File: ../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf Graphic 
+file (type pdf)
+<use ../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1b_log_dividend_growth_event_st
+udy_lp.pdf  used on input line 35.
+(pdftex.def)             Requested size: 217.66211pt x 118.72647pt.
+ [65
+
+ <../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf> <../figures/ra
+w/figure_B1b_log_dividend_growth_event_study_lp.pdf>]
+<../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf, id=2872, 397.485
+pt x 216.81pt>
+File: ../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1c_log_gdp_per_capita_event_stu
+dy.pdf  used on input line 47.
+(pdftex.def)             Requested size: 217.66211pt x 118.72647pt.
+<../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf, id=2873, 397.
+485pt x 216.81pt>
+File: ../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf Graphic f
+ile (type pdf)
+<use ../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1c_log_gdp_per_capita_event_stu
+dy_lp.pdf  used on input line 47.
+(pdftex.def)             Requested size: 217.66211pt x 118.72647pt.
+ [66
+
+ <../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf> <../figures/raw
+/figure_B1c_log_gdp_per_capita_event_study_lp.pdf>]
+<../figures/raw/figure_F13_france_case_study.pdf, id=2935, 397.485pt x 216.81pt
+>
+File: ../figures/raw/figure_F13_france_case_study.pdf Graphic file (type pdf)
+<use ../figures/raw/figure_F13_france_case_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_F13_france_case_study.pdf  used 
+on input line 61.
+(pdftex.def)             Requested size: 483.69687pt x 263.84285pt.
+ [67
+
+ <../figures/raw/figure_F13_france_case_study.pdf>]
+File: ../figures/raw/figure_F13_france_case_study.pdf Graphic file (type pdf)
+<use ../figures/raw/figure_F13_france_case_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_F13_france_case_study.pdf  used 
+on input line 61.
+(pdftex.def)             Requested size: 483.69687pt x 263.84285pt.
+ [68
+
+]
+<../figures/raw/figure_F12_sweden_case_study.pdf, id=3039, 397.485pt x 216.81pt
+>
+File: ../figures/raw/figure_F12_sweden_case_study.pdf Graphic file (type pdf)
+<use ../figures/raw/figure_F12_sweden_case_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_F12_sweden_case_study.pdf  used 
+on input line 72.
+(pdftex.def)             Requested size: 483.69687pt x 263.84285pt.
+ [69
+
+ <../figures/raw/figure_F12_sweden_case_study.pdf>]
+
+Package array Warning: Column Y is already defined on input line 86.
+
+(../tables/raw/table_4_revolution_risk.tex) [70
+
+]
+<../figures/raw/figure_4_regional_waves.pdf, id=3142, 397.485pt x 216.81pt>
+File: ../figures/raw/figure_4_regional_waves.pdf Graphic file (type pdf)
+<use ../figures/raw/figure_4_regional_waves.pdf>
+Package pdftex.def Info: ../figures/raw/figure_4_regional_waves.pdf  used on in
+put line 108.
+(pdftex.def)             Requested size: 483.69687pt x 263.84285pt.
+ [71
+
+ <../figures/raw/figure_4_regional_waves.pdf>]
+
+Package array Warning: Column Y is already defined on input line 108.
+
+(../tables/raw/table_5_regional_waves_instrument.tex) [72
+
+]
+
+Package array Warning: Column Y is already defined on input line 122.
+
+(../tables/raw/table_B2_adverse_dividend_growth.tex) [73
+
+]
+
+Package array Warning: Column Y is already defined on input line 134.
+
+(../tables/raw/table_B3_risk_premium.tex
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.56393pt too wide) in paragraph at lines 40--40
+ []|[]| 
+ []
+
+) [74
+
+]
+
+Package array Warning: Column Y is already defined on input line 146.
+
+(../tables/raw/table_B4_macro_political_risk_measures.tex
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+
+Overfull \hbox (15.9092pt too wide) in paragraph at lines 44--44
+ []|[]| 
+ []
+
+)
+Overfull \vbox (8.37032pt too high) detected at line 146
+ []
+
+[75
+
+]
+
+Package array Warning: Column Y is already defined on input line 161.
+
+(../tables/raw/table_B5a_adverse_probability_all.tex) [76
+
+]
+
+Package array Warning: Column Y is already defined on input line 176.
+
+(../tables/raw/table_B6_democratize_risk_measures.tex) [77
+
+])
+(./backup/09_section_4_appendix.tex
+
+Package array Warning: Column Y is already defined on input line 13.
+
+(../tables/raw/table_6_balance_tests.tex
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd)) [78
+
+]
+<../figures/raw/figure_C3_democracy_activity_mobil.pdf, id=3534, 397.485pt x 21
+6.81pt>
+File: ../figures/raw/figure_C3_democracy_activity_mobil.pdf Graphic file (type 
+pdf)
+<use ../figures/raw/figure_C3_democracy_activity_mobil.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C3_democracy_activity_mobil.pdf 
+ used on input line 22.
+(pdftex.def)             Requested size: 386.95897pt x 211.07626pt.
+ [79
+
+ <../figures/raw/figure_C3_democracy_activity_mobil.pdf>]
+<../figures/raw/figure_C4a_country_pair_falsification.pdf, id=3589, 397.485pt x
+ 289.08pt>
+File: ../figures/raw/figure_C4a_country_pair_falsification.pdf Graphic file (ty
+pe pdf)
+<use ../figures/raw/figure_C4a_country_pair_falsification.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C4a_country_pair_falsification.p
+df  used on input line 34.
+(pdftex.def)             Requested size: 217.66211pt x 158.30196pt.
+<../figures/raw/figure_C4b_country_pair_falsification_aut.pdf, id=3590, 397.485
+pt x 289.08pt>
+File: ../figures/raw/figure_C4b_country_pair_falsification_aut.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_C4b_country_pair_falsification_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C4b_country_pair_falsification_a
+ut.pdf  used on input line 34.
+(pdftex.def)             Requested size: 217.66211pt x 158.30196pt.
+ [80
+
+ <../figures/raw/figure_C4a_country_pair_falsification.pdf> <../figures/raw/fig
+ure_C4b_country_pair_falsification_aut.pdf>]
+<../figures/raw/figure_C5a_window_end_date_all.pdf, id=3651, 397.485pt x 252.94
+5pt>
+File: ../figures/raw/figure_C5a_window_end_date_all.pdf Graphic file (type pdf)
+
+<use ../figures/raw/figure_C5a_window_end_date_all.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C5a_window_end_date_all.pdf  use
+d on input line 44.
+(pdftex.def)             Requested size: 386.95897pt x 246.25565pt.
+ [81
+
+ <../figures/raw/figure_C5a_window_end_date_all.pdf>]
+<../figures/raw/figure_C5b_window_end_date_aut.pdf, id=3707, 397.485pt x 252.94
+5pt>
+File: ../figures/raw/figure_C5b_window_end_date_aut.pdf Graphic file (type pdf)
+
+<use ../figures/raw/figure_C5b_window_end_date_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C5b_window_end_date_aut.pdf  use
+d on input line 54.
+(pdftex.def)             Requested size: 386.95897pt x 246.25565pt.
+
+[82
+
+ <../figures/raw/figure_C5b_window_end_date_aut.pdf>]
+<../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf, id=3764, 397.485pt x 
+289.08pt>
+File: ../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf Graphic file (typ
+e pdf)
+<use ../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6b_country_pair_PE_short_aut.pd
+f  used on input line 67.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+<../figures/raw/figure_C6b_country_pair_T_short_aut.pdf, id=3765, 397.485pt x 2
+89.08pt>
+File: ../figures/raw/figure_C6b_country_pair_T_short_aut.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_C6b_country_pair_T_short_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6b_country_pair_T_short_aut.pdf
+  used on input line 67.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+ [83
+
+ <../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf> <../figures/raw/figu
+re_C6b_country_pair_T_short_aut.pdf>]
+<../figures/raw/figure_C6a_country_pair_PE_short.pdf, id=3833, 397.485pt x 289.
+08pt>
+File: ../figures/raw/figure_C6a_country_pair_PE_short.pdf Graphic file (type pd
+f)
+<use ../figures/raw/figure_C6a_country_pair_PE_short.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6a_country_pair_PE_short.pdf  u
+sed on input line 80.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+<../figures/raw/figure_C6a_country_pair_T_short.pdf, id=3834, 397.485pt x 289.0
+8pt>
+File: ../figures/raw/figure_C6a_country_pair_T_short.pdf Graphic file (type pdf
+)
+<use ../figures/raw/figure_C6a_country_pair_T_short.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6a_country_pair_T_short.pdf  us
+ed on input line 80.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+ [84
+
+ <../figures/raw/figure_C6a_country_pair_PE_short.pdf> <../figures/raw/figure_C
+6a_country_pair_T_short.pdf>]
+<../figures/raw/figure_C7a_country_pair_PE_long.pdf, id=3903, 397.485pt x 289.0
+8pt>
+File: ../figures/raw/figure_C7a_country_pair_PE_long.pdf Graphic file (type pdf
+)
+<use ../figures/raw/figure_C7a_country_pair_PE_long.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C7a_country_pair_PE_long.pdf  us
+ed on input line 93.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+<../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf, id=3904, 397.485pt x 2
+89.08pt>
+File: ../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf
+  used on input line 93.
+(pdftex.def)             Requested size: 229.75896pt x 167.1019pt.
+ [85
+
+ <../figures/raw/figure_C7a_country_pair_PE_long.pdf> <../figures/raw/figure_C7
+b_country_pair_PE_long_aut.pdf>]
+<../figures/raw/figure_C8_dividend_yield_event_study.pdf, id=3975, 397.485pt x 
+289.08pt>
+File: ../figures/raw/figure_C8_dividend_yield_event_study.pdf Graphic file (typ
+e pdf)
+<use ../figures/raw/figure_C8_dividend_yield_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C8_dividend_yield_event_study.pd
+f  used on input line 106.
+(pdftex.def)             Requested size: 459.51054pt x 334.1994pt.
+
+Overfull \vbox (25.32904pt too high) detected at line 106
+ []
+
+[86
+
+ <../figures/raw/figure_C8_dividend_yield_event_study.pdf>]
+
+Package array Warning: Column Y is already defined on input line 120.
+
+(../tables/raw/table_C7_probability_democratize_post_vatican_ii.tex) [87
+
+]
+
+Package array Warning: Column Y is already defined on input line 134.
+
+(../tables/raw/table_C8_did_first_vatican.tex) [88
+
+]
+
+Package array Warning: Column Y is already defined on input line 149.
+
+(../tables/raw/table_C9_did_democracies.tex) [89
+
+]
+
+Package array Warning: Column Y is already defined on input line 164.
+
+(../tables/raw/table_C10a_removing_outliers_short_sample.tex) [90
+
+]
+
+Package array Warning: Column Y is already defined on input line 178.
+
+(../tables/raw/table_C10b_removing_outliers_long_sample.tex) [91
+
+]
+
+Package array Warning: Column Y is already defined on input line 192.
+
+(../tables/raw/table_C11_did_robust_weights.tex) [92
+
+]
+
+Package array Warning: Column Y is already defined on input line 203.
+
+(../tables/raw/table_C12_did_global_capm.tex) [93
+
+]
+
+Package array Warning: Column Y is already defined on input line 218.
+
+(../tables/raw/table_C13_did_no_rolling_beta.tex)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 218.
+ [94
+
+]
+
+Package array Warning: Column Y is already defined on input line 233.
+
+(../tables/raw/table_C14_did_results_country_bonds.tex) [95
+
+]
+
+Package array Warning: Column Y is already defined on input line 249.
+
+(../tables/raw/table_C15_did_capital_gains.tex) [96
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 259.
+ [97
+
+])
+(./backup/10_section_5_appendix.tex
+<../figures/raw/figure_7_coefficients_over_time.pdf, id=4554, 397.485pt x 180.6
+75pt>
+File: ../figures/raw/figure_7_coefficients_over_time.pdf Graphic file (type pdf
+)
+<use ../figures/raw/figure_7_coefficients_over_time.pdf>
+Package pdftex.def Info: ../figures/raw/figure_7_coefficients_over_time.pdf  us
+ed on input line 11.
+(pdftex.def)             Requested size: 483.69687pt x 219.86903pt.
+ [98
+
+ <../figures/raw/figure_7_coefficients_over_time.pdf>]
+<../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf, 
+id=4610, 397.485pt x 252.945pt>
+File: ../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.
+pdf Graphic file (type pdf)
+<use ../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.p
+df>
+Package pdftex.def Info: ../figures/raw/figure_D9a_explicit_redistribute_event_
+study_govt_rev_gdp.pdf  used on input line 21.
+(pdftex.def)             Requested size: 483.69687pt x 307.81667pt.
+ [99
+
+ <../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf>
+]
+<../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf, id=4666
+, 397.485pt x 252.945pt>
+File: ../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf Gra
+phic file (type pdf)
+<use ../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf>
+Package pdftex.def Info: ../figures/raw/figure_D9b_explicit_redistribute_event_
+study_swiid.pdf  used on input line 31.
+(pdftex.def)             Requested size: 483.69687pt x 307.81667pt.
+ [100
+
+ <../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf>]
+<../figures/raw/figure_D10a_democratize_price_response_succ.pdf, id=4723, 397.4
+85pt x 180.675pt>
+File: ../figures/raw/figure_D10a_democratize_price_response_succ.pdf Graphic fi
+le (type pdf)
+<use ../figures/raw/figure_D10a_democratize_price_response_succ.pdf>
+Package pdftex.def Info: ../figures/raw/figure_D10a_democratize_price_response_
+succ.pdf  used on input line 61.
+(pdftex.def)             Requested size: 459.51054pt x 208.8746pt.
+ [101
+
+ <../figures/raw/figure_D10a_democratize_price_response_succ.pdf>]
+<../figures/raw/figure_D10b_democratize_price_response_ld.pdf, id=4782, 397.485
+pt x 180.675pt>
+File: ../figures/raw/figure_D10b_democratize_price_response_ld.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_D10b_democratize_price_response_ld.pdf>
+Package pdftex.def Info: ../figures/raw/figure_D10b_democratize_price_response_
+ld.pdf  used on input line 61.
+(pdftex.def)             Requested size: 459.51054pt x 208.8746pt.
+ [102
+
+ <../figures/raw/figure_D10b_democratize_price_response_ld.pdf>]
+File: ../figures/raw/figure_D10b_democratize_price_response_ld.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_D10b_democratize_price_response_ld.pdf>
+Package pdftex.def Info: ../figures/raw/figure_D10b_democratize_price_response_
+ld.pdf  used on input line 61.
+(pdftex.def)             Requested size: 459.51054pt x 208.8746pt.
+[103
+
+]
+
+Package array Warning: Column Y is already defined on input line 75.
+
+(../tables/raw/table_D16_inequality_price_decline.tex) [104
+
+]) [105
+
+]
+(./who_values_democracy_conference.bbl [106
+
+] [107] [108]) [109]
+\tf@nav=\write6
+\openout6 = `who_values_democracy_conference.nav'.
+
+\tf@toc=\write7
+\openout7 = `who_values_democracy_conference.toc'.
+
+\tf@snm=\write8
+\openout8 = `who_values_democracy_conference.snm'.
+
+
+(./who_values_democracy_conference.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `who_values_democracy_conference.out' has not
+ changed.
+(rerunfilecheck)             Checksum: 37B45039A3FBC28BAF5FD1E83B50CEB7;1426.
+ ) 
+Here is how much of TeX's memory you used:
+ 35608 strings out of 478268
+ 744885 string characters out of 5846348
+ 1224582 words of memory out of 5000000
+ 52476 multiletter control sequences out of 15000+600000
+ 554963 words of font info for 99 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,22n,122p,612b,1053s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{figureF12<1>} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
+xlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2022
+/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2022/texmf-dist/f
+onts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/d
+vips/lm/lm-mathex.enc} </Users/mjmill611/Library/texlive/2022/texmf-var/fonts/p
+k/ljfour/public/bbm/bbm12.600pk>{/usr/local/texlive/2022/texmf-dist/fonts/enc/d
+vips/lm/lm-rmsc.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/l
+mbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx6.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/lm/lmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
+ic/lm/lmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi8
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts
+/type1/public/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/lm/lmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri12.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri7.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lms
+y8.pfb>
+Output written on who_values_democracy_conference.pdf (109 pages, 1535564 bytes
+).
+PDF statistics:
+ 5402 PDF objects out of 6186 (max. 8388607)
+ 5022 compressed objects within 51 object streams
+ 379 named destinations out of 1000 (max. 500000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+

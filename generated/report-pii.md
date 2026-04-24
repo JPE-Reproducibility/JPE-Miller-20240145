@@ -3,10 +3,10 @@
 ⚠️ We found the following instances of potentially personally identifying information. This may be completely legitimate but might be worth checking. *As a reminder, privacy legislation in many countries (e.g. GDPR in EU) prohibits the dissemination of personal identifiable information without prior (and documented) consent of individuals.* If indeed you want to publish such information with your replication package, you should probably have obtained IRB approval for this - please check!
 
 **Summary:**
-- Data files with PII indicators: 4081
-- Variables flagged in data: 4342
-- Code files with PII references: 311
-- PII references in code: 17098
+- Data files with PII indicators: 4037
+- Variables flagged in data: 4226
+- Code files with PII references: 295
+- PII references in code: 17104
 
 ### Summary of Flagged Files
 
@@ -4015,82 +4015,38 @@
 | Data | `_WIGD.dta` | 1 | country |
 | Data | `__WTC_D.csv` | 1 | country |
 | Data | `__XAU_BD.csv` | 1 | country |
-| Data | `all_cashflow_growth.dta` | 1 | country |
-| Data | `all_div_yld.dta` | 1 | country |
-| Data | `all_equity_returns.dta` | 1 | country |
-| Data | `all_events.dta` | 14 | country |
-| Data | `all_excess_and_abnormal_returns.dta` | 1 | country |
-| Data | `all_fixed_income.dta` | 1 | country |
-| Data | `all_inflation.dta` | 4 | country, name, lat |
-| Data | `anti_system_cso_activity_and_mobilizations.dta` | 1 | country, name |
 | Data | `arpc_2020_comp.dta` | 1 | country |
 | Data | `assassinations_data.dta` | 3 | country, name, loc |
-| Data | `baseline_params.json` | 1 | lon |
 | Data | `baseline_params_higher_growth.json` | 1 | lon |
-| Data | `campbell_1991_var_shocks.dta` | 1 | country |
-| Data | `catholic_pct_1816_2018.dta` | 1 | country |
-| Data | `catholic_pct_1939_1983.dta` | 1 | country |
-| Data | `corruption_and_bribery.dta` | 1 | country, name |
 | Data | `country_name_to_iso3.csv` | 2 | country, name |
 | Data | `country_names_to_iso3.dta` | 2 | country, name |
-| Data | `coup_detat.dta` | 1 | country |
 | Data | `cow_country_codes_to_iso3.csv` | 2 | name, country |
-| Data | `default.dta` | 1 | country |
-| Data | `democracy_index_and_regime_info.dta` | 1 | country, name |
-| Data | `economic_competition.dta` | 2 | country, lat |
 | Data | `efi_data.dta` | 17 | country, name, lat, gender |
 | Data | `extraTotalReturnsClean.dta` | 1 | country |
 | Data | `extraTotalReturnsClean.xlsx` | 1 | country |
 | Data | `extraTotalReturnsSeriesClean.dta` | 1 | country |
-| Data | `extrastate_wars.dta` | 3 | country |
-| Data | `factset.dta` | 1 | country |
 | Data | `factset_annual_fiscal.dta` | 58 | name, lon, lat, loc, location |
-| Data | `fdi_clean.dta` | 1 | country |
-| Data | `financial_crisis.dta` | 1 | country |
 | Data | `gfd_data_series_list.xlsx` | 2 | name, country |
 | Data | `gfd_eq_tr_supplement.dta` | 1 | country |
 | Data | `gfd_recessions.csv` | 1 | country |
-| Data | `gini_coefficients.dta` | 1 | country |
-| Data | `gov_rev.dta` | 1 | country |
 | Data | `govt_rev_gdp.dta` | 1 | country |
-| Data | `head_of_government_deaths.dta` | 1 | country |
 | Data | `historical_events_for_democratization.csv` | 2 | country, son |
-| Data | `home_country_bond_rate.dta` | 1 | country |
 | Data | `ibes_country_to_iso3_codes.csv` | 3 | country, name |
-| Data | `ibes_global.dta` | 1 | country |
 | Data | `ibes_global_actual.dta` | 4 | country, name, lon |
 | Data | `icb2v12.csv` | 5 | name, loc, lat |
 | Data | `icb_country_code_to_iso3.csv` | 2 | country, name |
-| Data | `icb_crisis.dta` | 1 | country |
-| Data | `interstate_wars.dta` | 3 | country |
-| Data | `intrastate_wars.dta` | 3 | country |
-| Data | `investment_capital_ratio.dta` | 1 | country, name |
 | Data | `iso2_codes_to_iso3_codes.csv` | 1 | country |
-| Data | `militarized_interstate_disputes.dta` | 1 | country |
 | Data | `model_params.json` | 1 | lon |
 | Data | `model_params_higher_g.json` | 1 | lon |
 | Data | `mpd2020.dta` | 3 | country, name, lat |
-| Data | `other_asset_market_variables.dta` | 1 | country |
-| Data | `physical_and_political_violence.dta` | 2 | country, name, lat |
-| Data | `pre1900_dem.dta` | 1 | country, name |
 | Data | `price_earnings_clean.csv` | 1 | country |
-| Data | `property_rights_protection.dta` | 1 | country, name |
 | Data | `pwt100-capital-detail.dta` | 1 | country, name |
 | Data | `pwt100-labor-detail.dta` | 5 | country, son, lat, school |
 | Data | `pwt100.dta` | 10 | country, name, lat, son, house, city |
-| Data | `real_gdp.dta` | 4 | country, lat |
-| Data | `recession.dta` | 1 | country |
-| Data | `regime_change.dta` | 2 | country |
 | Data | `region_map.dta` | 2 | country, name |
-| Data | `regions.dta` | 2 | country, name |
 | Data | `reinhart_rogoff_defaults.dta` | 1 | country, name |
 | Data | `reinhart_rogoff_financial_crisis.csv` | 2 | country |
-| Data | `resource_inequality.dta` | 1 | country, name |
-| Data | `section_3_data.dta` | 23 | country, lat, name |
-| Data | `section_4_data.dta` | 22 | country, lat, lon |
 | Data | `swiid9_0_summary.csv` | 1 | country |
-| Data | `tax_rates.dta` | 1 | country |
-| Data | `valid_iso3_codes.dta` | 1 | country, name |
 | Data | `vod_democratizations.csv` | 1 | country |
 | Data | `wiidcountry.dta` | 7 | country, lat, son |
 | Code | `00_stacked_did_dividend_yields.do` | 15 | country, loc |
@@ -4109,6 +4065,8 @@
 | Code | `02_create_pre1900_dem.do` | 63 | house, loc, country, name, lat |
 | Code | `02_create_pwt_data.do` | 5 | house, loc, country, name |
 | Code | `02_create_section_4_data.do` | 21 | house, country, lon |
+| Code | `02_data.tex` | 4 | country, lat, son, lon |
+| Code | `02_data.tex` | 2 | country, lon |
 | Code | `02_data.tex` | 2 | country, lat |
 | Code | `02_figure_2_physical_human_capital.do` | 13 | house, country, name, loc |
 | Code | `02_figure_B2_democracy_dividend_yield_specs.do` | 29 | house, country, name, loc |
@@ -4120,6 +4078,8 @@
 | Code | `03_create_dividend_yields.do` | 9 | house, country, lon, name |
 | Code | `03_create_gdp.do` | 24 | house, country, name, lat, loc |
 | Code | `03_create_regime_change.do` | 29 | house, country, loc, name |
+| Code | `03_democratization_risk_premia.tex` | 2 | lon |
+| Code | `03_democratization_risk_premia.tex` | 2 | lon |
 | Code | `03_figure_3_gdp_consumption_distributions.do` | 2 | house, loc |
 | Code | `03_figure_B3_democracy_IK_specs.do` | 39 | house, country, name, loc |
 | Code | `03_figure_C3_cso_activity_vs_mobilizations.do` | 5 | house, country, loc |
@@ -4128,7 +4088,7 @@
 | Code | `03_stylized_facts.tex` | 12 | degree, lat, country, lon, second, address, loc |
 | Code | `03_table_3_democratization_vs_other_political_risk.do` | 85 | house, country, loc |
 | Code | `03_table_B3_risk_premium.do` | 43 | house, country, lat, loc, name, block, son |
-| Code | `04_create_coup_detat.do` | 6 | house, loc, country, name |
+| Code | `04_create_coup_detat.do` | 4 | house, country, name |
 | Code | `04_create_equity_returns.do` | 24 | house, lat, country, name |
 | Code | `04_create_vdem_datasets.do` | 17 | house, country, lat, name |
 | Code | `04_figure_4_regional_waves.do` | 4 | house, loc, lon, lat |
@@ -4136,11 +4096,15 @@
 | Code | `04_section_5_numbers.py` | 4 | lat, son, name |
 | Code | `04_table_4_revolution_risk.do` | 54 | house, country, loc |
 | Code | `04_table_B4_macro_political_risk_measures.do` | 36 | house, country, loc, lat, name |
+| Code | `04_vatican_ii.tex` | 6 | second, son, lon, country |
+| Code | `04_vatican_ii.tex` | 6 | second, son, lon, country |
 | Code | `04_vatican_ii.tex` | 14 | second, lat, father, name, coord, social, lon, country, address, son |
 | Code | `05_create_financial_crises.do` | 9 | house, country, name |
 | Code | `05_create_fixed_income.do` | 14 | house, lat, country, name |
 | Code | `05_create_portion_catholic.do` | 20 | house, country, name, lat |
 | Code | `05_democracy_and_redistribution.tex` | 4 | lon, son, lat |
+| Code | `05_democracy_and_redistribution.tex` | 3 | lon, lat |
+| Code | `05_democracy_and_redistribution.tex` | 3 | lon, lat |
 | Code | `05_figure_5_anti_regime_event_study.do` | 18 | house, country, name, lat, loc |
 | Code | `05_figure_C5_window_end_date.do` | 9 | house, country, loc |
 | Code | `05_section_6_numbers.py` | 8 | lat, son, name |
@@ -4151,12 +4115,14 @@
 | Code | `06_create_sovereign_default.do` | 11 | house, country, name |
 | Code | `06_figure_6_returns_event_study.do` | 11 | house, second, lat, country, name, loc |
 | Code | `06_figure_C6_country_pair_1946_1976.do` | 42 | country, house, loc, name |
+| Code | `06_model.tex` | 5 | block, loc, lon |
 | Code | `06_model.tex` | 19 | lon, degree, second, son, lat, social |
+| Code | `06_model.tex` | 5 | block, loc, lon |
 | Code | `06_table_6_balance_tests.do` | 32 | house, country, lat, loc |
 | Code | `06_table_B6_democratize_risk_measures.do` | 28 | house, country, loc |
 | Code | `07_conclusion.tex` | 1 | lat |
 | Code | `07_create_excess_and_abnormal_returns.do` | 22 | house, country, loc |
-| Code | `07_create_hog_deaths.do` | 26 | house, loc, country, name |
+| Code | `07_create_hog_deaths.do` | 24 | house, country, name |
 | Code | `07_create_tax_rates.do` | 7 | house, country |
 | Code | `07_figure_7_dividend_yield_coefficients_over_time.do` | 8 | house, loc, country |
 | Code | `07_figure_C7_country_pair_1939_1983.do` | 42 | country, house, loc, lon, name |
@@ -4168,12 +4134,14 @@
 | Code | `08_data_appendix.tex` | 9 | lon, lat, name, son, social, community, loc |
 | Code | `08_figure_8_autocratization_figure.py` | 6 | son, loc, name |
 | Code | `08_figure_C8_dividend_yield_event_study.do` | 15 | house, country, lat, loc, name |
+| Code | `08_section_3_appendix.tex` | 3 | loc |
 | Code | `08_table_8_explicit_redistribution.do` | 26 | house, country, loc |
 | Code | `08_table_C8_vatican_i.do` | 21 | house, country, loc, lat |
 | Code | `09_create_economic_competition.do` | 10 | house, country, name, lat |
 | Code | `09_create_other_asset_market_variables.do` | 3 | house, name, country |
 | Code | `09_create_recession.do` | 4 | house, country, name |
 | Code | `09_figure_D9_explicit_redistribute_event_study.do` | 15 | house, country, name, loc |
+| Code | `09_section_4_appendix.tex` | 11 | country, lon, son |
 | Code | `09_stylized_facts_appendix.tex` | 1 | lat |
 | Code | `09_table_9_implicit_redistribution.do` | 23 | house, country, loc, lat |
 | Code | `09_table_C9_catholic_democracies.do` | 24 | house, country, lon, loc |
@@ -4221,6 +4189,7 @@
 | Code | `create_treatment.do` | 6 | country, loc |
 | Code | `create_var_full.do` | 20 | country, loc, second, lname, name |
 | Code | `democratization_model.py` | 6 | son, lon, name |
+| Code | `environment.yml` | 1 | name |
 | Code | `esplot.ado` | 208 | son, name, loc, lat |
 | Code | `estadd.ado` | 737 | loc, lon, name, lname, lat |
 | Code | `estfe.ado` | 47 | name, loc, lname |
@@ -4315,77 +4284,46 @@
 | Code | `run_campbell_1991_var.do` | 9 | country, loc, lname, name |
 | Code | `save_estimate.ado` | 7 | son, name |
 | Code | `section_3.tex` | 3 | lon |
-| Code | `section_3.tex` | 3 | lon |
 | Code | `section_4.tex` | 2 | lon |
-| Code | `section_4.tex` | 2 | lon |
-| Code | `section_5.tex` | 4 | lon |
 | Code | `section_5.tex` | 4 | lon |
 | Code | `stacked_did.ado` | 14 | loc, son, name |
 | Code | `table_10_high_vs_low_redistribution_risk.tex` | 1 | country |
-| Code | `table_10_high_vs_low_redistribution_risk.tex` | 1 | country |
-| Code | `table_11_model_calibration.tex` | 4 | son, lon, lat |
 | Code | `table_11_model_calibration.tex` | 4 | son, lon, lat |
 | Code | `table_11_model_calibration.tex` | 1 | lon |
 | Code | `table_1_change_in_log_dividend_yields.tex` | 1 | country |
-| Code | `table_1_change_in_log_dividend_yields.tex` | 1 | country |
-| Code | `table_2_cashflow_growth.tex` | 1 | country |
 | Code | `table_2_cashflow_growth.tex` | 1 | country |
 | Code | `table_2_cashflow_growth.tex` | 1 | country, lon, son |
 | Code | `table_3_democratization_vs_other_political_risk.tex` | 1 | country |
-| Code | `table_3_democratization_vs_other_political_risk.tex` | 1 | country |
-| Code | `table_4_revolution_risk.tex` | 1 | country |
 | Code | `table_4_revolution_risk.tex` | 1 | country |
 | Code | `table_5_regional_waves_instrument.tex` | 1 | country |
-| Code | `table_5_regional_waves_instrument.tex` | 1 | country |
-| Code | `table_6_balance_tests.tex` | 2 | country, lat |
 | Code | `table_6_balance_tests.tex` | 2 | country, lat |
 | Code | `table_6_balance_tests.tex` | 1 | country, lon |
 | Code | `table_7_did_results.tex` | 1 | country |
-| Code | `table_7_did_results.tex` | 1 | country |
-| Code | `table_8_explicit_redistribution.tex` | 1 | country |
 | Code | `table_8_explicit_redistribution.tex` | 1 | country |
 | Code | `table_9_implicit_redistribution.tex` | 1 | country, lat |
 | Code | `table_9_implicit_redistribution.tex` | 2 | lat, country |
-| Code | `table_9_implicit_redistribution.tex` | 2 | lat, country |
-| Code | `table_A1_summary_statistics.tex` | 1 | lat |
 | Code | `table_A1_summary_statistics.tex` | 1 | lat |
 | Code | `table_B2_adverse_dividend_growth.tex` | 1 | country, lat |
 | Code | `table_B2_adverse_dividend_growth.tex` | 1 | country |
-| Code | `table_B2_adverse_dividend_growth.tex` | 1 | country |
 | Code | `table_B3_risk_premium.tex` | 2 | lat, country |
-| Code | `table_B3_risk_premium.tex` | 2 | lat, country |
-| Code | `table_B4_macro_political_risk_measures.tex` | 2 | lat, country |
 | Code | `table_B4_macro_political_risk_measures.tex` | 1 | country |
 | Code | `table_B4_macro_political_risk_measures.tex` | 2 | lat, country |
 | Code | `table_B5_adverse_probability.tex` | 1 | lon |
 | Code | `table_B6_democratize_risk_measures.tex` | 1 | country |
-| Code | `table_B6_democratize_risk_measures.tex` | 1 | country |
 | Code | `table_C10_removing_outliers.tex` | 1 | lon |
 | Code | `table_C10a_removing_outliers_short_sample.tex` | 1 | country |
-| Code | `table_C10a_removing_outliers_short_sample.tex` | 1 | country |
-| Code | `table_C10b_removing_outliers_long_sample.tex` | 1 | country |
 | Code | `table_C10b_removing_outliers_long_sample.tex` | 1 | country |
 | Code | `table_C11_did_robust_weights.tex` | 1 | country |
-| Code | `table_C11_did_robust_weights.tex` | 1 | country |
-| Code | `table_C12_did_global_capm.tex` | 1 | country |
 | Code | `table_C12_did_global_capm.tex` | 1 | country |
 | Code | `table_C13_did_no_rolling_beta.tex` | 1 | country |
-| Code | `table_C13_did_no_rolling_beta.tex` | 1 | country |
+| Code | `table_C14_did_results_country_bonds.tex` | 1 | country |
 | Code | `table_C14_did_results_country_bonds.tex` | 2 | country |
-| Code | `table_C14_did_results_country_bonds.tex` | 1 | country |
-| Code | `table_C14_did_results_country_bonds.tex` | 1 | country |
-| Code | `table_C15_did_capital_gains.tex` | 1 | country |
 | Code | `table_C15_did_capital_gains.tex` | 1 | country |
 | Code | `table_C7_probability_democratize_post_vatican_ii.tex` | 1 | country |
-| Code | `table_C7_probability_democratize_post_vatican_ii.tex` | 1 | country |
-| Code | `table_C8_did_first_vatican.tex` | 1 | country |
 | Code | `table_C8_did_first_vatican.tex` | 1 | country |
 | Code | `table_C9_did_democracies.tex` | 1 | country |
-| Code | `table_C9_did_democracies.tex` | 1 | country |
-| Code | `table_D16_inequality_price_decline.tex` | 1 | country |
 | Code | `table_D16_inequality_price_decline.tex` | 1 | country |
 | Code | `table_D16_inequality_price_decline.tex` | 3 | lat, lon, country |
-| Code | `table_G17_democratizations_and_history.tex` | 26 | lat, house, social, lon, second, gender, loc, mother, son |
 | Code | `table_G17_democratizations_and_history.tex` | 4 | lon, country |
 | Code | `table_G17_democratizations_and_history.tex` | 26 | lat, house, social, lon, second, gender, loc, mother, son |
 | Code | `tablefill.py` | 10 | lat, name |
@@ -4403,6 +4341,8 @@
 | Code | `test_log.py` | 6 | lat, name |
 | Code | `test_misc.py` | 6 | lat, name |
 | Code | `waldtest.ado` | 6 | lat, lon, loc, name |
+| Code | `who_values_democracy_conference.tex` | 13 | name, lat, lon, second, school |
+| Code | `who_values_democracy_seminar.tex` | 13 | name, lat, lon, second, school |
 | Code | `winsor2.ado` | 49 | loc, name |
 
 *See [Appendix](report-pii-appendix.md) for detailed listing of all flagged instances.*

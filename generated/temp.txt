@@ -1,0 +1,48 @@
+                                 Data and Programs for 
+
+               “Hit or Miss?  The Effect of Assassination on Institutions and War” 
+
+                        By Benjamin F. Jones and Benjamin A. Olken 
+
+          
+
+          
+
+         Data 
+
+         The data is described at length in the paper.  The data sets needed to replicate that results are 
+         provided in the directory with the Stata programs.  The data sets are: 
+
+            1. assassinations_data.dta 
+
+         This provides the raw data on assassinations in Stata format.  See the included codebook “Data 
+         Codebook.doc” for a description of the each variable and the meaning of their values.  
+         Summary statistics for this data set appear in Figure 1, Table 1, and Table 2. 
+
+            2. mergeddata.dta     
+
+         This file provides the assassinations data merged with variables from the (1) Polity IV, (2) 
+         Archigos, (3) Gleditsch-COW, and (4) PRIO/Upsala data sets, which are all described and 
+         referenced in the paper.  This data set is used to construct the variables used in the 
+         econometric analyses presented in Tables 3 through 11 and Figure 2.  
+
+          
+
+         Programs 
+
+            1. MakeTablesFigures.do 
+
+         This Stata program (1) builds the variables used in the analysis and then (2) reproduces the 
+         results in each table and figure.  Comment headings at the top of the program indicate how the 
+         variables are constructed.  The program then indicates, sequentially, which Table or Figure each 
+         ensuing section of the program reproduces.  The program is commented so that the code 
+         should be clear, and the meaning of each step should additionally be clear comparing the code 
+         with the table in the paper that it reproduces. 
+
+                    
+
+            2. ranksumben.ado 
+
+         This Stata .ado file is used to run non-parametric rank-sum tests.  It is called from the above 
+         program, MakeTablesFigures.do, and should be placed in the directory from which 
+         MakeTablesFigures.do is run. 

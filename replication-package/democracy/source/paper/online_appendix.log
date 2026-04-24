@@ -1,0 +1,1876 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.13)  8 APR 2026 13:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./online_appendix.tex
+(online_appendix.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count286
+) (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
+y
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen157
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+ (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count290
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 406
+6.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 4066.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4066.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count291
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen158
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count292
+\Field@Width=\dimen159
+\Fld@charsize=\dimen160
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring ON on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip51
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks24
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen161
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count303
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip18
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks26
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks27
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks28
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count310
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count311
+\calc@Bcount=\count312
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count313
+\calc@Cskip=\skip62
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count314
+\l_MT_multwidth_dim=\dimen172
+\origjot=\skip63
+\l_MT_shortvdotswithinadjustabove_dim=\dimen173
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen174
+\l_MT_above_intertext_sep=\dimen175
+\l_MT_below_intertext_sep=\dimen176
+\l_MT_above_shortintertext_sep=\dimen177
+\l_MT_below_shortintertext_sep=\dimen178
+\xmathstrut@box=\box55
+\xmathstrut@dim=\dimen179
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/cases\cases.sty
+Package: cases 2020/03/29 ver 3.2
+\numc@numwid=\dimen180
+)
+\c@tableeqn=\count315
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
+
++----------------------------------------------------------------------
+| WARNING (`typearea.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: typearea 2026/01/29 v3.49.1 KOMA-Script package (type area)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrkbase.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrkbase 2026/01/29 v3.49.1 KOMA-Script package (KOMA-Script-dependent
+ basics and keyval usage)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrbase.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrbase 2026/01/29 v3.49.1 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrlfile.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlfile 2026/01/29 v3.49.1 KOMA-Script package (file load hooks)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hoo
+k.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrlfile-hook.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlfile-hook 2026/01/29 v3.49.1 KOMA-Script package (using LaTeX hook
+s)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrlogo.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlogo 2026/01/29 v3.49.1 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 267.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 383.
+))
+\ta@bcor=\skip64
+\ta@div=\count316
+\ta@hblk=\skip65
+\ta@vblk=\skip66
+\ta@temp=\skip67
+\footheight=\skip68
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+822.
+ (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -11%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1822.
+) (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count317
+\LTcapwidth=\dimen181
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count318
+\LT@rows=\count319
+\c@LT@tables=\count320
+\c@LT@chunks=\count321
+\LT@p@ftn=\toks30
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/bbm\bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen182
+\ar@mcellbox=\box61
+\extrarowheight=\dimen183
+\NC@list=\toks31
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box62
+)
+\rotheadsize=\dimen184
+\c@nlinenum=\count322
+\TeXr@lab=\toks32
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+\@glsmfirst=\toks33
+\@glsmrest=\toks34
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks35
+\AP@partial=\box63
+\AP@footins=\box64
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nome
+tadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip75
+\RaggedLeftLeftskip=\skip76
+\RaggedRightLeftskip=\skip77
+\CenteringRightskip=\skip78
+\RaggedLeftRightskip=\skip79
+\RaggedRightRightskip=\skip80
+\CenteringParfillskip=\skip81
+\RaggedLeftParfillskip=\skip82
+\RaggedRightParfillskip=\skip83
+\JustifyingParfillskip=\skip84
+\CenteringParindent=\skip85
+\RaggedLeftParindent=\skip86
+\RaggedRightParindent=\skip87
+\JustifyingParindent=\skip88
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box65
+\beforetitleunit=\skip89
+\aftertitleunit=\skip90
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks36
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
+)
+(numbers/section_3.tex) (numbers/section_4.tex) (numbers/section_5.tex)
+(numbers/section_6.tex)
+\c@prop=\count323
+Package hyperref Info: Option `colorlinks' set `true' on input line 74.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen190
+\captionmargin=\dimen191
+\caption@leftmargin=\dimen192
+\caption@rightmargin=\dimen193
+\caption@width=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count324
+\c@continuedfloat=\count325
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count326
+\float@exts=\toks37
+\float@box=\box66
+\@float@everytoks=\toks38
+\@floatcapt=\box67
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box68
+\sift@deathcycles=\count327
+\@vwid@loff=\dimen198
+\@vwid@roff=\dimen199
+)
+==> First Aid for varwidth.sty applied!
+\c@taburow=\count328
+\tabu@nbcols=\count329
+\tabu@cnt=\count330
+\tabu@Xcol=\count331
+\tabu@alloc=\count332
+\tabu@nested=\count333
+\tabu@target=\dimen256
+\tabu@spreadtarget=\dimen257
+\tabu@naturalX=\dimen258
+\tabucolX=\dimen259
+\tabu@Xsum=\dimen260
+\extrarowdepth=\dimen261
+\abovetabulinesep=\dimen262
+\belowtabulinesep=\dimen263
+\tabustrutrule=\dimen264
+\tabu@thebody=\toks39
+\tabu@footnotes=\toks40
+\tabu@box=\box69
+\tabu@arstrutbox=\box70
+\tabu@hleads=\box71
+\tabu@vleads=\box72
+\tabu@cellskip=\skip91
+) (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen265
+\lightrulewidth=\dimen266
+\cmidrulewidth=\dimen267
+\belowrulesep=\dimen268
+\belowbottomsep=\dimen269
+\aboverulesep=\dimen270
+\abovetopsep=\dimen271
+\cmidrulesep=\dimen272
+\cmidrulekern=\dimen273
+\defaultaddspace=\dimen274
+\@cmidla=\count334
+\@cmidlb=\count335
+\@aboverulesep=\dimen275
+\@belowrulesep=\dimen276
+\@thisruleclass=\count336
+\@lastruleclass=\count337
+\@thisrulewidth=\dimen277
+) (C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen278
+\TX@old@table=\dimen279
+\TX@old@col=\dimen280
+\TX@target=\dimen281
+\TX@delta=\dimen282
+\TX@cols=\count338
+\TX@ftn=\toks41
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen283
+\Gin@req@width=\dimen284
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
+ty
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+common.tex
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen285
+\pgfutil@tempdimb=\dimen286
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+latex.def
+\pgfutil@abb=\box73
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
+ode.tex
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
+ty
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
+ty
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
+ibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks45
+))
+\pgf@x=\dimen287
+\pgf@y=\dimen288
+\pgf@xa=\dimen289
+\pgf@ya=\dimen290
+\pgf@xb=\dimen291
+\pgf@yb=\dimen292
+\pgf@xc=\dimen293
+\pgf@yc=\dimen294
+\pgf@xd=\dimen295
+\pgf@yd=\dimen296
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count339
+\c@pgf@countb=\count340
+\c@pgf@countc=\count341
+\c@pgf@countd=\count342
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count343
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
+g
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count344
+\pgfsyssoftpath@bigbuffer@items=\count345
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
+ode.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen297
+\pgfmath@count=\count346
+\pgfmath@box=\box74
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.misc.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.integerarithmetics.code.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
+ode.tex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
+code.tex
+\c@pgfmathroundto@lastzeros=\count347
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
+ex)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen298
+\pgf@picmaxx=\dimen299
+\pgf@picminy=\dimen300
+\pgf@picmaxy=\dimen301
+\pgf@pathminx=\dimen302
+\pgf@pathmaxx=\dimen303
+\pgf@pathminy=\dimen304
+\pgf@pathmaxy=\dimen305
+\pgf@xx=\dimen306
+\pgf@xy=\dimen307
+\pgf@yx=\dimen308
+\pgf@yy=\dimen309
+\pgf@zx=\dimen310
+\pgf@zy=\dimen311
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen312
+\pgf@path@lasty=\dimen313
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen314
+\pgf@shorten@start@additional=\dimen315
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box75
+\pgf@hbox=\box76
+\pgf@layerbox@main=\box77
+\pgf@picture@serial@count=\count348
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen316
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen317
+\pgf@pt@y=\dimen318
+\pgf@pt@temp=\dimen319
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen320
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen321
+\pgf@sys@shading@range@num=\count349
+\pgf@shadingcount=\count350
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box78
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+rdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
+hapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box79
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
+lot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen322
+\pgf@nodesepend=\dimen323
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
+y
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
+ode.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen324
+\pgffor@skip=\dimen325
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count351
+\pgfplotmarksize=\dimen326
+)
+\tikz@lastx=\dimen327
+\tikz@lasty=\dimen328
+\tikz@lastxsaved=\dimen329
+\tikz@lastysaved=\dimen330
+\tikz@lastmovetox=\dimen331
+\tikz@lastmovetoy=\dimen332
+\tikzleveldistance=\dimen333
+\tikzsiblingdistance=\dimen334
+\tikz@figbox=\box80
+\tikz@figbox@bg=\box81
+\tikz@tempbox=\box82
+\tikz@tempbox@bg=\box83
+\tikztreelevel=\count352
+\tikznumberofchildren=\count353
+\tikznumberofcurrentchild=\count354
+\tikz@fig@count=\count355
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
+atrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count356
+\pgfmatrixcurrentcolumn=\count357
+\pgf@matrix@numberofcolumns=\count358
+)
+\tikz@expandcount=\count359
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip92
+\afterepigraphskip=\skip93
+\epigraphwidth=\skip94
+\epigraphrule=\skip95
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks54
+\XKV@tempa@toks=\toks55
+)
+\XKV@depth=\count360
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+\c@@todonotes@numberoftodonotes=\count361
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/tools\xr.sty
+Package: xr 2024-12-22 v6.00 eXternal References (DPC)
+)
+Package xr Info: IMPORTING LABELS FROM miller_2025.aux on input line 108.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count362
+) (online_appendix.aux
+
+Package natbib Warning: Citation `Acemoglu2019' multiply defined.
+
+
+Package natbib Warning: Citation `Campbell1991' multiply defined.
+
+
+Package natbib Warning: Citation `Campbell1988' multiply defined.
+
+
+Package natbib Warning: Citation `Epstein1989' multiply defined.
+
+
+Package natbib Warning: Citation `Jones2009' multiply defined.
+
+
+Package natbib Warning: Citation `Li2006' multiply defined.
+
+
+Package natbib Warning: Citation `Lindberg2018' multiply defined.
+
+
+Package natbib Warning: Citation `Luebbert1991' multiply defined.
+
+
+Package natbib Warning: Citation `Muir2017' multiply defined.
+
+
+Package natbib Warning: Citation `Reinhart2009' multiply defined.
+
+)
+\openout1 = `online_appendix.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(86.72377pt, 440.84746pt, 86.72377pt)
+* v-part:(T,H,B)=(86.72377pt, 621.52245pt, 86.72377pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=440.84746pt
+* \textheight=621.52245pt
+* \oddsidemargin=14.45378pt
+* \evensidemargin=14.45378pt
+* \topmargin=-25.42122pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 125.
+(online_appendix.out) (online_appendix.out)
+\@outlinefile=\write4
+\openout4 = `online_appendix.out'.
+
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count363
+\scratchdimen=\dimen335
+\scratchbox=\box84
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen336
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks57
+)
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 125.
+
+(subsections/08_data_appendix.tex [1
+
+
+{C:/Users/pkim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/pkim/
+AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
+7.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+[2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+(../tables/clean/table_A1_summary_statistics.tex
+(../tables/raw/table_A1_summary_statistics.tex)))
+(subsections/09_stylized_facts_appendix.tex [12]
+(../tables/clean/table_B2_adverse_dividend_growth.tex
+(../tables/raw/table_B2_adverse_dividend_growth.tex
+Overfull \hbox (6.91983pt too wide) in alignment at lines 23--23
+[][][][][] 
+ []
+
+))
+Overfull \hbox (3.16907pt too wide) in paragraph at lines 12--13
+[]\OT1/ptm/m/n/12 Some ``back-of-the-envelope math'' sug-gests that dis-count r
+ates rise dur-ing these episodes.
+ []
+
+[13] [14] (../tables/clean/table_B3_risk_premium.tex [15]
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 7.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/bbm\ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+)
+(../tables/raw/table_B3_risk_premium.tex)
+
+LaTeX Warning: Float too large for page by 43.999pt on input line 15.
+
+[16]) [17
+
+
+] [18] (../figures/clean/figure_B1_democracy_log_price.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B1a_log_price_event_study.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<../figures/raw/figure_B1a_log_price_event_study.pdf, id=391, 397.485pt x 216.8
+1pt>
+File: ../figures/raw/figure_B1a_log_price_event_study.pdf Graphic file (type pd
+f)
+<use ../figures/raw/figure_B1a_log_price_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1a_log_price_event_study.pdf  u
+sed on input line 14.
+(pdftex.def)             Requested size: 198.38pt x 108.20953pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B1a_log_price_event_study_
+lp.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allo
+wed
+<../figures/raw/figure_B1a_log_price_event_study_lp.pdf, id=392, 397.485pt x 21
+6.81pt>
+File: ../figures/raw/figure_B1a_log_price_event_study_lp.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_B1a_log_price_event_study_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1a_log_price_event_study_lp.pdf
+  used on input line 14.
+(pdftex.def)             Requested size: 198.38pt x 108.20953pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B1b_log_dividend_growth_ev
+ent_study.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.
+5> allowed
+<../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf, id=393, 397.485
+pt x 216.81pt>
+File: ../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf Graphic fil
+e (type pdf)
+<use ../figures/raw/figure_B1b_log_dividend_growth_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1b_log_dividend_growth_event_st
+udy.pdf  used on input line 16.
+(pdftex.def)             Requested size: 198.38pt x 108.20953pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B1b_log_dividend_growth_ev
+ent_study_lp.pdf): PDF inclusion: found PDF version <1.6>, but at most version 
+<1.5> allowed
+<../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf, id=394, 397.
+485pt x 216.81pt>
+File: ../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf Graphic 
+file (type pdf)
+<use ../figures/raw/figure_B1b_log_dividend_growth_event_study_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1b_log_dividend_growth_event_st
+udy_lp.pdf  used on input line 16.
+(pdftex.def)             Requested size: 198.38pt x 108.20953pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B1c_log_gdp_per_capita_eve
+nt_study.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf, id=395, 397.485p
+t x 216.81pt>
+File: ../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1c_log_gdp_per_capita_event_stu
+dy.pdf  used on input line 18.
+(pdftex.def)             Requested size: 198.38pt x 108.20953pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B1c_log_gdp_per_capita_eve
+nt_study_lp.pdf): PDF inclusion: found PDF version <1.6>, but at most version <
+1.5> allowed
+<../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf, id=396, 397.4
+85pt x 216.81pt>
+File: ../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf Graphic f
+ile (type pdf)
+<use ../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B1c_log_gdp_per_capita_event_stu
+dy_lp.pdf  used on input line 18.
+(pdftex.def)             Requested size: 198.38pt x 108.20953pt.
+) [19] [20 <../figures/raw/figure_B1a_log_price_event_study.pdf> <../figures/ra
+w/figure_B1a_log_price_event_study_lp.pdf> <../figures/raw/figure_B1b_log_divid
+end_growth_event_study.pdf> <../figures/raw/figure_B1b_log_dividend_growth_even
+t_study_lp.pdf> <../figures/raw/figure_B1c_log_gdp_per_capita_event_study.pdf> 
+<../figures/raw/figure_B1c_log_gdp_per_capita_event_study_lp.pdf>] [21]
+(../figures/clean/figure_B2_democracy_dividend_yield_specs.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
+llowed
+<../figures/raw/figure_B2_dividend_yield_event_study_1.pdf, id=550, 397.485pt x
+ 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_1.pdf Graphic file (t
+ype pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_1.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_1.
+pdf  used on input line 13.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
+llowed
+<../figures/raw/figure_B2_dividend_yield_event_study_2.pdf, id=551, 397.485pt x
+ 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_2.pdf Graphic file (t
+ype pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_2.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_2.
+pdf  used on input line 14.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_3.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
+llowed
+<../figures/raw/figure_B2_dividend_yield_event_study_3.pdf, id=552, 397.485pt x
+ 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_3.pdf Graphic file (t
+ype pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_3.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_3.
+pdf  used on input line 15.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_4.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
+llowed
+<../figures/raw/figure_B2_dividend_yield_event_study_4.pdf, id=553, 397.485pt x
+ 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_4.pdf Graphic file (t
+ype pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_4.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_4.
+pdf  used on input line 16.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_1_lp.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../figures/raw/figure_B2_dividend_yield_event_study_1_lp.pdf, id=554, 397.485p
+t x 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_1_lp.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_1_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_1_
+lp.pdf  used on input line 18.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_2_lp.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../figures/raw/figure_B2_dividend_yield_event_study_2_lp.pdf, id=555, 397.485p
+t x 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_2_lp.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_2_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_2_
+lp.pdf  used on input line 19.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_3_lp.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../figures/raw/figure_B2_dividend_yield_event_study_3_lp.pdf, id=556, 397.485p
+t x 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_3_lp.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_3_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_3_
+lp.pdf  used on input line 20.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_B2_dividend_yield_event_st
+udy_4_lp.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../figures/raw/figure_B2_dividend_yield_event_study_4_lp.pdf, id=557, 397.485p
+t x 433.62pt>
+File: ../figures/raw/figure_B2_dividend_yield_event_study_4_lp.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_B2_dividend_yield_event_study_4_lp.pdf>
+Package pdftex.def Info: ../figures/raw/figure_B2_dividend_yield_event_study_4_
+lp.pdf  used on input line 21.
+(pdftex.def)             Requested size: 154.29929pt x 168.33037pt.
+
+Overfull \hbox (52.05276pt too wide) in paragraph at lines 11--23
+ [][] 
+ []
+
+[22 <../figures/raw/figure_B2_dividend_yield_event_study_1.pdf> <../figures/raw
+/figure_B2_dividend_yield_event_study_2.pdf> <../figures/raw/figure_B2_dividend
+_yield_event_study_3.pdf> <../figures/raw/figure_B2_dividend_yield_event_study_
+4.pdf> <../figures/raw/figure_B2_dividend_yield_event_study_1_lp.pdf> <../figur
+es/raw/figure_B2_dividend_yield_event_study_2_lp.pdf> <../figures/raw/figure_B2
+_dividend_yield_event_study_3_lp.pdf> <../figures/raw/figure_B2_dividend_yield_
+event_study_4_lp.pdf>])
+(../tables/clean/table_B4_macro_political_risk_measures.tex [23
+
+
+]
+(../tables/raw/table_B4_macro_political_risk_measures.tex)
+
+LaTeX Warning: Float too large for page by 41.69897pt on input line 15.
+
+[24]) (../tables/clean/table_B5_adverse_probability.tex
+(../tables/raw/table_B5a_adverse_probability_all.tex)
+
+Package array Warning: Column Y is already defined on input line 26.
+
+(../tables/raw/table_B5b_adverse_probability_div_yld.tex)) [25
+
+
+]
+(../tables/clean/table_B6_democratize_risk_measures.tex
+(../tables/raw/table_B6_democratize_risk_measures.tex)))
+(subsections/10_vatican_ii_appendix.tex [26]
+(../tables/clean/table_C7_probability_democratize_post_vatican_ii.tex
+(../tables/raw/table_C7_probability_democratize_post_vatican_ii.tex))
+(../figures/clean/figure_C3_democracy_activity_mobil.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C3_democracy_activity_mobi
+l.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
+ed
+<../figures/raw/figure_C3_democracy_activity_mobil.pdf, id=942, 397.485pt x 216
+.81pt>
+File: ../figures/raw/figure_C3_democracy_activity_mobil.pdf Graphic file (type 
+pdf)
+<use ../figures/raw/figure_C3_democracy_activity_mobil.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C3_democracy_activity_mobil.pdf 
+ used on input line 17.
+(pdftex.def)             Requested size: 396.76001pt x 216.4224pt.
+) [27]
+
+LaTeX Warning: Text page 28 contains only floats.
+
+[28 <../figures/raw/figure_C3_democracy_activity_mobil.pdf>]
+(../tables/clean/table_C8_did_first_vatican.tex
+(../tables/raw/table_C8_did_first_vatican.tex))
+(../figures/clean/figure_C4_sample_period_move.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C4a_country_pair_falsifica
+tion.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
+lowed
+<../figures/raw/figure_C4a_country_pair_falsification.pdf, id=971, 397.485pt x 
+289.08pt>
+File: ../figures/raw/figure_C4a_country_pair_falsification.pdf Graphic file (ty
+pe pdf)
+<use ../figures/raw/figure_C4a_country_pair_falsification.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C4a_country_pair_falsification.p
+df  used on input line 14.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C4b_country_pair_falsifica
+tion_aut.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../figures/raw/figure_C4b_country_pair_falsification_aut.pdf, id=972, 397.485p
+t x 289.08pt>
+File: ../figures/raw/figure_C4b_country_pair_falsification_aut.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_C4b_country_pair_falsification_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C4b_country_pair_falsification_a
+ut.pdf  used on input line 14.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+) [29]
+
+LaTeX Warning: Text page 30 contains only floats.
+
+[30 <../figures/raw/figure_C4a_country_pair_falsification.pdf> <../figures/raw/
+figure_C4b_country_pair_falsification_aut.pdf>]
+(../tables/clean/table_C9_did_democracies.tex
+(../tables/raw/table_C9_did_democracies.tex))
+(../figures/clean/figure_C5_window_end_date.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C5a_window_end_date_all.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/raw/figure_C5a_window_end_date_all.pdf, id=1011, 397.485pt x 252.94
+5pt>
+File: ../figures/raw/figure_C5a_window_end_date_all.pdf Graphic file (type pdf)
+
+<use ../figures/raw/figure_C5a_window_end_date_all.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C5a_window_end_date_all.pdf  use
+d on input line 13.
+(pdftex.def)             Requested size: 198.38pt x 126.24446pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C5b_window_end_date_aut.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/raw/figure_C5b_window_end_date_aut.pdf, id=1012, 397.485pt x 252.94
+5pt>
+File: ../figures/raw/figure_C5b_window_end_date_aut.pdf Graphic file (type pdf)
+
+<use ../figures/raw/figure_C5b_window_end_date_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C5b_window_end_date_aut.pdf  use
+d on input line 13.
+(pdftex.def)             Requested size: 198.38pt x 126.24446pt.
+[31]) (../figures/clean/figure_C6_country_pair_1946_1976.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C6a_country_pair_PE_short.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<../figures/raw/figure_C6a_country_pair_PE_short.pdf, id=1023, 397.485pt x 289.
+08pt>
+File: ../figures/raw/figure_C6a_country_pair_PE_short.pdf Graphic file (type pd
+f)
+<use ../figures/raw/figure_C6a_country_pair_PE_short.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6a_country_pair_PE_short.pdf  u
+sed on input line 16.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C6a_country_pair_T_short.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/raw/figure_C6a_country_pair_T_short.pdf, id=1024, 397.485pt x 289.0
+8pt>
+File: ../figures/raw/figure_C6a_country_pair_T_short.pdf Graphic file (type pdf
+)
+<use ../figures/raw/figure_C6a_country_pair_T_short.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6a_country_pair_T_short.pdf  us
+ed on input line 16.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C6b_country_pair_PE_short_
+aut.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
+owed
+<../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf, id=1025, 397.485pt x 
+289.08pt>
+File: ../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf Graphic file (typ
+e pdf)
+<use ../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6b_country_pair_PE_short_aut.pd
+f  used on input line 21.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C6b_country_pair_T_short_a
+ut.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allo
+wed
+<../figures/raw/figure_C6b_country_pair_T_short_aut.pdf, id=1026, 397.485pt x 2
+89.08pt>
+File: ../figures/raw/figure_C6b_country_pair_T_short_aut.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_C6b_country_pair_T_short_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C6b_country_pair_T_short_aut.pdf
+  used on input line 21.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+) (../figures/clean/figure_C7_country_pair_1939_1983.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C7a_country_pair_PE_long.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/raw/figure_C7a_country_pair_PE_long.pdf, id=1029, 397.485pt x 289.0
+8pt>
+File: ../figures/raw/figure_C7a_country_pair_PE_long.pdf Graphic file (type pdf
+)
+<use ../figures/raw/figure_C7a_country_pair_PE_long.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C7a_country_pair_PE_long.pdf  us
+ed on input line 16.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C7a_country_pair_T_long.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/raw/figure_C7a_country_pair_T_long.pdf, id=1030, 397.485pt x 289.08
+pt>
+File: ../figures/raw/figure_C7a_country_pair_T_long.pdf Graphic file (type pdf)
+
+<use ../figures/raw/figure_C7a_country_pair_T_long.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C7a_country_pair_T_long.pdf  use
+d on input line 16.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C7b_country_pair_PE_long_a
+ut.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allo
+wed
+<../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf, id=1031, 397.485pt x 2
+89.08pt>
+File: ../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf Graphic file (type
+ pdf)
+<use ../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf
+  used on input line 21.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C7b_country_pair_T_long_au
+t.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
+ed
+<../figures/raw/figure_C7b_country_pair_T_long_aut.pdf, id=1032, 397.485pt x 28
+9.08pt>
+File: ../figures/raw/figure_C7b_country_pair_T_long_aut.pdf Graphic file (type 
+pdf)
+<use ../figures/raw/figure_C7b_country_pair_T_long_aut.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C7b_country_pair_T_long_aut.pdf 
+ used on input line 21.
+(pdftex.def)             Requested size: 198.38pt x 144.27939pt.
+) [32 <../figures/raw/figure_C5a_window_end_date_all.pdf> <../figures/raw/figur
+e_C5b_window_end_date_aut.pdf>]
+(../tables/clean/table_C10_removing_outliers.tex
+(../tables/raw/table_C10a_removing_outliers_short_sample.tex)
+
+Package array Warning: Column Y is already defined on input line 14.
+
+(../tables/raw/table_C10b_removing_outliers_long_sample.tex) [33 <../figures/ra
+w/figure_C6a_country_pair_PE_short.pdf> <../figures/raw/figure_C6a_country_pair
+_T_short.pdf> <../figures/raw/figure_C6b_country_pair_PE_short_aut.pdf> <../fig
+ures/raw/figure_C6b_country_pair_T_short_aut.pdf>])
+(../tables/clean/table_C11_did_robust_weights.tex
+(../tables/raw/table_C11_did_robust_weights.tex)) [34 <../figures/raw/figure_C7
+a_country_pair_PE_long.pdf> <../figures/raw/figure_C7a_country_pair_T_long.pdf>
+ <../figures/raw/figure_C7b_country_pair_PE_long_aut.pdf> <../figures/raw/figur
+e_C7b_country_pair_T_long_aut.pdf>] [35]
+(../tables/clean/table_C12_did_global_capm.tex
+(../tables/raw/table_C12_did_global_capm.tex)) [36]
+(../tables/clean/table_C13_did_no_rolling_beta.tex
+(../tables/raw/table_C13_did_no_rolling_beta.tex)) [37] [38]
+(../tables/clean/table_C14_did_results_country_bonds.tex
+(../tables/raw/table_C14_did_results_country_bonds.tex))
+(../figures/clean/figure_C8_dividend_yield_event_study.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_C8_dividend_yield_event_st
+udy.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
+owed
+<../figures/raw/figure_C8_dividend_yield_event_study.pdf, id=1366, 397.485pt x 
+289.08pt>
+File: ../figures/raw/figure_C8_dividend_yield_event_study.pdf Graphic file (typ
+e pdf)
+<use ../figures/raw/figure_C8_dividend_yield_event_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_C8_dividend_yield_event_study.pd
+f  used on input line 13.
+(pdftex.def)             Requested size: 418.80373pt x 304.59276pt.
+) [39] (../tables/clean/table_C15_did_capital_gains.tex
+(../tables/raw/table_C15_did_capital_gains.tex)))
+(subsections/11_democracy_and_redistribution_appendix.tex
+(../figures/clean/figure_D9_explicit_redistribute_event_study.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_D9a_explicit_redistribute_
+event_study_govt_rev_gdp.pdf): PDF inclusion: found PDF version <1.6>, but at m
+ost version <1.5> allowed
+<../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf, 
+id=1377, 397.485pt x 252.945pt>
+File: ../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.
+pdf Graphic file (type pdf)
+<use ../figures/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.p
+df>
+Package pdftex.def Info: ../figures/raw/figure_D9a_explicit_redistribute_event_
+study_govt_rev_gdp.pdf  used on input line 13.
+(pdftex.def)             Requested size: 198.38pt x 126.24446pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_D9b_explicit_redistribute_
+event_study_swiid.pdf): PDF inclusion: found PDF version <1.6>, but at most ver
+sion <1.5> allowed
+<../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf, id=1378
+, 397.485pt x 252.945pt>
+File: ../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf Gra
+phic file (type pdf)
+<use ../figures/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf>
+Package pdftex.def Info: ../figures/raw/figure_D9b_explicit_redistribute_event_
+study_swiid.pdf  used on input line 13.
+(pdftex.def)             Requested size: 198.38pt x 126.24446pt.
+) [40 <../figures/raw/figure_C8_dividend_yield_event_study.pdf>] [41 <../figure
+s/raw/figure_D9a_explicit_redistribute_event_study_govt_rev_gdp.pdf> <../figure
+s/raw/figure_D9b_explicit_redistribute_event_study_swiid.pdf>]
+(../figures/clean/figure_D10_democratization_end_price_response.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_D10a_democratize_price_res
+ponse_succ.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<../figures/raw/figure_D10a_democratize_price_response_succ.pdf, id=1577, 397.4
+85pt x 180.675pt>
+File: ../figures/raw/figure_D10a_democratize_price_response_succ.pdf Graphic fi
+le (type pdf)
+<use ../figures/raw/figure_D10a_democratize_price_response_succ.pdf>
+Package pdftex.def Info: ../figures/raw/figure_D10a_democratize_price_response_
+succ.pdf  used on input line 11.
+(pdftex.def)             Requested size: 440.84746pt x 200.39171pt.
+
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_D10b_democratize_price_res
+ponse_ld.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5
+> allowed
+<../figures/raw/figure_D10b_democratize_price_response_ld.pdf, id=1578, 397.485
+pt x 180.675pt>
+File: ../figures/raw/figure_D10b_democratize_price_response_ld.pdf Graphic file
+ (type pdf)
+<use ../figures/raw/figure_D10b_democratize_price_response_ld.pdf>
+Package pdftex.def Info: ../figures/raw/figure_D10b_democratize_price_response_
+ld.pdf  used on input line 12.
+(pdftex.def)             Requested size: 440.84746pt x 200.39171pt.
+) (../tables/clean/table_D16_inequality_price_decline.tex
+(../tables/raw/table_D16_inequality_price_decline.tex)))
+(subsections/12_model_appendix.tex [42] [43 <../figures/raw/figure_D10a_democra
+tize_price_response_succ.pdf> <../figures/raw/figure_D10b_democratize_price_res
+ponse_ld.pdf>] [44] [45] [46] [47]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+35.
+
+(C:\Users\pkim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[48] (../figures/clean/figure_E11_equilibrium_mu.tex) [49] [50] [51] [52])
+(subsections/13_case_studies.tex [53]
+(../figures/clean/figure_F12_sweden_case_study.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_F12_sweden_case_study.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/raw/figure_F12_sweden_case_study.pdf, id=1916, 397.485pt x 216.81pt
+>
+File: ../figures/raw/figure_F12_sweden_case_study.pdf Graphic file (type pdf)
+<use ../figures/raw/figure_F12_sweden_case_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_F12_sweden_case_study.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 440.84746pt x 240.47006pt.
+) [54 <../figures/raw/figure_F12_sweden_case_study.pdf>]
+(../figures/clean/figure_F13_france_case_study.tex
+
+pdfTeX warning: pdflatex (file ../figures/raw/figure_F13_france_case_study.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/raw/figure_F13_france_case_study.pdf, id=1942, 397.485pt x 216.81pt
+>
+File: ../figures/raw/figure_F13_france_case_study.pdf Graphic file (type pdf)
+<use ../figures/raw/figure_F13_france_case_study.pdf>
+Package pdftex.def Info: ../figures/raw/figure_F13_france_case_study.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 440.84746pt x 240.47006pt.
+[55])) (subsections/14_list_of_democratizations.tex [56 <../figures/raw/figure_
+F13_france_case_study.pdf>]
+(../tables/clean/table_G17_democratizations_and_history.tex
+Overfull \hbox (10.49895pt too wide) in alignment at lines 2--8
+ [] [] [] 
+ []
+
+
+Overfull \hbox (10.49895pt too wide) in alignment at lines 8--12
+ [] [] [] 
+ []
+
+
+Overfull \hbox (10.49895pt too wide) in alignment at lines 12--15
+ [] [] [] 
+ []
+
+
+Overfull \hbox (10.49895pt too wide) in alignment at lines 15--17
+ [] [] [] 
+ []
+
+(../tables/raw/table_G17_democratizations_and_history.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+
+ []
+
+)
+Overfull \hbox (10.49895pt too wide) in alignment at lines 17--20
+ [] [] [] 
+ []
+
+ignored error: Infinite glue shrinkage found in box being split [57]
+ignored error: Infinite glue shrinkage found in box being split [58]
+ignored error: Infinite glue shrinkage found in box being split [59]
+ignored error: Infinite glue shrinkage found in box being split [60]
+ignored error: Infinite glue shrinkage found in box being split [61]
+ignored error: Infinite glue shrinkage found in box being split [62]
+ignored error: Infinite glue shrinkage found in box being split [63]
+ignored error: Infinite glue shrinkage found in box being split [64])) [65]
+(online_appendix.bbl [66])
+
+Package natbib Warning: There were multiply defined citations.
+
+[67] (online_appendix.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package rerunfilecheck Info: File `online_appendix.out' has not changed.
+(rerunfilecheck)             Checksum: B44090979377AE101573376990E5DFA3;8205.
+ ) 
+Here is how much of TeX's memory you used:
+ 28192 strings out of 467871
+ 544511 string characters out of 5418860
+ 1046023 words of memory out of 5000000
+ 56140 multiletter control sequences out of 15000+600000
+ 663603 words of font info for 125 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,21n,107p,1567b,787s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\pkim\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm12.pk
+> <C:\Users\pkim\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm10.p
+k><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/pkim/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/pkim/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/pkim/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/pkim/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
+s/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/pkim/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/pkim/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/pkim/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/pkim/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/pkim/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pkim/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/pkim/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on online_appendix.pdf (67 pages, 2482774 bytes).
+PDF statistics:
+ 2163 PDF objects out of 2487 (max. 8388607)
+ 230 named destinations out of 1000 (max. 500000)
+ 487 words of extra memory for PDF output out of 10000 (max. 10000000)
+

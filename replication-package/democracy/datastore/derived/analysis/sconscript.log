@@ -1,0 +1,491 @@
+*** Builder log created: {2026-04-08 12:17:13}
+*** Builder log completed: {2026-04-08 12:17:25}
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      StataNow 19.5
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2025 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-782-8272        https://www.stata.com
+                                   979-696-4600        service@stata.com
+
+Stata license: Unlimited-user 4-core network, expiring 17 Nov 2026
+Serial number: 501909320365
+  Licensed to: HBS User
+               Harvard Business School
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000 but can be increased;
+          see help set_maxvar.
+
+. do "source/derived/04_merging/02_create_section_4_data.do" 
+
+. /*
+> Purpose: Create data for the Vatican II DiD
+> Primary author: Max Miller
+> Contributors: Paul Kim
+> Date: 11-24-2025
+> Details: Merging events data drops returns for BMU who do not have sufficient
+>  
+>     return data to be included in analysis anyway. Merging autocracy info dro
+> ps
+>     CDR, KSV, and TMP who are not included in the analysis anyway.
+> */
+. 
+. * ===========================================================================
+. * Housekeeping
+. * ===========================================================================
+. 
+. clear all
+
+. version 19
+
+. 
+. * ===========================================================================
+. * Set globals
+. * ===========================================================================
+. 
+. global ANALYSIS_DERIVED "datastore/derived/analysis"
+
+. global ASSETS_DERIVED "datastore/derived/assets"
+
+. global MACRO_POLITICAL_DERIVED "datastore/derived/macro_political"
+
+. global EVENTS_DERIVED "datastore/derived/events"
+
+. 
+. global START_YEAR = 1946
+
+. global END_YEAR = 1983
+
+. 
+. global TREATMENT_START_YEAR = 1959
+
+. global TREATMENT_END_YEAR = 1963
+
+. 
+. global MAJ_CATH_AUTO    ARG BOL BRA ECU ESP MEX PER PHL PRT
+
+. global NON_CATH_AUTO    EGY GHA HKG IDN KEN MMR MYS NGA SGP THA ZAF ZWE
+
+. global MAJ_CATH_DEMO    BEL FRA CHL IRL ITA VEN
+
+. global NON_CATH_DEMO    AUS CAN CHE DEU DNK FIN GBR IND JPN LKA NLD NOR NZL S
+> WE TTO USA
+
+. 
+. global ALL_AUTO $MAJ_CATH_AUTO $NON_CATH_AUTO
+
+. global ALL_DEMO $MAJ_CATH_DEMO $NON_CATH_DEMO
+
+. global INCLUDED_COUNTRIES $MAJ_CATH_AUTO $NON_CATH_AUTO $MAJ_CATH_DEMO $NON_C
+> ATH_DEMO
+
+.     
+. * ===========================================================================
+. * Main execution logic
+. * ===========================================================================
+. 
+. program define main
+  1. 
+.     use "${ASSETS_DERIVED}/all_excess_and_abnormal_returns.dta", clear
+  2.     merge 1:1 country year using "${EVENTS_DERIVED}/all_events.dta", nogen
+  3.     merge 1:1 country year using "${MACRO_POLITICAL_DERIVED}/real_gdp.dta"
+> , nogen
+  4.     merge 1:1 country year using "${MACRO_POLITICAL_DERIVED}/democracy_ind
+> ex_and_regime_info.dta", nogen
+  5.     merge 1:1 country year using "${MACRO_POLITICAL_DERIVED}/gini_coeffici
+> ents.dta", nogen
+  6.     merge 1:1 country year using "${MACRO_POLITICAL_DERIVED}/resource_ineq
+> uality.dta", nogen
+  7.         merge 1:1 country year using "${ASSETS_DERIVED}/all_cashflow_growt
+> h.dta", nogen
+  8.         merge 1:1 country year using "${MACRO_POLITICAL_DERIVED}/gov_rev.d
+> ta", nogen
+  9.     merge 1:1 country year using "${MACRO_POLITICAL_DERIVED}/all_inflation
+> .dta", nogen
+ 10.     merge m:1 country using "${MACRO_POLITICAL_DERIVED}/catholic_pct_1939_
+> 1983.dta", nogen
+ 11. 
+.     gen included_countries = 0
+ 12.     foreach c in $INCLUDED_COUNTRIES {
+ 13.         replace included_countries = 1 if country == "`c'"
+ 14.     }
+ 15. 
+.     * KOR and PRY have 20 or more but none in pre/post period
+.     tab country if included_countries != 1 & all_exc_ret != . & year >= 1946 
+> & year <= 1983
+ 16. 
+.     keep if included_countries == 1
+ 17. 
+.     tsset country_id year
+ 18. 
+.     * Re-examine this to see if it is still used.
+.     gen default_first_5 = default_start
+ 19.     replace default_first_5 = 1 if L.default_start == 1
+ 20.     replace default_first_5 = 1 if L2.default_start == 1
+ 21.     replace default_first_5 = 1 if L3.default_start == 1
+ 22.     replace default_first_5 = 1 if L4.default_start == 1
+ 23. 
+.         
+.         ** Majority catholic autocracies
+.     gen maj_cath_aut2 = 0
+ 24.     foreach c in $MAJ_CATH_AUTO {
+ 25.                 replace maj_cath_aut2 = 1 if country == "`c'"
+ 26.         }
+ 27. 
+.     gen maj_cath_aut2_post = maj_cath_aut2 if year >= 1964 & year <= 1983
+ 28.     replace maj_cath_aut2_post = 0 if year >= 1946 & year <= 1958
+ 29.         
+.         * Fill in democratizations (and autocratization)
+.     replace maj_cath_aut2_post = 0 if country == "PRT" & year >= 1976
+ 30.     replace maj_cath_aut2_post = 0 if country == "ESP" & year >= 1978
+ 31.     replace maj_cath_aut2_post = 0 if country == "ECU" & year >= 1980
+ 32.     replace maj_cath_aut2_post = 0 if country == "PER" & year >= 1981
+ 33.     replace maj_cath_aut2_post = 1 if country == "CHL" & year >= 1973
+ 34. 
+.     gen maj_cath_aut2_post_long = maj_cath_aut2_post
+ 35.     replace maj_cath_aut2_post_long = 0 if year >= 1939 & year <= 1946 
+ 36. 
+.         ** Majority catholic democracies
+.     gen maj_cath_dem2 = 0
+ 37.     foreach c in $MAJ_CATH_DEMO {
+ 38.                 replace maj_cath_dem2 = 1 if country == "`c'"
+ 39.         }
+ 40.         
+.     gen maj_cath_dem2_post = maj_cath_dem2 if year >= 1964 & year <= 1983
+ 41.     replace maj_cath_dem2_post = 0 if year >= 1946 & year <= 1958
+ 42. 
+.         * Fill in autocratization
+.     replace maj_cath_dem2_post = 0 if country == "CHL" & year >= 1973
+ 43. 
+.     gen maj_cath_dem2_post_long = maj_cath_dem2_post
+ 44.     replace maj_cath_dem2_post_long = 0 if year >= 1939 & year <= 1946 
+ 45. 
+.         ** Non-catholic autocracies
+.     gen non_cath_auto2 = 0
+ 46.     foreach c in $NON_CATH_AUTO {
+ 47.                 replace non_cath_auto2 = 1 if country == "`c'"
+ 48.         }
+ 49.         
+.         ** Get all autocracies
+.     gen autSample2 = 0
+ 50.     foreach c in $ALL_AUTO {
+ 51.                 replace autSample2 = 1 if country == "`c'"
+ 52.         }
+ 53.         
+. 
+.         ** Get all democracies
+.         gen demSample2 = 0
+ 54.     foreach c in $ALL_DEMO {
+ 55.                 replace demSample2 = 1 if country == "`c'"
+ 56.         }
+ 57.         
+.         ** Fill in missing GDP observations for NGA, TTO, and ZWE
+.         foreach c in NGA TTO ZWE {
+ 58.                 qui reg log_ggdc_gdppc_i F.log_ggdc_gdppc_i if country == 
+> "`c'"
+ 59.                 forvalues y = 1949(-1)1945 {
+ 60.                         di `y'
+ 61.                         replace log_ggdc_gdppc_i = _b[_cons]+_b[F.log_ggdc
+> _gdppc_i]*F.log_ggdc_gdppc_i if year == `y' & country == "`c'" & log_ggdc_gdp
+> pc_i == .
+ 62.                 }
+ 63.         }
+ 64. 
+.     replace log_ggdc_gdppc_i_g = D.log_ggdc_gdppc_i
+ 65. 
+.         
+.     save "${ANALYSIS_DERIVED}/section_4_data.dta", replace
+ 66. end
+
+. 
+. 
+. * ===========================================================================
+. * Run script
+. * ===========================================================================
+. 
+. main
+(Type 'notes' for license, see https://creativecommons.org/licenses/by-nc-sa/4.
+> 0/)
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                         1,660
+        from master                         0  
+        from using                      1,660  
+
+    Matched                            35,286  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                         3,857
+        from master                     3,857  
+        from using                          0  
+
+    Matched                            33,089  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                           406
+        from master                       406  
+        from using                          0  
+
+    Matched                            36,540  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                        29,559
+        from master                    29,559  
+        from using                          0  
+
+    Matched                             7,387  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                        18,651
+        from master                    18,651  
+        from using                          0  
+
+    Matched                            18,295  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                        27,082
+        from master                    27,082  
+        from using                          0  
+
+    Matched                             9,864  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                        25,292
+        from master                    25,292  
+        from using                          0  
+
+    Matched                            11,654  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                         1,746
+        from master                     1,746  
+        from using                          0  
+
+    Matched                            35,200  
+    -----------------------------------------
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                         1,624
+        from master                     1,624  
+        from using                          0  
+
+    Matched                            35,322  
+    -----------------------------------------
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+
+ISO 3-letter |
+        code |      Freq.     Percent        Cum.
+-------------+-----------------------------------
+         AUT |         15        8.43        8.43
+         COL |         17        9.55       17.98
+         CUB |         16        8.99       26.97
+         GRC |          7        3.93       30.90
+         GTM |         18       10.11       41.01
+         ISR |         18       10.11       51.12
+         JAM |          5        2.81       53.93
+         JOR |          5        2.81       56.74
+         KOR |         21       11.80       68.54
+         MAR |          1        0.56       69.10
+         MOZ |         10        5.62       74.72
+         MWI |          9        5.06       79.78
+         PRY |         20       11.24       91.01
+         SLV |          5        2.81       93.82
+         URY |          6        3.37       97.19
+         XKX |          5        2.81      100.00
+-------------+-----------------------------------
+       Total |        178      100.00
+(28,217 observations deleted)
+
+Panel variable: country_id (strongly balanced)
+ Time variable: year, 1816 to 2018
+         Delta: 1 unit
+(95 real changes made)
+(90 real changes made)
+(88 real changes made)
+(85 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(7,869 missing values generated)
+(559 real changes made)
+(43 real changes made)
+(41 real changes made)
+(39 real changes made)
+(38 real changes made)
+(46 real changes made)
+(7,135 missing values generated)
+(301 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(7,869 missing values generated)
+(559 real changes made)
+(46 real changes made)
+(7,275 missing values generated)
+(301 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+(203 real changes made)
+1949
+(1 real change made)
+1948
+(1 real change made)
+1947
+(1 real change made)
+1946
+(1 real change made)
+1945
+(1 real change made)
+1949
+(1 real change made)
+1948
+(1 real change made)
+1947
+(1 real change made)
+1946
+(1 real change made)
+1945
+(1 real change made)
+1949
+(1 real change made)
+1948
+(1 real change made)
+1947
+(1 real change made)
+1946
+(1 real change made)
+1945
+(1 real change made)
+(38 real changes made, 23 to missing)
+(file datastore/derived/analysis/section_4_data.dta not found)
+file datastore/derived/analysis/section_4_data.dta saved
+
+. 
+end of do-file
